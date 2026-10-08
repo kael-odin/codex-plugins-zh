@@ -1,19 +1,21 @@
-// Lossless verifier: the publish tree must be byte-identical to .upstream
-// except for the whitelist. Any divergence fails the run (exit 1).
+// Two-provenance lossless verifier.
+//   upstream part (plugins in openai/plugins manifests) — vs .upstream,
+//     whitelist: plugin.json interface.* ; manifests: name/interface + appended entries
+//   snapshot part (extras merged from .seed) — byte-identical vs .seed
+// Any divergence fails the run (exit 1).
 import fs from 'node:fs';
 import path from 'node:path';
 import {
   ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, walkFiles, git,
 } from './lib.mjs';
 
-// Files we own outright (marketplace name/displayName) or partially
-// (plugin.json interface.*). Everything else must be byte-identical.
-const OWNED = new Set([
+const SEED_DIR = path.join(ROOT, process.env.SEED_DIR ?? '.seed');
+const MANIFESTS = new Set([
   '.agents/plugins/marketplace.json',
   '.agents/plugins/api_marketplace.json',
 ]);
 
-function stable(v) {
+const stable = (v) => {
   if (Array.isArray(v)) return v.map(stable);
   if (v && typeof v === 'object') {
     const o = {};
@@ -21,56 +23,143 @@ function stable(v) {
     return o;
   }
   return v;
-}
+};
 const sameJson = (a, b) => JSON.stringify(stable(a)) === JSON.stringify(stable(b));
 
+function loadNames(baseDir, file) {
+  const p = path.join(baseDir, '.agents', 'plugins', file);
+  if (!fs.existsSync(p)) return new Set();
+  return new Set(JSON.parse(fs.readFileSync(p, 'utf8')).plugins.map((x) => x.name));
+}
+const upstreamNames = new Set([
+  ...loadNames(UPSTREAM_DIR, 'marketplace.json'),
+  ...loadNames(UPSTREAM_DIR, 'api_marketplace.json'),
+]);
+const seedNames = new Set([
+  ...loadNames(SEED_DIR, 'marketplace.json'),
+  ...loadNames(SEED_DIR, 'api_marketplace.json'),
+]);
+
+// ---- gather publish files
 const pub = new Map();
-const src = new Map();
 for (const sub of ['plugins', '.agents']) {
   for (const rel of walkFiles(path.join(ROOT, sub), sub)) pub.set(rel, path.join(ROOT, rel));
-  for (const rel of walkFiles(path.join(UPSTREAM_DIR, sub), sub)) src.set(rel, path.join(UPSTREAM_DIR, rel));
 }
 
-const union = [...new Set([...pub.keys(), ...src.keys()])].sort();
 const divergences = [];
-let byteIdentical = 0;
-let whitelistedChecked = 0;
+let upstreamBytes = 0;
+let seedBytes = 0;
+let whitelisted = 0;
 
-for (const rel of union) {
+function checkManifest(rel) {
+  const ours = JSON.parse(fs.readFileSync(path.join(ROOT, rel), 'utf8'));
+  const upstreamFile = rel.endsWith('api_marketplace.json') ? 'api_marketplace.json' : 'marketplace.json';
+  const upEntries = new Map(
+    JSON.parse(fs.readFileSync(path.join(UPSTREAM_DIR, '.agents', 'plugins', upstreamFile), 'utf8'))
+      .plugins.map((x) => [x.name, x]),
+  );
+  const seedEntries = fs.existsSync(path.join(SEED_DIR, '.agents', 'plugins', upstreamFile))
+    ? new Map(
+        JSON.parse(fs.readFileSync(path.join(SEED_DIR, '.agents', 'plugins', upstreamFile), 'utf8'))
+          .plugins.map((x) => [x.name, x]),
+      )
+    : new Map();
+  let upstreamEntries = 0;
+  let extraEntries = 0;
+  for (const entry of ours.plugins) {
+    if (upstreamEntries !== undefined && upEntries.has(entry.name)) {
+      if (!sameJson(entry, upEntries.get(entry.name))) {
+        divergences.push({ rel, kind: 'manifest-upstream-entry-changed', extra: entry.name });
+      } else upstreamEntries++;
+    } else if (seedEntries.has(entry.name)) {
+      if (!sameJson(entry, seedEntries.get(entry.name))) {
+        divergences.push({ rel, kind: 'manifest-snapshot-entry-changed', extra: entry.name });
+      } else extraEntries++;
+    } else {
+      divergences.push({ rel, kind: 'manifest-unknown-entry', extra: entry.name });
+    }
+  }
+  if (typeof ours.name !== 'string' || typeof ours.interface?.displayName !== 'string') {
+    divergences.push({ rel, kind: 'manifest-missing-zh-identity' });
+  }
+  return { upstreamEntries, extraEntries };
+}
+
+let manifestStats = { upstreamEntries: 0, extraEntries: 0 };
+const seenDirs = new Map(); // plugin dir -> provenance
+
+for (const rel of [...pub.keys()].sort()) {
   const p = pub.get(rel);
-  const s = src.get(rel);
-  if (!p) { divergences.push({ rel, kind: 'missing-in-publish' }); continue; }
-  if (!s) { divergences.push({ rel, kind: 'extra-not-in-upstream' }); continue; }
-  if (OWNED.has(rel) || rel.endsWith('/.codex-plugin/plugin.json')) {
-    whitelistedChecked++;
+  if (MANIFESTS.has(rel)) {
+    const s = checkManifest(rel);
+    manifestStats.upstreamEntries = Math.max(manifestStats.upstreamEntries, s.upstreamEntries);
+    manifestStats.extraEntries = Math.max(manifestStats.extraEntries, s.extraEntries);
+    continue;
+  }
+  if (rel.startsWith('.agents/')) {
+    const src = path.join(UPSTREAM_DIR, rel);
+    if (!fs.existsSync(src)) { divergences.push({ rel, kind: 'extra-not-in-upstream' }); continue; }
+    if (fs.readFileSync(p).equals(fs.readFileSync(src))) upstreamBytes++;
+    else divergences.push({ rel, kind: 'content-diff-vs-upstream' });
+    continue;
+  }
+  const m = rel.match(/^plugins\/([^/]+)(?:\/(.*))?$/);
+  if (!m || m[2] === undefined) { divergences.push({ rel, kind: 'unexpected-path' }); continue; }
+  const [_, dir, inner] = rel.match(/^plugins\/([^/]+)\/(.*)$/);
+  seenDirs.set(dir, true);
+  let base;
+  let mode;
+  if (upstreamNames.has(dir)) {
+    base = path.join(UPSTREAM_DIR, 'plugins', dir);
+    mode = 'upstream';
+  } else if (seedNames.has(dir)) {
+    base = path.join(SEED_DIR, 'plugins', dir);
+    mode = 'seed';
+  } else {
+    divergences.push({ rel, kind: 'unknown-origin' });
+    continue;
+  }
+  const src = path.join(base, inner);
+  if (!fs.existsSync(src)) { divergences.push({ rel, kind: `extra-not-in-${mode}` }); continue; }
+  if (mode === 'upstream' && inner === '.codex-plugin/plugin.json') {
+    whitelisted++;
     const a = JSON.parse(fs.readFileSync(p, 'utf8'));
-    const b = JSON.parse(fs.readFileSync(s, 'utf8'));
-    const allowed = rel.endsWith('plugin.json') ? ['interface'] : ['name', 'interface'];
+    const b = JSON.parse(fs.readFileSync(src, 'utf8'));
     const aRest = { ...a };
     const bRest = { ...b };
-    for (const k of allowed) { delete aRest[k]; delete bRest[k]; }
+    delete aRest.interface;
+    delete bRest.interface;
     if (!sameJson(aRest, bRest)) divergences.push({ rel, kind: 'changed-outside-whitelist' });
-  } else if (fs.readFileSync(p).equals(fs.readFileSync(s))) {
-    byteIdentical++;
+  } else if (fs.readFileSync(p).equals(fs.readFileSync(src))) {
+    if (mode === 'upstream') upstreamBytes++; else seedBytes++;
   } else {
-    divergences.push({ rel, kind: 'content-diff' });
+    divergences.push({ rel, kind: mode === 'upstream' ? 'content-diff-vs-upstream' : 'content-diff-vs-seed' });
+  }
+}
+
+// every expected dir must be present
+for (const name of seedNames) {
+  if (!seenDirs.has(name) && fs.existsSync(path.join(SEED_DIR, 'plugins', name))) {
+    divergences.push({ rel: `plugins/${name}/`, kind: 'missing-from-publish' });
   }
 }
 
 const report = {
   generatedAt: new Date().toISOString(),
   upstreamSha: git(UPSTREAM_DIR, 'rev-parse', 'HEAD'),
-  filesChecked: union.length,
-  byteIdentical,
-  whitelistedChecked,
+  filesChecked: pub.size,
+  byteIdentical: { upstream: upstreamBytes, snapshot: seedBytes },
+  whitelistedChecked: whitelisted,
+  manifests: manifestStats,
   divergences,
   status: divergences.length ? 'fail' : 'pass',
 };
 writeJson(path.join(DATA_DIR, 'quality-report.json'), report);
 console.log(
-  `[verify] ${report.status.toUpperCase()} — ${union.length} files checked, ` +
-    `${byteIdentical} byte-identical, ${whitelistedChecked} whitelisted, ` +
+  `[verify] ${report.status.toUpperCase()} — ${pub.size} files | upstream bytes: ${upstreamBytes}, ` +
+    `snapshot bytes: ${seedBytes}, whitelisted: ${whitelisted}, ` +
+    `manifest entries: ${manifestStats.upstreamEntries} upstream + ${manifestStats.extraEntries} snapshot | ` +
     `${divergences.length} divergences`,
 );
-for (const d of divergences.slice(0, 30)) console.log(`  - ${d.kind}: ${d.rel}`);
+for (const d of divergences.slice(0, 30)) console.log(`  - ${d.kind}: ${d.rel}${d.extra ? ` (${d.extra})` : ''}`);
 if (divergences.length) process.exit(1);

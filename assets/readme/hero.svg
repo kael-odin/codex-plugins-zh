@@ -22,16 +22,16 @@
   <text x="96" y="100" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff">CP</text>
   <text x="150" y="88" font-size="31" font-weight="800" fill="#1a1f2e">codex-plugins-zh</text>
   <text x="150" y="122" font-size="25" font-weight="700" fill="#4f46e5">Codex 官方插件 · 中文市场</text>
-  <text x="66" y="160" font-size="17" fill="#69718a">自动同步 openai/plugins · 无损汉化 · 可视化中文导航站</text>
+  <text x="66" y="160" font-size="17" fill="#69718a">自动同步 openai/plugins · 无损汉化 · 全量 1,694 项目（189 插件 + 1,505 应用）</text>
 
   <!-- stats chips -->
   <g font-size="16" font-weight="600">
     <rect x="64" y="186" width="112" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
-    <text x="120" y="210" text-anchor="middle" fill="#1a1f2e">62 插件</text>
-    <rect x="186" y="186" width="106" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
-    <text x="239" y="210" text-anchor="middle" fill="#16a34a">62 已译</text>
+    <text x="120" y="210" text-anchor="middle" fill="#1a1f2e">189 插件</text>
+    <rect x="186" y="186" width="140" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
+    <text x="256" y="210" text-anchor="middle" fill="#16a34a">189 全中文化</text>
     <rect x="302" y="186" width="132" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
-    <text x="368" y="210" text-anchor="middle" fill="#1a1f2e">58 官方图标</text>
+    <text x="368" y="210" text-anchor="middle" fill="#1a1f2e">186 官方图标</text>
     <rect x="64" y="236" width="196" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
     <text x="162" y="260" text-anchor="middle" fill="#16a34a">无损校验 0 分歧</text>
     <rect x="270" y="236" width="176" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
@@ -69,6 +69,6 @@
     <rect x="806" y="292" width="388" height="44" rx="22" fill="#1a1f2e"/>
     <circle cx="836" cy="314" r="13" fill="#16a34a"/>
     <path d="M830 314 l4.5 4.5 l8 -9" stroke="#ffffff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="858" y="321" font-size="17" font-weight="600" fill="#e6eaf2">verify: 5,404 files · 0 divergences</text>
+    <text x="858" y="321" font-size="17" font-weight="600" fill="#e6eaf2">verify: 6,720 files · 0 divergences</text>
   </g>
 </svg>

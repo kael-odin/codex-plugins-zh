@@ -1,0 +1,32 @@
+{
+  "name": "zoho",
+  "version": "1.0.3",
+  "description": "Manage Zoho CRM sales workflows",
+  "author": {
+    "name": "Zoho",
+    "url": "https://www.zoho.com"
+  },
+  "homepage": "https://www.zoho.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Zoho",
+    "shortDescription": "管理 Zoho CRM 销售工作流",
+    "longDescription": "Zoho CRM 是一款 AI 驱动的销售软件，帮助各种规模的企业更好地管理销售。凭借 SFA 功能、高级自动化、易用的 UI、高级分析和深度定制能力，Zoho CRM 真正读懂你的业务。\n\n借助 Codex，你只需提示即可扩展 Zoho CRM 的功能。你的业务，你的 Zoho CRM——由 Codex 驱动。",
+    "developerName": "Zoho",
+    "category": "Business & Operations",
+    "capabilities": [],
+    "websiteURL": "https://www.zoho.com",
+    "defaultPrompt": [
+      "在 Zoho CRM 中搜索本季度待关单商机并汇总风险最高的机会。",
+      "查找某账户在 Zoho CRM 中的联系人并汇总近期活动。",
+      "拉取 Zoho CRM 的组织设置和用户列表，用于权限审查。"
+    ],
+    "brandColor": "#0068B8",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "particl-market-research",
+  "version": "1.0.3",
+  "description": "Particl Market Research helps teams answer ecommerce research questions directly in Codex.",
+  "author": {
+    "name": "Particl",
+    "url": "https://www.particl.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Particl Market Research",
+    "shortDescription": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。",
+    "longDescription": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。支持公司发现、产品目录研究、产品详情与变体分析、市场领导者发现、市场趋势分析、营销素材发现、零售活动追踪、销售时序数据及产品结构拆解。\n\n应用使用你认证的 Particl 账户，通过 Particl API 返回结构化市场情报数据。",
+    "developerName": "Particl",
+    "category": "Education & Research",
+    "capabilities": [],
+    "defaultPrompt": [
+      "从 Particl 拉取相关市场快照"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://www.particl.com",
+    "privacyPolicyURL": "https://www.particl.com/legal/privacy",
+    "termsOfServiceURL": "https://www.particl.com/legal/terms",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "homepage": "https://www.particl.com"
+}

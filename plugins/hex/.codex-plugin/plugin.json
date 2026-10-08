@@ -1,0 +1,41 @@
+{
+  "name": "hex",
+  "version": "0.1.0",
+  "description": "Hex workflows for searching projects and asking Hex Threads questions about workspace data.",
+  "author": {
+    "name": "OpenAI"
+  },
+  "homepage": "https://hex.tech/",
+  "repository": "https://github.com/openai/plugins/tree/main/plugins/hex",
+  "license": "Proprietary",
+  "keywords": [
+    "hex",
+    "data-analysis",
+    "analytics",
+    "threads",
+    "dashboards",
+    "notebooks"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Hex",
+    "shortDescription": "搜索 Hex 项目并向 Hex Threads 提问",
+    "longDescription": "Hex 帮助用户查找现有的 Hex 项目、仪表盘和数据应用，并在用户明确想在 Hex 中操作时向 Hex Threads 提问。",
+    "developerName": "Hex",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://hex.tech/",
+    "privacyPolicyURL": "https://learn.hex.tech/docs/trust/privacy-policy",
+    "termsOfServiceURL": "https://learn.hex.tech/docs/legal/terms-and-conditions",
+    "defaultPrompt": "Search Hex projects or ask a Hex Thread question when the user explicitly wants Hex.",
+    "brandColor": "#182A4D",
+    "composerIcon": "./assets/hex.png",
+    "logo": "./assets/hex.png",
+    "screenshots": []
+  }
+}

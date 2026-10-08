@@ -1,0 +1,44 @@
+{
+  "name": "asana",
+  "version": "0.1.4",
+  "description": "Work with your Asana tasks, subtasks, comments, due dates, and project details to create summaries, understand priorities, and prepare clear status updates.",
+  "author": {
+    "name": "Asana, Inc.",
+    "url": "https://asana.com"
+  },
+  "homepage": "https://asana.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "asana",
+    "tasks",
+    "project-management",
+    "productivity",
+    "collaboration",
+    "work-management"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Asana",
+    "shortDescription": "读取和管理 Asana",
+    "longDescription": "操作你的 Asana 任务、子任务、评论、截止日期和项目详情，生成摘要、梳理优先级，并撰写清晰的进展更新。",
+    "developerName": "Asana, Inc.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://asana.com",
+    "privacyPolicyURL": "https://asana.com/terms/privacy-statement",
+    "termsOfServiceURL": "https://asana.com/terms",
+    "defaultPrompt": [
+      "创建一个用于追踪创意需求的项目",
+      "创建一个任务来跟进后续行动",
+      "查看我今天在 Asana 中需要处理的事项。"
+    ],
+    "brandColor": "#FF584A",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

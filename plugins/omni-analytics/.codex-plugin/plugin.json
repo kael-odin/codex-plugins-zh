@@ -1,0 +1,33 @@
+{
+  "name": "omni-analytics",
+  "version": "1.0.4",
+  "description": "Query Omni using the same semantic model, permissions, and logic defined by your data team directly from Codex.",
+  "author": {
+    "name": "Omni Analytics",
+    "url": "https://www.omni.co"
+  },
+  "homepage": "https://www.omni.co",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Omni Analytics",
+    "shortDescription": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。",
+    "longDescription": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。让内部团队在 AI 工作流中提问数据问题，无需直接登录 Omni，同时仍强制执行行级安全和业务定义。",
+    "developerName": "Omni Analytics",
+    "category": "Data & Analytics",
+    "capabilities": [],
+    "websiteURL": "https://www.omni.co",
+    "privacyPolicyURL": "https://omni.co/privacy",
+    "termsOfServiceURL": "https://omni.co/terms",
+    "defaultPrompt": [
+      "按状态显示去年的订单"
+    ],
+    "brandColor": "#F686AC",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "screenshots": []
+  }
+}

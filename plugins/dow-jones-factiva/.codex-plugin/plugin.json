@@ -1,0 +1,31 @@
+{
+  "name": "dow-jones-factiva",
+  "version": "1.0.3",
+  "description": "The Factiva Connector, enables authorized users to search Factiva’s global news archive, including premium...",
+  "author": {
+    "name": "Factiva, Inc.",
+    "url": "https://www.dowjones.com/business-intelligence/factiva/"
+  },
+  "homepage": "https://www.dowjones.com/business-intelligence/factiva/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Dow Jones Factiva",
+    "shortDescription": "Factiva 连接器支持授权用户搜索 Factiva 全球新闻档案库（包括 Dow Jones 付费来源），并将内容洞察融入 Codex 回答中。",
+    "longDescription": "Factiva 连接器支持授权用户搜索 Factiva 全球新闻档案库（包括 Dow Jones 付费来源），并将内容洞察融入 Codex 回答中。\n\n用户可以研究公司、行业和市场，并以已授权内容为依据给出答案，并附带引用和指向原文的直链。\n\n使用前需订阅 Factiva。\n\nFactiva 内容不得在组织外部共享，也不得用于机器学习或 AI 训练目的。本连接器仅限在贵组织的 Codex 实例中使用。",
+    "developerName": "Factiva, Inc.",
+    "category": "Education & Research",
+    "capabilities": [],
+    "websiteURL": "https://www.dowjones.com/business-intelligence/factiva/",
+    "privacyPolicyURL": "https://www.dowjones.com/privacy-notice/",
+    "termsOfServiceURL": "https://global.factiva.com/factivalogin/tou/default.aspx?fcpil=en",
+    "defaultPrompt": [
+      "Nvidia 最新财报及市场展望如何"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

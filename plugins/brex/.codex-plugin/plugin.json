@@ -1,0 +1,32 @@
+{
+  "name": "brex",
+  "version": "1.0.3",
+  "description": "Connect Brex to Codex and review your company finances through natural conversation — at Codex speed.",
+  "author": {
+    "name": "Brex Inc.",
+    "url": "https://brex.com"
+  },
+  "homepage": "https://brex.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Brex",
+    "shortDescription": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况。",
+    "longDescription": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况——速度与 Codex 同步。\n\n财务团队：即时分析支出、发现异常、运行自定义查询和报表，加速决策、提升效率。\n\n员工：直接在 Codex 中查看可用预算、咨询报销政策、查看报销状态、管理出行等。\n\n访问权限默认按角色区分：员工只看与自己相关的内容，管理员保留完整可见性和控制权。",
+    "developerName": "Brex Inc.",
+    "category": "Finance",
+    "capabilities": [],
+    "websiteURL": "https://brex.com",
+    "privacyPolicyURL": "https://www.brex.com/legal/privacy",
+    "termsOfServiceURL": "https://www.brex.com/legal/platform-agreement",
+    "defaultPrompt": [
+      "我去年在 Delta 上花了多少钱"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

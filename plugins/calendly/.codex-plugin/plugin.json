@@ -1,0 +1,41 @@
+{
+  "name": "calendly",
+  "version": "1.0.2",
+  "description": "Scheduling links, availability, and bookings",
+  "author": {
+    "name": "Calendly",
+    "url": "https://calendly.com"
+  },
+  "homepage": "https://calendly.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "calendly",
+    "calendar",
+    "scheduling",
+    "meetings",
+    "availability",
+    "events"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Calendly",
+    "shortDescription": "排程链接、可用时段与预约",
+    "longDescription": "将 Calendly 引入 ChatGPT，通过简单提示执行排程操作。创建和更新事件类型、生成排程链接、调整可用时段、预约或取消会议等——尽在 ChatGPT 中完成。",
+    "developerName": "Calendly",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://calendly.com",
+    "privacyPolicyURL": "https://calendly.com/legal/privacy-notice",
+    "termsOfServiceURL": "https://calendly.com/legal/customer-terms-conditions",
+    "brandColor": "#006BFF",
+    "defaultPrompt": [
+      "查找我近期的 Calendly 会议并汇总与会人员信息。",
+      "查看本周 Calendly 的空闲时间并推荐可用的会议时段。",
+      "回顾最近的 Calendly 活动，汇总与会者详情及后续跟进事项。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png"
+  }
+}

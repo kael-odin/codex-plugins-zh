@@ -1,0 +1,29 @@
+{
+  "name": "meticulate",
+  "version": "1.0.2",
+  "description": "Research companies and similar targets",
+  "author": {
+    "name": "Meticulate"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Meticulate",
+    "developerName": "Meticulate",
+    "shortDescription": "研究公司及相似目标",
+    "longDescription": "Meticulate 帮助销售与市场拓展团队直接在 ChatGPT 中研究公司。上传一份公司名单或描述你关注的客户，即可识别公司、寻找相似目标、提取关键业务信息，并跨客户回答结构化的研究问题。",
+    "category": "Productivity",
+    "capabilities": [],
+    "brandColor": "#7000D8",
+    "defaultPrompt": [
+      "在 Meticulate 中搜索符合此 ICP 的公司，梳理最匹配的目标。",
+      "通过 SFDC 客户 ID 查询某公司并获取其企业画像摘要。",
+      "找出与此种子公司相似的企业，并说明相似原因。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

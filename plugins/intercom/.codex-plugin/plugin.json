@@ -1,0 +1,35 @@
+{
+  "name": "intercom",
+  "version": "1.0.3",
+  "description": "Customer conversations, contacts, tickets, and support workflows from Intercom",
+  "author": {
+    "name": "Intercom",
+    "url": "https://www.intercom.com"
+  },
+  "homepage": "https://www.intercom.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Intercom",
+    "shortDescription": "来自 Intercom 的客户对话、联系人、工单及支持工作流",
+    "longDescription": "来自 Intercom 的客户对话、联系人、工单及支持工作流",
+    "developerName": "Intercom",
+    "category": "Business & Operations",
+    "capabilities": [],
+    "websiteURL": "https://www.intercom.com",
+    "privacyPolicyURL": "https://www.intercom.com/legal/privacy",
+    "termsOfServiceURL": "https://www.intercom.com/legal/terms-and-policies",
+    "defaultPrompt": [
+      "在 Intercom 中搜索未解决的账单相关对话并汇总主要问题。",
+      "查找来自 example.com 的 Intercom 联系人并拉取近期对话记录。",
+      "获取这条 Intercom 对话记录并起草下一步处理方案。"
+    ],
+    "brandColor": "#1F8DED",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "screenshots": []
+  }
+}

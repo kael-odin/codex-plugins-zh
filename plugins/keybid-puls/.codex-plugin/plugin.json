@@ -1,0 +1,32 @@
+{
+  "name": "keybid-puls",
+  "version": "1.0.3",
+  "description": "Unlock the profitability of short-term rental investments with our ROI Calculator app, tailored for platfor...",
+  "author": {
+    "name": "KeyBid",
+    "url": "https://keybid.eu"
+  },
+  "homepage": "https://keybid.eu",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "KeyBid Puls",
+    "shortDescription": "通过 ROI 计算器挖掘短租投资的盈利潜力，支持 Airbnb、Booking.com 等平台。",
+    "longDescription": "通过 ROI 计算器挖掘短租投资的盈利潜力，专为 Airbnb、Booking.com、VRBO 等平台量身定制。用户可粘贴来自 idealista.com、imobiliare.ro、storia.ro、spitogatos.gr 等网站的房源链接（更多平台接入中），或上传其他房产平台的截图。应用分析数据后即时生成收益预测、详细报告，以及该房产是否值得购买用于短租的简明结论。覆盖 56 个国家、逾 191 个城市，支持英语、罗马尼亚语、西班牙语和希腊语等多种语言，适合全球用户无缝使用。专为希望以数据驱动决策、评估度假租赁机会的房产所有者和投资者设计。了解更多：https://keybid.eu/keybid-puls。",
+    "developerName": "KeyBid",
+    "category": "Finance",
+    "capabilities": [],
+    "websiteURL": "https://keybid.eu",
+    "privacyPolicyURL": "https://keybid.eu/confidentialitate",
+    "termsOfServiceURL": "https://keybid.eu/termeni",
+    "defaultPrompt": [
+      "这套公寓适合购买用于短租吗"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

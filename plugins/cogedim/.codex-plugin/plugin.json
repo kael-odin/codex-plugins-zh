@@ -1,0 +1,32 @@
+{
+  "name": "cogedim",
+  "version": "1.0.3",
+  "description": "Cogedim is one of France's leading real estate developers.",
+  "author": {
+    "name": "ALTAREA PROMOTION MANAGEMENT",
+    "url": "https://www.cogedim.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Cogedim",
+    "shortDescription": "Cogedim 是法国领先的房地产开发商之一。",
+    "longDescription": "Cogedim 是法国领先的房地产开发商之一。深耕期房销售（VEFA）领域逾 60 年，从明确需求到交房，Cogedim 全程陪伴每一个购房环节。",
+    "developerName": "ALTAREA PROMOTION MANAGEMENT",
+    "category": "Other",
+    "capabilities": [],
+    "defaultPrompt": [
+      "根据这份需求简介，找出相关的 Cogedim 房源"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://www.cogedim.com",
+    "privacyPolicyURL": "https://www.cogedim.com/donnees-personnelles.html",
+    "termsOfServiceURL": "https://www.cogedim.com/mentions-legales.html",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "homepage": "https://www.cogedim.com"
+}

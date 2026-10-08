@@ -1,0 +1,32 @@
+{
+  "name": "factset",
+  "version": "1.0.2",
+  "description": "Connect financial data, analytics, and workflows",
+  "author": {
+    "name": "FactSet",
+    "url": "https://www.factset.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "FactSet",
+    "developerName": "FactSet",
+    "shortDescription": "连接金融数据、分析与工作流",
+    "longDescription": "FactSet Model Context Protocol (MCP) 是一项开放的、基于 API 的标准，旨在跨平台无缝连接金融数据、分析模型与应用。通过实现顺畅的互操作性，MCP 让投资团队无论使用何种工具或技术栈，都能轻松共享洞察、简化工作流并加强协作。借助 MCP，机构能够高效集成新方案、推动创新，并最大化金融业务的价值——确保整个投资流程中始终如一、上下文丰富的决策。",
+    "category": "Finance",
+    "capabilities": [],
+    "brandColor": "#182850",
+    "defaultPrompt": [
+      "提取某股票代码的 FactSet 一致性预测和近期价格表现。",
+      "在 FactSet 中对比这组同行的利润率、营收增长和估值倍数。",
+      "查找 FactSet 中某公司的最新卖方研究标题，并梳理市场情绪。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "websiteURL": "https://www.factset.com"
+  },
+  "homepage": "https://www.factset.com"
+}

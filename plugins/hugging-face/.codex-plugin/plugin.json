@@ -1,0 +1,43 @@
+{
+  "name": "hugging-face",
+  "version": "1.0.3",
+  "description": "Inspect models, datasets, Spaces, and research",
+  "author": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co"
+  },
+  "homepage": "https://huggingface.co",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "hugging-face",
+    "models",
+    "datasets",
+    "spaces",
+    "machine-learning"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Hugging Face",
+    "shortDescription": "探索模型、数据集、Spaces 和研究论文",
+    "longDescription": "连接 Hugging Face Hub，探索模型和数据集，访问 SDK 文档等资源。管理机器学习 Jobs，并通过 Spaces 连接数以千计的 AI 应用。",
+    "developerName": "Hugging Face",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://huggingface.co",
+    "privacyPolicyURL": "https://huggingface.co/privacy",
+    "termsOfServiceURL": "https://huggingface.co/terms-of-service",
+    "defaultPrompt": [
+      "使用 FLUX.1 生成一张逼真的农场图片"
+    ],
+    "brandColor": "#FFD21E",
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

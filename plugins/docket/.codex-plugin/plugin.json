@@ -1,0 +1,32 @@
+{
+  "name": "docket",
+  "version": "1.0.3",
+  "description": "Docket AI makes your sales knowledge your instant superpower.",
+  "author": {
+    "name": "Docket AI",
+    "url": "https://www.docket.io/"
+  },
+  "homepage": "https://www.docket.io/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Docket",
+    "shortDescription": "Docket AI 让你的销售知识成为即时竞争优势。",
+    "longDescription": "Docket AI 让你的销售知识成为即时竞争优势。销售代表可以随时获取产品、竞争、技术和客户问题的准确答案——所有信息直接来自统一的销售知识库™。在经过验证的公司情报指引下，销售代表能够自信地处理异议、深入了解潜在客户，并即时撰写个性化回复。",
+    "developerName": "Docket AI",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://www.docket.io/",
+    "privacyPolicyURL": "https://www.docket.io/privacy-policy",
+    "termsOfServiceURL": "https://www.docket.io/terms-and-conditions",
+    "defaultPrompt": [
+      "在 Docket 中查询我们与 Commonwealth Bank 合作关系的相关信息"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "brand24",
+  "version": "1.0.3",
+  "description": "The Brand24 app in Codex lets marketing and PR teams instantly explore brand mentions, sentiment, and med...",
+  "author": {
+    "name": "Brand24 Global Inc.",
+    "url": "https://brand24.com"
+  },
+  "homepage": "https://brand24.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Brand24",
+    "shortDescription": "让营销和 PR 团队通过简单提示即时探索品牌提及、情感倾向和媒体覆盖。",
+    "longDescription": "Brand24 in Codex 让营销和 PR 团队通过简单提示即时探索品牌提及、情感倾向和媒体覆盖。\n在 Codex 中汇总对话、追踪品牌口碑、分析时间趋势，并发现社交媒体、新闻、博客和论坛上的核心讨论来源，无需离开界面。\n\n从及早发现潜在危机，到理解受众认知和营销活动效果，Codex 实时解读 Brand24 数据，帮助营销人员和 PR 从监测直接走向洞察与行动，无需额外配置。",
+    "developerName": "Brand24 Global Inc.",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://brand24.com",
+    "privacyPolicyURL": "https://brand24.com/privacy-policy/",
+    "termsOfServiceURL": "https://brand24.com/terms/",
+    "defaultPrompt": [
+      "分析最畅销运动鞋品牌的线上热度"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

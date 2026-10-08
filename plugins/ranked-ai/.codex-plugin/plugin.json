@@ -1,0 +1,32 @@
+{
+  "name": "ranked-ai",
+  "version": "1.0.3",
+  "description": "Ranked AI provides industry leading AI SEO & PPC software, with a fully managed service integrated into it.",
+  "author": {
+    "name": "Ranked AI, LLC",
+    "url": "https://www.ranked.ai"
+  },
+  "homepage": "https://www.ranked.ai",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Ranked AI",
+    "shortDescription": "Ranked AI 提供业内领先的 AI SEO 和 PPC 软件，并内置完整的托管服务。",
+    "longDescription": "Ranked AI 提供业内领先的 AI SEO 和 PPC 软件，并内置完整的托管服务。我们将 AI 与行业资深专家结合，帮助你在传统搜索和 AI 搜索中提升排名。通过集成应用管理传统搜索与 AI 搜索的关键词、审计、外链、报告等内容。",
+    "developerName": "Ranked AI, LLC",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://www.ranked.ai",
+    "privacyPolicyURL": "https://www.ranked.ai/legal/privacy",
+    "termsOfServiceURL": "https://www.ranked.ai/legal/terms",
+    "defaultPrompt": [
+      "显示项目的排名情况"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

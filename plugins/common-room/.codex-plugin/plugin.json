@@ -1,0 +1,31 @@
+{
+  "name": "common-room",
+  "version": "1.0.3",
+  "description": "Embed complete buyer intelligence directly within Codex.",
+  "author": {
+    "name": "Common Room",
+    "url": "https://commonroom.io"
+  },
+  "homepage": "https://commonroom.io",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Common Room",
+    "shortDescription": "将完整的买家情报直接嵌入 Codex。",
+    "longDescription": "将完整的买家情报直接嵌入 Codex。通过自然语言调研目标客户和联系人、发现购买信号、浏览历史活动记录。按行业、规模、技术栈或地区筛选，构建全新公司的潜客列表。按细分、职位、线索评分或网站访问记录过滤和排序联系人。每条结果都有真实背景支撑——来自你的 CRM 字段、评分、数据增强和信号——让你始终清楚账户的真实动态，准确把握优先级和商机。\n\nCommon Room MCP 支持以下操作：\n\n 账户调研：\n「分析 Datadog，并制定客户拓展计划」\n\n 联系人查询：\n「用 Common Room 调研 jane.doe@company.com」\n\n 潜客开发：\n「找出使用 Snowflake、员工规模 200–1000 人的美国 SaaS 公司」\n\n 按细分和职位筛选：\n「显示「换工作的 Champions」细分中的所有经济决策者」\n\n 发现高意向联系人：\n「找出本周访问过我们定价页面的 ICP 公司联系人」\n\n 追踪网站访客：\n「过去 7 天内谁访问了我们的定价页面？」",
+    "developerName": "Common Room",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://commonroom.io",
+    "privacyPolicyURL": "https://www.commonroom.io/privacy-policy/",
+    "termsOfServiceURL": "https://www.commonroom.io/terms-of-use/",
+    "defaultPrompt": [
+      "制定拓展 Northstar Metrics 客户的行动计划"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png"
+  }
+}

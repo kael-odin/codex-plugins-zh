@@ -1,0 +1,47 @@
+{
+  "name": "deepnote",
+  "version": "0.1.5",
+  "description": "Use Deepnote's collaborative data workspace to explore data, automate notebooks and SQL workflows, and turn analysis into shareable results.",
+  "author": {
+    "name": "Deepnote",
+    "url": "https://deepnote.com"
+  },
+  "homepage": "https://deepnote.com",
+  "repository": "https://github.com/openai/plugins/tree/main/plugins/deepnote",
+  "license": "Apache-2.0",
+  "keywords": [
+    "deepnote",
+    "chatgpt-app",
+    "openai",
+    "notebooks",
+    "data",
+    "analytics"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Deepnote",
+    "shortDescription": "在 Deepnote 中探索数据并自动化分析",
+    "longDescription": "Deepnote 为团队提供集笔记本、SQL、应用和数据工作流于一体的协作工作区。本插件帮助 OpenAI 操作已连接的 Deepnote 项目、查看并运行笔记本，将工作区上下文转化为有价值的分析结果和可共享的产出。",
+    "developerName": "Deepnote",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://deepnote.com",
+    "privacyPolicyURL": "https://deepnote.com/privacy",
+    "termsOfServiceURL": "https://deepnote.com/terms",
+    "defaultPrompt": [
+      "总结我的 Deepnote 工作区及近期笔记本活动",
+      "探索连接到我的 Deepnote 工作区的有效数据源",
+      "创建一个笔记本，分析近 5 年 S&P 500 与 Nasdaq 的涨幅对比"
+    ],
+    "brandColor": "#3793EF",
+    "composerIcon": "./assets/composer.svg",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "screenshots": []
+  }
+}

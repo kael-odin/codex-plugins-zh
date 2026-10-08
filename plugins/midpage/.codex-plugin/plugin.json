@@ -1,0 +1,33 @@
+{
+  "name": "midpage",
+  "version": "1.0.3",
+  "description": "Legal research with cited case law",
+  "author": {
+    "name": "Midpage",
+    "url": "https://www.midpage.ai"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Midpage",
+    "developerName": "Midpage",
+    "shortDescription": "带判例引用的法律研究",
+    "longDescription": "将 ChatGPT 连接到判例法数据库。借助 Midpage 应用，ChatGPT 能够开展复杂的法律研究、审阅判决意见并撰写高质量工作成果。所有内容都超链接到真实来源，便于核查。",
+    "category": "Education & Research",
+    "capabilities": [],
+    "brandColor": "#000000",
+    "defaultPrompt": [
+      "在 Midpage 中搜索与此法律问题相关的案例，梳理最有分量的权威依据。",
+      "找出与此事项相关的法规和条例，并说明其适用方式。",
+      "基于 Midpage 检索结果起草一份带引用和待解问题的研究备忘录。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "websiteURL": "https://www.midpage.ai"
+  },
+  "homepage": "https://www.midpage.ai"
+}

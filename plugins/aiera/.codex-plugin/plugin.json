@@ -1,0 +1,32 @@
+{
+  "name": "aiera",
+  "version": "1.0.2",
+  "description": "Institutional financial data and events",
+  "author": {
+    "name": "Aiera",
+    "url": "https://www.aiera.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Aiera",
+    "developerName": "Aiera",
+    "shortDescription": "机构级金融数据与事件",
+    "longDescription": "访问 Aiera 提供的机构级金融数据，包括实时企业事件、监管文件、公司刊物、券商研究等。",
+    "category": "Finance",
+    "capabilities": [],
+    "brandColor": "#180830",
+    "defaultPrompt": [
+      "在 Aiera 中找到某公司最新的财报电话会议记录，并梳理核心主题。",
+      "在 Aiera 中搜索本季度该行业对某议题的提及情况。",
+      "对比某公司最近两次财报电话会议中管理层的表态。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "websiteURL": "https://www.aiera.com"
+  },
+  "homepage": "https://www.aiera.com"
+}

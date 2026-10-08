@@ -1,0 +1,39 @@
+{
+  "name": "otter-ai",
+  "version": "1.0.3",
+  "description": "The Otter.ai MCP server connects Codex to your meeting intelligence, enabling search and retrieval of transcripts, summaries, action items, and meeting metadata directly within your workflow.",
+  "author": {
+    "name": "Otter.ai",
+    "url": "https://otter.ai"
+  },
+  "homepage": "https://otter.ai",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "otter",
+    "meetings",
+    "transcripts",
+    "summaries",
+    "action-items",
+    "productivity"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Otter.ai",
+    "shortDescription": "Otter.ai MCP 服务器将 Codex 连接到你的会议智能，支持在工作流中直接搜索和检索记录。",
+    "longDescription": "Otter.ai MCP 服务器将 Codex 连接到你的会议智能，支持在工作流中直接搜索和检索转录文本、摘要、行动项及会议元数据。可按关键词、日期范围、参会人、文件夹或频道搜索会议，然后获取带发言人标注的完整转录稿。用于会前复盘历史讨论、从往期对话中提取决策，或跨整个会议档案提炼洞察。同时支持个人和企业 Otter.ai 工作区。",
+    "developerName": "Otter.ai",
+    "category": "Communication",
+    "capabilities": [],
+    "websiteURL": "https://otter.ai",
+    "privacyPolicyURL": "https://otter.ai/privacy-policy",
+    "termsOfServiceURL": "https://otter.ai/terms-of-service",
+    "defaultPrompt": [
+      "列出最近的会议"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

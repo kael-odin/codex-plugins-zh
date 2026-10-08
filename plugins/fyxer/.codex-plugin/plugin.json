@@ -1,0 +1,31 @@
+{
+  "name": "fyxer",
+  "version": "1.0.2",
+  "description": "Fyxer for Codex lets you write emails that sound like you, right from the chat.",
+  "author": {
+    "name": "Fyxer",
+    "url": "https://www.fyxer.com"
+  },
+  "homepage": "https://www.fyxer.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Fyxer",
+    "shortDescription": "Fyxer for Codex 让你直接在对话中写出符合自己风格的邮件。",
+    "longDescription": "Fyxer for Codex 让你直接在对话中写出符合自己风格的邮件。Fyxer 从你过往的邮件中学习写作风格，并结合你的日历和会议记录生成个性化邮件草稿。只需描述你想表达的内容，即可获得一封精心润色、随时可发的邮件。",
+    "developerName": "Fyxer",
+    "category": "Communication",
+    "capabilities": [],
+    "websiteURL": "https://www.fyxer.com",
+    "privacyPolicyURL": "https://app.fyxer.com/privacy-policy",
+    "termsOfServiceURL": "https://app.fyxer.com/terms-of-use",
+    "defaultPrompt": [
+      "跟进 Sarah 关于我们上周会议的后续事宜"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png"
+  }
+}

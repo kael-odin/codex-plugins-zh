@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-10-08T12:02:23.520Z",
+  "generatedAt": "2026-10-08T13:03:47.197Z",
   "upstreamSha": "0722921d5542fc593105c27bd52630babd8b8c2a",
-  "filesChecked": 5404,
-  "byteIdentical": 5338,
-  "whitelistedChecked": 66,
+  "filesChecked": 6720,
+  "byteIdentical": {
+    "upstream": 5340,
+    "snapshot": 1316
+  },
+  "whitelistedChecked": 62,
+  "manifests": {
+    "upstreamEntries": 65,
+    "extraEntries": 142
+  },
   "divergences": [],
   "status": "pass"
 }

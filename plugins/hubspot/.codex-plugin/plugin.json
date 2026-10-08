@@ -1,0 +1,44 @@
+{
+  "name": "hubspot",
+  "version": "2.0.3",
+  "description": "Work with your HubSpot data to analyze patterns, create and update records, and manage your CRM operations.",
+  "author": {
+    "name": "HubSpot",
+    "url": "https://www.hubspot.com/"
+  },
+  "homepage": "https://www.hubspot.com/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "hubspot",
+    "crm",
+    "sales",
+    "pipeline",
+    "customer-support"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "HubSpot",
+    "shortDescription": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。",
+    "longDescription": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。读写你有权限访问的商机、联系人、公司、工单、互动记录及其他对象。会议前准备报告、更新商机阶段、记录通话和邮件、创建任务或查看管道详情。既可用于对话中的快速更新，也支持全面的 CRM 管理——所有操作均基于你的真实 HubSpot 数据。",
+    "developerName": "HubSpot",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.hubspot.com/",
+    "privacyPolicyURL": "https://legal.hubspot.com/privacy-policy",
+    "termsOfServiceURL": "https://legal.hubspot.com/terms-of-service",
+    "defaultPrompt": [
+      "检查销售管道健康状况，标出有风险的在途商机",
+      "为客户会议准备账户简报",
+      "找出 CRM 中数据陈旧或缺失的记录"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

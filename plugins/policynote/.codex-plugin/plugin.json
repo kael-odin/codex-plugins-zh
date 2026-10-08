@@ -1,0 +1,32 @@
+{
+  "name": "policynote",
+  "version": "1.0.3",
+  "description": "Use the PolicyNote app to access structured policy and regulatory intelligence from around the world.",
+  "author": {
+    "name": "FiscalNote",
+    "url": "https://fiscalnote.com/products/policynote-api"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "PolicyNote",
+    "shortDescription": "通过 PolicyNote 获取来自全球的结构化政策与监管情报。",
+    "longDescription": "通过 PolicyNote 获取来自全球的结构化政策与监管情报。可跨司法管辖区检索立法、监管行动、政策动态及政府活动。\n\n该应用帮助开发者、分析师和政策专业人员以编程方式获取政策数据，并将其整合到内部工具、研究工作流、仪表盘或监控系统中。查询结果包含政策动向、政府信源及监管变化的结构化信息。\n\nPolicyNote 帮助团队追踪公共政策动态、构建预警机制、驱动分析工具，并将政府情报整合进自有应用。",
+    "developerName": "FiscalNote",
+    "category": "Education & Research",
+    "capabilities": [],
+    "defaultPrompt": [
+      "从 PolicyNote 汇总相关政策背景"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://fiscalnote.com/products/policynote-api",
+    "privacyPolicyURL": "https://fiscalnote.com/privacy",
+    "termsOfServiceURL": "https://data.policynote.com/terms",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "homepage": "https://fiscalnote.com/products/policynote-api"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "convex",
+  "version": "0.1.2",
+  "description": "Add a reactive, type-safe backend, database, server functions, and scaling guidance to JavaScript and TypeScript apps with Convex.",
+  "author": {
+    "name": "Convex, Inc.",
+    "email": "support@convex.dev",
+    "url": "https://www.convex.dev"
+  },
+  "homepage": "https://chatgpt.com/apps/convex/asdk_app_6a0faef988b48191b843bac5cd170a9e",
+  "repository": "https://github.com/get-convex/convex-codex-plugin",
+  "license": "UNLICENSED",
+  "keywords": [
+    "convex",
+    "backend",
+    "database",
+    "realtime",
+    "reactive",
+    "websocket",
+    "auth",
+    "storage",
+    "scheduler",
+    "cron",
+    "server functions",
+    "crud",
+    "full-stack",
+    "typescript",
+    "javascript",
+    "react",
+    "nextjs",
+    "expo",
+    "mobile",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Convex",
+    "shortDescription": "为 JS/TS 应用添加后端支持。",
+    "longDescription": "当项目需要后端时，在 Codex 中调用经过审核的 Convex ChatGPT 应用：包括数据库 Schema 设计、响应式查询、数据变更、服务端函数、带权限控制的数据访问、实时特性、文件存储、定时任务、移动端/Web 应用后端及生产扩容指导。Convex 帮助编码 Agent 选择类型安全、响应式且适合全栈 JavaScript 和 TypeScript 应用的后端原语。",
+    "developerName": "Convex, Inc.",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Backend setup",
+      "Database schema",
+      "Reactive queries",
+      "Server functions",
+      "Auth-aware data access",
+      "Realtime apps",
+      "Scheduled jobs",
+      "File storage",
+      "Mobile backends",
+      "Scaling guidance"
+    ],
+    "websiteURL": "https://chatgpt.com/apps/convex/asdk_app_6a0faef988b48191b843bac5cd170a9e",
+    "privacyPolicyURL": "https://mcp.convex.dev/privacy",
+    "defaultPrompt": [
+      "为这个应用添加后端。",
+      "设计数据库 Schema。",
+      "添加实时数据更新功能。"
+    ],
+    "brandColor": "#EE342F",
+    "termsOfServiceURL": "https://www.convex.dev/legal/tos",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "apps": "./.app.json"
+}

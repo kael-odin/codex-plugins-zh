@@ -1,0 +1,31 @@
+{
+  "name": "responsive",
+  "version": "1.0.3",
+  "description": "The Responsive App makes it easy to work with your organization’s data inside Codex.",
+  "author": {
+    "name": "RFPIO Inc. (d/b/a Responsive)",
+    "url": "https://www.responsive.io"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Responsive",
+    "shortDescription": "Responsive 应用让你在 Codex 中轻松使用组织数据。",
+    "longDescription": "Responsive 应用让你在 Codex 中轻松使用组织数据。搜索内容库并生成回复，基于可信信息快速推进工作，无需切换工具。",
+    "developerName": "RFPIO Inc. (d/b/a Responsive)",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "从 Responsive 提取相关提案内容"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://www.responsive.io",
+    "privacyPolicyURL": "https://www.responsive.io/legal/privacy-policy",
+    "termsOfServiceURL": "https://www.responsive.io/legal",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  },
+  "homepage": "https://www.responsive.io"
+}

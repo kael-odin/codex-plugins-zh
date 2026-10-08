@@ -1,0 +1,35 @@
+{
+  "name": "chronograph-gp",
+  "version": "1.0.0",
+  "description": "Portfolio monitoring, valuations, and analytics for private capital GP teams",
+  "author": {
+    "name": "Chronograph",
+    "url": "https://www.chronograph.pe/"
+  },
+  "homepage": "https://www.chronograph.pe/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Chronograph GP",
+    "shortDescription": "为私人资本 GP 团队提供可信的投资组合数据",
+    "longDescription": "Chronograph GP 为私人资本普通合伙人(GP)用户提供投资组合监控、估值与分析。用自然语言查询可信的投资组合数据、分析投资、呈现公司层面的指标，并访问私募市场投资组合数据。",
+    "developerName": "Chronograph",
+    "category": "Finance",
+    "capabilities": [],
+    "websiteURL": "https://www.chronograph.pe/",
+    "privacyPolicyURL": "https://www.chronograph.pe/legal/privacy-policy/",
+    "termsOfServiceURL": "https://www.chronograph.pe/legal/website-terms-of-use/",
+    "brandColor": "#414B4B",
+    "defaultPrompt": [
+      "汇总 Chronograph GP 中的基金回报。",
+      "找出表现最好与最差的投资组合项目。",
+      "显示 Chronograph GP 中逾期的报告任务。"
+    ],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

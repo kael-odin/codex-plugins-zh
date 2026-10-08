@@ -1,0 +1,32 @@
+{
+  "name": "windsor-ai",
+  "version": "1.0.3",
+  "description": "Windsor.ai connects your marketing and business data sources to Codex so you can ask questions in natural...",
+  "author": {
+    "name": "Windsor.ai",
+    "url": "https://windsor.ai"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Windsor.ai",
+    "shortDescription": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。",
+    "longDescription": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。\n\n常见的数据源包括：Google Ads、Meta（Facebook）Ads、Instagram、LinkedIn Ads、LinkedIn 公司主页、TikTok Ads、GA4、Google Search Console、YouTube Analytics、Google Business Profile、HubSpot、Salesforce、Shopify、Klaviyo、Amazon Ads、Microsoft Ads（Bing）、Google Merchant Center、Stripe、GoHighLevel 等。",
+    "developerName": "Windsor.ai",
+    "category": "Data & Analytics",
+    "capabilities": [],
+    "defaultPrompt": [
+      "从 Windsor.ai 提取相关的归因分析数据"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://windsor.ai",
+    "privacyPolicyURL": "https://windsor.ai/privacy-statement/",
+    "termsOfServiceURL": "https://windsor.ai/terms-of-service/",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "homepage": "https://windsor.ai"
+}

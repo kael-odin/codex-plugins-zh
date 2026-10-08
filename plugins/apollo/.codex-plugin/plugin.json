@@ -1,0 +1,32 @@
+{
+  "name": "apollo",
+  "version": "1.0.2",
+  "description": "Prospecting and outbound execution in Apollo",
+  "author": {
+    "name": "Apollo",
+    "url": "https://www.apollo.io"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Apollo",
+    "developerName": "Apollo",
+    "shortDescription": "在 Apollo 中进行潜客挖掘与外联执行",
+    "longDescription": "Apollo 的 MCP 连接器让 ChatGPT 能在你的 Apollo 工作空间内安全作业，加速潜客挖掘与外联执行。利用 Apollo 的数据检索并甄别客户与联系人、丰富记录、归纳关键背景，并按团队的规则与权限采取行动（如创建名单、记录备注、生成任务，以及使用序列起草或组装外联内容）。专为速度与可控而设计：ChatGPT 仅提取你所要求的内容、遵守工作空间权限，并产出可供审阅、个性化和发送的成果。",
+    "category": "Business & Operations",
+    "capabilities": [],
+    "brandColor": "#E8F028",
+    "defaultPrompt": [
+      "在 Apollo 中找出符合此 ICP 的已验证联系人，并筛选出最优质的潜客。",
+      "在 Apollo 中调研某公司，找出该场景的决策者。",
+      "针对该行业构建外联名单，筛选近期有增长或招聘信号的目标。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "websiteURL": "https://www.apollo.io"
+  },
+  "homepage": "https://www.apollo.io"
+}

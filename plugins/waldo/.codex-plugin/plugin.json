@@ -1,0 +1,31 @@
+{
+  "name": "waldo",
+  "version": "1.0.3",
+  "description": "Waldo is an AI-powered strategy platform for agencies and brands.",
+  "author": {
+    "name": "Curiosities, Inc.",
+    "url": "https://www.waldo.fyi"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Waldo",
+    "shortDescription": "Waldo 是面向代理商和品牌的 AI 驱动策略平台。",
+    "longDescription": "Waldo 是面向代理商和品牌的 AI 驱动策略平台。运行策略智能体，探索采集到的各类信号——付费广告、品牌提及、受众讨论、热门话题等——并在团队的品牌空间中检索数据。",
+    "developerName": "Curiosities, Inc.",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "查看 Waldo 中相关的移动端测试覆盖情况"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://www.waldo.fyi",
+    "privacyPolicyURL": "https://www.waldo.fyi/privacy",
+    "termsOfServiceURL": "https://www.waldo.fyi/tos",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  },
+  "homepage": "https://www.waldo.fyi"
+}

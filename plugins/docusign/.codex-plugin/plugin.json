@@ -1,0 +1,33 @@
+{
+  "name": "docusign",
+  "version": "1.0.3",
+  "description": "Automate contract creation and insights",
+  "author": {
+    "name": "Docusign",
+    "url": "https://www.docusign.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Docusign",
+    "developerName": "Docusign",
+    "shortDescription": "自动化合同创建与洞察",
+    "longDescription": "借助 Docusign 提供的智能自动化，简化合同管理。超越简单的签署执行，让复杂的协议工作流变得轻而易举。用自然语言创建并发送合同，即时呈现续约日期和关键义务等洞察，并自动化各类工作流，让业务运转更快、阻力更小。",
+    "category": "Productivity",
+    "capabilities": [],
+    "brandColor": "#FFCC00",
+    "defaultPrompt": [
+      "找出 DocuSign 中等待我处理的信封，汇总待办事项。",
+      "搜索与某客户相关的协议，查看签署状态、接收方和关键日期。",
+      "查阅近期已完成的信封，提取续约或义务到期日期。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "websiteURL": "https://www.docusign.com"
+  },
+  "homepage": "https://www.docusign.com"
+}

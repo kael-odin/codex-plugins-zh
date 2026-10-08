@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<rect width="128" height="128" rx="30" fill="#ecfdf5"/>
+<circle cx="64" cy="64" r="42" fill="#fff" opacity="0.86"/>
+<text x="64" y="78" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="48" font-weight="700" fill="#047857">房</text>
+</svg>

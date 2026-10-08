@@ -1,0 +1,45 @@
+{
+  "name": "catalyst-by-zoho",
+  "version": "1.0.1",
+  "description": "Extend Codex with Catalyst by Zoho's capabilities.",
+  "author": {
+    "name": "Catalyst by Zoho",
+    "email": "support@zohocatalyst.com",
+    "url": "https://catalyst.zoho.com/"
+  },
+  "homepage": "https://catalyst.zoho.com/",
+  "repository": "https://github.com/catalystbyzoho",
+  "license": "MIT",
+  "keywords": [
+    "zoho",
+    "catalyst",
+    "serverless",
+    "mcp",
+    "cloud"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Catalyst by Zoho",
+    "shortDescription": "在 Codex 中使用 Catalyst by Zoho 功能",
+    "longDescription": "Catalyst by Zoho 插件通过 MCP 支持的工作流和技能扩展 Codex，用于构建、管理和运营 Catalyst 项目。",
+    "developerName": "Catalyst by Zoho",
+    "category": "Developer Tools",
+    "capabilities": [
+      "MCP",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://catalyst.zoho.com/",
+    "privacyPolicyURL": "https://www.zoho.com/privacy.html",
+    "termsOfServiceURL": "https://www.zoho.com/terms.html",
+    "brandColor": "#226DB4",
+    "composerIcon": "./assets/catalyst_logo.svg",
+    "logo": "./assets/catalyst_logo.svg",
+    "defaultPrompt": [
+      "帮我使用 Catalyst by Zoho。",
+      "显示 Catalyst by Zoho 的可用功能。",
+      "引导我完成 Catalyst 项目的初始配置。"
+    ]
+  }
+}

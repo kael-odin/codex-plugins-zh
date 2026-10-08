@@ -1,0 +1,31 @@
+{
+  "name": "pitchbook",
+  "version": "1.0.3",
+  "description": "PitchBook provides structured access to private capital market data across  companies, investors, funds, de...",
+  "author": {
+    "url": "https://www.pitchbook.com",
+    "name": "PitchBook"
+  },
+  "homepage": "https://www.pitchbook.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "PitchBook",
+    "shortDescription": "PitchBook 提供跨公司、投资机构、基金、交易、有限合伙人和相关人员的私募市场结构化数据。",
+    "longDescription": "PitchBook 提供跨公司、投资机构、基金、交易、有限合伙人和相关人员的私募市场结构化数据。返回标准化字段，包括企业基本概况、融资轮次、交易条款、股权信息、财务数据、基金业绩指标（如有）、LP 承诺金额、投资机构组合及带来源元数据的团队详情。当查询需要私募市场事实信息，或需检索与私营公司、投资活动或市场参与者相关的结构化数据时使用。支持实体识别、历史活动汇总，以及为进一步分析构建数据集等查询需求。",
+    "category": "Finance",
+    "capabilities": [],
+    "websiteURL": "https://www.pitchbook.com",
+    "privacyPolicyURL": "https://www.pitchbook.com/privacy-policy",
+    "termsOfServiceURL": "https://www.pitchbook.com/terms-of-use",
+    "defaultPrompt": [
+      "使用 PitchBook 协助完成此任务"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "developerName": "PitchBook"
+  }
+}

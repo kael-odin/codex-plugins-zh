@@ -1,0 +1,45 @@
+{
+  "name": "neon-postgres",
+  "version": "1.0.3",
+  "description": "Manage Neon Serverless Postgres projects and databases with the neon-postgres agent skill and the Neon MCP Server",
+  "author": {
+    "name": "Neon",
+    "email": "andre@neon.tech",
+    "url": "https://neon.com"
+  },
+  "homepage": "https://neon.com/docs/ai/neon-mcp-server",
+  "repository": "https://github.com/openai/plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "neon",
+    "postgres",
+    "serverless",
+    "database",
+    "mcp",
+    "sql"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Neon Postgres",
+    "shortDescription": "管理 Neon Serverless Postgres 项目和数据库",
+    "longDescription": "使用 Neon Postgres 插件创建和管理 Neon Serverless Postgres 项目及数据库。包含用于项目和数据库管理的 Neon MCP Server，以及提供连接方式、分支、自动扩缩容、Neon Auth 等指南的 neon-postgres 技能。",
+    "developerName": "Neon",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://neon.com",
+    "privacyPolicyURL": "https://neon.com/privacy-policy",
+    "termsOfServiceURL": "https://neon.com/terms-of-service",
+    "defaultPrompt": [
+      "使用 Neon 为我的项目创建一个新的 Serverless Postgres 数据库，并帮我完成连接配置"
+    ],
+    "brandColor": "#37C38F",
+    "composerIcon": "./assets/neon-small.svg",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "screenshots": []
+  }
+}

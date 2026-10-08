@@ -177,6 +177,9 @@ h1 { margin: 0; font-size: 19px; white-space: nowrap; }
 .badge { font-size: 11px; border-radius: 6px; padding: 2px 8px; border: 1px solid var(--line); color: var(--dim); }
 .b-zh { color: var(--ok); background: var(--ok-weak); border-color: transparent; }
 .b-api { color: var(--warn); background: var(--warn-weak); border-color: transparent; }
+.b-kind { color: var(--accent); background: var(--accent-weak); border-color: transparent; }
+.b-app { color: #0e9488; background: rgba(14, 148, 136, 0.10); border-color: transparent; }
+.toggle { color: var(--dim); font-size: 13px; white-space: nowrap; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; }
 
 /* detail pane */
 .detailpane {

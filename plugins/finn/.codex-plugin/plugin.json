@@ -1,0 +1,32 @@
+{
+  "name": "finn",
+  "version": "1.0.4",
+  "description": "A FINN car subscription is a flexible way to stay mobile anytime - without long-term commitments like buyin...",
+  "author": {
+    "name": "FINN GmbH",
+    "url": "https://www.finn.com/de-DE"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "FINN",
+    "shortDescription": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。",
+    "longDescription": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。固定月费已包含保险、维保、登记注册，甚至 CO₂ 碳补偿，全程透明便捷。\n\n最棒的是，你可以在几分钟内完成在线预订，新车将直接送货上门，或你也可以前往我们的指定站点自提。",
+    "developerName": "FINN GmbH",
+    "category": "Travel",
+    "capabilities": [],
+    "defaultPrompt": [
+      "根据需求查找合适的 FINN 车型"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://www.finn.com/de-DE",
+    "privacyPolicyURL": "https://www.finn.com/de-DE/privacy",
+    "termsOfServiceURL": "https://www.finn.com/de-DE/terms-of-use",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "homepage": "https://www.finn.com/de-DE"
+}

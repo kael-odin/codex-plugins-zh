@@ -1,0 +1,45 @@
+{
+  "name": "brighthire",
+  "version": "0.1.1",
+  "description": "Connect Codex to BrightHire interview intelligence data through the BrightHire app connector.",
+  "author": {
+    "name": "BrightHire",
+    "email": "support@brighthire.com",
+    "url": "https://www.brighthire.com"
+  },
+  "homepage": "https://www.brighthire.com",
+  "repository": "https://github.com/brighthire/brighthire-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "brighthire",
+    "interviews",
+    "hiring",
+    "recruiting",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "BrightHire",
+    "shortDescription": "搜索和分析 BrightHire 面试、候选人、通话和招聘数据",
+    "longDescription": "在 Codex 中使用 BrightHire 检索面试情报上下文、查阅通话记录和候选人信息，并在受治理的数据访问下支持招聘工作流。",
+    "developerName": "BrightHire",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://www.brighthire.com",
+    "privacyPolicyURL": "https://brighthire.com/privacy-policy/",
+    "termsOfServiceURL": "https://brighthire.com/terms-of-service/",
+    "defaultPrompt": [
+      "使用 BrightHire 查找该候选人的近期面试记录。",
+      "在 BrightHire 中搜索与该职位相关的通话记录。",
+      "汇总该录用决策的 BrightHire 面试上下文。"
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

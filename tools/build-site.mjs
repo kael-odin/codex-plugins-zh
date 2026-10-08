@@ -1,7 +1,5 @@
-// Build the static site into dist/ (site assets + catalog with resolved icons).
-// Real plugin icons are copied to dist/icons/ — selection prefers small SVGs,
-// falls back to the smallest PNG under 400KB, and always degrades gracefully
-// to the monogram tile in the UI when nothing usable exists.
+// Build the static site into dist/ (site assets + catalog with resolved icons
+// + the ChatGPT apps dataset with its 1699 extracted icons).
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, DATA_DIR } from './lib.mjs';
@@ -21,6 +19,7 @@ const iconsDir = path.join(dist, 'icons');
 fs.mkdirSync(iconsDir, { recursive: true });
 
 const BASE_CANDIDATES = ['assets/icon.svg', 'assets/logo.svg', 'assets/icon.png', 'assets/logo.png', 'assets/logo-dark.png'];
+const appiconsDir = path.join(ROOT, 'site', 'appicons');
 let withIcon = 0;
 
 for (const p of catalog.plugins) {
@@ -37,6 +36,11 @@ for (const p of catalog.plugins) {
     const pool = under.length ? under : usable;
     chosen = pool.sort((a, b) => fs.statSync(a).size - fs.statSync(b).size)[0];
   }
+  // final fallback: the icon extracted from the source-blip dataset (plugin-<name>.*)
+  if (!chosen && fs.existsSync(appiconsDir)) {
+    const hit = fs.readdirSync(appiconsDir).find((f) => f.startsWith(`plugin-${p.name}.`));
+    if (hit) chosen = path.join(appiconsDir, hit);
+  }
   if (chosen) {
     const target = `icons/${p.name}${path.extname(chosen)}`;
     fs.copyFileSync(chosen, path.join(dist, target));
@@ -48,5 +52,17 @@ for (const p of catalog.plugins) {
 }
 
 catalog.iconCount = withIcon;
-fs.writeFileSync(path.join(dist, 'catalog.json'), JSON.stringify(catalog, null, 2) + '\n', 'utf8');
-console.log(`[build-site] dist/ ready — ${catalog.plugins.length} plugins, ${withIcon} real icons`);
+fs.writeFileSync(path.join(dist, 'catalog.json'), JSON.stringify(catalog, null, 0), 'utf8');
+
+// apps dataset + its icons + plugin zh aliases
+if (fs.existsSync(path.join(DATA_DIR, 'apps-zh.json'))) {
+  fs.copyFileSync(path.join(DATA_DIR, 'apps-zh.json'), path.join(dist, 'apps-zh.json'));
+}
+if (fs.existsSync(path.join(DATA_DIR, 'plugin-aliases.json'))) {
+  fs.copyFileSync(path.join(DATA_DIR, 'plugin-aliases.json'), path.join(dist, 'plugin-aliases.json'));
+}
+if (fs.existsSync(appiconsDir)) {
+  fs.cpSync(appiconsDir, path.join(dist, 'appicons'), { recursive: true });
+}
+
+console.log(`[build-site] dist/ ready — ${catalog.plugins.length} plugins (${withIcon} icons) + apps dataset`);

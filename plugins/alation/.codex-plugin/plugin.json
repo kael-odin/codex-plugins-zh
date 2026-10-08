@@ -1,0 +1,32 @@
+{
+  "name": "alation",
+  "version": "1.0.3",
+  "description": "Trusted enterprise data context and governance",
+  "author": {
+    "name": "Alation",
+    "url": "https://www.alation.com"
+  },
+  "homepage": "https://www.alation.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Alation",
+    "shortDescription": "可信赖的企业数据背景与治理",
+    "longDescription": "Alation 将可信赖的企业数据背景带入 ChatGPT。\n\n将 ChatGPT 连接到 Alation 的企业数据目录、治理与可信业务背景，让用户能够自信地发现、理解和使用数据。\n\nAlation Intelligence Operating System (AIOS) 帮助 AI 将回答建立在可信赖的企业背景之上，包括目录元数据、治理政策、语义定义、数据血缘、数据质量和文档。该应用专为需要 AI 主导的数据发现、同时又不愿失去信任、背景或治理的企业团队而设计。",
+    "developerName": "Alation",
+    "category": "Data & Analytics",
+    "capabilities": [],
+    "websiteURL": "https://www.alation.com",
+    "defaultPrompt": [
+      "在 Alation 中搜索与该指标相关的数据资产，汇总负责人和字段定义。",
+      "查找 Alation 中已认证的表，用于本次分析，并说明数据血缘、质量和注意事项。",
+      "查阅 Alation 中该数据集的文档，整理成可直接用于查询的数据说明。"
+    ],
+    "brandColor": "#FF7A1A",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

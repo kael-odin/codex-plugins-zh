@@ -1,0 +1,32 @@
+{
+  "name": "fal",
+  "version": "1.0.3",
+  "description": "Generate and manage media with Fal models",
+  "author": {
+    "name": "Fal",
+    "url": "https://fal.ai"
+  },
+  "homepage": "https://fal.ai",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Fal",
+    "shortDescription": "用 Fal 模型生成与管理媒体",
+    "longDescription": "Fal 通过一个 OpenAI 应用连接器，并配合专注于生产的技能（涵盖模型推荐、schema 检查、定价、异步任务、文件上传和媒体生成），将图像、视频、音频、3D、训练和编辑工作流带入 Codex。",
+    "developerName": "Fal",
+    "category": "Creativity",
+    "capabilities": [],
+    "websiteURL": "https://fal.ai",
+    "defaultPrompt": [
+      "用 Fal 根据这段提示词生成图像，并汇总所选模型的参数设置。",
+      "查找适合图像生成或编辑的 Fal 模型，推荐最适合当前任务的方案。",
+      "运行 Fal 图像编辑或放大工作流，并汇总输出参数。"
+    ],
+    "brandColor": "#D60045",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

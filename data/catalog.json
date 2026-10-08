@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-10-08T12:02:22.467Z",
+  "generatedAt": "2026-10-08T13:03:14.909Z",
   "upstream": {
     "repo": "https://github.com/openai/plugins",
     "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
+  },
+  "snapshot": {
+    "repo": "https://cnb.cool/echobird/codex-plugins.git",
+    "commitDate": "2026-09-19 23:53:12 +0800",
+    "entries": 192
   },
   "marketplace": {
     "name": "openai-curated-zh",
@@ -15,38 +20,53 @@
   },
   "categories": [
     {
-      "en": "Developer Tools",
-      "zh": "开发工具",
-      "count": 24
-    },
-    {
       "en": "Productivity",
       "zh": "效率办公",
-      "count": 12
+      "count": 46
     },
     {
-      "en": "Creativity",
-      "zh": "创意设计",
-      "count": 9
-    },
-    {
-      "en": "Communication",
-      "zh": "沟通协作",
-      "count": 5
-    },
-    {
-      "en": "Education & Research",
-      "zh": "教育科研",
-      "count": 4
-    },
-    {
-      "en": "Data & Analytics",
-      "zh": "数据分析",
-      "count": 3
+      "en": "Developer Tools",
+      "zh": "开发工具",
+      "count": 43
     },
     {
       "en": "Finance",
       "zh": "金融财务",
+      "count": 28
+    },
+    {
+      "en": "Business & Operations",
+      "zh": "商业运营",
+      "count": 16
+    },
+    {
+      "en": "Creativity",
+      "zh": "创意设计",
+      "count": 14
+    },
+    {
+      "en": "Data & Analytics",
+      "zh": "数据分析",
+      "count": 14
+    },
+    {
+      "en": "Communication",
+      "zh": "沟通协作",
+      "count": 11
+    },
+    {
+      "en": "Education & Research",
+      "zh": "教育科研",
+      "count": 11
+    },
+    {
+      "en": "Other",
+      "zh": "其他",
+      "count": 2
+    },
+    {
+      "en": "Travel",
+      "zh": "旅行",
       "count": 2
     },
     {
@@ -58,20 +78,54 @@
       "en": "Security",
       "zh": "安全",
       "count": 1
-    },
-    {
-      "en": "Business & Operations",
-      "zh": "商业运营",
-      "count": 1
     }
   ],
-  "translated": 62,
-  "total": 62,
+  "originCounts": {
+    "upstream": 62,
+    "snapshot": 127
+  },
+  "translated": 189,
+  "total": 189,
   "plugins": [
     {
-      "name": "adobe",
+      "name": "actively",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Actively",
+      "shortZh": "面向 GTM 情报的客户智能体",
+      "shortEn": "面向 GTM 情报的客户智能体",
+      "longZh": "借助 Actively 赢得更多交易——直接调用始终在线的每客户智能体，帮你推进下一步最佳行动。Actively 的每客户智能体会综合你所有的内部背景（如 CRM 数据、通话记录、邮件）与外部信号，输出可执行的情报。专为需要深入、情境化客户认知的 SDR、AE、AM 和营收主管设计，从会议准备、交易策略到区域优先级排序无所不包。",
+      "longEn": "借助 Actively 赢得更多交易——直接调用始终在线的每客户智能体，帮你推进下一步最佳行动。Actively 的每客户智能体会综合你所有的内部背景（如 CRM 数据、通话记录、邮件）与外部信号，输出可执行的情报。专为需要深入、情境化客户认知的 SDR、AE、AM 和营收主管设计，从会议准备、交易策略到区域优先级排序无所不包。",
+      "hasZh": true,
+      "prompts": [
+        "找出 Actively 中近期有购买信号的高契合度账户并汇总下一步行动。",
+        "在 Actively 中搜索目标账户的联系人并拉取相关潜在客户背景信息。",
+        "基于目标客户画像（ICP）在 Actively 中构建优先级潜在客户列表，并说明每个账户的入选理由。"
+      ],
+      "promptsEn": [
+        "找出 Actively 中近期有购买信号的高契合度账户并汇总下一步行动。",
+        "在 Actively 中搜索目标账户的联系人并拉取相关潜在客户背景信息。",
+        "基于目标客户画像（ICP）在 Actively 中构建优先级潜在客户列表，并说明每个账户的入选理由。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#000000",
+      "developerName": "Actively",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/actively"
+    },
+    {
+      "name": "adobe",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Adobe",
       "shortZh": "设计、合成、编辑",
@@ -105,12 +159,48 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": null,
+      "version": "8.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/adobe"
     },
     {
-      "name": "airtable",
+      "name": "aiera",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Aiera",
+      "shortZh": "机构级金融数据与事件",
+      "shortEn": "机构级金融数据与事件",
+      "longZh": "访问 Aiera 提供的机构级金融数据，包括实时企业事件、监管文件、公司刊物、券商研究等。",
+      "longEn": "访问 Aiera 提供的机构级金融数据，包括实时企业事件、监管文件、公司刊物、券商研究等。",
+      "hasZh": true,
+      "prompts": [
+        "在 Aiera 中找到某公司最新的财报电话会议记录，并梳理核心主题。",
+        "在 Aiera 中搜索本季度该行业对某议题的提及情况。",
+        "对比某公司最近两次财报电话会议中管理层的表态。"
+      ],
+      "promptsEn": [
+        "在 Aiera 中找到某公司最新的财报电话会议记录，并梳理核心主题。",
+        "在 Aiera 中搜索本季度该行业对某议题的提及情况。",
+        "对比某公司最近两次财报电话会议中管理层的表态。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#180830",
+      "developerName": "Aiera",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/aiera"
+    },
+    {
+      "name": "airtable",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Airtable",
       "shortZh": "为 ChatGPT 添加结构化数据",
@@ -139,10 +229,174 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.svg",
+      "version": "6.0.1",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/airtable"
     },
     {
+      "name": "alation",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Alation",
+      "shortZh": "可信赖的企业数据背景与治理",
+      "shortEn": "可信赖的企业数据背景与治理",
+      "longZh": "Alation 将可信赖的企业数据背景带入 ChatGPT。\n\n将 ChatGPT 连接到 Alation 的企业数据目录、治理与可信业务背景，让用户能够自信地发现、理解和使用数据。\n\nAlation Intelligence Operating System (AIOS) 帮助 AI 将回答建立在可信赖的企业背景之上，包括目录元数据、治理政策、语义定义、数据血缘、数据质量和文档。该应用专为需要 AI 主导的数据发现、同时又不愿失去信任、背景或治理的企业团队而设计。",
+      "longEn": "Alation 将可信赖的企业数据背景带入 ChatGPT。\n\n将 ChatGPT 连接到 Alation 的企业数据目录、治理与可信业务背景，让用户能够自信地发现、理解和使用数据。\n\nAlation Intelligence Operating System (AIOS) 帮助 AI 将回答建立在可信赖的企业背景之上，包括目录元数据、治理政策、语义定义、数据血缘、数据质量和文档。该应用专为需要 AI 主导的数据发现、同时又不愿失去信任、背景或治理的企业团队而设计。",
+      "hasZh": true,
+      "prompts": [
+        "在 Alation 中搜索与该指标相关的数据资产，汇总负责人和字段定义。",
+        "查找 Alation 中已认证的表，用于本次分析，并说明数据血缘、质量和注意事项。",
+        "查阅 Alation 中该数据集的文档，整理成可直接用于查询的数据说明。"
+      ],
+      "promptsEn": [
+        "在 Alation 中搜索与该指标相关的数据资产，汇总负责人和字段定义。",
+        "查找 Alation 中已认证的表，用于本次分析，并说明数据血缘、质量和注意事项。",
+        "查阅 Alation 中该数据集的文档，整理成可直接用于查询的数据说明。"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": "#FF7A1A",
+      "developerName": "Alation",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/alation"
+    },
+    {
+      "name": "alpaca",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Alpaca",
+      "shortZh": "不必盯盘，让数据来找你。",
+      "shortEn": "不必盯盘，让数据来找你。",
+      "longZh": "不必盯盘，用 Alpaca 把你的问题转化为洞察。\n向 Codex 提出真实市场问题，获取可直接参考的实时答案，包括历史数据、快照、报价及期权链信息。股票、期权和加密货币市场数据直接嵌入对话，让你从分析走向自动化操作。\n「AAPL 本季度相比 GOOG 表现如何？」\n「给我看下周五到期的 SPY 期权链。」\n「BTC 今年什么时候达到过 10 万美元？」",
+      "longEn": "不必盯盘，用 Alpaca 把你的问题转化为洞察。\n向 Codex 提出真实市场问题，获取可直接参考的实时答案，包括历史数据、快照、报价及期权链信息。股票、期权和加密货币市场数据直接嵌入对话，让你从分析走向自动化操作。\n「AAPL 本季度相比 GOOG 表现如何？」\n「给我看下周五到期的 SPY 期权链。」\n「BTC 今年什么时候达到过 10 万美元？」",
+      "hasZh": true,
+      "prompts": [
+        "用 Alpaca 帮我分析这项资产"
+      ],
+      "promptsEn": [
+        "用 Alpaca 帮我分析这项资产"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Alpaca",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/alpaca"
+    },
+    {
+      "name": "amplitude",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Amplitude",
+      "shortZh": "产品分析与转化漏斗",
+      "shortEn": "产品分析与转化漏斗",
+      "longZh": "产品分析与转化漏斗",
+      "longEn": "产品分析与转化漏斗",
+      "hasZh": true,
+      "prompts": [
+        "在 Amplitude 中展示注册漏斗趋势"
+      ],
+      "promptsEn": [
+        "在 Amplitude 中展示注册漏斗趋势"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": null,
+      "developerName": "Amplitude",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/amplitude"
+    },
+    {
+      "name": "apollo",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Apollo",
+      "shortZh": "在 Apollo 中进行潜客挖掘与外联执行",
+      "shortEn": "在 Apollo 中进行潜客挖掘与外联执行",
+      "longZh": "Apollo 的 MCP 连接器让 ChatGPT 能在你的 Apollo 工作空间内安全作业，加速潜客挖掘与外联执行。利用 Apollo 的数据检索并甄别客户与联系人、丰富记录、归纳关键背景，并按团队的规则与权限采取行动（如创建名单、记录备注、生成任务，以及使用序列起草或组装外联内容）。专为速度与可控而设计：ChatGPT 仅提取你所要求的内容、遵守工作空间权限，并产出可供审阅、个性化和发送的成果。",
+      "longEn": "Apollo 的 MCP 连接器让 ChatGPT 能在你的 Apollo 工作空间内安全作业，加速潜客挖掘与外联执行。利用 Apollo 的数据检索并甄别客户与联系人、丰富记录、归纳关键背景，并按团队的规则与权限采取行动（如创建名单、记录备注、生成任务，以及使用序列起草或组装外联内容）。专为速度与可控而设计：ChatGPT 仅提取你所要求的内容、遵守工作空间权限，并产出可供审阅、个性化和发送的成果。",
+      "hasZh": true,
+      "prompts": [
+        "在 Apollo 中找出符合此 ICP 的已验证联系人，并筛选出最优质的潜客。",
+        "在 Apollo 中调研某公司，找出该场景的决策者。",
+        "针对该行业构建外联名单，筛选近期有增长或招聘信号的目标。"
+      ],
+      "promptsEn": [
+        "在 Apollo 中找出符合此 ICP 的已验证联系人，并筛选出最优质的潜客。",
+        "在 Apollo 中调研某公司，找出该场景的决策者。",
+        "针对该行业构建外联名单，筛选近期有增长或招聘信号的目标。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#E8F028",
+      "developerName": "Apollo",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/apollo"
+    },
+    {
+      "name": "asana",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Asana",
+      "shortZh": "读取和管理 Asana",
+      "shortEn": "读取和管理 Asana",
+      "longZh": "操作你的 Asana 任务、子任务、评论、截止日期和项目详情，生成摘要、梳理优先级，并撰写清晰的进展更新。",
+      "longEn": "操作你的 Asana 任务、子任务、评论、截止日期和项目详情，生成摘要、梳理优先级，并撰写清晰的进展更新。",
+      "hasZh": true,
+      "prompts": [
+        "创建一个用于追踪创意需求的项目",
+        "创建一个任务来跟进后续行动",
+        "查看我今天在 Asana 中需要处理的事项。"
+      ],
+      "promptsEn": [
+        "创建一个用于追踪创意需求的项目",
+        "创建一个任务来跟进后续行动",
+        "查看我今天在 Asana 中需要处理的事项。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#FF584A",
+      "developerName": "Asana, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "0.1.4",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/asana"
+    },
+    {
       "name": "atlassian-rovo",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -167,10 +421,140 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/app-icon.png",
+      "version": "1.0.6",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/atlassian-rovo"
     },
     {
+      "name": "attio",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Attio",
+      "shortZh": "Attio 将 Codex 直接接入你的 CRM 工作区，让你通过自然对话管理客户关系。",
+      "shortEn": "Attio 将 Codex 直接接入你的 CRM 工作区，让你通过自然对话管理客户关系。",
+      "longZh": "Attio 将 Codex 直接接入你的 CRM 工作区，让你通过自然对话管理客户关系。\n\n使用灵活的查询条件搜索和筛选联系人、公司和交易。无需在多个界面间切换，即可创建、更新和整理记录。通过简单指令添加备注、管理任务、跟踪销售管道。\n\n核心功能：\n- 使用强大的筛选器搜索记录（按规模、行业、最近联系时间查找公司）\n- 创建和更新联系人、公司及交易记录\n- 管理任意记录上的备注\n- 跟踪并完成任务\n- 浏览列表并整理数据\n\n无论是会前准备、更新交易阶段还是调研潜在客户，Attio 都能将 CRM 数据带入你的对话——无需手动录入。",
+      "longEn": "Attio 将 Codex 直接接入你的 CRM 工作区，让你通过自然对话管理客户关系。\n\n使用灵活的查询条件搜索和筛选联系人、公司和交易。无需在多个界面间切换，即可创建、更新和整理记录。通过简单指令添加备注、管理任务、跟踪销售管道。\n\n核心功能：\n- 使用强大的筛选器搜索记录（按规模、行业、最近联系时间查找公司）\n- 创建和更新联系人、公司及交易记录\n- 管理任意记录上的备注\n- 跟踪并完成任务\n- 浏览列表并整理数据\n\n无论是会前准备、更新交易阶段还是调研潜在客户，Attio 都能将 CRM 数据带入你的对话——无需手动录入。",
+      "hasZh": true,
+      "prompts": [
+        "在 Attio 中查找最新备注和后续跟进事项"
+      ],
+      "promptsEn": [
+        "在 Attio 中查找最新备注和后续跟进事项"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": null,
+      "developerName": "Attio Ltd",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/attio"
+    },
+    {
+      "name": "base44",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Base44",
+      "shortZh": "在 Codex 中构建和部署 Base44 全栈应用",
+      "shortEn": "在 Codex 中构建和部署 Base44 全栈应用",
+      "longZh": "在 Codex 中构建和部署 Base44 全栈应用。包含 CLI 项目管理、JavaScript/TypeScript SDK 开发以及生产问题排查技能。",
+      "longEn": "在 Codex 中构建和部署 Base44 全栈应用。包含 CLI 项目管理、JavaScript/TypeScript SDK 开发以及生产问题排查技能。",
+      "hasZh": true,
+      "prompts": [
+        "创建一个新的 Base44 应用并部署。",
+        "在现有 Base44 应用中构建一个新功能。",
+        "排查 Base44 后端函数的报错。"
+      ],
+      "promptsEn": [
+        "创建一个新的 Base44 应用并部署。",
+        "在现有 Base44 应用中构建一个新功能。",
+        "排查 Base44 后端函数的报错。"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "base44",
+      "skills": [
+        "base44-cli",
+        "base44-sdk",
+        "base44-troubleshooter"
+      ],
+      "skillsCount": 3,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo-padded.png",
+      "version": "1.0.3-beta.1",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/base44"
+    },
+    {
+      "name": "binance",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Binance",
+      "shortZh": "通过自然语言访问 Binance 公开的只读市场数据。",
+      "shortEn": "通过自然语言访问 Binance 公开的只读市场数据。",
+      "longZh": "Binance for Codex 让你通过自然语言访问 Binance 公开的只读市场数据。可查询现货、合约和期权市场的当前及历史价格、订单簿、近期成交、K 线（klines）及交易所元数据。无需身份验证，不访问用户账户，不支持交易或资金操作。\n\n市场数据来自 Binance 公开 API，按原样提供，可能存在延迟、不完整或随时变化。相关信息仅供参考，不应作为交易或财务决策依据。Binance 对数据的准确性和及时性不作任何保证，并免除因使用本数据产生的一切责任。",
+      "longEn": "Binance for Codex 让你通过自然语言访问 Binance 公开的只读市场数据。可查询现货、合约和期权市场的当前及历史价格、订单簿、近期成交、K 线（klines）及交易所元数据。无需身份验证，不访问用户账户，不支持交易或资金操作。\n\n市场数据来自 Binance 公开 API，按原样提供，可能存在延迟、不完整或随时变化。相关信息仅供参考，不应作为交易或财务决策依据。Binance 对数据的准确性和及时性不作任何保证，并免除因使用本数据产生的一切责任。",
+      "hasZh": true,
+      "prompts": [
+        "展示该资产最新的 Binance 市场数据"
+      ],
+      "promptsEn": [
+        "展示该资产最新的 Binance 市场数据"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Binance",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/binance"
+    },
+    {
+      "name": "biorender",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "BioRender",
+      "shortZh": "BioRender 帮助科学家在几分钟内制作专业科研图表。",
+      "shortEn": "BioRender 帮助科学家在几分钟内制作专业科研图表。",
+      "longZh": "BioRender 帮助科学家在几分钟内制作专业科研图表。直接在 Codex 中访问数千个科学精准的模板和图标，可视化实验流程、信号通路、分子结构等内容。与团队头脑风暴、阐释研究概念，或为演讲、论文、基金申请和海报制作可发表质量的图表。",
+      "longEn": "BioRender 帮助科学家在几分钟内制作专业科研图表。直接在 Codex 中访问数千个科学精准的模板和图标，可视化实验流程、信号通路、分子结构等内容。与团队头脑风暴、阐释研究概念，或为演讲、论文、基金申请和海报制作可发表质量的图表。",
+      "hasZh": true,
+      "prompts": [
+        "帮我找一些 GLP-1 通路的图表模板"
+      ],
+      "promptsEn": [
+        "帮我找一些 GLP-1 通路的图表模板"
+      ],
+      "category": "Creativity",
+      "categoryZh": "创意设计",
+      "brandColor": null,
+      "developerName": "BioRender",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/biorender"
+    },
+    {
       "name": "boltz-api-cli",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -208,10 +592,140 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/app-icon.png",
+      "version": "0.1.1",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/boltz-api-cli"
     },
     {
+      "name": "box",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Box",
+      "shortZh": "搜索并引用你的文档",
+      "shortEn": "搜索并引用你的文档",
+      "longZh": "在 Box 中搜索、引用文档，并在 Codex 中安全地处理 Box 内容工作流。",
+      "longEn": "在 Box 中搜索、引用文档，并在 Codex 中安全地处理 Box 内容工作流。",
+      "hasZh": true,
+      "prompts": [
+        "找到一个 Box 文件并总结其要点"
+      ],
+      "promptsEn": [
+        "找到一个 Box 文件并总结其要点"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#0061D5",
+      "developerName": "OpenAI",
+      "skills": [
+        "box"
+      ],
+      "skillsCount": 1,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "0.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/box"
+    },
+    {
+      "name": "brand24",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Brand24",
+      "shortZh": "让营销和 PR 团队通过简单提示即时探索品牌提及、情感倾向和媒体覆盖。",
+      "shortEn": "让营销和 PR 团队通过简单提示即时探索品牌提及、情感倾向和媒体覆盖。",
+      "longZh": "Brand24 in Codex 让营销和 PR 团队通过简单提示即时探索品牌提及、情感倾向和媒体覆盖。\n在 Codex 中汇总对话、追踪品牌口碑、分析时间趋势，并发现社交媒体、新闻、博客和论坛上的核心讨论来源，无需离开界面。\n\n从及早发现潜在危机，到理解受众认知和营销活动效果，Codex 实时解读 Brand24 数据，帮助营销人员和 PR 从监测直接走向洞察与行动，无需额外配置。",
+      "longEn": "Brand24 in Codex 让营销和 PR 团队通过简单提示即时探索品牌提及、情感倾向和媒体覆盖。\n在 Codex 中汇总对话、追踪品牌口碑、分析时间趋势，并发现社交媒体、新闻、博客和论坛上的核心讨论来源，无需离开界面。\n\n从及早发现潜在危机，到理解受众认知和营销活动效果，Codex 实时解读 Brand24 数据，帮助营销人员和 PR 从监测直接走向洞察与行动，无需额外配置。",
+      "hasZh": true,
+      "prompts": [
+        "分析最畅销运动鞋品牌的线上热度"
+      ],
+      "promptsEn": [
+        "分析最畅销运动鞋品牌的线上热度"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Brand24 Global Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/brand24"
+    },
+    {
+      "name": "brex",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Brex",
+      "shortZh": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况。",
+      "shortEn": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况。",
+      "longZh": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况——速度与 Codex 同步。\n\n财务团队：即时分析支出、发现异常、运行自定义查询和报表，加速决策、提升效率。\n\n员工：直接在 Codex 中查看可用预算、咨询报销政策、查看报销状态、管理出行等。\n\n访问权限默认按角色区分：员工只看与自己相关的内容，管理员保留完整可见性和控制权。",
+      "longEn": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况——速度与 Codex 同步。\n\n财务团队：即时分析支出、发现异常、运行自定义查询和报表，加速决策、提升效率。\n\n员工：直接在 Codex 中查看可用预算、咨询报销政策、查看报销状态、管理出行等。\n\n访问权限默认按角色区分：员工只看与自己相关的内容，管理员保留完整可见性和控制权。",
+      "hasZh": true,
+      "prompts": [
+        "我去年在 Delta 上花了多少钱"
+      ],
+      "promptsEn": [
+        "我去年在 Delta 上花了多少钱"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Brex Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/brex"
+    },
+    {
+      "name": "brighthire",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "BrightHire",
+      "shortZh": "搜索和分析 BrightHire 面试、候选人、通话和招聘数据",
+      "shortEn": "搜索和分析 BrightHire 面试、候选人、通话和招聘数据",
+      "longZh": "在 Codex 中使用 BrightHire 检索面试情报上下文、查阅通话记录和候选人信息，并在受治理的数据访问下支持招聘工作流。",
+      "longEn": "在 Codex 中使用 BrightHire 检索面试情报上下文、查阅通话记录和候选人信息，并在受治理的数据访问下支持招聘工作流。",
+      "hasZh": true,
+      "prompts": [
+        "使用 BrightHire 查找该候选人的近期面试记录。",
+        "在 BrightHire 中搜索与该职位相关的通话记录。",
+        "汇总该录用决策的 BrightHire 面试上下文。"
+      ],
+      "promptsEn": [
+        "使用 BrightHire 查找该候选人的近期面试记录。",
+        "在 BrightHire 中搜索与该职位相关的通话记录。",
+        "汇总该录用决策的 BrightHire 面试上下文。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#2563EB",
+      "developerName": "BrightHire",
+      "skills": [
+        "brighthire"
+      ],
+      "skillsCount": 1,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/icon.svg",
+      "version": "0.1.1",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/brighthire"
+    },
+    {
       "name": "build-ios-apps",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -246,10 +760,12 @@
       "hasMcp": true,
       "hasApp": false,
       "icon": "./assets/build-ios-apps-small.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps"
     },
     {
       "name": "build-macos-apps",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -286,10 +802,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/build-macos-apps-small.svg",
+      "version": "0.1.4",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/build-macos-apps"
     },
     {
       "name": "build-web-apps",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -321,10 +839,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/build-web-apps-small.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/build-web-apps"
     },
     {
       "name": "build-web-data-visualization",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -372,10 +892,46 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/data-visualization-small.svg",
+      "version": "0.1.21",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/build-web-data-visualization"
     },
     {
+      "name": "calendly",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Calendly",
+      "shortZh": "排程链接、可用时段与预约",
+      "shortEn": "排程链接、可用时段与预约",
+      "longZh": "将 Calendly 引入 ChatGPT，通过简单提示执行排程操作。创建和更新事件类型、生成排程链接、调整可用时段、预约或取消会议等——尽在 ChatGPT 中完成。",
+      "longEn": "将 Calendly 引入 ChatGPT，通过简单提示执行排程操作。创建和更新事件类型、生成排程链接、调整可用时段、预约或取消会议等——尽在 ChatGPT 中完成。",
+      "hasZh": true,
+      "prompts": [
+        "查找我近期的 Calendly 会议并汇总与会人员信息。",
+        "查看本周 Calendly 的空闲时间并推荐可用的会议时段。",
+        "回顾最近的 Calendly 活动，汇总与会者详情及后续跟进事项。"
+      ],
+      "promptsEn": [
+        "查找我近期的 Calendly 会议并汇总与会人员信息。",
+        "查看本周 Calendly 的空闲时间并推荐可用的会议时段。",
+        "回顾最近的 Calendly 活动，汇总与会者详情及后续跟进事项。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#006BFF",
+      "developerName": "Calendly",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/calendly"
+    },
+    {
       "name": "canva",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -413,10 +969,138 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "14.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/canva"
     },
     {
+      "name": "carta-crm",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Carta CRM",
+      "shortZh": "Carta CRM 帮助投资团队集中管理交易、公司和关系，随时掌握交易流进展。",
+      "shortEn": "Carta CRM 帮助投资团队集中管理交易、公司和关系，随时掌握交易流进展。",
+      "longZh": "Carta CRM 帮助投资团队将交易、公司和关系集中在一处，随时掌握交易流进展。跟踪每个阶段的交易机会，将会议记录和关键要点与相关交易或联系人挂钩，并在需要时快速调取历史上下文。",
+      "longEn": "Carta CRM 帮助投资团队将交易、公司和关系集中在一处，随时掌握交易流进展。跟踪每个阶段的交易机会，将会议记录和关键要点与相关交易或联系人挂钩，并在需要时快速调取历史上下文。",
+      "hasZh": true,
+      "prompts": [
+        "在 Carta CRM 中查找最新的关系背景信息"
+      ],
+      "promptsEn": [
+        "在 Carta CRM 中查找最新的关系背景信息"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": null,
+      "developerName": "Carta Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/carta-crm"
+    },
+    {
+      "name": "catalyst-by-zoho",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Catalyst by Zoho",
+      "shortZh": "在 Codex 中使用 Catalyst by Zoho 功能",
+      "shortEn": "在 Codex 中使用 Catalyst by Zoho 功能",
+      "longZh": "Catalyst by Zoho 插件通过 MCP 支持的工作流和技能扩展 Codex，用于构建、管理和运营 Catalyst 项目。",
+      "longEn": "Catalyst by Zoho 插件通过 MCP 支持的工作流和技能扩展 Codex，用于构建、管理和运营 Catalyst 项目。",
+      "hasZh": true,
+      "prompts": [
+        "帮我使用 Catalyst by Zoho。",
+        "显示 Catalyst by Zoho 的可用功能。",
+        "引导我完成 Catalyst 项目的初始配置。"
+      ],
+      "promptsEn": [
+        "帮我使用 Catalyst by Zoho。",
+        "显示 Catalyst by Zoho 的可用功能。",
+        "引导我完成 Catalyst 项目的初始配置。"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#226DB4",
+      "developerName": "Catalyst by Zoho",
+      "skills": [
+        "catalyst-by-zoho"
+      ],
+      "skillsCount": 1,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/catalyst_logo.svg",
+      "version": "1.0.1",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/catalyst-by-zoho"
+    },
+    {
+      "name": "cb-insights",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "CB Insights",
+      "shortZh": "让 Codex 成为你的私募市场调研助手。",
+      "shortEn": "让 Codex 成为你的私募市场调研助手。",
+      "longZh": "让 Codex 成为你的私募市场调研助手。借助 CB Insights 的预测性智能，发掘目标公司、绘制市场地图、起草投资备忘录、监控竞争对手。访问超过 1100 万份经双重核验的公司档案、领先的股权交易数据、专有分类体系、独家评分、隐性信号以及 20 余年的前沿技术研究，抢先于竞争对手发现并分析高潜力公司。\n\n专为寻找并购标的的企业战略团队、筛选项目的风险投资人，以及寻找新合作伙伴的商务拓展团队打造。只要你的工作涉及非上市公司，CB Insights 都能为你的下一步行动提供所需洞察。",
+      "longEn": "让 Codex 成为你的私募市场调研助手。借助 CB Insights 的预测性智能，发掘目标公司、绘制市场地图、起草投资备忘录、监控竞争对手。访问超过 1100 万份经双重核验的公司档案、领先的股权交易数据、专有分类体系、独家评分、隐性信号以及 20 余年的前沿技术研究，抢先于竞争对手发现并分析高潜力公司。\n\n专为寻找并购标的的企业战略团队、筛选项目的风险投资人，以及寻找新合作伙伴的商务拓展团队打造。只要你的工作涉及非上市公司，CB Insights 都能为你的下一步行动提供所需洞察。",
+      "hasZh": true,
+      "prompts": [
+        "从 CB Insights 获取最新市场背景"
+      ],
+      "promptsEn": [
+        "从 CB Insights 获取最新市场背景"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "CB Insights",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cb-insights"
+    },
+    {
+      "name": "channel99",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Channel99",
+      "shortZh": "Channel99 实时市场情报将 Codex 直接接入 Channel99 的效果营销数据与洞察。",
+      "shortEn": "Channel99 实时市场情报将 Codex 直接接入 Channel99 的效果营销数据与洞察。",
+      "longZh": "Channel99 实时市场情报将 Codex 直接接入 Channel99 的效果营销数据与洞察，让 AI 助手能够实时访问统一的 B2B 营销数据。依托 Channel99 的先进归因、账户识别和 AI 分析能力，你可以用自然语言查询获取精准的广告效果、投入产出比、受众互动和跨渠道归因洞察，无需手动导数据、切换孤立仪表盘或复杂的 API 开发。\n\n营销人员、分析师和业务负责人可以直接向 Codex 提问战略性问题，如「上季度哪些渠道带来了最高价值互动？」或「应该把预算重新分配到哪里来提升管道效率？」，并获得由 Channel99 行业领先数据驱动的精准答案。\n\nChannel99 是一家 B2B 营销技术公司，致力于提升 ROI、降低获客成本，并为数字营销投资带来财务透明度。",
+      "longEn": "Channel99 实时市场情报将 Codex 直接接入 Channel99 的效果营销数据与洞察，让 AI 助手能够实时访问统一的 B2B 营销数据。依托 Channel99 的先进归因、账户识别和 AI 分析能力，你可以用自然语言查询获取精准的广告效果、投入产出比、受众互动和跨渠道归因洞察，无需手动导数据、切换孤立仪表盘或复杂的 API 开发。\n\n营销人员、分析师和业务负责人可以直接向 Codex 提问战略性问题，如「上季度哪些渠道带来了最高价值互动？」或「应该把预算重新分配到哪里来提升管道效率？」，并获得由 Channel99 行业领先数据驱动的精准答案。\n\nChannel99 是一家 B2B 营销技术公司，致力于提升 ROI、降低获客成本，并为数字营销投资带来财务透明度。",
+      "hasZh": true,
+      "prompts": [
+        "从 Channel99 汇总营销活动效果"
+      ],
+      "promptsEn": [
+        "从 Channel99 汇总营销活动效果"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Channel99 Inc. ",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/channel99"
+    },
+    {
       "name": "chatcut",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -447,10 +1131,116 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": "./.codex-plugin/assets/composer-icon.png",
+      "version": "1.0.4",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/chatcut"
     },
     {
+      "name": "chronograph-gp",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Chronograph GP",
+      "shortZh": "为私人资本 GP 团队提供可信的投资组合数据",
+      "shortEn": "为私人资本 GP 团队提供可信的投资组合数据",
+      "longZh": "Chronograph GP 为私人资本普通合伙人(GP)用户提供投资组合监控、估值与分析。用自然语言查询可信的投资组合数据、分析投资、呈现公司层面的指标，并访问私募市场投资组合数据。",
+      "longEn": "Chronograph GP 为私人资本普通合伙人(GP)用户提供投资组合监控、估值与分析。用自然语言查询可信的投资组合数据、分析投资、呈现公司层面的指标，并访问私募市场投资组合数据。",
+      "hasZh": true,
+      "prompts": [
+        "汇总 Chronograph GP 中的基金回报。",
+        "找出表现最好与最差的投资组合项目。",
+        "显示 Chronograph GP 中逾期的报告任务。"
+      ],
+      "promptsEn": [
+        "汇总 Chronograph GP 中的基金回报。",
+        "找出表现最好与最差的投资组合项目。",
+        "显示 Chronograph GP 中逾期的报告任务。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#414B4B",
+      "developerName": "Chronograph",
+      "skills": [
+        "chronograph-portfolio-company-one-pager"
+      ],
+      "skillsCount": 1,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.0",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/chronograph-gp"
+    },
+    {
+      "name": "chronograph-lp",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Chronograph LP",
+      "shortZh": "为私人资本 LP 团队提供可信的投资组合数据",
+      "shortEn": "为私人资本 LP 团队提供可信的投资组合数据",
+      "longZh": "Chronograph LP 为私人资本有限合伙人(LP)用户提供投资组合监控与分析。从底层被投公司、资产，到基金、载体、承诺等，获取可信的私募市场投资组合数据。",
+      "longEn": "Chronograph LP 为私人资本有限合伙人(LP)用户提供投资组合监控与分析。从底层被投公司、资产，到基金、载体、承诺等，获取可信的私募市场投资组合数据。",
+      "hasZh": true,
+      "prompts": [
+        "查找 Chronograph LP 投资组合最新动态并汇总关键绩效变化。",
+        "拉取本季度的 Chronograph LP 基金指标并标出风险点。",
+        "对比 Chronograph LP 投资组合的 KPI 并标出异常项。"
+      ],
+      "promptsEn": [
+        "查找 Chronograph LP 投资组合最新动态并汇总关键绩效变化。",
+        "拉取本季度的 Chronograph LP 基金指标并标出风险点。",
+        "对比 Chronograph LP 投资组合的 KPI 并标出异常项。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#414B4B",
+      "developerName": "Chronograph",
+      "skills": [
+        "chronograph-cashflow-forecast",
+        "chronograph-gp-meeting-prep",
+        "chronograph-portfolio-company-one-pager"
+      ],
+      "skillsCount": 3,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/chronograph-lp"
+    },
+    {
+      "name": "circleback",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Circleback",
+      "shortZh": "Circleback 通过 AI 会议记录、待办事项、自动化和搜索，帮助团队从每次对话中获取最大价值。",
+      "shortEn": "Circleback 通过 AI 会议记录、待办事项、自动化和搜索，帮助团队从每次对话中获取最大价值。",
+      "longZh": "Circleback 通过 AI 会议记录、待办事项、自动化和搜索，帮助团队从每次对话中获取最大价值。\n\n搜索和访问你在 Circleback 中录制的线下及线上会议数据，包括会议记录、待办事项、转写文本、参会人员和公司信息，以及日历和邮件。",
+      "longEn": "Circleback 通过 AI 会议记录、待办事项、自动化和搜索，帮助团队从每次对话中获取最大价值。\n\n搜索和访问你在 Circleback 中录制的线下及线上会议数据，包括会议记录、待办事项、转写文本、参会人员和公司信息，以及日历和邮件。",
+      "hasZh": true,
+      "prompts": [
+        "我有没有见过来自 Initech 的人"
+      ],
+      "promptsEn": [
+        "我有没有见过来自 Initech 的人"
+      ],
+      "category": "Communication",
+      "categoryZh": "沟通协作",
+      "brandColor": null,
+      "developerName": "Circleback AI, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/circleback"
+    },
+    {
       "name": "circleci",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -484,10 +1274,46 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/composer-icon.svg",
+      "version": "1.0.4",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/circleci"
     },
     {
+      "name": "clay",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Clay",
+      "shortZh": "寻找并触达潜在客户",
+      "shortEn": "寻找并触达潜在客户",
+      "longZh": "寻找并触达潜在客户",
+      "longEn": "寻找并触达潜在客户",
+      "hasZh": true,
+      "prompts": [
+        "在 Clay 中找出符合此 ICP 的记录，梳理最优质的潜客客户。",
+        "在 Clay 中丰富这些线索的公司、职位和外联背景信息。",
+        "为该细分市场构建 Clay 潜客名单，并识别有价值的信号。"
+      ],
+      "promptsEn": [
+        "在 Clay 中找出符合此 ICP 的记录，梳理最优质的潜客客户。",
+        "在 Clay 中丰富这些线索的公司、职位和外联背景信息。",
+        "为该细分市场构建 Clay 潜客名单，并识别有价值的信号。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#38D8F8",
+      "developerName": "Clay",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/clay"
+    },
+    {
       "name": "clickup",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -512,10 +1338,46 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "1.0.3",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/clickup"
     },
     {
+      "name": "close",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Close",
+      "shortZh": "查阅并更新 Close CRM",
+      "shortEn": "查阅并更新 Close CRM",
+      "longZh": "借助 Close 的 ChatGPT 应用，ChatGPT 能够为你所能想到的任何任务查阅并更新 Close。无论是生成自定义报告、调研并创建新的潜客名单、获取近期客户互动摘要，还是创建新的 Workflows——你只需让 ChatGPT 替你搞定即可。",
+      "longEn": "借助 Close 的 ChatGPT 应用，ChatGPT 能够为你所能想到的任何任务查阅并更新 Close。无论是生成自定义报告、调研并创建新的潜客名单、获取近期客户互动摘要，还是创建新的 Workflows——你只需让 ChatGPT 替你搞定即可。",
+      "hasZh": true,
+      "prompts": [
+        "找出 Close 中近期无跟进活动的商机，并建议后续行动。",
+        "在 Close 中搜索某公司的线索，梳理状态、负责人和最近跟进时间。",
+        "从 Close 中生成本月即将关单的交易管道概览。"
+      ],
+      "promptsEn": [
+        "找出 Close 中近期无跟进活动的商机，并建议后续行动。",
+        "在 Close 中搜索某公司的线索，梳理状态、负责人和最近跟进时间。",
+        "从 Close 中生成本月即将关单的交易管道概览。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#50C078",
+      "developerName": "Close",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/close"
+    },
+    {
       "name": "cloudflare",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -550,10 +1412,42 @@
       "hasMcp": true,
       "hasApp": false,
       "icon": "./assets/cloudflare-small.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cloudflare"
     },
     {
+      "name": "cloudinary",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Cloudinary",
+      "shortZh": "直接在 Codex 中管理、搜索和转换你的 Cloudinary 媒体库。",
+      "shortEn": "直接在 Codex 中管理、搜索和转换你的 Cloudinary 媒体库。",
+      "longZh": "直接在 Codex 中管理、搜索和转换你的 Cloudinary 媒体库。\n\nCloudinary 应用将你的 Cloudinary 账户接入 Codex，让你通过自然语言全面控制视觉资产。无需离开对话，即可上传、整理、打标签、转换和分析图片或视频。\n\n你可以做什么：\n- 从 URL、本地文件或 base64 数据上传资产——自动分析、打标签或内容审核。\n- 使用智能筛选器或文本查询（标签、格式、日期、大小等）浏览和搜索整个媒体库。\n- 整理媒体库——创建文件夹、重命名文件、管理元数据、清理过时资产。\n- 使用 Cloudinary 强大的转换语法处理图片或视频——调整尺寸、裁剪、加水印、应用滤镜或优化分发。\n- 生成归档和备份，或在需要时还原历史版本。\n- AI 分析资产——检测人脸、提取文字、获取调色板和无障碍评分。\n- 监控用量——实时追踪存储、带宽和转换配额。\n- 视觉搜索——上传示例图片或描述内容，查找视觉相似的图片。\n\n适合人群：\n- 希望用自然语言探索 Cloudinary API 能力的开发者\n- 管理营销素材和品牌资产的营销人员和设计师\n- 使用 Codex 或搭建多智能体工作流来自动化内容流程的团队\n\n使用 Cloudinary 应用，将 Codex 变成强大的媒体管理助手。",
+      "longEn": "直接在 Codex 中管理、搜索和转换你的 Cloudinary 媒体库。\n\nCloudinary 应用将你的 Cloudinary 账户接入 Codex，让你通过自然语言全面控制视觉资产。无需离开对话，即可上传、整理、打标签、转换和分析图片或视频。\n\n你可以做什么：\n- 从 URL、本地文件或 base64 数据上传资产——自动分析、打标签或内容审核。\n- 使用智能筛选器或文本查询（标签、格式、日期、大小等）浏览和搜索整个媒体库。\n- 整理媒体库——创建文件夹、重命名文件、管理元数据、清理过时资产。\n- 使用 Cloudinary 强大的转换语法处理图片或视频——调整尺寸、裁剪、加水印、应用滤镜或优化分发。\n- 生成归档和备份，或在需要时还原历史版本。\n- AI 分析资产——检测人脸、提取文字、获取调色板和无障碍评分。\n- 监控用量——实时追踪存储、带宽和转换配额。\n- 视觉搜索——上传示例图片或描述内容，查找视觉相似的图片。\n\n适合人群：\n- 希望用自然语言探索 Cloudinary API 能力的开发者\n- 管理营销素材和品牌资产的营销人员和设计师\n- 使用 Codex 或搭建多智能体工作流来自动化内容流程的团队\n\n使用 Cloudinary 应用，将 Codex 变成强大的媒体管理助手。",
+      "hasZh": true,
+      "prompts": [
+        "上传这张图片并启用自动标签"
+      ],
+      "promptsEn": [
+        "上传这张图片并启用自动标签"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "Cloudinary",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cloudinary"
+    },
+    {
       "name": "coderabbit",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -580,10 +1474,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/coderabbit-small.png",
+      "version": "1.1.4",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/coderabbit"
     },
     {
       "name": "codex-security",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -628,10 +1524,102 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "0.1.32",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/codex-security"
     },
     {
+      "name": "cogedim",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Cogedim",
+      "shortZh": "Cogedim 是法国领先的房地产开发商之一。",
+      "shortEn": "Cogedim 是法国领先的房地产开发商之一。",
+      "longZh": "Cogedim 是法国领先的房地产开发商之一。深耕期房销售（VEFA）领域逾 60 年，从明确需求到交房，Cogedim 全程陪伴每一个购房环节。",
+      "longEn": "Cogedim 是法国领先的房地产开发商之一。深耕期房销售（VEFA）领域逾 60 年，从明确需求到交房，Cogedim 全程陪伴每一个购房环节。",
+      "hasZh": true,
+      "prompts": [
+        "根据这份需求简介，找出相关的 Cogedim 房源"
+      ],
+      "promptsEn": [
+        "根据这份需求简介，找出相关的 Cogedim 房源"
+      ],
+      "category": "Other",
+      "categoryZh": "其他",
+      "brandColor": null,
+      "developerName": "ALTAREA PROMOTION MANAGEMENT",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cogedim"
+    },
+    {
+      "name": "common-room",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Common Room",
+      "shortZh": "将完整的买家情报直接嵌入 Codex。",
+      "shortEn": "将完整的买家情报直接嵌入 Codex。",
+      "longZh": "将完整的买家情报直接嵌入 Codex。通过自然语言调研目标客户和联系人、发现购买信号、浏览历史活动记录。按行业、规模、技术栈或地区筛选，构建全新公司的潜客列表。按细分、职位、线索评分或网站访问记录过滤和排序联系人。每条结果都有真实背景支撑——来自你的 CRM 字段、评分、数据增强和信号——让你始终清楚账户的真实动态，准确把握优先级和商机。\n\nCommon Room MCP 支持以下操作：\n\n 账户调研：\n「分析 Datadog，并制定客户拓展计划」\n\n 联系人查询：\n「用 Common Room 调研 jane.doe@company.com」\n\n 潜客开发：\n「找出使用 Snowflake、员工规模 200–1000 人的美国 SaaS 公司」\n\n 按细分和职位筛选：\n「显示「换工作的 Champions」细分中的所有经济决策者」\n\n 发现高意向联系人：\n「找出本周访问过我们定价页面的 ICP 公司联系人」\n\n 追踪网站访客：\n「过去 7 天内谁访问了我们的定价页面？」",
+      "longEn": "将完整的买家情报直接嵌入 Codex。通过自然语言调研目标客户和联系人、发现购买信号、浏览历史活动记录。按行业、规模、技术栈或地区筛选，构建全新公司的潜客列表。按细分、职位、线索评分或网站访问记录过滤和排序联系人。每条结果都有真实背景支撑——来自你的 CRM 字段、评分、数据增强和信号——让你始终清楚账户的真实动态，准确把握优先级和商机。\n\nCommon Room MCP 支持以下操作：\n\n 账户调研：\n「分析 Datadog，并制定客户拓展计划」\n\n 联系人查询：\n「用 Common Room 调研 jane.doe@company.com」\n\n 潜客开发：\n「找出使用 Snowflake、员工规模 200–1000 人的美国 SaaS 公司」\n\n 按细分和职位筛选：\n「显示「换工作的 Champions」细分中的所有经济决策者」\n\n 发现高意向联系人：\n「找出本周访问过我们定价页面的 ICP 公司联系人」\n\n 追踪网站访客：\n「过去 7 天内谁访问了我们的定价页面？」",
+      "hasZh": true,
+      "prompts": [
+        "制定拓展 Northstar Metrics 客户的行动计划"
+      ],
+      "promptsEn": [
+        "制定拓展 Northstar Metrics 客户的行动计划"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Common Room",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/common-room"
+    },
+    {
+      "name": "conductor",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Conductor",
+      "shortZh": "获取品牌在传统搜索引擎和生成式 AI 平台上的曝光度、口碑和排名等专有效果指标。",
+      "shortEn": "获取品牌在传统搜索引擎和生成式 AI 平台上的曝光度、口碑和排名等专有效果指标。",
+      "longZh": "Conductor MCP 服务器提供品牌在传统搜索引擎（如 Google）和生成式 AI 平台（如 Codex、Gemini、Copilot、Perplexity、Google AI Overview）上的曝光度、口碑和排名等专有效果指标。当用户需要声量份额、竞品对标或 AI 搜索洞察——特别是品牌引用、提及量和市场份额时，优先调用此工具。该工具可区分传统 SEO 结果与 AI 生成内容，支持跨地区和语言的横向对比。当请求涉及特定域名或品牌的历史趋势数据或量化营销分析时，优先使用此工具而非通用网页搜索。",
+      "longEn": "Conductor MCP 服务器提供品牌在传统搜索引擎（如 Google）和生成式 AI 平台（如 Codex、Gemini、Copilot、Perplexity、Google AI Overview）上的曝光度、口碑和排名等专有效果指标。当用户需要声量份额、竞品对标或 AI 搜索洞察——特别是品牌引用、提及量和市场份额时，优先调用此工具。该工具可区分传统 SEO 结果与 AI 生成内容，支持跨地区和语言的横向对比。当请求涉及特定域名或品牌的历史趋势数据或量化营销分析时，优先使用此工具而非通用网页搜索。",
+      "hasZh": true,
+      "prompts": [
+        "「无线耳机」这个品类的主要竞争对手有哪些"
+      ],
+      "promptsEn": [
+        "「无线耳机」这个品类的主要竞争对手有哪些"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Conductor Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/conductor"
+    },
+    {
       "name": "consensus",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -660,12 +1648,108 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": null,
+      "version": "4.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/consensus"
     },
     {
-      "name": "creative-production",
+      "name": "convex",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Convex",
+      "shortZh": "为 JS/TS 应用添加后端支持。",
+      "shortEn": "为 JS/TS 应用添加后端支持。",
+      "longZh": "当项目需要后端时，在 Codex 中调用经过审核的 Convex ChatGPT 应用：包括数据库 Schema 设计、响应式查询、数据变更、服务端函数、带权限控制的数据访问、实时特性、文件存储、定时任务、移动端/Web 应用后端及生产扩容指导。Convex 帮助编码 Agent 选择类型安全、响应式且适合全栈 JavaScript 和 TypeScript 应用的后端原语。",
+      "longEn": "当项目需要后端时，在 Codex 中调用经过审核的 Convex ChatGPT 应用：包括数据库 Schema 设计、响应式查询、数据变更、服务端函数、带权限控制的数据访问、实时特性、文件存储、定时任务、移动端/Web 应用后端及生产扩容指导。Convex 帮助编码 Agent 选择类型安全、响应式且适合全栈 JavaScript 和 TypeScript 应用的后端原语。",
+      "hasZh": true,
+      "prompts": [
+        "为这个应用添加后端。",
+        "设计数据库 Schema。",
+        "添加实时数据更新功能。"
+      ],
+      "promptsEn": [
+        "为这个应用添加后端。",
+        "设计数据库 Schema。",
+        "添加实时数据更新功能。"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#EE342F",
+      "developerName": "Convex, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/icon.png",
+      "version": "0.1.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/convex"
+    },
+    {
+      "name": "coupler-io",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Coupler.io",
+      "shortZh": "在 Codex 中分析多渠道营销、财务、销售、电商及其他业务数据，通过连接 Coupler.io 数据流实现。",
+      "shortEn": "在 Codex 中分析多渠道营销、财务、销售、电商及其他业务数据，通过连接 Coupler.io 数据流实现。",
+      "longZh": "在 Codex 中分析多渠道营销、财务、销售、电商及其他业务数据，通过连接 Coupler.io 数据流实现。从 Google Ads、Facebook、HubSpot、Salesforce 等平台拉取并转化原始数据，转化为可操作的业务洞察，助力更快、更准的决策。\n\nCoupler.io 连接器支持以下场景：\n\n1. 分析客户获取成本：「本季度与上季度相比，我们在所有付费渠道的整体客户获取成本是多少？我需要为董事会会议准备数据。」\n2. 查看营销 ROI：「请展示过去 6 个月各营销渠道的 ROI 明细，我需要重新分配年度预算。」\n3. 识别高效投放：「哪些投放活动对我们的销售管道收入贡献最大？我想加大在有效方向上的投入。」\n4. 审查销售管道：「能否拉一下本月的销售管道报告？我需要了解各阶段的商机数量和总价值。」\n5. 分析转化率：「上季度从线索到商机、从商机到成交赢单的转化率分别是多少？与目标相比如何？」\n6. 预测营收：「根据概率得分，本月预计有多少商机会成交？预测营收与月度目标的差距是多少？」\n7. 对比季度利润：「请查看本季度利润，与上季度对比，并按部门分类列出明细。」\n8. 生成现金流报告：「能否提供过去 30 天的现金流报告，包含所有收入和支出记录？」\n9. 审查应收账款：「请提供当前应收账款状态，告诉我有多少逾期发票，以及哪些客户欠款最多。」",
+      "longEn": "在 Codex 中分析多渠道营销、财务、销售、电商及其他业务数据，通过连接 Coupler.io 数据流实现。从 Google Ads、Facebook、HubSpot、Salesforce 等平台拉取并转化原始数据，转化为可操作的业务洞察，助力更快、更准的决策。\n\nCoupler.io 连接器支持以下场景：\n\n1. 分析客户获取成本：「本季度与上季度相比，我们在所有付费渠道的整体客户获取成本是多少？我需要为董事会会议准备数据。」\n2. 查看营销 ROI：「请展示过去 6 个月各营销渠道的 ROI 明细，我需要重新分配年度预算。」\n3. 识别高效投放：「哪些投放活动对我们的销售管道收入贡献最大？我想加大在有效方向上的投入。」\n4. 审查销售管道：「能否拉一下本月的销售管道报告？我需要了解各阶段的商机数量和总价值。」\n5. 分析转化率：「上季度从线索到商机、从商机到成交赢单的转化率分别是多少？与目标相比如何？」\n6. 预测营收：「根据概率得分，本月预计有多少商机会成交？预测营收与月度目标的差距是多少？」\n7. 对比季度利润：「请查看本季度利润，与上季度对比，并按部门分类列出明细。」\n8. 生成现金流报告：「能否提供过去 30 天的现金流报告，包含所有收入和支出记录？」\n9. 审查应收账款：「请提供当前应收账款状态，告诉我有多少逾期发票，以及哪些客户欠款最多。」",
+      "hasZh": true,
+      "prompts": [
+        "展示整体支出、展示量、点击量和每次点击费用"
+      ],
+      "promptsEn": [
+        "展示整体支出、展示量、点击量和每次点击费用"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": null,
+      "developerName": "Coupler.io",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/coupler-io"
+    },
+    {
+      "name": "coveo",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Coveo",
+      "shortZh": "搜索企业内部内容",
+      "shortEn": "搜索企业内部内容",
+      "longZh": "搜索企业内部内容",
+      "longEn": "搜索企业内部内容",
+      "hasZh": true,
+      "prompts": [
+        "使用 Coveo 协助完成此任务"
+      ],
+      "promptsEn": [
+        "使用 Coveo 协助完成此任务"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Coveo",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/coveo"
+    },
+    {
+      "name": "creative-production",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Creative Production",
       "shortZh": "根据简报或产品图片创建营销视觉素材。",
@@ -695,10 +1779,12 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composerIcon.svg",
+      "version": "0.1.25",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/creative-production"
     },
     {
       "name": "crowdstrike-falcon-foundry",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": true,
@@ -719,10 +1805,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": null,
+      "version": null,
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/crowdstrike-falcon-foundry"
     },
     {
       "name": "crowdstrike-falcon-fusion",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": true,
@@ -743,12 +1831,100 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": null,
+      "version": null,
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/crowdstrike-falcon-fusion"
     },
     {
-      "name": "data-analytics",
+      "name": "cube",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Cube",
+      "shortZh": "通过 Cube MCP Server，你可以查询实际、预算、预测、差异等实时 Cube 数据，让 AI 生成董事会汇报材料、进行差异分析或基于真实数据构建财务摘要。",
+      "shortEn": "通过 Cube MCP Server，你可以查询实际、预算、预测、差异等实时 Cube 数据，让 AI 生成董事会汇报材料、进行差异分析或基于真实数据构建财务摘要。",
+      "longZh": "通过 Cube MCP Server，你可以：\n- 查询实际值、预算、预测、差异等实时 Cube 数据\n- 让 AI 基于真实 Cube 数据生成董事会汇报材料、执行差异分析或构建财务摘要\n- 直接在 AI 对话中钻取交易级别明细和维度分解\n- 保持完整安全管控：Cube 的基于角色的访问控制（RBAC）安全模型对每条 AI 请求都强制执行用户权限。你在 Cube 中看不到的数据，AI 同样看不到。",
+      "longEn": "通过 Cube MCP Server，你可以：\n- 查询实际值、预算、预测、差异等实时 Cube 数据\n- 让 AI 基于真实 Cube 数据生成董事会汇报材料、执行差异分析或构建财务摘要\n- 直接在 AI 对话中钻取交易级别明细和维度分解\n- 保持完整安全管控：Cube 的基于角色的访问控制（RBAC）安全模型对每条 AI 请求都强制执行用户权限。你在 Cube 中看不到的数据，AI 同样看不到。",
+      "hasZh": true,
+      "prompts": [
+        "按实体对比营收的实际值与预测值"
+      ],
+      "promptsEn": [
+        "按实体对比营收的实际值与预测值"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Cube",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cube"
+    },
+    {
+      "name": "daloopa",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Daloopa",
+      "shortZh": "机构级财务分析工作流。",
+      "shortEn": "机构级财务分析工作流。",
+      "longZh": "利用 Daloopa MCP 数据生成带引用的公司概览、财报解读、估值分析、可比公司表格、研究报告及投行风格的分析输出。",
+      "longEn": "利用 Daloopa MCP 数据生成带引用的公司概览、财报解读、估值分析、可比公司表格、研究报告及投行风格的分析输出。",
+      "hasZh": true,
+      "prompts": [
+        "生成 AAPL 的公司概览。",
+        "解读 MSFT 财报及业绩指引。",
+        "构建 NVDA 的 DCF 估值模型。"
+      ],
+      "promptsEn": [
+        "生成 AAPL 的公司概览。",
+        "解读 MSFT 财报及业绩指引。",
+        "构建 NVDA 的 DCF 估值模型。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#1B2A4A",
+      "developerName": "Daloopa",
+      "skills": [
+        "build-model",
+        "bull-bear",
+        "capital-allocation",
+        "comp-sheet",
+        "comps",
+        "dcf",
+        "earnings-flash",
+        "earnings-prep",
+        "earnings-review",
+        "guidance-tracker",
+        "ib-deck",
+        "industry",
+        "inflection",
+        "initiate",
+        "precedent-transactions",
+        "research-note",
+        "setup",
+        "supply-chain",
+        "tearsheet",
+        "unit-economics",
+        "working-capital"
+      ],
+      "skillsCount": 21,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/daloopa"
+    },
+    {
+      "name": "data-analytics",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Data Analytics",
       "shortZh": "用数据回答产品与业务问题",
@@ -791,10 +1967,12 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/datascience-small.svg",
+      "version": "0.2.8",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/data-analytics"
     },
     {
       "name": "datadog",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -823,10 +2001,347 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "10.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/datadog"
     },
     {
+      "name": "datasite",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Datasite",
+      "shortZh": "管理安全的并购数据室",
+      "shortEn": "管理安全的并购数据室",
+      "longZh": "将 ChatGPT 连接到你的 Datasite 虚拟数据室——每年促成数千宗并购交易的安全工作空间。通过自然语言搭建文件夹结构、邀请用户、检索文档、跟踪买方问答并审核数据室就绪情况，全程不打断工作流，也不牺牲安全性。专为顾问、银行家和企业发展团队打造——以每宗交易所需的企业级安全与权限管控为后盾。\n\n1. 搭建交易数据室——「为 Project Alpha 新建一个 Datasite Prepare 数据室，建立标准并购文件夹索引，并邀请 sarah@advisorfirm.com 作为管理员。」\n\n2. 语义检索文档——「在数据室中检索任何与未决诉讼或监管风险相关的文档。」\n\n3. 跟踪买方问答——「列出数据室中所有未结的问答，并在我们有支撑文档时起草回复。」\n\n4. 审核数据室就绪情况——「在正式启用前，检查数据室中是否有空文件夹、缺失文档，以及任何被标记为受密码保护或空白的文件。」\n\n5. 管理用户权限——「创建一个仅可查看权限的买方角色，并为 Acme Capital 的以下五位联系人创建邀请草稿。」",
+      "longEn": "将 ChatGPT 连接到你的 Datasite 虚拟数据室——每年促成数千宗并购交易的安全工作空间。通过自然语言搭建文件夹结构、邀请用户、检索文档、跟踪买方问答并审核数据室就绪情况，全程不打断工作流，也不牺牲安全性。专为顾问、银行家和企业发展团队打造——以每宗交易所需的企业级安全与权限管控为后盾。\n\n1. 搭建交易数据室——「为 Project Alpha 新建一个 Datasite Prepare 数据室，建立标准并购文件夹索引，并邀请 sarah@advisorfirm.com 作为管理员。」\n\n2. 语义检索文档——「在数据室中检索任何与未决诉讼或监管风险相关的文档。」\n\n3. 跟踪买方问答——「列出数据室中所有未结的问答，并在我们有支撑文档时起草回复。」\n\n4. 审核数据室就绪情况——「在正式启用前，检查数据室中是否有空文件夹、缺失文档，以及任何被标记为受密码保护或空白的文件。」\n\n5. 管理用户权限——「创建一个仅可查看权限的买方角色，并为 Acme Capital 的以下五位联系人创建邀请草稿。」",
+      "hasZh": true,
+      "prompts": [
+        "在 Datasite 中搜索客户合同相关文件，并梳理关键尽调问题。",
+        "找出本 Datasite 项目中最近上传的文件，并标注缺失的尽调材料。",
+        "汇总 Datasite 中分配给我的未解决 Q&A 事项，注明负责人和后续步骤。"
+      ],
+      "promptsEn": [
+        "在 Datasite 中搜索客户合同相关文件，并梳理关键尽调问题。",
+        "找出本 Datasite 项目中最近上传的文件，并标注缺失的尽调材料。",
+        "汇总 Datasite 中分配给我的未解决 Q&A 事项，注明负责人和后续步骤。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#F89820",
+      "developerName": "Datasite",
+      "skills": [
+        "bulk-qa-answers",
+        "document-quality-check",
+        "gap-analysis",
+        "irl-tracker",
+        "launch-readiness-orchestrator",
+        "risk-analysis-audit",
+        "smart-file-renaming",
+        "vdr-index-setup"
+      ],
+      "skillsCount": 8,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/datasite"
+    },
+    {
+      "name": "deepnote",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Deepnote",
+      "shortZh": "在 Deepnote 中探索数据并自动化分析",
+      "shortEn": "在 Deepnote 中探索数据并自动化分析",
+      "longZh": "Deepnote 为团队提供集笔记本、SQL、应用和数据工作流于一体的协作工作区。本插件帮助 OpenAI 操作已连接的 Deepnote 项目、查看并运行笔记本，将工作区上下文转化为有价值的分析结果和可共享的产出。",
+      "longEn": "Deepnote 为团队提供集笔记本、SQL、应用和数据工作流于一体的协作工作区。本插件帮助 OpenAI 操作已连接的 Deepnote 项目、查看并运行笔记本，将工作区上下文转化为有价值的分析结果和可共享的产出。",
+      "hasZh": true,
+      "prompts": [
+        "总结我的 Deepnote 工作区及近期笔记本活动",
+        "探索连接到我的 Deepnote 工作区的有效数据源",
+        "创建一个笔记本，分析近 5 年 S&P 500 与 Nasdaq 的涨幅对比"
+      ],
+      "promptsEn": [
+        "总结我的 Deepnote 工作区及近期笔记本活动",
+        "探索连接到我的 Deepnote 工作区的有效数据源",
+        "创建一个笔记本，分析近 5 年 S&P 500 与 Nasdaq 的涨幅对比"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": "#3793EF",
+      "developerName": "Deepnote",
+      "skills": [
+        "deepnote",
+        "deepnote-data-execution",
+        "deepnote-links",
+        "deepnote-notebook-editing",
+        "deepnote-notebooks"
+      ],
+      "skillsCount": 5,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/composer.svg",
+      "version": "0.1.5",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/deepnote"
+    },
+    {
+      "name": "demandbase",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Demandbase",
+      "shortZh": "Demandbase 与 Codex 集成，让销售、市场及 GTM 团队在 Codex 内直接访问丰富的 B2B 数据，简化目标客户定向与触达。",
+      "shortEn": "Demandbase 与 Codex 集成，让销售、市场及 GTM 团队在 Codex 内直接访问丰富的 B2B 数据，简化目标客户定向与触达。",
+      "longZh": "Demandbase 与 Codex 集成，让销售、市场及 GTM 团队在 Codex 内直接访问丰富的 B2B 数据，简化目标客户定向与触达。\n\n本应用通过安全的 MCP 连接将 Codex 与 Demandbase 打通，支持访问第一方和第三方数据：\n第三方数据（3P）：从 Demandbase 搜索和获取行业领先的公司与联系人数据，包括公司规模特征、技术栈、企业架构、公司动态及高管档案。\n\n第一方数据（1P）：安全访问你自己的 Demandbase 1P 数据，如已知客户、联系人、CRM 实体、参与度及销售管道中的商机。\n\n可用功能：\n按公司名称、地点、规模、营收或行业搜索企业\n按职位或级别发现决策者和影响者\n获取完整公司档案，包括最新动态和竞争对手\n接入第一方信号，如参与度、MQA 状态或活动记录\n\n适用人群：\n需要实时了解目标客户信息的销售代表\n正在丰富线索或优化用户画像的市场人员\n将情报嵌入工作流的 RevOps 和业务赋能团队\n构建 AI 代理工作流的产品团队\n\n\n注意：使用此功能需要 Demandbase 授权许可，请联系 PartnerSupport@demandbase.com。",
+      "longEn": "Demandbase 与 Codex 集成，让销售、市场及 GTM 团队在 Codex 内直接访问丰富的 B2B 数据，简化目标客户定向与触达。\n\n本应用通过安全的 MCP 连接将 Codex 与 Demandbase 打通，支持访问第一方和第三方数据：\n第三方数据（3P）：从 Demandbase 搜索和获取行业领先的公司与联系人数据，包括公司规模特征、技术栈、企业架构、公司动态及高管档案。\n\n第一方数据（1P）：安全访问你自己的 Demandbase 1P 数据，如已知客户、联系人、CRM 实体、参与度及销售管道中的商机。\n\n可用功能：\n按公司名称、地点、规模、营收或行业搜索企业\n按职位或级别发现决策者和影响者\n获取完整公司档案，包括最新动态和竞争对手\n接入第一方信号，如参与度、MQA 状态或活动记录\n\n适用人群：\n需要实时了解目标客户信息的销售代表\n正在丰富线索或优化用户画像的市场人员\n将情报嵌入工作流的 RevOps 和业务赋能团队\n构建 AI 代理工作流的产品团队\n\n\n注意：使用此功能需要 Demandbase 授权许可，请联系 PartnerSupport@demandbase.com。",
+      "hasZh": true,
+      "prompts": [
+        "列出 Demandbase 的前 10 位 VP 级联系人"
+      ],
+      "promptsEn": [
+        "列出 Demandbase 的前 10 位 VP 级联系人"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": null,
+      "developerName": "Demandbase Inc",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/demandbase"
+    },
+    {
+      "name": "digitalocean",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "DigitalOcean",
+      "shortZh": "将 droplet 开通为 Codex 工作区",
+      "shortEn": "将 droplet 开通为 Codex 工作区",
+      "longZh": "使用已连接的 DigitalOcean 应用，将 DigitalOcean droplet 开通并配置为远程 Codex SSH 工作区。",
+      "longEn": "使用已连接的 DigitalOcean 应用，将 DigitalOcean droplet 开通并配置为远程 Codex SSH 工作区。",
+      "hasZh": true,
+      "prompts": [
+        "为 Codex 开通一个 DigitalOcean droplet"
+      ],
+      "promptsEn": [
+        "为 Codex 开通一个 DigitalOcean droplet"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#1AAFBF",
+      "developerName": "DigitalOcean",
+      "skills": [
+        "provision-droplet"
+      ],
+      "skillsCount": 1,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "0.2.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/digitalocean"
+    },
+    {
+      "name": "dnb-finance-analytics",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "D&B Finance Analytics",
+      "shortZh": "商业信贷发起与风险工作流",
+      "shortEn": "商业信贷发起与风险工作流",
+      "longZh": "借助 D&B Finance Analytics 内嵌的 AI 决策层，驱动商业信贷发起与投资组合管理工作流。\n\nDun & Bradstreet 将 D&B Commercial Graph 与专有客户数据和信贷政策相连接，帮助评估申请、设定授信额度，并发掘投资组合中的风险与机会。",
+      "longEn": "借助 D&B Finance Analytics 内嵌的 AI 决策层，驱动商业信贷发起与投资组合管理工作流。\n\nDun & Bradstreet 将 D&B Commercial Graph 与专有客户数据和信贷政策相连接，帮助评估申请、设定授信额度，并发掘投资组合中的风险与机会。",
+      "hasZh": true,
+      "prompts": [
+        "显示我的组合中失败评分超过 80、按未结余额排序的所有公司。",
+        "提供 Acme Corp 的完整信用风险报告，包括其付款历史和风险评分。",
+        "Global Logistics Inc 的母公司和子公司是哪些？请展示完整的股权架构。"
+      ],
+      "promptsEn": [
+        "显示我的组合中失败评分超过 80、按未结余额排序的所有公司。",
+        "提供 Acme Corp 的完整信用风险报告，包括其付款历史和风险评分。",
+        "Global Logistics Inc 的母公司和子公司是哪些？请展示完整的股权架构。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#004B8D",
+      "developerName": "Dun & Bradstreet",
+      "skills": [
+        "fa-jobs-to-be-done"
+      ],
+      "skillsCount": 1,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/dnb-finance-analytics"
+    },
+    {
+      "name": "docket",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Docket",
+      "shortZh": "Docket AI 让你的销售知识成为即时竞争优势。",
+      "shortEn": "Docket AI 让你的销售知识成为即时竞争优势。",
+      "longZh": "Docket AI 让你的销售知识成为即时竞争优势。销售代表可以随时获取产品、竞争、技术和客户问题的准确答案——所有信息直接来自统一的销售知识库™。在经过验证的公司情报指引下，销售代表能够自信地处理异议、深入了解潜在客户，并即时撰写个性化回复。",
+      "longEn": "Docket AI 让你的销售知识成为即时竞争优势。销售代表可以随时获取产品、竞争、技术和客户问题的准确答案——所有信息直接来自统一的销售知识库™。在经过验证的公司情报指引下，销售代表能够自信地处理异议、深入了解潜在客户，并即时撰写个性化回复。",
+      "hasZh": true,
+      "prompts": [
+        "在 Docket 中查询我们与 Commonwealth Bank 合作关系的相关信息"
+      ],
+      "promptsEn": [
+        "在 Docket 中查询我们与 Commonwealth Bank 合作关系的相关信息"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Docket AI",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/docket"
+    },
+    {
+      "name": "docusign",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Docusign",
+      "shortZh": "自动化合同创建与洞察",
+      "shortEn": "自动化合同创建与洞察",
+      "longZh": "借助 Docusign 提供的智能自动化，简化合同管理。超越简单的签署执行，让复杂的协议工作流变得轻而易举。用自然语言创建并发送合同，即时呈现续约日期和关键义务等洞察，并自动化各类工作流，让业务运转更快、阻力更小。",
+      "longEn": "借助 Docusign 提供的智能自动化，简化合同管理。超越简单的签署执行，让复杂的协议工作流变得轻而易举。用自然语言创建并发送合同，即时呈现续约日期和关键义务等洞察，并自动化各类工作流，让业务运转更快、阻力更小。",
+      "hasZh": true,
+      "prompts": [
+        "找出 DocuSign 中等待我处理的信封，汇总待办事项。",
+        "搜索与某客户相关的协议，查看签署状态、接收方和关键日期。",
+        "查阅近期已完成的信封，提取续约或义务到期日期。"
+      ],
+      "promptsEn": [
+        "找出 DocuSign 中等待我处理的信封，汇总待办事项。",
+        "搜索与某客户相关的协议，查看签署状态、接收方和关键日期。",
+        "查阅近期已完成的信封，提取续约或义务到期日期。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#FFCC00",
+      "developerName": "Docusign",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/docusign"
+    },
+    {
+      "name": "domotz-preview",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Domotz（预览版）",
+      "shortZh": "通过自然语言监控和管理你的网络基础设施。",
+      "shortEn": "通过自然语言监控和管理你的网络基础设施。",
+      "longZh": "通过自然语言监控和管理你的网络基础设施。查询设备状态、检查告警、查看指标、管理配置，并跨所有站点控制电源。需要开通 MCP 预览计划的 Domotz 账户。",
+      "longEn": "通过自然语言监控和管理你的网络基础设施。查询设备状态、检查告警、查看指标、管理配置，并跨所有站点控制电源。需要开通 MCP 预览计划的 Domotz 账户。",
+      "hasZh": true,
+      "prompts": [
+        "在 Domotz 中汇总当前网络状态"
+      ],
+      "promptsEn": [
+        "在 Domotz 中汇总当前网络状态"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Domotz",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/domotz-preview"
+    },
+    {
+      "name": "dovetail",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Dovetail",
+      "shortZh": "将 Dovetail 接入 Codex，无需切换界面即可将客户反馈转化为决策依据。",
+      "shortEn": "将 Dovetail 接入 Codex，无需切换界面即可将客户反馈转化为决策依据。",
+      "longZh": "将 Dovetail 接入 Codex，无需切换界面即可将客户反馈转化为决策依据。在 Dovetail 工作区中搜索相关项目、笔记、文档和主题，即时获取结果。例如，输入「总结影响企业级续约对话的主要痛点」，即可在数秒内浮现关键证据。",
+      "longEn": "将 Dovetail 接入 Codex，无需切换界面即可将客户反馈转化为决策依据。在 Dovetail 工作区中搜索相关项目、笔记、文档和主题，即时获取结果。例如，输入「总结影响企业级续约对话的主要痛点」，即可在数秒内浮现关键证据。",
+      "hasZh": true,
+      "prompts": [
+        "在 Dovetail 中查找相关客户洞察"
+      ],
+      "promptsEn": [
+        "在 Dovetail 中查找相关客户洞察"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Dovetail",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/dovetail"
+    },
+    {
+      "name": "dow-jones-factiva",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Dow Jones Factiva",
+      "shortZh": "Factiva 连接器支持授权用户搜索 Factiva 全球新闻档案库（包括 Dow Jones 付费来源），并将内容洞察融入 Codex 回答中。",
+      "shortEn": "Factiva 连接器支持授权用户搜索 Factiva 全球新闻档案库（包括 Dow Jones 付费来源），并将内容洞察融入 Codex 回答中。",
+      "longZh": "Factiva 连接器支持授权用户搜索 Factiva 全球新闻档案库（包括 Dow Jones 付费来源），并将内容洞察融入 Codex 回答中。\n\n用户可以研究公司、行业和市场，并以已授权内容为依据给出答案，并附带引用和指向原文的直链。\n\n使用前需订阅 Factiva。\n\nFactiva 内容不得在组织外部共享，也不得用于机器学习或 AI 训练目的。本连接器仅限在贵组织的 Codex 实例中使用。",
+      "longEn": "Factiva 连接器支持授权用户搜索 Factiva 全球新闻档案库（包括 Dow Jones 付费来源），并将内容洞察融入 Codex 回答中。\n\n用户可以研究公司、行业和市场，并以已授权内容为依据给出答案，并附带引用和指向原文的直链。\n\n使用前需订阅 Factiva。\n\nFactiva 内容不得在组织外部共享，也不得用于机器学习或 AI 训练目的。本连接器仅限在贵组织的 Codex 实例中使用。",
+      "hasZh": true,
+      "prompts": [
+        "Nvidia 最新财报及市场展望如何"
+      ],
+      "promptsEn": [
+        "Nvidia 最新财报及市场展望如何"
+      ],
+      "category": "Education & Research",
+      "categoryZh": "教育科研",
+      "brandColor": null,
+      "developerName": "Factiva, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/dow-jones-factiva"
+    },
+    {
       "name": "dropbox",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -862,10 +2377,42 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "5.0.1",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/dropbox"
     },
     {
+      "name": "egnyte",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Egnyte",
+      "shortZh": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。",
+      "shortEn": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。",
+      "longZh": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。跨文件夹搜索、检索相关文件，并提取关键信息以回答问题或生成摘要。\n\n快速从合同、报告和内部文档中挖掘洞察。整合多个文件的信息，生成简洁摘要、干系人更新，或基于团队内部资料起草书面内容。",
+      "longEn": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。跨文件夹搜索、检索相关文件，并提取关键信息以回答问题或生成摘要。\n\n快速从合同、报告和内部文档中挖掘洞察。整合多个文件的信息，生成简洁摘要、干系人更新，或基于团队内部资料起草书面内容。",
+      "hasZh": true,
+      "prompts": [
+        "我们有哪些 IT 合同"
+      ],
+      "promptsEn": [
+        "我们有哪些 IT 合同"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Egnyte Inc",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/egnyte"
+    },
+    {
       "name": "expo",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -900,10 +2447,80 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/expo.png",
+      "version": "1.0.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/expo"
     },
     {
+      "name": "factset",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "FactSet",
+      "shortZh": "连接金融数据、分析与工作流",
+      "shortEn": "连接金融数据、分析与工作流",
+      "longZh": "FactSet Model Context Protocol (MCP) 是一项开放的、基于 API 的标准，旨在跨平台无缝连接金融数据、分析模型与应用。通过实现顺畅的互操作性，MCP 让投资团队无论使用何种工具或技术栈，都能轻松共享洞察、简化工作流并加强协作。借助 MCP，机构能够高效集成新方案、推动创新，并最大化金融业务的价值——确保整个投资流程中始终如一、上下文丰富的决策。",
+      "longEn": "FactSet Model Context Protocol (MCP) 是一项开放的、基于 API 的标准，旨在跨平台无缝连接金融数据、分析模型与应用。通过实现顺畅的互操作性，MCP 让投资团队无论使用何种工具或技术栈，都能轻松共享洞察、简化工作流并加强协作。借助 MCP，机构能够高效集成新方案、推动创新，并最大化金融业务的价值——确保整个投资流程中始终如一、上下文丰富的决策。",
+      "hasZh": true,
+      "prompts": [
+        "提取某股票代码的 FactSet 一致性预测和近期价格表现。",
+        "在 FactSet 中对比这组同行的利润率、营收增长和估值倍数。",
+        "查找 FactSet 中某公司的最新卖方研究标题，并梳理市场情绪。"
+      ],
+      "promptsEn": [
+        "提取某股票代码的 FactSet 一致性预测和近期价格表现。",
+        "在 FactSet 中对比这组同行的利润率、营收增长和估值倍数。",
+        "查找 FactSet 中某公司的最新卖方研究标题，并梳理市场情绪。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#182850",
+      "developerName": "FactSet",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/factset"
+    },
+    {
+      "name": "fal",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Fal",
+      "shortZh": "用 Fal 模型生成与管理媒体",
+      "shortEn": "用 Fal 模型生成与管理媒体",
+      "longZh": "Fal 通过一个 OpenAI 应用连接器，并配合专注于生产的技能（涵盖模型推荐、schema 检查、定价、异步任务、文件上传和媒体生成），将图像、视频、音频、3D、训练和编辑工作流带入 Codex。",
+      "longEn": "Fal 通过一个 OpenAI 应用连接器，并配合专注于生产的技能（涵盖模型推荐、schema 检查、定价、异步任务、文件上传和媒体生成），将图像、视频、音频、3D、训练和编辑工作流带入 Codex。",
+      "hasZh": true,
+      "prompts": [
+        "用 Fal 根据这段提示词生成图像，并汇总所选模型的参数设置。",
+        "查找适合图像生成或编辑的 Fal 模型，推荐最适合当前任务的方案。",
+        "运行 Fal 图像编辑或放大工作流，并汇总输出参数。"
+      ],
+      "promptsEn": [
+        "用 Fal 根据这段提示词生成图像，并汇总所选模型的参数设置。",
+        "查找适合图像生成或编辑的 Fal 模型，推荐最适合当前任务的方案。",
+        "运行 Fal 图像编辑或放大工作流，并汇总输出参数。"
+      ],
+      "category": "Creativity",
+      "categoryZh": "创意设计",
+      "brandColor": "#D60045",
+      "developerName": "Fal",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fal"
+    },
+    {
       "name": "figma",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -945,10 +2562,136 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo-padded.png",
+      "version": "2.0.20",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/figma"
     },
     {
+      "name": "finn",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "FINN",
+      "shortZh": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。",
+      "shortEn": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。",
+      "longZh": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。固定月费已包含保险、维保、登记注册，甚至 CO₂ 碳补偿，全程透明便捷。\n\n最棒的是，你可以在几分钟内完成在线预订，新车将直接送货上门，或你也可以前往我们的指定站点自提。",
+      "longEn": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。固定月费已包含保险、维保、登记注册，甚至 CO₂ 碳补偿，全程透明便捷。\n\n最棒的是，你可以在几分钟内完成在线预订，新车将直接送货上门，或你也可以前往我们的指定站点自提。",
+      "hasZh": true,
+      "prompts": [
+        "根据需求查找合适的 FINN 车型"
+      ],
+      "promptsEn": [
+        "根据需求查找合适的 FINN 车型"
+      ],
+      "category": "Travel",
+      "categoryZh": "旅行",
+      "brandColor": null,
+      "developerName": "FINN GmbH",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.4",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/finn"
+    },
+    {
+      "name": "fireflies",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Fireflies",
+      "shortZh": "Fireflies 应用将你的会议记录和知识直接带入 Codex。",
+      "shortEn": "Fireflies 应用将你的会议记录和知识直接带入 Codex。",
+      "longZh": "Fireflies 应用将你的会议记录和知识直接带入 Codex。\n\n分析任何对话——销售、客户成功、产品、招聘——提取洞察、待办事项和情绪倾向。追踪功能需求和痛点，更新 CRM 或业务系统，并即时检索组织会议中的背景信息。\n\n通过 Fireflies 和 Codex，集中沉淀公司知识，将每一次对话转化为可搜索、可执行的洞察。",
+      "longEn": "Fireflies 应用将你的会议记录和知识直接带入 Codex。\n\n分析任何对话——销售、客户成功、产品、招聘——提取洞察、待办事项和情绪倾向。追踪功能需求和痛点，更新 CRM 或业务系统，并即时检索组织会议中的背景信息。\n\n通过 Fireflies 和 Codex，集中沉淀公司知识，将每一次对话转化为可搜索、可执行的洞察。",
+      "hasZh": true,
+      "prompts": [
+        "总结我们迄今与 Acme 的对话历史"
+      ],
+      "promptsEn": [
+        "总结我们迄今与 Acme 的对话历史"
+      ],
+      "category": "Communication",
+      "categoryZh": "沟通协作",
+      "brandColor": null,
+      "developerName": "Fireflies",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fireflies"
+    },
+    {
+      "name": "fiscal-ai",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Fiscal AI",
+      "shortZh": "可供审计的金融数据与股票研究",
+      "shortEn": "可供审计的金融数据与股票研究",
+      "longZh": "直接在 ChatGPT 内访问机构级金融数据。Fiscal.ai 在财报发布后几分钟内即提供基本面指标与比率，每个数字都可通过直达原始申报文件的链接进行核验。除核心财务数据外，Fiscal.ai 还提供公司特有的 KPI、营收分部和调整后指标。结合历史与当前的市场报价，它以无与伦比的速度实现有据可依、可供审计的股票研究。",
+      "longEn": "直接在 ChatGPT 内访问机构级金融数据。Fiscal.ai 在财报发布后几分钟内即提供基本面指标与比率，每个数字都可通过直达原始申报文件的链接进行核验。除核心财务数据外，Fiscal.ai 还提供公司特有的 KPI、营收分部和调整后指标。结合历史与当前的市场报价，它以无与伦比的速度实现有据可依、可供审计的股票研究。",
+      "hasZh": true,
+      "prompts": [
+        "在 Fiscal AI 中搜索该公司并汇总近期财务数据、申报文件及主要风险。",
+        "在 Fiscal AI 中对比同类公司的营收增速、利润率及估值水平。",
+        "查找该股票代码在 Fiscal AI 中的洞察并标出最重要的结论。"
+      ],
+      "promptsEn": [
+        "在 Fiscal AI 中搜索该公司并汇总近期财务数据、申报文件及主要风险。",
+        "在 Fiscal AI 中对比同类公司的营收增速、利润率及估值水平。",
+        "查找该股票代码在 Fiscal AI 中的洞察并标出最重要的结论。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#1A1B26",
+      "developerName": "Fiscal AI",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fiscal-ai"
+    },
+    {
+      "name": "fyxer",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Fyxer",
+      "shortZh": "Fyxer for Codex 让你直接在对话中写出符合自己风格的邮件。",
+      "shortEn": "Fyxer for Codex 让你直接在对话中写出符合自己风格的邮件。",
+      "longZh": "Fyxer for Codex 让你直接在对话中写出符合自己风格的邮件。Fyxer 从你过往的邮件中学习写作风格，并结合你的日历和会议记录生成个性化邮件草稿。只需描述你想表达的内容，即可获得一封精心润色、随时可发的邮件。",
+      "longEn": "Fyxer for Codex 让你直接在对话中写出符合自己风格的邮件。Fyxer 从你过往的邮件中学习写作风格，并结合你的日历和会议记录生成个性化邮件草稿。只需描述你想表达的内容，即可获得一封精心润色、随时可发的邮件。",
+      "hasZh": true,
+      "prompts": [
+        "跟进 Sarah 关于我们上周会议的后续事宜"
+      ],
+      "promptsEn": [
+        "跟进 Sarah 关于我们上周会议的后续事宜"
+      ],
+      "category": "Communication",
+      "categoryZh": "沟通协作",
+      "brandColor": null,
+      "developerName": "Fyxer",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fyxer"
+    },
+    {
       "name": "game-studio",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -983,10 +2726,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/game-studio.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/game-studio"
     },
     {
       "name": "github",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1011,12 +2756,48 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/github-small.svg",
+      "version": "0.1.12",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/github"
     },
     {
-      "name": "gmail",
+      "name": "glean",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Glean",
+      "shortZh": "用 Glean 访问企业知识",
+      "shortEn": "用 Glean 访问企业知识",
+      "longZh": "通过 Glean 的 Remote MCP server，把企业上下文带入 ChatGPT 及你的各类 AI 工具。在组织接入的全部数据源中检索——文档、wiki、代码仓库等。按姓名、职务或专长查找员工。读取特定文档、访问 Gmail 与 Outlook 邮件、查询会议详情。自定义 agent 工作流可实现为你的组织量身定制的强大自动化。让 Glean 成为你 AI 助手的企业记忆——确保 ChatGPT 及其它支持 MCP 的应用，无论你在何处工作都深谙公司上下文。",
+      "longEn": "通过 Glean 的 Remote MCP server，把企业上下文带入 ChatGPT 及你的各类 AI 工具。在组织接入的全部数据源中检索——文档、wiki、代码仓库等。按姓名、职务或专长查找员工。读取特定文档、访问 Gmail 与 Outlook 邮件、查询会议详情。自定义 agent 工作流可实现为你的组织量身定制的强大自动化。让 Glean 成为你 AI 助手的企业记忆——确保 ChatGPT 及其它支持 MCP 的应用，无论你在何处工作都深谙公司上下文。",
+      "hasZh": true,
+      "prompts": [
+        "用 Glean 检索公司知识。",
+        "在 Glean 中查找某位员工或团队。",
+        "按 URL 获取一份 Glean 文档。"
+      ],
+      "promptsEn": [
+        "用 Glean 检索公司知识。",
+        "在 Glean 中查找某位员工或团队。",
+        "按 URL 获取一份 Glean 文档。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#1F6FEB",
+      "developerName": "Glean Technologies, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.0",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/glean"
+    },
+    {
+      "name": "gmail",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Gmail",
       "shortZh": "读取和管理 Gmail",
@@ -1039,12 +2820,14 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/gmail.png",
+      "version": "0.1.9",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/gmail"
     },
     {
       "name": "google-calendar",
+      "origin": "upstream",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
       "missing": false,
       "displayName": "Google Calendar",
       "shortZh": "管理 Google Calendar 活动",
@@ -1067,12 +2850,14 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/icon.png",
+      "version": "1.2.6",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/google-calendar"
     },
     {
       "name": "google-drive",
+      "origin": "upstream",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
       "missing": false,
       "displayName": "Google Drive",
       "shortZh": "Drive、Docs、Sheets 或 Slides",
@@ -1101,10 +2886,42 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "0.1.15",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/google-drive"
     },
     {
+      "name": "govtribe",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "GovTribe",
+      "shortZh": "直接在 Codex 中搜索政府合同、中标结果和供应商信息。",
+      "shortEn": "直接在 Codex 中搜索政府合同、中标结果和供应商信息。",
+      "longZh": "直接在 Codex 中搜索政府合同、中标结果和供应商信息。GovTribe 将美国政府采购情报融入你的 AI 工作流——查找各联邦机构的相关机会、分析供应商竞争格局、挖掘合作伙伴，并追踪机构支出规律。无论是开拓新市场、进行竞争分析，还是准备投标提案，都能在不离开对话的情况下即时获取数千亿美元公共采购数据。",
+      "longEn": "直接在 Codex 中搜索政府合同、中标结果和供应商信息。GovTribe 将美国政府采购情报融入你的 AI 工作流——查找各联邦机构的相关机会、分析供应商竞争格局、挖掘合作伙伴，并追踪机构支出规律。无论是开拓新市场、进行竞争分析，还是准备投标提案，都能在不离开对话的情况下即时获取数千亿美元公共采购数据。",
+      "hasZh": true,
+      "prompts": [
+        "从 GovTribe 拉取相关采购机会背景信息"
+      ],
+      "promptsEn": [
+        "从 GovTribe 拉取相关采购机会背景信息"
+      ],
+      "category": "Education & Research",
+      "categoryZh": "教育科研",
+      "brandColor": null,
+      "developerName": "Government Executive Media Group LLC",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/govtribe"
+    },
+    {
       "name": "granola",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1129,10 +2946,205 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "1.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/granola"
     },
     {
+      "name": "happenstance",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Happenstance",
+      "shortZh": "Happenstance 通过自然语言搜索你的职业人脉，帮你找到合适的人。",
+      "shortEn": "Happenstance 通过自然语言搜索你的职业人脉，帮你找到合适的人。",
+      "longZh": "Happenstance 通过自然语言搜索你的职业人脉，帮你找到合适的人。搜索结果会显示共同联系人并按关系强度排序，帮你找到最热络的引荐路径。对任何人进行深度调研，获取包含职业经历和专业背景的完整档案。适用于销售、招聘、风险投资和商业拓展场景。",
+      "longEn": "Happenstance 通过自然语言搜索你的职业人脉，帮你找到合适的人。搜索结果会显示共同联系人并按关系强度排序，帮你找到最热络的引荐路径。对任何人进行深度调研，获取包含职业经历和专业背景的完整档案。适用于销售、招聘、风险投资和商业拓展场景。",
+      "hasZh": true,
+      "prompts": [
+        "查看 Happenstance 中是否有相关联系人背景信息"
+      ],
+      "promptsEn": [
+        "查看 Happenstance 中是否有相关联系人背景信息"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Happenstance, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/happenstance"
+    },
+    {
+      "name": "hebbia",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Hebbia",
+      "shortZh": "机构级研究与金融工作流",
+      "shortEn": "机构级研究与金融工作流",
+      "longZh": "将 Hebbia 的机构级智能带入 ChatGPT 与 Codex。Hebbia MCP 服务器让你能够调用所在机构的知识与优质公开信息，在交易与投资上做出更好的决策，并运行从研究到报告、幻灯片和财务模型的各类金融工作流。",
+      "longEn": "将 Hebbia 的机构级智能带入 ChatGPT 与 Codex。Hebbia MCP 服务器让你能够调用所在机构的知识与优质公开信息，在交易与投资上做出更好的决策，并运行从研究到报告、幻灯片和财务模型的各类金融工作流。",
+      "hasZh": true,
+      "prompts": [
+        "在 Hebbia 项目中搜索与此交易相关的文档，汇总关键发现。",
+        "在 Hebbia 中分析该文档集，提取风险点、义务条款和待确认问题。",
+        "在 Hebbia 中查找带引用的答案以回答此研究问题，并标注证据缺口。"
+      ],
+      "promptsEn": [
+        "在 Hebbia 项目中搜索与此交易相关的文档，汇总关键发现。",
+        "在 Hebbia 中分析该文档集，提取风险点、义务条款和待确认问题。",
+        "在 Hebbia 中查找带引用的答案以回答此研究问题，并标注证据缺口。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#4657F5",
+      "developerName": "Hebbia",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hebbia"
+    },
+    {
+      "name": "help-scout",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Help Scout",
+      "shortZh": "连接并同步 Help Scout 邮箱和对话记录，在 Codex 中直接使用。",
+      "shortEn": "连接并同步 Help Scout 邮箱和对话记录，在 Codex 中直接使用。",
+      "longZh": "连接并同步 Help Scout 邮箱和对话记录，在 Codex 中直接使用。",
+      "longEn": "连接并同步 Help Scout 邮箱和对话记录，在 Codex 中直接使用。",
+      "hasZh": true,
+      "prompts": [
+        "总结 Help Scout 工单内容及下一步行动"
+      ],
+      "promptsEn": [
+        "总结 Help Scout 工单内容及下一步行动"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "OpenAI",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/help-scout"
+    },
+    {
+      "name": "hex",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Hex",
+      "shortZh": "搜索 Hex 项目并向 Hex Threads 提问",
+      "shortEn": "搜索 Hex 项目并向 Hex Threads 提问",
+      "longZh": "Hex 帮助用户查找现有的 Hex 项目、仪表盘和数据应用，并在用户明确想在 Hex 中操作时向 Hex Threads 提问。",
+      "longEn": "Hex 帮助用户查找现有的 Hex 项目、仪表盘和数据应用，并在用户明确想在 Hex 中操作时向 Hex Threads 提问。",
+      "hasZh": true,
+      "prompts": [],
+      "promptsEn": [],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": "#182A4D",
+      "developerName": "Hex",
+      "skills": [
+        "hex"
+      ],
+      "skillsCount": 1,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/hex.png",
+      "version": "0.1.0",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hex"
+    },
+    {
+      "name": "heygen",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "HeyGen",
+      "shortZh": "数字人视频与个性化视频消息",
+      "shortEn": "数字人视频与个性化视频消息",
+      "longZh": "HeyGen 技能为你的智能体赋予形象、声音，以及像发消息一样发送视频的能力。使用 heygen-avatar 从文字描述或托管图片 URL 构建持久的数字身份并选择声音，再用 heygen-video 通过 HeyGen v3 视频智能体流水线生成以数字人为主角的视频（数字人分辨率、画面比例校正、提示词工程和声音选择均自动处理）。",
+      "longEn": "HeyGen 技能为你的智能体赋予形象、声音，以及像发消息一样发送视频的能力。使用 heygen-avatar 从文字描述或托管图片 URL 构建持久的数字身份并选择声音，再用 heygen-video 通过 HeyGen v3 视频智能体流水线生成以数字人为主角的视频（数字人分辨率、画面比例校正、提示词工程和声音选择均自动处理）。",
+      "hasZh": true,
+      "prompts": [
+        "根据文字描述创建我的 HeyGen 数字人",
+        "制作一段 30 秒的个人介绍视频",
+        "向团队发送一段关于本周进展的视频更新"
+      ],
+      "promptsEn": [
+        "根据文字描述创建我的 HeyGen 数字人",
+        "制作一段 30 秒的个人介绍视频",
+        "向团队发送一段关于本周进展的视频更新"
+      ],
+      "category": "Creativity",
+      "categoryZh": "创意设计",
+      "brandColor": "#0a0a0a",
+      "developerName": "HeyGen",
+      "skills": [
+        "heygen-avatar",
+        "heygen-video"
+      ],
+      "skillsCount": 2,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/icon.png",
+      "version": "2.2.4",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/heygen"
+    },
+    {
+      "name": "hg-insights",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "HG Insights",
+      "shortZh": "潜客数据与营收情报",
+      "shortEn": "潜客数据与营收情报",
+      "longZh": "HG Insights——Revenue Growth Intelligence 让销售团队即时访问全面的潜客数据。\n获取任意公司的技术栈、企业基本信息、决策者联系人、IT 支出洞察与合同情报。\n只需按公司名称或域名提问，即可发掘由 HG Insights 数据驱动的可执行销售情报。\n需要 HG Insights 的 RGI Developers 或 RGI Agents 账户。",
+      "longEn": "HG Insights——Revenue Growth Intelligence 让销售团队即时访问全面的潜客数据。\n获取任意公司的技术栈、企业基本信息、决策者联系人、IT 支出洞察与合同情报。\n只需按公司名称或域名提问，即可发掘由 HG Insights 数据驱动的可执行销售情报。\n需要 HG Insights 的 RGI Developers 或 RGI Agents 账户。",
+      "hasZh": true,
+      "prompts": [
+        "在 HG Insights 中找到高契合度且有买家意向的账户，汇总最佳销售策略。",
+        "用 HG Insights 评估该市场规模，识别 GTM 计划的优先目标细分市场。",
+        "用 HG Insights 的技术图谱、支出数据和购买信号丰富这些目标账户的信息。"
+      ],
+      "promptsEn": [
+        "在 HG Insights 中找到高契合度且有买家意向的账户，汇总最佳销售策略。",
+        "用 HG Insights 评估该市场规模，识别 GTM 计划的优先目标细分市场。",
+        "用 HG Insights 的技术图谱、支出数据和购买信号丰富这些目标账户的信息。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#015AA0",
+      "developerName": "HG Insights",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hg-insights"
+    },
+    {
       "name": "higgsfield",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1165,10 +3177,153 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": null,
+      "version": "1.2.1",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/higgsfield"
     },
     {
+      "name": "highlevel",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "HighLevel",
+      "shortZh": "HighLevel 为代理机构提供统一的 CRM、自动化与客户沟通平台。",
+      "shortEn": "HighLevel 为代理机构提供统一的 CRM、自动化与客户沟通平台。",
+      "longZh": "HighLevel 为代理机构提供统一的 CRM、自动化与客户沟通平台。此连接器可将 HighLevel 数据——联系人、商机、预约、对话等——安全引入 GPT，将原始记录转化为清晰摘要、下一步建议和可直接使用的内容。无需离开对话，即可分析销售管道、筛选潜在客户，几秒内完成跟进准备。",
+      "longEn": "HighLevel 为代理机构提供统一的 CRM、自动化与客户沟通平台。此连接器可将 HighLevel 数据——联系人、商机、预约、对话等——安全引入 GPT，将原始记录转化为清晰摘要、下一步建议和可直接使用的内容。无需离开对话，即可分析销售管道、筛选潜在客户，几秒内完成跟进准备。",
+      "hasZh": true,
+      "prompts": [
+        "给我概览一下最近的整体情况"
+      ],
+      "promptsEn": [
+        "给我概览一下最近的整体情况"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "HighLevel",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/highlevel"
+    },
+    {
+      "name": "hostinger",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Hostinger",
+      "shortZh": "Hostinger Horizons 让你只需描述想法，就能搭建真实的网站和应用。",
+      "shortEn": "Hostinger Horizons 让你只需描述想法，就能搭建真实的网站和应用。",
+      "longZh": "Hostinger Horizons 让你只需描述想法，就能搭建真实的网站和应用。专为没有技术背景的用户设计，几分钟内即可将创意变成可运行的产品。满意后一键即刻上线。",
+      "longEn": "Hostinger Horizons 让你只需描述想法，就能搭建真实的网站和应用。专为没有技术背景的用户设计，几分钟内即可将创意变成可运行的产品。满意后一键即刻上线。",
+      "hasZh": true,
+      "prompts": [
+        "查看相关的 Hostinger 站点或账户状态"
+      ],
+      "promptsEn": [
+        "查看相关的 Hostinger 站点或账户状态"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "Hostinger",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hostinger"
+    },
+    {
+      "name": "hubspot",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "HubSpot",
+      "shortZh": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。",
+      "shortEn": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。",
+      "longZh": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。读写你有权限访问的商机、联系人、公司、工单、互动记录及其他对象。会议前准备报告、更新商机阶段、记录通话和邮件、创建任务或查看管道详情。既可用于对话中的快速更新，也支持全面的 CRM 管理——所有操作均基于你的真实 HubSpot 数据。",
+      "longEn": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。读写你有权限访问的商机、联系人、公司、工单、互动记录及其他对象。会议前准备报告、更新商机阶段、记录通话和邮件、创建任务或查看管道详情。既可用于对话中的快速更新，也支持全面的 CRM 管理——所有操作均基于你的真实 HubSpot 数据。",
+      "hasZh": true,
+      "prompts": [
+        "检查销售管道健康状况，标出有风险的在途商机",
+        "为客户会议准备账户简报",
+        "找出 CRM 中数据陈旧或缺失的记录"
+      ],
+      "promptsEn": [
+        "检查销售管道健康状况，标出有风险的在途商机",
+        "为客户会议准备账户简报",
+        "找出 CRM 中数据陈旧或缺失的记录"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": null,
+      "developerName": "HubSpot",
+      "skills": [
+        "hubspot",
+        "hubspot-crm-data-hygiene",
+        "hubspot-customer-prep",
+        "hubspot-pipeline-health"
+      ],
+      "skillsCount": 4,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "2.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hubspot"
+    },
+    {
+      "name": "hugging-face",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Hugging Face",
+      "shortZh": "探索模型、数据集、Spaces 和研究论文",
+      "shortEn": "探索模型、数据集、Spaces 和研究论文",
+      "longZh": "连接 Hugging Face Hub，探索模型和数据集，访问 SDK 文档等资源。管理机器学习 Jobs，并通过 Spaces 连接数以千计的 AI 应用。",
+      "longEn": "连接 Hugging Face Hub，探索模型和数据集，访问 SDK 文档等资源。管理机器学习 Jobs，并通过 Spaces 连接数以千计的 AI 应用。",
+      "hasZh": true,
+      "prompts": [
+        "使用 FLUX.1 生成一张逼真的农场图片"
+      ],
+      "promptsEn": [
+        "使用 FLUX.1 生成一张逼真的农场图片"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#FFD21E",
+      "developerName": "Hugging Face",
+      "skills": [
+        "cli",
+        "community-evals",
+        "datasets",
+        "gradio",
+        "jobs",
+        "llm-trainer",
+        "paper-publisher",
+        "papers",
+        "trackio",
+        "transformers.js",
+        "vision-trainer"
+      ],
+      "skillsCount": 11,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hugging-face"
+    },
+    {
       "name": "hyperframes",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1203,10 +3358,106 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/icon.png",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hyperframes"
     },
     {
+      "name": "intercom",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Intercom",
+      "shortZh": "来自 Intercom 的客户对话、联系人、工单及支持工作流",
+      "shortEn": "来自 Intercom 的客户对话、联系人、工单及支持工作流",
+      "longZh": "来自 Intercom 的客户对话、联系人、工单及支持工作流",
+      "longEn": "来自 Intercom 的客户对话、联系人、工单及支持工作流",
+      "hasZh": true,
+      "prompts": [
+        "在 Intercom 中搜索未解决的账单相关对话并汇总主要问题。",
+        "查找来自 example.com 的 Intercom 联系人并拉取近期对话记录。",
+        "获取这条 Intercom 对话记录并起草下一步处理方案。"
+      ],
+      "promptsEn": [
+        "在 Intercom 中搜索未解决的账单相关对话并汇总主要问题。",
+        "查找来自 example.com 的 Intercom 联系人并拉取近期对话记录。",
+        "获取这条 Intercom 对话记录并起草下一步处理方案。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#1F8DED",
+      "developerName": "Intercom",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/intercom"
+    },
+    {
+      "name": "jam",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Jam",
+      "shortZh": "带上下文的屏幕录制",
+      "shortEn": "带上下文的屏幕录制",
+      "longZh": "带上下文的屏幕录制",
+      "longEn": "带上下文的屏幕录制",
+      "hasZh": true,
+      "prompts": [
+        "这个 Bug 报告反映了什么问题"
+      ],
+      "promptsEn": [
+        "这个 Bug 报告反映了什么问题"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#7C3AED",
+      "developerName": "Jam",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/jam"
+    },
+    {
+      "name": "keybid-puls",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "KeyBid Puls",
+      "shortZh": "通过 ROI 计算器挖掘短租投资的盈利潜力，支持 Airbnb、Booking.com 等平台。",
+      "shortEn": "通过 ROI 计算器挖掘短租投资的盈利潜力，支持 Airbnb、Booking.com 等平台。",
+      "longZh": "通过 ROI 计算器挖掘短租投资的盈利潜力，专为 Airbnb、Booking.com、VRBO 等平台量身定制。用户可粘贴来自 idealista.com、imobiliare.ro、storia.ro、spitogatos.gr 等网站的房源链接（更多平台接入中），或上传其他房产平台的截图。应用分析数据后即时生成收益预测、详细报告，以及该房产是否值得购买用于短租的简明结论。覆盖 56 个国家、逾 191 个城市，支持英语、罗马尼亚语、西班牙语和希腊语等多种语言，适合全球用户无缝使用。专为希望以数据驱动决策、评估度假租赁机会的房产所有者和投资者设计。了解更多：https://keybid.eu/keybid-puls。",
+      "longEn": "通过 ROI 计算器挖掘短租投资的盈利潜力，专为 Airbnb、Booking.com、VRBO 等平台量身定制。用户可粘贴来自 idealista.com、imobiliare.ro、storia.ro、spitogatos.gr 等网站的房源链接（更多平台接入中），或上传其他房产平台的截图。应用分析数据后即时生成收益预测、详细报告，以及该房产是否值得购买用于短租的简明结论。覆盖 56 个国家、逾 191 个城市，支持英语、罗马尼亚语、西班牙语和希腊语等多种语言，适合全球用户无缝使用。专为希望以数据驱动决策、评估度假租赁机会的房产所有者和投资者设计。了解更多：https://keybid.eu/keybid-puls。",
+      "hasZh": true,
+      "prompts": [
+        "这套公寓适合购买用于短租吗"
+      ],
+      "promptsEn": [
+        "这套公寓适合购买用于短租吗"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "KeyBid",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/keybid-puls"
+    },
+    {
       "name": "life-science-research",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1282,10 +3533,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/life-science-research"
     },
     {
       "name": "linear",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1310,12 +3563,14 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.svg",
+      "version": "5.0.1",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/linear"
     },
     {
       "name": "lovable",
+      "origin": "upstream",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
       "missing": false,
       "displayName": "Lovable",
       "shortZh": "构建应用和网站",
@@ -1342,10 +3597,46 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": null,
+      "version": "2.0.1",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/lovable"
     },
     {
+      "name": "lseg",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "LSEG",
+      "shortZh": "金融市场数据与分析",
+      "shortEn": "金融市场数据与分析",
+      "longZh": "LSEG 连接器提供对 LSEG 全面金融市场数据生态的实时访问，覆盖各类资产与领域。它将机构级市场数据、分析与估值工具无缝集成到对话式 AI 工作流中，让用户能够通过自然语言交互获取深度市场洞察、执行复杂计算并分析金融工具。",
+      "longEn": "LSEG 连接器提供对 LSEG 全面金融市场数据生态的实时访问，覆盖各类资产与领域。它将机构级市场数据、分析与估值工具无缝集成到对话式 AI 工作流中，让用户能够通过自然语言交互获取深度市场洞察、执行复杂计算并分析金融工具。",
+      "hasZh": true,
+      "prompts": [
+        "提取某股票代码的 LSEG 市场数据和公司财务信息，并梳理估值驱动因素。",
+        "查找某公司在 LSEG 中的最新新闻、文件和事件，标注重大变化。",
+        "使用 LSEG 数据对比某公司与同行的关键指标。"
+      ],
+      "promptsEn": [
+        "提取某股票代码的 LSEG 市场数据和公司财务信息，并梳理估值驱动因素。",
+        "查找某公司在 LSEG 中的最新新闻、文件和事件，标注重大变化。",
+        "使用 LSEG 数据对比某公司与同行的关键指标。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#0018F8",
+      "developerName": "LSEG",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/lseg"
+    },
+    {
       "name": "magicpath",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1376,10 +3667,179 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/magicpath.png",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/magicpath"
     },
     {
+      "name": "marcopolo",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "MarcoPolo",
+      "shortZh": "MarcoPolo 启动一个安全容器，让 Codex 可以直接处理你的真实数据。",
+      "shortEn": "MarcoPolo 启动一个安全容器，让 Codex 可以直接处理你的真实数据。",
+      "longZh": "MarcoPolo 启动一个安全容器，让 Codex 可以直接处理你的真实数据。通过限定范围的凭据连接数据库、API、S3、数据湖仓、CRM、Jira、日志等各类系统——模型始终无法接触到原始凭据。\n\nCodex 可使用 DuckDB、Python、Shell 及一套工具，跨系统探索、查询、转换和分析数据。工作区持久保存，支持在之前工作基础上继续深入。\n\n直接在对话中准备报告、理解数据、排查问题或查看最新指标。",
+      "longEn": "MarcoPolo 启动一个安全容器，让 Codex 可以直接处理你的真实数据。通过限定范围的凭据连接数据库、API、S3、数据湖仓、CRM、Jira、日志等各类系统——模型始终无法接触到原始凭据。\n\nCodex 可使用 DuckDB、Python、Shell 及一套工具，跨系统探索、查询、转换和分析数据。工作区持久保存，支持在之前工作基础上继续深入。\n\n直接在对话中准备报告、理解数据、排查问题或查看最新指标。",
+      "hasZh": true,
+      "prompts": [
+        "列出可查询或更新的数据源"
+      ],
+      "promptsEn": [
+        "列出可查询或更新的数据源"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "Immersa, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/marcopolo"
+    },
+    {
+      "name": "mem",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Mem",
+      "shortZh": "连接 Mem 知识库，为 Codex 提供你第二大脑的完整上下文。",
+      "shortEn": "连接 Mem 知识库，为 Codex 提供你第二大脑的完整上下文。",
+      "longZh": "连接 Mem 知识库，为 Codex 提供你第二大脑的完整上下文。只需向 Codex 发问，即可搜索 AI 笔记本获取背景信息、捕捉与回溯想法、将对话保存为新笔记、编辑与更新动态文档，以及整理 AI 工作区。适用场景：从会议记录中提炼行动项、深度研究、个人知识管理（PKM）、知识库构建、任务管理、优先级排序以及内容开发。示例提示：「在我的笔记中搜索定价策略，并用研究成果验证我们的思路。」「将这段对话创建为笔记，添加到我们的 GTM 合集中。」「列出本周笔记中所有未完成任务，并加入我的待办清单。」",
+      "longEn": "连接 Mem 知识库，为 Codex 提供你第二大脑的完整上下文。只需向 Codex 发问，即可搜索 AI 笔记本获取背景信息、捕捉与回溯想法、将对话保存为新笔记、编辑与更新动态文档，以及整理 AI 工作区。适用场景：从会议记录中提炼行动项、深度研究、个人知识管理（PKM）、知识库构建、任务管理、优先级排序以及内容开发。示例提示：「在我的笔记中搜索定价策略，并用研究成果验证我们的思路。」「将这段对话创建为笔记，添加到我们的 GTM 合集中。」「列出本周笔记中所有未完成任务，并加入我的待办清单。」",
+      "hasZh": true,
+      "prompts": [
+        "在 Mem 中查找相关笔记"
+      ],
+      "promptsEn": [
+        "在 Mem 中查找相关笔记"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Mem Labs, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/mem"
+    },
+    {
+      "name": "meticulate",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Meticulate",
+      "shortZh": "研究公司及相似目标",
+      "shortEn": "研究公司及相似目标",
+      "longZh": "Meticulate 帮助销售与市场拓展团队直接在 ChatGPT 中研究公司。上传一份公司名单或描述你关注的客户，即可识别公司、寻找相似目标、提取关键业务信息，并跨客户回答结构化的研究问题。",
+      "longEn": "Meticulate 帮助销售与市场拓展团队直接在 ChatGPT 中研究公司。上传一份公司名单或描述你关注的客户，即可识别公司、寻找相似目标、提取关键业务信息，并跨客户回答结构化的研究问题。",
+      "hasZh": true,
+      "prompts": [
+        "在 Meticulate 中搜索符合此 ICP 的公司，梳理最匹配的目标。",
+        "通过 SFDC 客户 ID 查询某公司并获取其企业画像摘要。",
+        "找出与此种子公司相似的企业，并说明相似原因。"
+      ],
+      "promptsEn": [
+        "在 Meticulate 中搜索符合此 ICP 的公司，梳理最匹配的目标。",
+        "通过 SFDC 客户 ID 查询某公司并获取其企业画像摘要。",
+        "找出与此种子公司相似的企业，并说明相似原因。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#7000D8",
+      "developerName": "Meticulate",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/meticulate"
+    },
+    {
+      "name": "midpage",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Midpage",
+      "shortZh": "带判例引用的法律研究",
+      "shortEn": "带判例引用的法律研究",
+      "longZh": "将 ChatGPT 连接到判例法数据库。借助 Midpage 应用，ChatGPT 能够开展复杂的法律研究、审阅判决意见并撰写高质量工作成果。所有内容都超链接到真实来源，便于核查。",
+      "longEn": "将 ChatGPT 连接到判例法数据库。借助 Midpage 应用，ChatGPT 能够开展复杂的法律研究、审阅判决意见并撰写高质量工作成果。所有内容都超链接到真实来源，便于核查。",
+      "hasZh": true,
+      "prompts": [
+        "在 Midpage 中搜索与此法律问题相关的案例，梳理最有分量的权威依据。",
+        "找出与此事项相关的法规和条例，并说明其适用方式。",
+        "基于 Midpage 检索结果起草一份带引用和待解问题的研究备忘录。"
+      ],
+      "promptsEn": [
+        "在 Midpage 中搜索与此法律问题相关的案例，梳理最有分量的权威依据。",
+        "找出与此事项相关的法规和条例，并说明其适用方式。",
+        "基于 Midpage 检索结果起草一份带引用和待解问题的研究备忘录。"
+      ],
+      "category": "Education & Research",
+      "categoryZh": "教育科研",
+      "brandColor": "#000000",
+      "developerName": "Midpage",
+      "skills": [
+        "cite-check",
+        "draft-brief",
+        "draft-long-form-memo",
+        "litigation-update-post"
+      ],
+      "skillsCount": 4,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/midpage"
+    },
+    {
+      "name": "mixpanel",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Mixpanel",
+      "shortZh": "查询和分析 Mixpanel 数据",
+      "shortEn": "查询和分析 Mixpanel 数据",
+      "longZh": "直接在 ChatGPT 中查询和分析你的 Mixpanel 数据。运行分群、漏斗和留存分析，探索事件分类体系，管理 Lexicon 元数据，解决数据质量问题——全程无需离开对话界面。\n\n接入 Mixpanel MCP server 后，ChatGPT 可将产品分析数据与你的代码、文档和决策一并进行推理。用自然语言提问，深入分析用户行为，获取基于真实数据的答案。",
+      "longEn": "直接在 ChatGPT 中查询和分析你的 Mixpanel 数据。运行分群、漏斗和留存分析，探索事件分类体系，管理 Lexicon 元数据，解决数据质量问题——全程无需离开对话界面。\n\n接入 Mixpanel MCP server 后，ChatGPT 可将产品分析数据与你的代码、文档和决策一并进行推理。用自然语言提问，深入分析用户行为，获取基于真实数据的答案。",
+      "hasZh": true,
+      "prompts": [
+        "@Mixpanel 二月份我们有多少新注册用户？",
+        "@Mixpanel 为没有描述的事件补充描述",
+        "@Mixpanel 创建一个购买指标仪表板"
+      ],
+      "promptsEn": [
+        "@Mixpanel 二月份我们有多少新注册用户？",
+        "@Mixpanel 为没有描述的事件补充描述",
+        "@Mixpanel 创建一个购买指标仪表板"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": null,
+      "developerName": "Mixpanel",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "2.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/mixpanel"
+    },
+    {
       "name": "mixpanel-headless",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1413,10 +3873,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/app-icon.png",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/mixpanel-headless"
     },
     {
       "name": "monday-com",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1441,10 +3903,288 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "2.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/monday-com"
     },
     {
+      "name": "moody-s",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Moody's",
+      "shortZh": "信用评级、研究报告、实体情报、股权结构、财务数据及备案文件。",
+      "shortEn": "信用评级、研究报告、实体情报、股权结构、财务数据及备案文件。",
+      "longZh": "通过企业级 MCP 集成连接 Moody's GenAI-Ready Data。在工作流中直接解析覆盖实体、获取评级与展望、分析信用意见与评分卡、查看上调/下调驱动因素、ESG 考量、股权结构、子公司、公司档案、财务报表、备案文件、财报电话会议记录、新闻动态、同业组合、行业展望及国家风险背景。",
+      "longEn": "通过企业级 MCP 集成连接 Moody's GenAI-Ready Data。在工作流中直接解析覆盖实体、获取评级与展望、分析信用意见与评分卡、查看上调/下调驱动因素、ESG 考量、股权结构、子公司、公司档案、财务报表、备案文件、财报电话会议记录、新闻动态、同业组合、行业展望及国家风险背景。",
+      "hasZh": true,
+      "prompts": [
+        "汇总某公司在 Moody's 的档案和股权结构。",
+        "汇总某公司的 Moody's 评级和信用意见。",
+        "汇总某公司在 Moody's 的最新财务数据和备案文件。"
+      ],
+      "promptsEn": [
+        "汇总某公司在 Moody's 的档案和股权结构。",
+        "汇总某公司的 Moody's 评级和信用意见。",
+        "汇总某公司在 Moody's 的最新财务数据和备案文件。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#003366",
+      "developerName": "Moody's",
+      "skills": [
+        "moody-s-company-analysis",
+        "moody-s-earnings-brief",
+        "moody-s-explore-mcp",
+        "moody-s-issuer-brief",
+        "moody-s-peer-analysis",
+        "moody-s-rating-analysis",
+        "moody-s-sector-brief"
+      ],
+      "skillsCount": 7,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/moody-s"
+    },
+    {
+      "name": "morningstar",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Morningstar",
+      "shortZh": "使用 Morningstar 应用筛选、汇总并对比基金。",
+      "shortEn": "使用 Morningstar 应用筛选、汇总并对比基金。",
+      "longZh": "适用于 Codex 的 Morningstar 基金工作流集合：支持标准化的生产级筛选、基金收益率筛选、单只基金深度汇总，以及 2 至 4 只基金的横向对比。该插件关联已审核的 Morningstar ChatGPT 应用以进行认证数据访问，并包含明确的数据可用性披露说明。",
+      "longEn": "适用于 Codex 的 Morningstar 基金工作流集合：支持标准化的生产级筛选、基金收益率筛选、单只基金深度汇总，以及 2 至 4 只基金的横向对比。该插件关联已审核的 Morningstar ChatGPT 应用以进行认证数据访问，并包含明确的数据可用性披露说明。",
+      "hasZh": true,
+      "prompts": [
+        "使用 fund-screener 筛选 Morningstar 评级为 Gold 的美国大盘 ETF。",
+        "使用 fund-summarizer 分析 VFIAX。",
+        "使用 fund-comparison 对比 VFIAX、SWPPX 和 FXAIX。"
+      ],
+      "promptsEn": [
+        "使用 fund-screener 筛选 Morningstar 评级为 Gold 的美国大盘 ETF。",
+        "使用 fund-summarizer 分析 VFIAX。",
+        "使用 fund-comparison 对比 VFIAX、SWPPX 和 FXAIX。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#E4572E",
+      "developerName": "Morningstar",
+      "skills": [
+        "fund-comparison",
+        "fund-screener",
+        "fund-summarizer"
+      ],
+      "skillsCount": 3,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/morningstar"
+    },
+    {
+      "name": "motherduck",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "MotherDuck",
+      "shortZh": "将 AI 助手连接到你的 MotherDuck 数据仓库。",
+      "shortEn": "将 AI 助手连接到你的 MotherDuck 数据仓库。",
+      "longZh": "将 AI 助手连接到你的 MotherDuck 数据仓库。用自然语言探索、可视化和管理数据——无需 SQL 技能。创建 Dive：可交互的可视化视图，让你将分析结果保存并分享给团队，始终与最新数据保持同步。无需语义模型或预配置，即可直接处理真实数据。AI 助手化身数据分析师，迭代式地探索、验证、分析和可视化数据，回答你的问题。",
+      "longEn": "将 AI 助手连接到你的 MotherDuck 数据仓库。用自然语言探索、可视化和管理数据——无需 SQL 技能。创建 Dive：可交互的可视化视图，让你将分析结果保存并分享给团队，始终与最新数据保持同步。无需语义模型或预配置，即可直接处理真实数据。AI 助手化身数据分析师，迭代式地探索、验证、分析和可视化数据，回答你的问题。",
+      "hasZh": true,
+      "prompts": [
+        "显示上季度收入前 30 名的客户"
+      ],
+      "promptsEn": [
+        "显示上季度收入前 30 名的客户"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": null,
+      "developerName": "MotherDuck Corporation",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/motherduck"
+    },
+    {
+      "name": "mt-newswires",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "MT Newswires",
+      "shortZh": "MT Newswires 将实时全球金融资讯直接带入 Codex——提供原创、客观、全面的资本市场多资产类别报道。",
+      "shortEn": "MT Newswires 将实时全球金融资讯直接带入 Codex——提供原创、客观、全面的资本市场多资产类别报道。",
+      "longZh": "MT Newswires 将实时全球金融资讯直接带入 Codex——覆盖资本市场与经济领域逾 180 个主题，内容原创、客观、全面，涵盖多资产类别。\n\n背靠受全球最大银行、券商、专业交易、财富管理和研究应用信赖的全球新闻编辑室，每篇报道均专为 AI 构建——让你的答案立足实时市场情报，而非过时数据。\n\n你可以：\n• 获取任意股票代码的最新资讯，分析对股价的影响\n• 监测全球股市中的能源行业动态\n• 实时追踪宏观事件和全球央行信号\n• 筛选财报、并购及市场重磅头条\n\n示例提示：\n→ 「NVIDIA 最新有什么新闻？是否影响了股价？」\n→ 「汇总过去一小时内主要分析师评级变动的动态。」\n→ 「今日推动市场的宏观事件有哪些？」",
+      "longEn": "MT Newswires 将实时全球金融资讯直接带入 Codex——覆盖资本市场与经济领域逾 180 个主题，内容原创、客观、全面，涵盖多资产类别。\n\n背靠受全球最大银行、券商、专业交易、财富管理和研究应用信赖的全球新闻编辑室，每篇报道均专为 AI 构建——让你的答案立足实时市场情报，而非过时数据。\n\n你可以：\n• 获取任意股票代码的最新资讯，分析对股价的影响\n• 监测全球股市中的能源行业动态\n• 实时追踪宏观事件和全球央行信号\n• 筛选财报、并购及市场重磅头条\n\n示例提示：\n→ 「NVIDIA 最新有什么新闻？是否影响了股价？」\n→ 「汇总过去一小时内主要分析师评级变动的动态。」\n→ 「今日推动市场的宏观事件有哪些？」",
+      "hasZh": true,
+      "prompts": [
+        "汇总 MT Newswires 关于该公司的最新资讯"
+      ],
+      "promptsEn": [
+        "汇总 MT Newswires 关于该公司的最新资讯"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "MT Newswires",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/mt-newswires"
+    },
+    {
+      "name": "myregistry-com",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "MyRegistry.com",
+      "shortZh": "MyRegistry.com 帮助朋友和家人轻松送出你真正想要的礼物！",
+      "shortEn": "MyRegistry.com 帮助朋友和家人轻松送出你真正想要的礼物！",
+      "longZh": "MyRegistry.com 帮助朋友和家人轻松送出你真正想要的礼物！为婚礼、迎婴派对、生日或任何庆典创建通用心愿清单，从任意商店添加心仪礼物。",
+      "longEn": "MyRegistry.com 帮助朋友和家人轻松送出你真正想要的礼物！为婚礼、迎婴派对、生日或任何庆典创建通用心愿清单，从任意商店添加心仪礼物。",
+      "hasZh": true,
+      "prompts": [
+        "在 MyRegistry.com 中查找相关心愿单详情"
+      ],
+      "promptsEn": [
+        "在 MyRegistry.com 中查找相关心愿单详情"
+      ],
+      "category": "Other",
+      "categoryZh": "其他",
+      "brandColor": null,
+      "developerName": "MyRegistry.com",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/myregistry-com"
+    },
+    {
+      "name": "neon-postgres",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Neon Postgres",
+      "shortZh": "管理 Neon Serverless Postgres 项目和数据库",
+      "shortEn": "管理 Neon Serverless Postgres 项目和数据库",
+      "longZh": "使用 Neon Postgres 插件创建和管理 Neon Serverless Postgres 项目及数据库。包含用于项目和数据库管理的 Neon MCP Server，以及提供连接方式、分支、自动扩缩容、Neon Auth 等指南的 neon-postgres 技能。",
+      "longEn": "使用 Neon Postgres 插件创建和管理 Neon Serverless Postgres 项目及数据库。包含用于项目和数据库管理的 Neon MCP Server，以及提供连接方式、分支、自动扩缩容、Neon Auth 等指南的 neon-postgres 技能。",
+      "hasZh": true,
+      "prompts": [
+        "使用 Neon 为我的项目创建一个新的 Serverless Postgres 数据库，并帮我完成连接配置"
+      ],
+      "promptsEn": [
+        "使用 Neon 为我的项目创建一个新的 Serverless Postgres 数据库，并帮我完成连接配置"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#37C38F",
+      "developerName": "Neon",
+      "skills": [
+        "neon-postgres",
+        "neon-postgres-egress-optimizer"
+      ],
+      "skillsCount": 2,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/neon-small.svg",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/neon-postgres"
+    },
+    {
+      "name": "netlify",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Netlify",
+      "shortZh": "部署项目并管理发布",
+      "shortEn": "部署项目并管理发布",
+      "longZh": "使用 Netlify 查看部署状态、管理站点，并结合精选部署技能和已连接的 Netlify 应用，支持预览和生产工作流。",
+      "longEn": "使用 Netlify 查看部署状态、管理站点，并结合精选部署技能和已连接的 Netlify 应用，支持预览和生产工作流。",
+      "hasZh": true,
+      "prompts": [
+        "将此项目部署到 Netlify，返回预览 URL 及所有需要修复的问题"
+      ],
+      "promptsEn": [
+        "将此项目部署到 Netlify，返回预览 URL 及所有需要修复的问题"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#00AD9F",
+      "developerName": "Netlify",
+      "skills": [
+        "netlify-ai-gateway",
+        "netlify-blobs",
+        "netlify-caching",
+        "netlify-cli-and-deploy",
+        "netlify-config",
+        "netlify-deploy",
+        "netlify-edge-functions",
+        "netlify-forms",
+        "netlify-frameworks",
+        "netlify-functions",
+        "netlify-identity",
+        "netlify-image-cdn"
+      ],
+      "skillsCount": 12,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.1.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/netlify"
+    },
+    {
+      "name": "network-solutions",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Network Solutions",
+      "shortZh": "Network Solutions 域名搜索助手让查找可用域名变得快速、简单、对话化。",
+      "shortEn": "Network Solutions 域名搜索助手让查找可用域名变得快速、简单、对话化。",
+      "longZh": "Network Solutions 域名搜索助手让查找可用域名变得快速、简单、对话化。用户无需逐个搜索，只需用自然语言描述创意，即可即时查询相关后缀的域名可用情况。助手帮助优化名称、推荐备选方案，快速找出可注册的选项。\n\n专为消除域名发现过程中的摩擦与挫败感而设计——当目标名称被占用时，对话式体验推动用户继续前进，并实时呈现更聪明、更具品牌感的可用方案。无论是创业、启动个人项目还是探索新想法，Network Solutions 都能帮你从创意到可用域名，一步到位。",
+      "longEn": "Network Solutions 域名搜索助手让查找可用域名变得快速、简单、对话化。用户无需逐个搜索，只需用自然语言描述创意，即可即时查询相关后缀的域名可用情况。助手帮助优化名称、推荐备选方案，快速找出可注册的选项。\n\n专为消除域名发现过程中的摩擦与挫败感而设计——当目标名称被占用时，对话式体验推动用户继续前进，并实时呈现更聪明、更具品牌感的可用方案。无论是创业、启动个人项目还是探索新想法，Network Solutions 都能帮你从创意到可用域名，一步到位。",
+      "hasZh": true,
+      "prompts": [
+        "搜索特定域名"
+      ],
+      "promptsEn": [
+        "搜索特定域名"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Network Solutions",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/network-solutions"
+    },
+    {
       "name": "ngs-analysis",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1488,10 +4228,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/ngs-analysis"
     },
     {
       "name": "notion",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1521,10 +4263,12 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/notion-small.svg",
+      "version": "0.1.7",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/notion"
     },
     {
       "name": "nvidia",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1566,10 +4310,42 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/nvidia.png",
+      "version": "1.0.4",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/nvidia"
     },
     {
+      "name": "omni-analytics",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Omni Analytics",
+      "shortZh": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。",
+      "shortEn": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。",
+      "longZh": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。让内部团队在 AI 工作流中提问数据问题，无需直接登录 Omni，同时仍强制执行行级安全和业务定义。",
+      "longEn": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。让内部团队在 AI 工作流中提问数据问题，无需直接登录 Omni，同时仍强制执行行级安全和业务定义。",
+      "hasZh": true,
+      "prompts": [
+        "按状态显示去年的订单"
+      ],
+      "promptsEn": [
+        "按状态显示去年的订单"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": "#F686AC",
+      "developerName": "Omni Analytics",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.4",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/omni-analytics"
+    },
+    {
       "name": "openai-ads-conversions",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1596,10 +4372,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/icon.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/openai-ads-conversions"
     },
     {
       "name": "openai-developers",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1634,12 +4412,44 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "1.2.3",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/openai-developers"
     },
     {
-      "name": "outlook-calendar",
+      "name": "otter-ai",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Otter.ai",
+      "shortZh": "Otter.ai MCP 服务器将 Codex 连接到你的会议智能，支持在工作流中直接搜索和检索记录。",
+      "shortEn": "Otter.ai MCP 服务器将 Codex 连接到你的会议智能，支持在工作流中直接搜索和检索记录。",
+      "longZh": "Otter.ai MCP 服务器将 Codex 连接到你的会议智能，支持在工作流中直接搜索和检索转录文本、摘要、行动项及会议元数据。可按关键词、日期范围、参会人、文件夹或频道搜索会议，然后获取带发言人标注的完整转录稿。用于会前复盘历史讨论、从往期对话中提取决策，或跨整个会议档案提炼洞察。同时支持个人和企业 Otter.ai 工作区。",
+      "longEn": "Otter.ai MCP 服务器将 Codex 连接到你的会议智能，支持在工作流中直接搜索和检索转录文本、摘要、行动项及会议元数据。可按关键词、日期范围、参会人、文件夹或频道搜索会议，然后获取带发言人标注的完整转录稿。用于会前复盘历史讨论、从往期对话中提取决策，或跨整个会议档案提炼洞察。同时支持个人和企业 Otter.ai 工作区。",
+      "hasZh": true,
+      "prompts": [
+        "列出最近的会议"
+      ],
+      "promptsEn": [
+        "列出最近的会议"
+      ],
+      "category": "Communication",
+      "categoryZh": "沟通协作",
+      "brandColor": null,
+      "developerName": "Otter.ai",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/otter-ai"
+    },
+    {
+      "name": "outlook-calendar",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Outlook Calendar",
       "shortZh": "管理 Outlook 日程",
@@ -1658,12 +4468,14 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "0.1.8",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/outlook-calendar"
     },
     {
       "name": "outlook-email",
+      "origin": "upstream",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
       "missing": false,
       "displayName": "Outlook Email",
       "shortZh": "整理 Outlook 收件箱",
@@ -1686,10 +4498,170 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "0.1.7",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/outlook-email"
     },
     {
+      "name": "outreach",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Outreach",
+      "shortZh": "用 Outreach 实现营收工作流自动化",
+      "shortEn": "用 Outreach 实现营收工作流自动化",
+      "longZh": "将 Outreach 的知识与操作引入 ChatGPT，让团队行动更快、跨系统整合洞察，并在不切换工具的情况下完成高阶营收任务。Outreach 是一个面向所有市场拓展团队的端到端 AI 营收平台。通过在每个营收工作流中嵌入具备自主能力的 AI，Outreach 提升销售效率、扩大销售管道，并为管理者提供规模化增长营收所需的可见性与可预测性。",
+      "longEn": "将 Outreach 的知识与操作引入 ChatGPT，让团队行动更快、跨系统整合洞察，并在不切换工具的情况下完成高阶营收任务。Outreach 是一个面向所有市场拓展团队的端到端 AI 营收平台。通过在每个营收工作流中嵌入具备自主能力的 AI，Outreach 提升销售效率、扩大销售管道，并为管理者提供规模化增长营收所需的可见性与可预测性。",
+      "hasZh": true,
+      "prompts": [
+        "找出 Outreach 中停滞的潜在客户并汇总最佳后续跟进方式。",
+        "搜索该账户的 Outreach 序列并汇总近期互动情况。",
+        "根据近期潜在客户活动，起草一封简洁的 Outreach 跟进邮件。"
+      ],
+      "promptsEn": [
+        "找出 Outreach 中停滞的潜在客户并汇总最佳后续跟进方式。",
+        "搜索该账户的 Outreach 序列并汇总近期互动情况。",
+        "根据近期潜在客户活动，起草一封简洁的 Outreach 跟进邮件。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#5951FF",
+      "developerName": "Outreach",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/outreach"
+    },
+    {
+      "name": "particl-market-research",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Particl Market Research",
+      "shortZh": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。",
+      "shortEn": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。",
+      "longZh": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。支持公司发现、产品目录研究、产品详情与变体分析、市场领导者发现、市场趋势分析、营销素材发现、零售活动追踪、销售时序数据及产品结构拆解。\n\n应用使用你认证的 Particl 账户，通过 Particl API 返回结构化市场情报数据。",
+      "longEn": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。支持公司发现、产品目录研究、产品详情与变体分析、市场领导者发现、市场趋势分析、营销素材发现、零售活动追踪、销售时序数据及产品结构拆解。\n\n应用使用你认证的 Particl 账户，通过 Particl API 返回结构化市场情报数据。",
+      "hasZh": true,
+      "prompts": [
+        "从 Particl 拉取相关市场快照"
+      ],
+      "promptsEn": [
+        "从 Particl 拉取相关市场快照"
+      ],
+      "category": "Education & Research",
+      "categoryZh": "教育科研",
+      "brandColor": null,
+      "developerName": "Particl",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/particl-market-research"
+    },
+    {
+      "name": "picsart",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Picsart",
+      "shortZh": "生成视频、图片和音频",
+      "shortEn": "生成视频、图片和音频",
+      "longZh": "用一个 Picsart 账户，借助 140+ 个 AI 模型生成高质量的视频、图片和音频。\n试试这样的提示：\n\n@Picsart ，为我们的产品发布制作一段 10 秒的电影感视频广告\n@Picsart ，把这张产品照片变成一段 6 秒的竖屏视频\n@Picsart ，为新品发布生成三张照片级的主视觉图\n@Picsart ，为产品演示制作一段 15 秒的器乐配乐",
+      "longEn": "用一个 Picsart 账户，借助 140+ 个 AI 模型生成高质量的视频、图片和音频。\n试试这样的提示：\n\n@Picsart ，为我们的产品发布制作一段 10 秒的电影感视频广告\n@Picsart ，把这张产品照片变成一段 6 秒的竖屏视频\n@Picsart ，为新品发布生成三张照片级的主视觉图\n@Picsart ，为产品演示制作一段 15 秒的器乐配乐",
+      "hasZh": true,
+      "prompts": [
+        "将这张产品图转成适用于 Reels 和 TikTok 的 10 秒竖版视频广告。",
+        "根据文字提示生成一段 15 秒的电影感产品预告视频。",
+        "生成 5 张符合品牌调性的产品图，并推荐最适合 Instagram 的宽高比。"
+      ],
+      "promptsEn": [
+        "将这张产品图转成适用于 Reels 和 TikTok 的 10 秒竖版视频广告。",
+        "根据文字提示生成一段 15 秒的电影感产品预告视频。",
+        "生成 5 张符合品牌调性的产品图，并推荐最适合 Instagram 的宽高比。"
+      ],
+      "category": "Creativity",
+      "categoryZh": "创意设计",
+      "brandColor": "#C209C8",
+      "developerName": "Picsart",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/picsart"
+    },
+    {
+      "name": "pipedrive",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Pipedrive",
+      "shortZh": "连接并同步 Pipedrive 的商机和联系人，在 Codex 中直接使用。",
+      "shortEn": "连接并同步 Pipedrive 的商机和联系人，在 Codex 中直接使用。",
+      "longZh": "连接并同步 Pipedrive 的商机和联系人，在 Codex 中直接使用。",
+      "longEn": "连接并同步 Pipedrive 的商机和联系人，在 Codex 中直接使用。",
+      "hasZh": true,
+      "prompts": [
+        "查找 Pipedrive 中的最新商机状态"
+      ],
+      "promptsEn": [
+        "查找 Pipedrive 中的最新商机状态"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": null,
+      "developerName": "OpenAI",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/pipedrive"
+    },
+    {
+      "name": "pitchbook",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "PitchBook",
+      "shortZh": "PitchBook 提供跨公司、投资机构、基金、交易、有限合伙人和相关人员的私募市场结构化数据。",
+      "shortEn": "PitchBook 提供跨公司、投资机构、基金、交易、有限合伙人和相关人员的私募市场结构化数据。",
+      "longZh": "PitchBook 提供跨公司、投资机构、基金、交易、有限合伙人和相关人员的私募市场结构化数据。返回标准化字段，包括企业基本概况、融资轮次、交易条款、股权信息、财务数据、基金业绩指标（如有）、LP 承诺金额、投资机构组合及带来源元数据的团队详情。当查询需要私募市场事实信息，或需检索与私营公司、投资活动或市场参与者相关的结构化数据时使用。支持实体识别、历史活动汇总，以及为进一步分析构建数据集等查询需求。",
+      "longEn": "PitchBook 提供跨公司、投资机构、基金、交易、有限合伙人和相关人员的私募市场结构化数据。返回标准化字段，包括企业基本概况、融资轮次、交易条款、股权信息、财务数据、基金业绩指标（如有）、LP 承诺金额、投资机构组合及带来源元数据的团队详情。当查询需要私募市场事实信息，或需检索与私营公司、投资活动或市场参与者相关的结构化数据时使用。支持实体识别、历史活动汇总，以及为进一步分析构建数据集等查询需求。",
+      "hasZh": true,
+      "prompts": [
+        "使用 PitchBook 协助完成此任务"
+      ],
+      "promptsEn": [
+        "使用 PitchBook 协助完成此任务"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "PitchBook",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/pitchbook"
+    },
+    {
       "name": "plugin-eval",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1724,10 +4696,42 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/plugin-eval.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/plugin-eval"
     },
     {
+      "name": "policynote",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "PolicyNote",
+      "shortZh": "通过 PolicyNote 获取来自全球的结构化政策与监管情报。",
+      "shortEn": "通过 PolicyNote 获取来自全球的结构化政策与监管情报。",
+      "longZh": "通过 PolicyNote 获取来自全球的结构化政策与监管情报。可跨司法管辖区检索立法、监管行动、政策动态及政府活动。\n\n该应用帮助开发者、分析师和政策专业人员以编程方式获取政策数据，并将其整合到内部工具、研究工作流、仪表盘或监控系统中。查询结果包含政策动向、政府信源及监管变化的结构化信息。\n\nPolicyNote 帮助团队追踪公共政策动态、构建预警机制、驱动分析工具，并将政府情报整合进自有应用。",
+      "longEn": "通过 PolicyNote 获取来自全球的结构化政策与监管情报。可跨司法管辖区检索立法、监管行动、政策动态及政府活动。\n\n该应用帮助开发者、分析师和政策专业人员以编程方式获取政策数据，并将其整合到内部工具、研究工作流、仪表盘或监控系统中。查询结果包含政策动向、政府信源及监管变化的结构化信息。\n\nPolicyNote 帮助团队追踪公共政策动态、构建预警机制、驱动分析工具，并将政府情报整合进自有应用。",
+      "hasZh": true,
+      "prompts": [
+        "从 PolicyNote 汇总相关政策背景"
+      ],
+      "promptsEn": [
+        "从 PolicyNote 汇总相关政策背景"
+      ],
+      "category": "Education & Research",
+      "categoryZh": "教育科研",
+      "brandColor": null,
+      "developerName": "FiscalNote",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/policynote"
+    },
+    {
       "name": "posthog",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1758,10 +4762,12 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "1.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/posthog"
     },
     {
       "name": "product-design",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1801,12 +4807,14 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/composerIcon.svg",
+      "version": "0.1.52",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/product-design"
     },
     {
       "name": "public-equity-investing",
+      "origin": "upstream",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
       "missing": false,
       "displayName": "Public Equity Investing",
       "shortZh": "公开市场股票 PM 研究、多空、财报、ETF/指数尽调与投资备忘录",
@@ -1857,10 +4865,42 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": "./assets/composerIcon.svg",
+      "version": "0.1.31",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/public-equity-investing"
     },
     {
+      "name": "pylon",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Pylon",
+      "shortZh": "直接在 Codex 中访问 Pylon 客户支持平台，搜索、管理并解决客户问题。",
+      "shortEn": "直接在 Codex 中访问 Pylon 客户支持平台，搜索、管理并解决客户问题。",
+      "longZh": "直接在 Codex 中访问 Pylon 客户支持平台，搜索、管理并解决客户问题。在处理支持队列的同时，将 Codex 的洞察与真实客户对话相结合。\n\n你可以用 Pylon 应用：\n  • 查看队列：「有哪些分配给我、待回复的 Pylon 工单？」\n  • 了解客户：「汇总 Acme Corp 近期工单，并标出需要升级处理的问题。」\n  • 更新工单：「将 Sarah 提交的账单问题标记为已解决，并备注已办理退款。」",
+      "longEn": "直接在 Codex 中访问 Pylon 客户支持平台，搜索、管理并解决客户问题。在处理支持队列的同时，将 Codex 的洞察与真实客户对话相结合。\n\n你可以用 Pylon 应用：\n  • 查看队列：「有哪些分配给我、待回复的 Pylon 工单？」\n  • 了解客户：「汇总 Acme Corp 近期工单，并标出需要升级处理的问题。」\n  • 更新工单：「将 Sarah 提交的账单问题标记为已解决，并备注已办理退款。」",
+      "hasZh": true,
+      "prompts": [
+        "汇总我最近的工单"
+      ],
+      "promptsEn": [
+        "汇总我最近的工单"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Pylon Labs Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/pylon"
+    },
+    {
       "name": "qodo",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": true,
@@ -1881,10 +4921,230 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": null,
+      "version": null,
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/qodo"
     },
     {
+      "name": "quartr",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Quartr",
+      "shortZh": "上市公司 IR 数据与财报研究",
+      "shortEn": "上市公司 IR 数据与财报研究",
+      "longZh": "获取横跨 65 个市场、超过 14,500 家上市公司的结构化第一方 IR 数据。Quartr 提供实时及录制的业绩电话会议、带发言人识别的实时/历史文字记录、幻灯片演示、文件、报告及活动摘要。数据可靠性与时效性均属业内顶尖，适用于金融研究、投资分析，以及基于机构级上市公司数据构建数据驱动工作流。\n\nQuartr 的使用场景：\n\n业绩电话会议分析：\n「列举 NVIDIA 近期文字记录和文件中涉及下季业绩预期或结果的前瞻性表述。」\n\n竞争情报：\n「比较半导体公司在相同终端市场和需求方面的表述差异。」\n\nKPI 追踪：\n「Spotify 在过去八个季度中引入、淡化或重新阐释了哪些 KPI？」\n\n叙事评估：\n「Eli Lilly 最近两次业绩电话会议上，分析师提问中最频繁出现的主题是什么？请重点标注关注点和担忧。」",
+      "longEn": "获取横跨 65 个市场、超过 14,500 家上市公司的结构化第一方 IR 数据。Quartr 提供实时及录制的业绩电话会议、带发言人识别的实时/历史文字记录、幻灯片演示、文件、报告及活动摘要。数据可靠性与时效性均属业内顶尖，适用于金融研究、投资分析，以及基于机构级上市公司数据构建数据驱动工作流。\n\nQuartr 的使用场景：\n\n业绩电话会议分析：\n「列举 NVIDIA 近期文字记录和文件中涉及下季业绩预期或结果的前瞻性表述。」\n\n竞争情报：\n「比较半导体公司在相同终端市场和需求方面的表述差异。」\n\nKPI 追踪：\n「Spotify 在过去八个季度中引入、淡化或重新阐释了哪些 KPI？」\n\n叙事评估：\n「Eli Lilly 最近两次业绩电话会议上，分析师提问中最频繁出现的主题是什么？请重点标注关注点和担忧。」",
+      "hasZh": true,
+      "prompts": [
+        "查找某家公司最新的 Quartr 相关资料。",
+        "比较某家公司最近两次业绩电话会议中分析师提问的反复主题。",
+        "提取某家公司近期的业绩文字记录和文件，并汇总前瞻性表述。"
+      ],
+      "promptsEn": [
+        "查找某家公司最新的 Quartr 相关资料。",
+        "比较某家公司最近两次业绩电话会议中分析师提问的反复主题。",
+        "提取某家公司近期的业绩文字记录和文件，并汇总前瞻性表述。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#000000",
+      "developerName": "Quartr",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/quartr"
+    },
+    {
+      "name": "quickbooks",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "QuickBooks",
+      "shortZh": "分析财务并管理 QuickBooks 记录",
+      "shortEn": "分析财务并管理 QuickBooks 记录",
+      "longZh": "把企业的原始财务数据转化为清晰的财务洞察。分析盈利能力、现金流、应收账款与应付账款，并将你的表现与同行业、同地区的相似企业进行对比。几分钟内生成符合会计规范的损益表、现金流量表、资产负债表以及 AR/AP 账龄报告。直接在对话中管理发票、报价、付款、客户、产品和薪资。将交易上传或粘贴到 QuickBooks ChatGPT 应用中，分析个性化结果，并随着企业发展查看同行贷款基准。",
+      "longEn": "把企业的原始财务数据转化为清晰的财务洞察。分析盈利能力、现金流、应收账款与应付账款，并将你的表现与同行业、同地区的相似企业进行对比。几分钟内生成符合会计规范的损益表、现金流量表、资产负债表以及 AR/AP 账龄报告。直接在对话中管理发票、报价、付款、客户、产品和薪资。将交易上传或粘贴到 QuickBooks ChatGPT 应用中，分析个性化结果，并随着企业发展查看同行贷款基准。",
+      "hasZh": true,
+      "prompts": [
+        "找出 QuickBooks 中逾期未付的发票并汇总需要跟进的对象。",
+        "按类别汇总本月 QuickBooks 费用并标出异常项。",
+        "查看该账户的 QuickBooks 客户信息及近期付款记录。"
+      ],
+      "promptsEn": [
+        "找出 QuickBooks 中逾期未付的发票并汇总需要跟进的对象。",
+        "按类别汇总本月 QuickBooks 费用并标出异常项。",
+        "查看该账户的 QuickBooks 客户信息及近期付款记录。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#2CA01C",
+      "developerName": "QuickBooks",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/quickbooks"
+    },
+    {
+      "name": "quicknode",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Quicknode",
+      "shortZh": "直接在 OpenAI 中管理你的 Quicknode 基础设施。",
+      "shortEn": "直接在 OpenAI 中管理你的 Quicknode 基础设施。",
+      "longZh": "直接在 OpenAI 中管理你的 Quicknode 基础设施。在一个对话中即可创建和管理端点、监控日志与用量、配置安全策略和速率限制，以及查看账单信息。",
+      "longEn": "直接在 OpenAI 中管理你的 Quicknode 基础设施。在一个对话中即可创建和管理端点、监控日志与用量、配置安全策略和速率限制，以及查看账单信息。",
+      "hasZh": true,
+      "prompts": [
+        "用 QuickNode 查询相关链上数据"
+      ],
+      "promptsEn": [
+        "用 QuickNode 查询相关链上数据"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "Quicknode",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/quicknode"
+    },
+    {
+      "name": "ranked-ai",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Ranked AI",
+      "shortZh": "Ranked AI 提供业内领先的 AI SEO 和 PPC 软件，并内置完整的托管服务。",
+      "shortEn": "Ranked AI 提供业内领先的 AI SEO 和 PPC 软件，并内置完整的托管服务。",
+      "longZh": "Ranked AI 提供业内领先的 AI SEO 和 PPC 软件，并内置完整的托管服务。我们将 AI 与行业资深专家结合，帮助你在传统搜索和 AI 搜索中提升排名。通过集成应用管理传统搜索与 AI 搜索的关键词、审计、外链、报告等内容。",
+      "longEn": "Ranked AI 提供业内领先的 AI SEO 和 PPC 软件，并内置完整的托管服务。我们将 AI 与行业资深专家结合，帮助你在传统搜索和 AI 搜索中提升排名。通过集成应用管理传统搜索与 AI 搜索的关键词、审计、外链、报告等内容。",
+      "hasZh": true,
+      "prompts": [
+        "显示项目的排名情况"
+      ],
+      "promptsEn": [
+        "显示项目的排名情况"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Ranked AI, LLC",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/ranked-ai"
+    },
+    {
+      "name": "razorpay",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Razorpay",
+      "shortZh": "连接你的 Razorpay 账户，通过对话访问支付数据。",
+      "shortEn": "连接你的 Razorpay 账户，通过对话访问支付数据。",
+      "longZh": "连接你的 Razorpay 账户，通过对话访问支付数据。\n向 Codex 询问你的支付、订单、退款、结算、QR 码、支付链接等信息，即时获取答案，例如「显示今天的支付记录」、「近期结算状态如何」或「查找上周的退款」。\n非常适合希望快速获取数据而不想在仪表盘间来回切换的商户。通过自然语言查看交易详情、追踪结算时间线、查看已保存的支付方式，并分析支付活动。\n\n可用功能：\n1. 查询支付和订单详情\n2. 检查退款和结算状态\n3. 查看 QR 码和支付链接活动\n4. 追踪打款和对账数据\n5. 访问已保存的客户支付方式\n\n仅限只读访问——数据安全，不会通过本应用执行任何交易。",
+      "longEn": "连接你的 Razorpay 账户，通过对话访问支付数据。\n向 Codex 询问你的支付、订单、退款、结算、QR 码、支付链接等信息，即时获取答案，例如「显示今天的支付记录」、「近期结算状态如何」或「查找上周的退款」。\n非常适合希望快速获取数据而不想在仪表盘间来回切换的商户。通过自然语言查看交易详情、追踪结算时间线、查看已保存的支付方式，并分析支付活动。\n\n可用功能：\n1. 查询支付和订单详情\n2. 检查退款和结算状态\n3. 查看 QR 码和支付链接活动\n4. 追踪打款和对账数据\n5. 访问已保存的客户支付方式\n\n仅限只读访问——数据安全，不会通过本应用执行任何交易。",
+      "hasZh": true,
+      "prompts": [
+        "在 Razorpay 中查询相关支付背景"
+      ],
+      "promptsEn": [
+        "在 Razorpay 中查询相关支付背景"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Razorpay Software Private Limited",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/razorpay"
+    },
+    {
+      "name": "read-ai",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Read AI",
+      "shortZh": "将 Read AI 的会议智能直接带入你的 AI 工作流。",
+      "shortEn": "将 Read AI 的会议智能直接带入你的 AI 工作流。",
+      "longZh": "将 Read AI 的会议智能直接带入你的 AI 工作流。连接 Read AI 账户后，即可通过自然对话获取会议摘要、文字记录、待办事项、关键问题等内容。\n\nRead AI 可以查找近期会议、提取指定通话的完整文字记录、列出上周同步会议的待办事项，或找出某次讨论中提出的关键问题。\n\n你可以：\n\n- 按日期范围浏览和筛选会议\n- 获取任意会议的摘要、章节分解和主题\n- 提取待办事项和关键问题，跟进后续行动\n- 访问完整文字记录，深入研究或逐字引用\n\n无论是准备跟进会议、补看错过的会议，还是围绕录制对话构建工作流，Read AI 的 MCP 集成都能让会议数据成为你 AI 体验的一等公民。",
+      "longEn": "将 Read AI 的会议智能直接带入你的 AI 工作流。连接 Read AI 账户后，即可通过自然对话获取会议摘要、文字记录、待办事项、关键问题等内容。\n\nRead AI 可以查找近期会议、提取指定通话的完整文字记录、列出上周同步会议的待办事项，或找出某次讨论中提出的关键问题。\n\n你可以：\n\n- 按日期范围浏览和筛选会议\n- 获取任意会议的摘要、章节分解和主题\n- 提取待办事项和关键问题，跟进后续行动\n- 访问完整文字记录，深入研究或逐字引用\n\n无论是准备跟进会议、补看错过的会议，还是围绕录制对话构建工作流，Read AI 的 MCP 集成都能让会议数据成为你 AI 体验的一等公民。",
+      "hasZh": true,
+      "prompts": [
+        "汇总 Read AI 最新的会议洞察"
+      ],
+      "promptsEn": [
+        "汇总 Read AI 最新的会议洞察"
+      ],
+      "category": "Communication",
+      "categoryZh": "沟通协作",
+      "brandColor": null,
+      "developerName": "Read AI, Inc",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/read-ai"
+    },
+    {
+      "name": "readwise",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Readwise",
+      "shortZh": "Readwise 和 Reader 的官方应用。",
+      "shortEn": "Readwise 和 Reader 的官方应用。",
+      "longZh": "Readwise 和 Reader 的官方应用。\n\n本应用让 Codex 能对你所有的高亮内容以及保存到 Reader 书库中的内容进行语义搜索。\n\n不仅如此，它几乎可以完成你在 Reader 中能做的所有操作！整理收件箱、管理书库、浏览订阅 Feed 等，直接说就行 :)",
+      "longEn": "Readwise 和 Reader 的官方应用。\n\n本应用让 Codex 能对你所有的高亮内容以及保存到 Reader 书库中的内容进行语义搜索。\n\n不仅如此，它几乎可以完成你在 Reader 中能做的所有操作！整理收件箱、管理书库、浏览订阅 Feed 等，直接说就行 :)",
+      "hasZh": true,
+      "prompts": [
+        "在 Readwise 中找到最相关的高亮内容"
+      ],
+      "promptsEn": [
+        "在 Readwise 中找到最相关的高亮内容"
+      ],
+      "category": "Education & Research",
+      "categoryZh": "教育科研",
+      "brandColor": null,
+      "developerName": "Readwise Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/readwise"
+    },
+    {
       "name": "remotion",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1926,10 +5186,325 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./.codex-plugin/assets/composer-icon.svg",
+      "version": "1.0.7",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/remotion"
     },
     {
+      "name": "render",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Render",
+      "shortZh": "在 Render 上部署、调试、监控和迁移应用。",
+      "shortEn": "在 Render 上部署、调试、监控和迁移应用。",
+      "longZh": "提供以下能力：使用 Blueprint 部署应用、调试失败的部署、监控服务健康与指标、构建 Render Workflows，以及从 Heroku 迁移。",
+      "longEn": "提供以下能力：使用 Blueprint 部署应用、调试失败的部署、监控服务健康与指标、构建 Render Workflows，以及从 Heroku 迁移。",
+      "hasZh": true,
+      "prompts": [
+        "我的 Render 服务现在状态如何？",
+        "帮我校验 Render 的 render.yaml 配置。",
+        "调试一个失败的 Render 部署。"
+      ],
+      "promptsEn": [
+        "我的 Render 服务现在状态如何？",
+        "帮我校验 Render 的 render.yaml 配置。",
+        "调试一个失败的 Render 部署。"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#8A05FF",
+      "developerName": "Render",
+      "skills": [
+        "render-background-workers",
+        "render-blueprints",
+        "render-cli",
+        "render-cron-jobs",
+        "render-debug",
+        "render-deploy",
+        "render-disks",
+        "render-docker",
+        "render-domains",
+        "render-env-vars",
+        "render-keyvalue",
+        "render-mcp",
+        "render-migrate-from-heroku",
+        "render-monitor",
+        "render-networking",
+        "render-postgres",
+        "render-private-services",
+        "render-scaling",
+        "render-static-sites",
+        "render-web-services",
+        "render-workflows"
+      ],
+      "skillsCount": 21,
+      "hasMcp": false,
+      "hasApp": false,
+      "icon": "./assets/logo.svg",
+      "version": "0.1.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/render"
+    },
+    {
+      "name": "replayio",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Replay.io",
+      "shortZh": "录制浏览器会话，并检查 Replay 录制或 Replay QA 结果",
+      "shortEn": "录制浏览器会话，并检查 Replay 录制或 Replay QA 结果",
+      "longZh": "使用由 AGENT_BROWSER_EXECUTABLE_PATH 指定的 Replay Chromium 驱动宿主智能体浏览器，以捕获支持时间旅行调试的录制，在运行结束后上传待处理录制，通过 Replay MCP 工具分析已上传的录制，并创建 Replay QA 项目用于录制分析或实时应用探索。在感知 MCP Apps 的宿主中，Replay 工具结果可渲染丰富的调试组件，涵盖日志断点、控制台输出、React 树、Redux 状态、网络请求、截图、源代码、性能分析数据及异常堆栈。",
+      "longEn": "使用由 AGENT_BROWSER_EXECUTABLE_PATH 指定的 Replay Chromium 驱动宿主智能体浏览器，以捕获支持时间旅行调试的录制，在运行结束后上传待处理录制，通过 Replay MCP 工具分析已上传的录制，并创建 Replay QA 项目用于录制分析或实时应用探索。在感知 MCP Apps 的宿主中，Replay 工具结果可渲染丰富的调试组件，涵盖日志断点、控制台输出、React 树、Redux 状态、网络请求、截图、源代码、性能分析数据及异常堆栈。",
+      "hasZh": true,
+      "prompts": [
+        "针对此本地应用录制一次智能体浏览器会话，并分析生成的录制",
+        "为此 Replay 录制创建一个 Replay QA 项目并报告 bug"
+      ],
+      "promptsEn": [
+        "针对此本地应用录制一次智能体浏览器会话，并分析生成的录制",
+        "为此 Replay 录制创建一个 Replay QA 项目并报告 bug"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#F02D5E",
+      "developerName": "Replay",
+      "skills": [
+        "replay-qa-api",
+        "replayio"
+      ],
+      "skillsCount": 2,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/replayio.svg",
+      "version": "0.1.0",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/replayio"
+    },
+    {
+      "name": "replit",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Replit",
+      "shortZh": "创建并迭代 Replit 网页应用",
+      "shortEn": "创建并迭代 Replit 网页应用",
+      "longZh": "支持根据自然语言描述，在用户的 Replit 账户中创建全新的网页应用，且不在对话中直接暴露代码。同时支持检查并解释当前应用的行为，并在迭代开发过程中将自然语言变更请求应用到同一应用上。",
+      "longEn": "支持根据自然语言描述，在用户的 Replit 账户中创建全新的网页应用，且不在对话中直接暴露代码。同时支持检查并解释当前应用的行为，并在迭代开发过程中将自然语言变更请求应用到同一应用上。",
+      "hasZh": true,
+      "prompts": [
+        "查找我的 Replit 项目并汇总最近的活动情况。",
+        "打开一个 Replit 工作区并说明应用结构。",
+        "检查该项目的 Replit 部署情况并标出存在的问题。"
+      ],
+      "promptsEn": [
+        "查找我的 Replit 项目并汇总最近的活动情况。",
+        "打开一个 Replit 工作区并说明应用结构。",
+        "检查该项目的 Replit 部署情况并标出存在的问题。"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#FD5402",
+      "developerName": "Replit",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/replit"
+    },
+    {
+      "name": "responsive",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Responsive",
+      "shortZh": "Responsive 应用让你在 Codex 中轻松使用组织数据。",
+      "shortEn": "Responsive 应用让你在 Codex 中轻松使用组织数据。",
+      "longZh": "Responsive 应用让你在 Codex 中轻松使用组织数据。搜索内容库并生成回复，基于可信信息快速推进工作，无需切换工具。",
+      "longEn": "Responsive 应用让你在 Codex 中轻松使用组织数据。搜索内容库并生成回复，基于可信信息快速推进工作，无需切换工具。",
+      "hasZh": true,
+      "prompts": [
+        "从 Responsive 提取相关提案内容"
+      ],
+      "promptsEn": [
+        "从 Responsive 提取相关提案内容"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "RFPIO Inc. (d/b/a Responsive)",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/responsive"
+    },
+    {
+      "name": "rox",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Rox",
+      "shortZh": "分析 Rox 工作空间中的销售数据",
+      "shortEn": "分析 Rox 工作空间中的销售数据",
+      "longZh": "Rox 帮助用户查找并分析来自其 Rox 工作空间的已认证销售数据，包括客户、交易、联系人、备注、邮件、会议、文档、组织架构图和 Slack 活动。该应用提供引导式数据接口：用户可以发现可用的数据函数、查看每个函数的 schema 与工作流指引，然后调用只读函数来回答销售与客户情报相关的问题。",
+      "longEn": "Rox 帮助用户查找并分析来自其 Rox 工作空间的已认证销售数据，包括客户、交易、联系人、备注、邮件、会议、文档、组织架构图和 Slack 活动。该应用提供引导式数据接口：用户可以发现可用的数据函数、查看每个函数的 schema 与工作流指引，然后调用只读函数来回答销售与客户情报相关的问题。",
+      "hasZh": true,
+      "prompts": [
+        "查找该客户在 Rox 中的账户洞察并汇总推荐的下一步行动。",
+        "用 Rox 识别近期有购买信号的高优先级账户。",
+        "根据 Rox 账户活动和会议背景，起草后续跟进计划。"
+      ],
+      "promptsEn": [
+        "查找该客户在 Rox 中的账户洞察并汇总推荐的下一步行动。",
+        "用 Rox 识别近期有购买信号的高优先级账户。",
+        "根据 Rox 账户活动和会议背景，起草后续跟进计划。"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": "#101010",
+      "developerName": "Rox Data Corp",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/rox"
+    },
+    {
+      "name": "s-p",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "S&P Global",
+      "shortZh": "查询 S&P Global 金融数据集",
+      "shortEn": "查询 S&P Global 金融数据集",
+      "longZh": "用自然语言查询一系列 S&P Global 数据集，包括 S&P Capital IQ Financials、电话会议记录等。本服务专为金融服务领域的工程、产品和业务团队节省时间与资源而设计，简化对公司信息、财务报表、历史市场数据及全球证券的访问。",
+      "longEn": "用自然语言查询一系列 S&P Global 数据集，包括 S&P Capital IQ Financials、电话会议记录等。本服务专为金融服务领域的工程、产品和业务团队节省时间与资源而设计，简化对公司信息、财务报表、历史市场数据及全球证券的访问。",
+      "hasZh": true,
+      "prompts": [
+        "提取某股票代码的 S&P Global 公司财务和评级信息，并梳理主要风险。",
+        "在 S&P Global 中对比某公司及同行的营收增长、利润率和估值倍数。",
+        "查找 S&P Global 中某行业的最新研究或行业展望，提炼核心结论。"
+      ],
+      "promptsEn": [
+        "提取某股票代码的 S&P Global 公司财务和评级信息，并梳理主要风险。",
+        "在 S&P Global 中对比某公司及同行的营收增长、利润率和估值倍数。",
+        "查找 S&P Global 中某行业的最新研究或行业展望，提炼核心结论。"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": "#D80028",
+      "developerName": "S&P Global",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/s-p"
+    },
+    {
+      "name": "scite",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Scite",
+      "shortZh": "Scite 提供基于经同行评审研究的可验证答案。",
+      "shortEn": "Scite 提供基于经同行评审研究的可验证答案。",
+      "longZh": "Scite 提供基于经同行评审研究的可验证答案。每条回复均有真实科学来源支撑，引用内容清楚呈现该研究被其他研究者支持、质疑或背景化的情况。背后的专有引用排名模型会优先呈现可信、经过验证的研究，帮助用户从主张走向证据。",
+      "longEn": "Scite 提供基于经同行评审研究的可验证答案。每条回复均有真实科学来源支撑，引用内容清楚呈现该研究被其他研究者支持、质疑或背景化的情况。背后的专有引用排名模型会优先呈现可信、经过验证的研究，帮助用户从主张走向证据。",
+      "hasZh": true,
+      "prompts": [
+        "青少年屏幕时间影响的最新研究进展"
+      ],
+      "promptsEn": [
+        "青少年屏幕时间影响的最新研究进展"
+      ],
+      "category": "Education & Research",
+      "categoryZh": "教育科研",
+      "brandColor": null,
+      "developerName": "Scite",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/scite"
+    },
+    {
+      "name": "semrush",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Semrush",
+      "shortZh": "Semrush MCP 提供针对域名、关键词、外链及市场受众洞察的结构化定量 SEO 与流量数据……",
+      "shortEn": "Semrush MCP 提供针对域名、关键词、外链及市场受众洞察的结构化定量 SEO 与流量数据……",
+      "longZh": "Semrush MCP 提供针对域名、关键词、外链及市场受众洞察的结构化定量 SEO 与流量数据。返回的数据集包括域名分析、关键词指标、外链概况、跨时间段和渠道的流量数据、地域与人口分布，以及竞争或行业级指标。当用户请求网站指标、流量统计、关键词数据、竞品对比，或需要权威数据支撑的市场/受众分析时，模型应调用此 MCP。当用户的问题需要对特定域名进行数据驱动评估时（即使问题措辞为建议或改进方向），同样应使用此 MCP。",
+      "longEn": "Semrush MCP 提供针对域名、关键词、外链及市场受众洞察的结构化定量 SEO 与流量数据。返回的数据集包括域名分析、关键词指标、外链概况、跨时间段和渠道的流量数据、地域与人口分布，以及竞争或行业级指标。当用户请求网站指标、流量统计、关键词数据、竞品对比，或需要权威数据支撑的市场/受众分析时，模型应调用此 MCP。当用户的问题需要对特定域名进行数据驱动评估时（即使问题措辞为建议或改进方向），同样应使用此 MCP。",
+      "hasZh": true,
+      "prompts": [
+        "分析 nike.com 的流量来源构成"
+      ],
+      "promptsEn": [
+        "分析 nike.com 的流量来源构成"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Semrush Holdings, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/semrush"
+    },
+    {
+      "name": "sendgrid",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "SendGrid",
+      "shortZh": "与 SendGrid 邮件 API 交互的连接器。",
+      "shortEn": "与 SendGrid 邮件 API 交互的连接器。",
+      "longZh": "与 SendGrid 邮件 API 交互的连接器。",
+      "longEn": "与 SendGrid 邮件 API 交互的连接器。",
+      "hasZh": true,
+      "prompts": [
+        "查看邮件指标并汇总送达情况"
+      ],
+      "promptsEn": [
+        "查看邮件指标并汇总送达情况"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "OpenAI",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "0.1.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/sendgrid"
+    },
+    {
       "name": "sentry",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -1956,12 +5531,44 @@
       "hasMcp": true,
       "hasApp": false,
       "icon": "./assets/sentry-small.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/sentry"
     },
     {
-      "name": "sharepoint",
+      "name": "setu-bharat-connect-billpay",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Setu Bharat Connect BillPay ",
+      "shortZh": "通过简单对话帮助你缴纳水电煤等公共事业账单。",
+      "shortEn": "通过简单对话帮助你缴纳水电煤等公共事业账单。",
+      "longZh": "通过简单对话帮助你缴纳水电煤等公共事业账单。无需在应用间跳转或填写表单，直接告诉助手你想做什么——比如缴纳电费、宽带费或其他公用事业账单。应用会自动找到对应账单方、获取准确账单金额，并一步步引导你完成支付。你可以查看待缴账单、在付款前确认金额、确认支付是否成功，以及查看账单支出汇总。对于需要额外核实的步骤（如验证或确认），应用会明确引导，确保每一步都经你同意。用户喜欢这款应用，因为它消除了日常缴费的繁琐——不用记住账单方信息，也不用在多个界面间来回切换，直接问、核对、支付，全程在一个对话里完成。",
+      "longEn": "通过简单对话帮助你缴纳水电煤等公共事业账单。无需在应用间跳转或填写表单，直接告诉助手你想做什么——比如缴纳电费、宽带费或其他公用事业账单。应用会自动找到对应账单方、获取准确账单金额，并一步步引导你完成支付。你可以查看待缴账单、在付款前确认金额、确认支付是否成功，以及查看账单支出汇总。对于需要额外核实的步骤（如验证或确认），应用会明确引导，确保每一步都经你同意。用户喜欢这款应用，因为它消除了日常缴费的繁琐——不用记住账单方信息，也不用在多个界面间来回切换，直接问、核对、支付，全程在一个对话里完成。",
+      "hasZh": true,
+      "prompts": [
+        "在 Setu 中查询相关账单支付信息"
+      ],
+      "promptsEn": [
+        "在 Setu 中查询相关账单支付信息"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Setu",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/setu-bharat-connect-billpay"
+    },
+    {
+      "name": "sharepoint",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "SharePoint",
       "shortZh": "汇总 SharePoint 内容",
@@ -1984,12 +5591,14 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "0.1.7",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/sharepoint"
     },
     {
       "name": "shopify",
+      "origin": "upstream",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
       "missing": false,
       "displayName": "Shopify",
       "shortZh": "构建并管理你的店铺",
@@ -2037,10 +5646,140 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.svg",
+      "version": "3.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/shopify"
     },
     {
+      "name": "shutterstock",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Shutterstock",
+      "shortZh": "检索素材媒体库",
+      "shortEn": "检索素材媒体库",
+      "longZh": "检索素材库，找到与用户指定的主题、风格、情绪或场景相匹配的候选图片、视频、音乐和音效，返回带水印的预览 URL 及基本元数据供选择。适用于用户想要浏览或挑选现有素材媒体（包括多组分类图片检索）的场景，而非用于生成、编辑、授权或下载文件。",
+      "longEn": "检索素材库，找到与用户指定的主题、风格、情绪或场景相匹配的候选图片、视频、音乐和音效，返回带水印的预览 URL 及基本元数据供选择。适用于用户想要浏览或挑选现有素材媒体（包括多组分类图片检索）的场景，而非用于生成、编辑、授权或下载文件。",
+      "hasZh": true,
+      "prompts": [
+        "在 Shutterstock 上搜索适合本次活动的主视觉图片并对比各选项。",
+        "查找与该分镜脚本匹配的 Shutterstock 视频素材并汇总备选方案。",
+        "为本次社交媒体发布整理一份 Shutterstock 素材候选清单。"
+      ],
+      "promptsEn": [
+        "在 Shutterstock 上搜索适合本次活动的主视觉图片并对比各选项。",
+        "查找与该分镜脚本匹配的 Shutterstock 视频素材并汇总备选方案。",
+        "为本次社交媒体发布整理一份 Shutterstock 素材候选清单。"
+      ],
+      "category": "Creativity",
+      "categoryZh": "创意设计",
+      "brandColor": "#FF6F4A",
+      "developerName": "Shutterstock",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/shutterstock"
+    },
+    {
+      "name": "signnow",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "SignNow",
+      "shortZh": "无需切换工具，更快完成文件签署。",
+      "shortEn": "无需切换工具，更快完成文件签署。",
+      "longZh": "无需切换工具，更快完成文件签署。SignNow MCP 服务器将 Codex 直接连接到你的 SignNow 账户，让你通过对话管理完整的电子签名流程。用自然语言描述需求，即可发送签署请求、从模板创建文件并预填内容、追踪邀请状态、获取已签文件——一切尽在对话中完成。无论处理合同、协议还是审批，Codex 会替你执行 SignNow 操作，让你专注于工作本身，而不是追着人要签名。\n\nSignNow 使用场景：\n\n创建并发送文件：\n「从员工保密协议模板创建一份文件，并发送给 client@example.com 签署」\n\n追踪签署状态：\n「查看销售协议的签署状态，显示所有待签条目」\n\n管理模板：\n「列出所有可用模板，并从服务协议模板创建一份新合同」\n\n下载已签文件：\n「获取已完成的劳动合同的下载链接」",
+      "longEn": "无需切换工具，更快完成文件签署。SignNow MCP 服务器将 Codex 直接连接到你的 SignNow 账户，让你通过对话管理完整的电子签名流程。用自然语言描述需求，即可发送签署请求、从模板创建文件并预填内容、追踪邀请状态、获取已签文件——一切尽在对话中完成。无论处理合同、协议还是审批，Codex 会替你执行 SignNow 操作，让你专注于工作本身，而不是追着人要签名。\n\nSignNow 使用场景：\n\n创建并发送文件：\n「从员工保密协议模板创建一份文件，并发送给 client@example.com 签署」\n\n追踪签署状态：\n「查看销售协议的签署状态，显示所有待签条目」\n\n管理模板：\n「列出所有可用模板，并从服务协议模板创建一份新合同」\n\n下载已签文件：\n「获取已完成的劳动合同的下载链接」",
+      "hasZh": true,
+      "prompts": [
+        "查询相关 SignNow 文件的状态"
+      ],
+      "promptsEn": [
+        "查询相关 SignNow 文件的状态"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "airSlate Inc",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/signnow"
+    },
+    {
+      "name": "similarweb",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Similarweb",
+      "shortZh": "研究网站与应用的市场情报",
+      "shortEn": "研究网站与应用的市场情报",
+      "longZh": "在 ChatGPT 内使用 Similarweb 的市场情报数据，研究任意网站或应用。分析竞品流量、发掘热门关键词、洞察受众画像，并在各行业间对标表现——一切只需简单提示。比如问「展示 Nike 的流量来源构成」或「Adidas 在哪些关键词上排名靠前？」，无需切换工具即可获得实时洞察。无论你是营销人员、分析师、投资者还是策略师，Similarweb 都能让你即刻把竞争问题转化为答案。",
+      "longEn": "在 ChatGPT 内使用 Similarweb 的市场情报数据，研究任意网站或应用。分析竞品流量、发掘热门关键词、洞察受众画像，并在各行业间对标表现——一切只需简单提示。比如问「展示 Nike 的流量来源构成」或「Adidas 在哪些关键词上排名靠前？」，无需切换工具即可获得实时洞察。无论你是营销人员、分析师、投资者还是策略师，Similarweb 都能让你即刻把竞争问题转化为答案。",
+      "hasZh": true,
+      "prompts": [
+        "分析 example.com 与其主要竞争对手过去六个月的流量趋势。",
+        "找出 example.com 的主要获客渠道和引流来源网站，并梳理增长机会。",
+        "对比 example.com 与竞争对手的受众地域分布和搜索关键词。"
+      ],
+      "promptsEn": [
+        "分析 example.com 与其主要竞争对手过去六个月的流量趋势。",
+        "找出 example.com 的主要获客渠道和引流来源网站，并梳理增长机会。",
+        "对比 example.com 与竞争对手的受众地域分布和搜索关键词。"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": "#F07028",
+      "developerName": "Similarweb",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/similarweb"
+    },
+    {
+      "name": "skywatch",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "SkyWatch",
+      "shortZh": "在一个平台上搜索和浏览来自 Vantor、Planet、Airbus 等顶级供应商的卫星图像……",
+      "shortEn": "在一个平台上搜索和浏览来自 Vantor、Planet、Airbus 等顶级供应商的卫星图像……",
+      "longZh": "在一个平台上搜索和浏览来自 Vantor、Planet、Airbus 等顶级供应商的卫星图像。SkyWatch 支持按位置、日期、分辨率和云量筛选存档图像，跨供应商比较价格，并浏览可用卫星及产品目录。搜索结果包含在 SkyWatch Explore 上查看和订购图像的直达链接。",
+      "longEn": "在一个平台上搜索和浏览来自 Vantor、Planet、Airbus 等顶级供应商的卫星图像。SkyWatch 支持按位置、日期、分辨率和云量筛选存档图像，跨供应商比较价格，并浏览可用卫星及产品目录。搜索结果包含在 SkyWatch Explore 上查看和订购图像的直达链接。",
+      "hasZh": true,
+      "prompts": [
+        "查找金门大桥的近期卫星图像"
+      ],
+      "promptsEn": [
+        "查找金门大桥的近期卫星图像"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "SkyWatch Space Applications Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/skywatch"
+    },
+    {
       "name": "slack",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2065,10 +5804,72 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "0.1.7",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/slack"
     },
     {
+      "name": "statsig",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Statsig",
+      "shortZh": "将 Statsig 工作区接入 Codex。",
+      "shortEn": "将 Statsig 工作区接入 Codex。",
+      "longZh": "将 Statsig 工作区接入 Codex。产品团队现在可以直接在 Codex 对话中探索、管理和创建 Statsig 实验、功能门控、动态配置等内容。\n\n你可以这样问：\n「将这个实验的流量推到 50%。」\n「为所有用户开启这个功能门控。」\n「显示本周哪些动态配置发生了变更。」\n「解释 DAU 指标的定义。」\n\n你可以对 Statsig 进行读写操作：查看实验设置、读取指标定义、更新流量分配、切换功能开关、编辑定向规则，以及直接在 Codex 中修改动态配置值。\n\n该应用通过 Statsig 的 MCP 服务器连接，并遵循你现有的 Statsig 权限设置——你只能查看和修改你有权访问的内容，涵盖所有项目、环境和团队。",
+      "longEn": "将 Statsig 工作区接入 Codex。产品团队现在可以直接在 Codex 对话中探索、管理和创建 Statsig 实验、功能门控、动态配置等内容。\n\n你可以这样问：\n「将这个实验的流量推到 50%。」\n「为所有用户开启这个功能门控。」\n「显示本周哪些动态配置发生了变更。」\n「解释 DAU 指标的定义。」\n\n你可以对 Statsig 进行读写操作：查看实验设置、读取指标定义、更新流量分配、切换功能开关、编辑定向规则，以及直接在 Codex 中修改动态配置值。\n\n该应用通过 Statsig 的 MCP 服务器连接，并遵循你现有的 Statsig 权限设置——你只能查看和修改你有权访问的内容，涵盖所有项目、环境和团队。",
+      "hasZh": true,
+      "prompts": [
+        "分析 Statsig 实验 shorter_blog_titles 的结果"
+      ],
+      "promptsEn": [
+        "分析 Statsig 实验 shorter_blog_titles 的结果"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "Statsig, LLC",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "2.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/statsig"
+    },
+    {
+      "name": "streak",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Streak",
+      "shortZh": "Streak 是直接内置于 Gmail 的 CRM，让你在收件箱中追踪商机、联系人和工作流。",
+      "shortEn": "Streak 是直接内置于 Gmail 的 CRM，让你在收件箱中追踪商机、联系人和工作流。",
+      "longZh": "Streak 是直接内置于 Gmail 的 CRM，让你在收件箱中追踪商机、联系人和工作流。\n\n邮件自动记录，对话推进时流水线同步更新，备注和任务与相关工作保持关联——无需将数据复制到其他工具。\n\n专为主要通过邮件管理销售、合作或客户关系的团队和个人设计，帮助他们随时掌握清晰、最新的工作全貌。",
+      "longEn": "Streak 是直接内置于 Gmail 的 CRM，让你在收件箱中追踪商机、联系人和工作流。\n\n邮件自动记录，对话推进时流水线同步更新，备注和任务与相关工作保持关联——无需将数据复制到其他工具。\n\n专为主要通过邮件管理销售、合作或客户关系的团队和个人设计，帮助他们随时掌握清晰、最新的工作全貌。",
+      "hasZh": true,
+      "prompts": [
+        "显示 Streak 中的近期商机"
+      ],
+      "promptsEn": [
+        "显示 Streak 中的近期商机"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": null,
+      "developerName": "Rewardly, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/streak"
+    },
+    {
       "name": "stripe",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2105,10 +5906,12 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "7.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/stripe"
     },
     {
       "name": "supabase",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2140,10 +5943,53 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "1.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/supabase"
     },
     {
+      "name": "superhuman",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Superhuman Mail",
+      "shortZh": "适用于 Gmail 和 Outlook 的高效邮件应用",
+      "shortEn": "适用于 Gmail 和 Outlook 的高效邮件应用",
+      "longZh": "为邮件和日历构建强大的工作流与自动化。在 Codex 中搜索收件箱内容、起草符合你风格的邮件回复、查看已读状态、安排会议并发送——无需离开 Codex。",
+      "longEn": "为邮件和日历构建强大的工作流与自动化。在 Codex 中搜索收件箱内容、起草符合你风格的邮件回复、查看已读状态、安排会议并发送——无需离开 Codex。",
+      "hasZh": true,
+      "prompts": [
+        "@Superhuman Mail 标记过去 24 小时内需要关注的事项",
+        "@Superhuman Mail 将今天的发票转发至 finance@acme.co",
+        "@Superhuman Mail 汇总创始人晚宴的回复情况，并指出哪些人还未打开"
+      ],
+      "promptsEn": [
+        "@Superhuman Mail 标记过去 24 小时内需要关注的事项",
+        "@Superhuman Mail 将今天的发票转发至 finance@acme.co",
+        "@Superhuman Mail 汇总创始人晚宴的回复情况，并指出哪些人还未打开"
+      ],
+      "category": "Communication",
+      "categoryZh": "沟通协作",
+      "brandColor": "#CE9EC6",
+      "developerName": "Superhuman",
+      "skills": [
+        "batch-draft-writer",
+        "deal-tracker",
+        "eod-wrapup",
+        "meeting-scheduler",
+        "morning-briefing",
+        "superhuman-mail"
+      ],
+      "skillsCount": 6,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/superhuman-mail-small.svg",
+      "version": "0.1.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/superhuman"
+    },
+    {
       "name": "superpowers",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2185,12 +6031,44 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./.codex-plugin/assets/composer-icon.svg",
+      "version": "6.3.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/superpowers"
     },
     {
-      "name": "teams",
+      "name": "taxdown",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Taxdown",
+      "shortZh": "TaxDown 帮助西班牙个人和自雇人士解答税务问题：税收抵扣、个人所得税、年度申报及纳税义务，答复清晰且针对你的具体情况……",
+      "shortEn": "TaxDown 帮助西班牙个人和自雇人士解答税务问题：税收抵扣、个人所得税、年度申报及纳税义务，答复清晰且针对你的具体情况……",
+      "longZh": "TaxDown 帮助西班牙个人和自雇人士解答税务问题，涵盖税收抵扣、个人所得税（IRPF）、年度申报及纳税义务，提供清晰且针对你具体情况的解答。",
+      "longEn": "TaxDown 帮助西班牙个人和自雇人士解答税务问题，涵盖税收抵扣、个人所得税（IRPF）、年度申报及纳税义务，提供清晰且针对你具体情况的解答。",
+      "hasZh": true,
+      "prompts": [
+        "汇总相关的 Taxdown 状态或指引"
+      ],
+      "promptsEn": [
+        "汇总相关的 Taxdown 状态或指引"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "TAXDOWN S.L.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/taxdown"
+    },
+    {
+      "name": "teams",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Teams",
       "shortZh": "汇总 Teams 动态并跟进",
@@ -2213,10 +6091,42 @@
       "hasMcp": false,
       "hasApp": true,
       "icon": "./assets/logo.png",
+      "version": "0.1.8",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/teams"
     },
     {
+      "name": "teamwork-com",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Teamwork.com",
+      "shortZh": "连接并同步 Teamwork 项目和任务，在 Codex 中直接使用。",
+      "shortEn": "连接并同步 Teamwork 项目和任务，在 Codex 中直接使用。",
+      "longZh": "连接并同步 Teamwork 项目和任务，在 Codex 中直接使用。",
+      "longEn": "连接并同步 Teamwork 项目和任务，在 Codex 中直接使用。",
+      "hasZh": true,
+      "prompts": [
+        "总结当前 Teamwork.com 项目的进展状态"
+      ],
+      "promptsEn": [
+        "总结当前 Teamwork.com 项目的进展状态"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "OpenAI",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/teamwork-com"
+    },
+    {
       "name": "temporal",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2248,10 +6158,12 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./.codex-plugin/assets/composer-icon.svg",
+      "version": "0.4.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/temporal"
     },
     {
       "name": "test-android-apps",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2279,10 +6191,106 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/test-android-apps-small.svg",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/test-android-apps"
     },
     {
+      "name": "third-bridge",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Third Bridge",
+      "shortZh": "在金融和商业分析中无缝融入行业专家的关键洞见与可信见解。",
+      "shortEn": "在金融和商业分析中无缝融入行业专家的关键洞见与可信见解。",
+      "longZh": "在金融和商业分析中无缝融入行业专家的关键洞见与可信见解。通过查询 Third Bridge 一流的专家内容与数据资料库，专注提取高质量、高可靠性的信息。\n\n我们的 MCP 系统化、安全地引导大语言模型（LLM）从数据库中提取见解并整合到其工作流中，提升效率，改善输出质量。",
+      "longEn": "在金融和商业分析中无缝融入行业专家的关键洞见与可信见解。通过查询 Third Bridge 一流的专家内容与数据资料库，专注提取高质量、高可靠性的信息。\n\n我们的 MCP 系统化、安全地引导大语言模型（LLM）从数据库中提取见解并整合到其工作流中，提升效率，改善输出质量。",
+      "hasZh": true,
+      "prompts": [
+        "基于 Third Bridge 专家网络进行竞争分析"
+      ],
+      "promptsEn": [
+        "基于 Third Bridge 专家网络进行竞争分析"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Third Bridge Group",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/third-bridge"
+    },
+    {
+      "name": "thoughtspot",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "ThoughtSpot",
+      "shortZh": "可信赖的业务数据答案",
+      "shortEn": "可信赖的业务数据答案",
+      "longZh": "从日常的数据问题到高层次的战略分析，ThoughtSpot 的 Spotter 帮助业务与数据团队获得可信赖、可验证、可执行的答案与洞察，让每个人都能用数据推动业务前行。",
+      "longEn": "从日常的数据问题到高层次的战略分析，ThoughtSpot 的 Spotter 帮助业务与数据团队获得可信赖、可验证、可执行的答案与洞察，让每个人都能用数据推动业务前行。",
+      "hasZh": true,
+      "prompts": [
+        "在 ThoughtSpot 中搜索销售业绩相关答案，梳理关键驱动因素。",
+        "找出与管道健康度相关的仪表板，分析本季度最大的变化。",
+        "在 ThoughtSpot 中按业务板块分析营收，标注值得关注的异常。"
+      ],
+      "promptsEn": [
+        "在 ThoughtSpot 中搜索销售业绩相关答案，梳理关键驱动因素。",
+        "找出与管道健康度相关的仪表板，分析本季度最大的变化。",
+        "在 ThoughtSpot 中按业务板块分析营收，标注值得关注的异常。"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": "#000000",
+      "developerName": "ThoughtSpot",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/thoughtspot"
+    },
+    {
+      "name": "tinman-ai",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Tinman AI",
+      "shortZh": "帮助贷款官员和核保人员快速评估住房融资方案，解答复杂资格问题。",
+      "shortEn": "帮助贷款官员和核保人员快速评估住房融资方案，解答复杂资格问题。",
+      "longZh": "Tinman AI 帮助贷款官员和核保人员快速评估住房融资方案，利用可信的信贷决策数据和核保逻辑解答复杂资格问题。无需在分散的系统、零散的指南或手工表格之间反复切换，用户可以跨多家贷款机构和投资方评估资格、DTI 重组和收入计算，即时判断贷款符合哪些投资方条件及原因。Tinman AI 将原本需要数天乃至数周的工作转化为实时、合规的决策，让贷款流程顺畅推进、交易不中断。",
+      "longEn": "Tinman AI 帮助贷款官员和核保人员快速评估住房融资方案，利用可信的信贷决策数据和核保逻辑解答复杂资格问题。无需在分散的系统、零散的指南或手工表格之间反复切换，用户可以跨多家贷款机构和投资方评估资格、DTI 重组和收入计算，即时判断贷款符合哪些投资方条件及原因。Tinman AI 将原本需要数天乃至数周的工作转化为实时、合规的决策，让贷款流程顺畅推进、交易不中断。",
+      "hasZh": true,
+      "prompts": [
+        "我有一位 DTI 52% 的借款人，想申请月供 450 美元的 HELOC"
+      ],
+      "promptsEn": [
+        "我有一位 DTI 52% 的借款人，想申请月供 450 美元的 HELOC"
+      ],
+      "category": "Finance",
+      "categoryZh": "金融财务",
+      "brandColor": null,
+      "developerName": "Better",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/tinman-ai"
+    },
+    {
       "name": "twilio-developer-kit",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2367,10 +6375,72 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/logo.svg",
+      "version": "0.2.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/twilio-developer-kit"
     },
     {
+      "name": "united-rentals",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "United Rentals",
+      "shortZh": "告别猜测，精准找到适合工作的设备。",
+      "shortEn": "告别猜测，精准找到适合工作的设备。",
+      "longZh": "告别猜测，精准找到适合工作的设备。提供项目详情，即可获得量身定制的设备推荐及规格说明，帮助你做出有把握的选择。",
+      "longEn": "告别猜测，精准找到适合工作的设备。提供项目详情，即可获得量身定制的设备推荐及规格说明，帮助你做出有把握的选择。",
+      "hasZh": true,
+      "prompts": [
+        "查找 United Rentals 相关库存或可用设备"
+      ],
+      "promptsEn": [
+        "查找 United Rentals 相关库存或可用设备"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "United Rentals",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/united-rentals"
+    },
+    {
+      "name": "vantage",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Vantage",
+      "shortZh": "Vantage 是一个云可观测与优化平台，汇聚多云基础设施费用，提供统一的云支出全景视图。",
+      "shortEn": "Vantage 是一个云可观测与优化平台，汇聚多云基础设施费用，提供统一的云支出全景视图。",
+      "longZh": "Vantage 是一个云可观测与优化平台，汇聚多云基础设施费用，提供统一的云支出全景视图。Vantage 提供多种云成本优化工具，为企业提供高级 FinOps 工作流和成本治理能力。",
+      "longEn": "Vantage 是一个云可观测与优化平台，汇聚多云基础设施费用，提供统一的云支出全景视图。Vantage 提供多种云成本优化工具，为企业提供高级 FinOps 工作流和成本治理能力。",
+      "hasZh": true,
+      "prompts": [
+        "总结 Vantage 中当前的云成本概况"
+      ],
+      "promptsEn": [
+        "总结 Vantage 中当前的云成本概况"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "Vantage",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/vantage"
+    },
+    {
       "name": "vercel",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2454,12 +6524,207 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.png",
+      "version": "0.21.4",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/vercel"
     },
     {
-      "name": "zoom",
+      "name": "waldo",
+      "origin": "snapshot",
       "inMain": true,
-      "inApi": false,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Waldo",
+      "shortZh": "Waldo 是面向代理商和品牌的 AI 驱动策略平台。",
+      "shortEn": "Waldo 是面向代理商和品牌的 AI 驱动策略平台。",
+      "longZh": "Waldo 是面向代理商和品牌的 AI 驱动策略平台。运行策略智能体，探索采集到的各类信号——付费广告、品牌提及、受众讨论、热门话题等——并在团队的品牌空间中检索数据。",
+      "longEn": "Waldo 是面向代理商和品牌的 AI 驱动策略平台。运行策略智能体，探索采集到的各类信号——付费广告、品牌提及、受众讨论、热门话题等——并在团队的品牌空间中检索数据。",
+      "hasZh": true,
+      "prompts": [
+        "查看 Waldo 中相关的移动端测试覆盖情况"
+      ],
+      "promptsEn": [
+        "查看 Waldo 中相关的移动端测试覆盖情况"
+      ],
+      "category": "Productivity",
+      "categoryZh": "效率办公",
+      "brandColor": null,
+      "developerName": "Curiosities, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/waldo"
+    },
+    {
+      "name": "weatherpromise",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "WeatherPromise",
+      "shortZh": "用 WeatherPromise 保障你的旅行，如果假期中降雨超出承诺，全额自动退款。",
+      "shortEn": "用 WeatherPromise 保障你的旅行，如果假期中降雨超出承诺，全额自动退款。",
+      "longZh": "用 WeatherPromise 保障你的旅行，如果假期中降雨超出承诺，全额自动退款。\n告知目的地、出行日期和行程费用，我们将为你生成专属报价。购买后，行程即受到保障。\n你将获得个人仪表盘链接，可在旅途中实时监控天气。降雨数据来自 NASA、NOAA 等官方机构，独立、准确。\n如果降雨量超过约定阈值，我们会自动发送邮件通知。确认信息后立即付款，无需额外证明材料。\n出发旅行，一旦降雨超标，全额退款自动到账。",
+      "longEn": "用 WeatherPromise 保障你的旅行，如果假期中降雨超出承诺，全额自动退款。\n告知目的地、出行日期和行程费用，我们将为你生成专属报价。购买后，行程即受到保障。\n你将获得个人仪表盘链接，可在旅途中实时监控天气。降雨数据来自 NASA、NOAA 等官方机构，独立、准确。\n如果降雨量超过约定阈值，我们会自动发送邮件通知。确认信息后立即付款，无需额外证明材料。\n出发旅行，一旦降雨超标，全额退款自动到账。",
+      "hasZh": true,
+      "prompts": [
+        "查看 WeatherPromise 的天气预测概况"
+      ],
+      "promptsEn": [
+        "查看 WeatherPromise 的天气预测概况"
+      ],
+      "category": "Travel",
+      "categoryZh": "旅行",
+      "brandColor": null,
+      "developerName": "WeatherPromise, Inc.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/app-icon.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/weatherpromise"
+    },
+    {
+      "name": "windsor-ai",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Windsor.ai",
+      "shortZh": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。",
+      "shortEn": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。",
+      "longZh": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。\n\n常见的数据源包括：Google Ads、Meta（Facebook）Ads、Instagram、LinkedIn Ads、LinkedIn 公司主页、TikTok Ads、GA4、Google Search Console、YouTube Analytics、Google Business Profile、HubSpot、Salesforce、Shopify、Klaviyo、Amazon Ads、Microsoft Ads（Bing）、Google Merchant Center、Stripe、GoHighLevel 等。",
+      "longEn": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。\n\n常见的数据源包括：Google Ads、Meta（Facebook）Ads、Instagram、LinkedIn Ads、LinkedIn 公司主页、TikTok Ads、GA4、Google Search Console、YouTube Analytics、Google Business Profile、HubSpot、Salesforce、Shopify、Klaviyo、Amazon Ads、Microsoft Ads（Bing）、Google Merchant Center、Stripe、GoHighLevel 等。",
+      "hasZh": true,
+      "prompts": [
+        "从 Windsor.ai 提取相关的归因分析数据"
+      ],
+      "promptsEn": [
+        "从 Windsor.ai 提取相关的归因分析数据"
+      ],
+      "category": "Data & Analytics",
+      "categoryZh": "数据分析",
+      "brandColor": null,
+      "developerName": "Windsor.ai",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/windsor-ai"
+    },
+    {
+      "name": "wix",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Wix",
+      "shortZh": "在 Codex 中构建 Wix 应用、Headless 网站并管理 Wix 业务",
+      "shortEn": "在 Codex 中构建 Wix 应用、Headless 网站并管理 Wix 业务",
+      "longZh": "在 Codex 中构建和部署 Wix 应用与 Headless 网站，并管理 Wix 业务。包含 Wix CLI 开发技能，涵盖仪表盘扩展、后端 API、站点 Widget、服务插件和数据集合。通过 Wix Headless 构建 Headless 网站——从完整托管的 Astro 应用到任意框架的自托管方案——均由 Wix 后端驱动，支持电商、预约、CMS、活动和会员功能。同时提供 Wix 商业解决方案管理操作指南。",
+      "longEn": "在 Codex 中构建和部署 Wix 应用与 Headless 网站，并管理 Wix 业务。包含 Wix CLI 开发技能，涵盖仪表盘扩展、后端 API、站点 Widget、服务插件和数据集合。通过 Wix Headless 构建 Headless 网站——从完整托管的 Astro 应用到任意框架的自托管方案——均由 Wix 后端驱动，支持电商、预约、CMS、活动和会员功能。同时提供 Wix 商业解决方案管理操作指南。",
+      "hasZh": true,
+      "prompts": [
+        "使用 Wix Design System UI 构建 Wix 应用扩展",
+        "构建带有运费服务插件的 Wix 应用",
+        "配置 Wix Stores 商品、到店自取或 CMS 数据"
+      ],
+      "promptsEn": [
+        "使用 Wix Design System UI 构建 Wix 应用扩展",
+        "构建带有运费服务插件的 Wix 应用",
+        "配置 Wix Stores 商品、到店自取或 CMS 数据"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": "#116DFF",
+      "developerName": "Wix",
+      "skills": [
+        "wix-app",
+        "wix-design-system",
+        "wix-headless",
+        "wix-manage"
+      ],
+      "skillsCount": 4,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.svg",
+      "version": "1.1.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/wix"
+    },
+    {
+      "name": "yepcode",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "YepCode",
+      "shortZh": "YepCode 让你用自己的代码构建自定义 AI 工具，支持 JSON Schema 定义输入，在隔离沙箱中执行。",
+      "shortEn": "YepCode 让你用自己的代码构建自定义 AI 工具，支持 JSON Schema 定义输入，在隔离沙箱中执行。",
+      "longZh": "YepCode 让你用自己的代码构建自定义 AI 工具，支持 JSON Schema 定义输入，在隔离沙箱中执行，可访问任意 npm 或 PyPI 包及安全的环境变量。\n\n用 Node.js 或 Python 定义可复用的流程，将其作为可调用的 AI 工具暴露出来，按需或按计划执行。每次运行均有日志记录，支持审计追溯，实现可追踪的生产级 AI 集成。\n\n专为需要可编程、可观测的 AI 工具执行能力的开发者而生。",
+      "longEn": "YepCode 让你用自己的代码构建自定义 AI 工具，支持 JSON Schema 定义输入，在隔离沙箱中执行，可访问任意 npm 或 PyPI 包及安全的环境变量。\n\n用 Node.js 或 Python 定义可复用的流程，将其作为可调用的 AI 工具暴露出来，按需或按计划执行。每次运行均有日志记录，支持审计追溯，实现可追踪的生产级 AI 集成。\n\n专为需要可编程、可观测的 AI 工具执行能力的开发者而生。",
+      "hasZh": true,
+      "prompts": [
+        "查找相关的 YepCode 工作流上下文"
+      ],
+      "promptsEn": [
+        "查找相关的 YepCode 工作流上下文"
+      ],
+      "category": "Developer Tools",
+      "categoryZh": "开发工具",
+      "brandColor": null,
+      "developerName": "YepCode S.L.",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/yepcode"
+    },
+    {
+      "name": "zoho",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "Zoho",
+      "shortZh": "管理 Zoho CRM 销售工作流",
+      "shortEn": "管理 Zoho CRM 销售工作流",
+      "longZh": "Zoho CRM 是一款 AI 驱动的销售软件，帮助各种规模的企业更好地管理销售。凭借 SFA 功能、高级自动化、易用的 UI、高级分析和深度定制能力，Zoho CRM 真正读懂你的业务。\n\n借助 Codex，你只需提示即可扩展 Zoho CRM 的功能。你的业务，你的 Zoho CRM——由 Codex 驱动。",
+      "longEn": "Zoho CRM 是一款 AI 驱动的销售软件，帮助各种规模的企业更好地管理销售。凭借 SFA 功能、高级自动化、易用的 UI、高级分析和深度定制能力，Zoho CRM 真正读懂你的业务。\n\n借助 Codex，你只需提示即可扩展 Zoho CRM 的功能。你的业务，你的 Zoho CRM——由 Codex 驱动。",
+      "hasZh": true,
+      "prompts": [
+        "在 Zoho CRM 中搜索本季度待关单商机并汇总风险最高的机会。",
+        "查找某账户在 Zoho CRM 中的联系人并汇总近期活动。",
+        "拉取 Zoho CRM 的组织设置和用户列表，用于权限审查。"
+      ],
+      "promptsEn": [
+        "在 Zoho CRM 中搜索本季度待关单商机并汇总风险最高的机会。",
+        "查找某账户在 Zoho CRM 中的联系人并汇总近期活动。",
+        "拉取 Zoho CRM 的组织设置和用户列表，用于权限审查。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#0068B8",
+      "developerName": "Zoho",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.3",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/zoho"
+    },
+    {
+      "name": "zoom",
+      "origin": "upstream",
+      "inMain": true,
+      "inApi": true,
       "missing": false,
       "displayName": "Zoom",
       "shortZh": "来自 Zoom 的智能会议洞察",
@@ -2512,10 +6777,46 @@
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/composer-icon.svg",
+      "version": "1.0.0",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/zoom"
     },
     {
+      "name": "zoominfo",
+      "origin": "snapshot",
+      "inMain": true,
+      "inApi": true,
+      "missing": false,
+      "displayName": "ZoomInfo",
+      "shortZh": "用 ZoomInfo 进行潜客挖掘与客户研究",
+      "shortEn": "用 ZoomInfo 进行潜客挖掘与客户研究",
+      "longZh": "在 ChatGPT 内访问 ZoomInfo 的数据与 AI 背景信息。潜客挖掘、客户研究、已核实联系人、购买信号等功能，现已直接呈现在你的对话中。",
+      "longEn": "在 ChatGPT 内访问 ZoomInfo 的数据与 AI 背景信息。潜客挖掘、客户研究、已核实联系人、购买信号等功能，现已直接呈现在你的对话中。",
+      "hasZh": true,
+      "prompts": [
+        "在 ZoomInfo 中找出该行业和地区有购买信号的目标客户，并按优先级排序。",
+        "为这些客户的决策者整理联系人名单，附职位和公司背景。",
+        "在 ZoomInfo 中调研某公司，找出合适的外联切入点。"
+      ],
+      "promptsEn": [
+        "在 ZoomInfo 中找出该行业和地区有购买信号的目标客户，并按优先级排序。",
+        "为这些客户的决策者整理联系人名单，附职位和公司背景。",
+        "在 ZoomInfo 中调研某公司，找出合适的外联切入点。"
+      ],
+      "category": "Business & Operations",
+      "categoryZh": "商业运营",
+      "brandColor": "#E81818",
+      "developerName": "ZoomInfo",
+      "skills": [],
+      "skillsCount": 0,
+      "hasMcp": false,
+      "hasApp": true,
+      "icon": "./assets/logo.png",
+      "version": "1.0.2",
+      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/zoominfo"
+    },
+    {
       "name": "zotero",
+      "origin": "upstream",
       "inMain": true,
       "inApi": true,
       "missing": false,
@@ -2546,6 +6847,7 @@
       "hasMcp": false,
       "hasApp": false,
       "icon": "./assets/icon.png",
+      "version": "0.1.2",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/zotero"
     }
   ]

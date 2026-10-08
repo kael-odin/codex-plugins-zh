@@ -1,0 +1,45 @@
+{
+  "name": "morningstar",
+  "version": "1.0.3",
+  "description": "Morningstar fund research plugin for screening, summarizing, and comparing funds and ETFs using the Morningstar ChatGPT app.",
+  "author": {
+    "name": "Morningstar",
+    "url": "https://www.morningstar.com"
+  },
+  "homepage": "https://www.morningstar.com",
+  "repository": "https://github.com/Morningstar/morningstar-plugins",
+  "license": "MIT",
+  "keywords": [
+    "morningstar",
+    "funds",
+    "etf",
+    "research",
+    "screening"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Morningstar",
+    "shortDescription": "使用 Morningstar 应用筛选、汇总并对比基金。",
+    "longDescription": "适用于 Codex 的 Morningstar 基金工作流集合：支持标准化的生产级筛选、基金收益率筛选、单只基金深度汇总，以及 2 至 4 只基金的横向对比。该插件关联已审核的 Morningstar ChatGPT 应用以进行认证数据访问，并包含明确的数据可用性披露说明。",
+    "developerName": "Morningstar",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.morningstar.com",
+    "privacyPolicyURL": "https://www.morningstar.com/company/privacy-center/privacy-policy",
+    "termsOfServiceURL": "https://www.morningstar.com/company/terms-and-conditions",
+    "defaultPrompt": [
+      "使用 fund-screener 筛选 Morningstar 评级为 Gold 的美国大盘 ETF。",
+      "使用 fund-summarizer 分析 VFIAX。",
+      "使用 fund-comparison 对比 VFIAX、SWPPX 和 FXAIX。"
+    ],
+    "brandColor": "#E4572E",
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}

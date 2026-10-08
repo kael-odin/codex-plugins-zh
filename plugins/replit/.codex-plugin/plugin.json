@@ -1,0 +1,34 @@
+{
+  "name": "replit",
+  "version": "1.0.2",
+  "description": "Create and iterate Replit web apps",
+  "author": {
+    "name": "Replit",
+    "url": "https://replit.com"
+  },
+  "homepage": "https://replit.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Replit",
+    "shortDescription": "创建并迭代 Replit 网页应用",
+    "longDescription": "支持根据自然语言描述，在用户的 Replit 账户中创建全新的网页应用，且不在对话中直接暴露代码。同时支持检查并解释当前应用的行为，并在迭代开发过程中将自然语言变更请求应用到同一应用上。",
+    "developerName": "Replit",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "websiteURL": "https://replit.com",
+    "privacyPolicyURL": "https://replit.com/site/privacy",
+    "termsOfServiceURL": "https://replit.com/site/terms",
+    "defaultPrompt": [
+      "查找我的 Replit 项目并汇总最近的活动情况。",
+      "打开一个 Replit 工作区并说明应用结构。",
+      "检查该项目的 Replit 部署情况并标出存在的问题。"
+    ],
+    "brandColor": "#FD5402",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

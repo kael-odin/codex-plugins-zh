@@ -1,0 +1,45 @@
+{
+  "name": "render",
+  "version": "0.1.3",
+  "description": "Skills for deploying, debugging, monitoring, and migrating apps on Render.",
+  "author": {
+    "name": "Render",
+    "email": "support@render.com",
+    "url": "https://render.com"
+  },
+  "homepage": "https://github.com/renderinc/render-codex-plugin",
+  "repository": "https://github.com/renderinc/render-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "render",
+    "deploy",
+    "cloud",
+    "blueprint",
+    "monitoring",
+    "debugging"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Render",
+    "shortDescription": "在 Render 上部署、调试、监控和迁移应用。",
+    "longDescription": "提供以下能力：使用 Blueprint 部署应用、调试失败的部署、监控服务健康与指标、构建 Render Workflows，以及从 Heroku 迁移。",
+    "developerName": "Render",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://render.com/",
+    "privacyPolicyURL": "https://render.com/privacy",
+    "termsOfServiceURL": "https://render.com/terms",
+    "brandColor": "#8A05FF",
+    "defaultPrompt": [
+      "我的 Render 服务现在状态如何？",
+      "帮我校验 Render 的 render.yaml 配置。",
+      "调试一个失败的 Render 部署。"
+    ],
+    "composerIcon": "./assets/logo.svg",
+    "screenshots": [],
+    "logo": "./assets/logo.svg"
+  }
+}

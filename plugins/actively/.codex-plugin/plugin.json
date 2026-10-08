@@ -1,0 +1,32 @@
+{
+  "name": "actively",
+  "version": "1.0.3",
+  "description": "Account agents for GTM intelligence",
+  "author": {
+    "name": "Actively",
+    "url": "https://www.actively.ai"
+  },
+  "homepage": "https://www.actively.ai",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Actively",
+    "shortDescription": "面向 GTM 情报的客户智能体",
+    "longDescription": "借助 Actively 赢得更多交易——直接调用始终在线的每客户智能体，帮你推进下一步最佳行动。Actively 的每客户智能体会综合你所有的内部背景（如 CRM 数据、通话记录、邮件）与外部信号，输出可执行的情报。专为需要深入、情境化客户认知的 SDR、AE、AM 和营收主管设计，从会议准备、交易策略到区域优先级排序无所不包。",
+    "developerName": "Actively",
+    "category": "Business & Operations",
+    "capabilities": [],
+    "websiteURL": "https://www.actively.ai",
+    "defaultPrompt": [
+      "找出 Actively 中近期有购买信号的高契合度账户并汇总下一步行动。",
+      "在 Actively 中搜索目标账户的联系人并拉取相关潜在客户背景信息。",
+      "基于目标客户画像（ICP）在 Actively 中构建优先级潜在客户列表，并说明每个账户的入选理由。"
+    ],
+    "brandColor": "#000000",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

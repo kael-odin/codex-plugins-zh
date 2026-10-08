@@ -1,0 +1,31 @@
+{
+  "name": "egnyte",
+  "version": "1.0.3",
+  "description": "Work with documents and files stored in Egnyte directly from Codex.",
+  "author": {
+    "url": "https://www.egnyte.com",
+    "name": "Egnyte Inc"
+  },
+  "homepage": "https://www.egnyte.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Egnyte",
+    "shortDescription": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。",
+    "longDescription": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。跨文件夹搜索、检索相关文件，并提取关键信息以回答问题或生成摘要。\n\n快速从合同、报告和内部文档中挖掘洞察。整合多个文件的信息，生成简洁摘要、干系人更新，或基于团队内部资料起草书面内容。",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://www.egnyte.com",
+    "privacyPolicyURL": "https://www.egnyte.com/privacy-policy",
+    "termsOfServiceURL": "https://www.egnyte.com/terms-and-conditions/10-2022",
+    "defaultPrompt": [
+      "我们有哪些 IT 合同"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "developerName": "Egnyte Inc"
+  }
+}

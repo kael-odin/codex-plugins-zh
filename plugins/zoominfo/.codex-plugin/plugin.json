@@ -1,0 +1,32 @@
+{
+  "name": "zoominfo",
+  "version": "1.0.2",
+  "description": "Prospecting and account research with ZoomInfo",
+  "author": {
+    "name": "ZoomInfo",
+    "url": "https://www.zoominfo.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "ZoomInfo",
+    "developerName": "ZoomInfo",
+    "shortDescription": "用 ZoomInfo 进行潜客挖掘与客户研究",
+    "longDescription": "在 ChatGPT 内访问 ZoomInfo 的数据与 AI 背景信息。潜客挖掘、客户研究、已核实联系人、购买信号等功能，现已直接呈现在你的对话中。",
+    "category": "Business & Operations",
+    "capabilities": [],
+    "brandColor": "#E81818",
+    "defaultPrompt": [
+      "在 ZoomInfo 中找出该行业和地区有购买信号的目标客户，并按优先级排序。",
+      "为这些客户的决策者整理联系人名单，附职位和公司背景。",
+      "在 ZoomInfo 中调研某公司，找出合适的外联切入点。"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "websiteURL": "https://www.zoominfo.com"
+  },
+  "homepage": "https://www.zoominfo.com"
+}

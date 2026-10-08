@@ -1,0 +1,32 @@
+{
+  "name": "fiscal-ai",
+  "version": "1.0.3",
+  "description": "Audit-ready financial data and equity research",
+  "author": {
+    "name": "Fiscal AI",
+    "url": "https://fiscal.ai"
+  },
+  "homepage": "https://fiscal.ai",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Fiscal AI",
+    "shortDescription": "可供审计的金融数据与股票研究",
+    "longDescription": "直接在 ChatGPT 内访问机构级金融数据。Fiscal.ai 在财报发布后几分钟内即提供基本面指标与比率，每个数字都可通过直达原始申报文件的链接进行核验。除核心财务数据外，Fiscal.ai 还提供公司特有的 KPI、营收分部和调整后指标。结合历史与当前的市场报价，它以无与伦比的速度实现有据可依、可供审计的股票研究。",
+    "developerName": "Fiscal AI",
+    "category": "Finance",
+    "capabilities": [],
+    "websiteURL": "https://fiscal.ai",
+    "defaultPrompt": [
+      "在 Fiscal AI 中搜索该公司并汇总近期财务数据、申报文件及主要风险。",
+      "在 Fiscal AI 中对比同类公司的营收增速、利润率及估值水平。",
+      "查找该股票代码在 Fiscal AI 中的洞察并标出最重要的结论。"
+    ],
+    "brandColor": "#1A1B26",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

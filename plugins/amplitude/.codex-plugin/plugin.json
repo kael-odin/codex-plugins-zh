@@ -1,0 +1,26 @@
+{
+  "name": "amplitude",
+  "version": "1.0.2",
+  "description": "Product analytics and funnels",
+  "author": {
+    "name": "Amplitude"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Amplitude",
+    "shortDescription": "产品分析与转化漏斗",
+    "longDescription": "产品分析与转化漏斗",
+    "developerName": "Amplitude",
+    "category": "Data & Analytics",
+    "capabilities": [],
+    "defaultPrompt": [
+      "在 Amplitude 中展示注册漏斗趋势"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png"
+  }
+}

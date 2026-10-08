@@ -1,0 +1,31 @@
+{
+  "name": "biorender",
+  "version": "1.0.2",
+  "description": "BioRender helps scientists create professional figures in minutes.",
+  "author": {
+    "url": "https://biorender.com/",
+    "name": "BioRender"
+  },
+  "homepage": "https://biorender.com/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "BioRender",
+    "shortDescription": "BioRender 帮助科学家在几分钟内制作专业科研图表。",
+    "longDescription": "BioRender 帮助科学家在几分钟内制作专业科研图表。直接在 Codex 中访问数千个科学精准的模板和图标，可视化实验流程、信号通路、分子结构等内容。与团队头脑风暴、阐释研究概念，或为演讲、论文、基金申请和海报制作可发表质量的图表。",
+    "category": "Creativity",
+    "capabilities": [],
+    "websiteURL": "https://biorender.com/",
+    "privacyPolicyURL": "https://biorender.com/privacy",
+    "termsOfServiceURL": "https://www.biorender.com/terms-of-service",
+    "defaultPrompt": [
+      "帮我找一些 GLP-1 通路的图表模板"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png",
+    "developerName": "BioRender"
+  }
+}

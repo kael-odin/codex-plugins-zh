@@ -1,0 +1,32 @@
+{
+  "name": "mt-newswires",
+  "version": "1.0.3",
+  "description": "MT Newswires brings real-time global financial news directly into Codex — providing original, unbiased an...",
+  "author": {
+    "name": "MT Newswires",
+    "url": "https://www.mtnewswires.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "MT Newswires",
+    "shortDescription": "MT Newswires 将实时全球金融资讯直接带入 Codex——提供原创、客观、全面的资本市场多资产类别报道。",
+    "longDescription": "MT Newswires 将实时全球金融资讯直接带入 Codex——覆盖资本市场与经济领域逾 180 个主题，内容原创、客观、全面，涵盖多资产类别。\n\n背靠受全球最大银行、券商、专业交易、财富管理和研究应用信赖的全球新闻编辑室，每篇报道均专为 AI 构建——让你的答案立足实时市场情报，而非过时数据。\n\n你可以：\n• 获取任意股票代码的最新资讯，分析对股价的影响\n• 监测全球股市中的能源行业动态\n• 实时追踪宏观事件和全球央行信号\n• 筛选财报、并购及市场重磅头条\n\n示例提示：\n→ 「NVIDIA 最新有什么新闻？是否影响了股价？」\n→ 「汇总过去一小时内主要分析师评级变动的动态。」\n→ 「今日推动市场的宏观事件有哪些？」",
+    "developerName": "MT Newswires",
+    "category": "Finance",
+    "capabilities": [],
+    "defaultPrompt": [
+      "汇总 MT Newswires 关于该公司的最新资讯"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://www.mtnewswires.com",
+    "privacyPolicyURL": "https://www.mtnewswires.com/privacy-policy",
+    "termsOfServiceURL": "https://www.mtnewswires.com/subscriber-terms-of-service",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "homepage": "https://www.mtnewswires.com"
+}

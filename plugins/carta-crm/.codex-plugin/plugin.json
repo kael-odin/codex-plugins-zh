@@ -1,0 +1,32 @@
+{
+  "name": "carta-crm",
+  "version": "1.0.3",
+  "description": "Carta CRM helps investment teams stay on top of deal flow by keeping deals, companies, and relationships in...",
+  "author": {
+    "name": "Carta Inc.",
+    "url": "https://carta.com"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Carta CRM",
+    "shortDescription": "Carta CRM 帮助投资团队集中管理交易、公司和关系，随时掌握交易流进展。",
+    "longDescription": "Carta CRM 帮助投资团队将交易、公司和关系集中在一处，随时掌握交易流进展。跟踪每个阶段的交易机会，将会议记录和关键要点与相关交易或联系人挂钩，并在需要时快速调取历史上下文。",
+    "developerName": "Carta Inc.",
+    "category": "Business & Operations",
+    "capabilities": [],
+    "defaultPrompt": [
+      "在 Carta CRM 中查找最新的关系背景信息"
+    ],
+    "screenshots": [],
+    "websiteURL": "https://carta.com",
+    "privacyPolicyURL": "https://carta.com/legal/privacy/privacy-policy/",
+    "termsOfServiceURL": "https://carta.com/legal/terms-agreements/terms-service/",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "homepage": "https://carta.com"
+}
