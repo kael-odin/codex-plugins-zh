@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" font-family="-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" role="img" aria-label="codex-plugins-zh：Codex 官方插件中文市场 — 自动同步 openai/plugins，无损汉化，每日更新">
+  <title>codex-plugins-zh：Codex 官方插件中文市场</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f9fd"/>
+      <stop offset="1" stop-color="#edf0fa"/>
+    </linearGradient>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#6366f1" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+
+  <!-- left: identity -->
+  <rect x="64" y="58" width="64" height="64" rx="16" fill="url(#lg)"/>
+  <text x="96" y="100" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff">CP</text>
+  <text x="150" y="88" font-size="31" font-weight="800" fill="#1a1f2e">codex-plugins-zh</text>
+  <text x="150" y="122" font-size="25" font-weight="700" fill="#4f46e5">Codex 官方插件 · 中文市场</text>
+  <text x="66" y="160" font-size="17" fill="#69718a">自动同步 openai/plugins · 无损汉化 · 可视化中文导航站</text>
+
+  <!-- stats chips -->
+  <g font-size="16" font-weight="600">
+    <rect x="64" y="186" width="112" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
+    <text x="120" y="210" text-anchor="middle" fill="#1a1f2e">62 插件</text>
+    <rect x="186" y="186" width="106" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
+    <text x="239" y="210" text-anchor="middle" fill="#16a34a">62 已译</text>
+    <rect x="302" y="186" width="132" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
+    <text x="368" y="210" text-anchor="middle" fill="#1a1f2e">58 官方图标</text>
+    <rect x="64" y="236" width="196" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
+    <text x="162" y="260" text-anchor="middle" fill="#16a34a">无损校验 0 分歧</text>
+    <rect x="270" y="236" width="176" height="38" rx="19" fill="#ffffff" stroke="#e4e7f0"/>
+    <text x="358" y="260" text-anchor="middle" fill="#4f46e5">每日自动同步</text>
+  </g>
+  <text x="66" y="304" font-size="15" fill="#8a90a5">粘贴一行地址，把整个官方市场装进 Codex：github.com/kael-odin/codex-plugins-zh</text>
+
+  <!-- right: marketplace card motif -->
+  <g>
+    <rect x="700" y="52" width="196" height="108" rx="14" fill="#ffffff" stroke="#e4e7f0"/>
+    <rect x="716" y="68" width="42" height="42" rx="10" fill="#a259ff"/>
+    <text x="737" y="96" text-anchor="middle" font-size="19" font-weight="800" fill="#ffffff">F</text>
+    <text x="716" y="134" font-size="18" font-weight="700" fill="#1a1f2e">Figma</text>
+    <text x="716" y="152" font-size="14" fill="#69718a">设计转代码工作流</text>
+
+    <rect x="912" y="52" width="196" height="108" rx="14" fill="#ffffff" stroke="#e4e7f0"/>
+    <rect x="928" y="68" width="42" height="42" rx="10" fill="#00c4cc"/>
+    <text x="949" y="96" text-anchor="middle" font-size="19" font-weight="800" fill="#ffffff">C</text>
+    <text x="928" y="134" font-size="18" font-weight="700" fill="#1a1f2e">Canva</text>
+    <text x="928" y="152" font-size="14" fill="#69718a">创建、绘网、编辑设计</text>
+
+    <rect x="700" y="176" width="196" height="108" rx="14" fill="#ffffff" stroke="#e4e7f0"/>
+    <rect x="716" y="192" width="42" height="42" rx="10" fill="#16a34a"/>
+    <text x="737" y="220" text-anchor="middle" font-size="19" font-weight="800" fill="#ffffff">S</text>
+    <text x="716" y="258" font-size="18" font-weight="700" fill="#1a1f2e">Slack</text>
+    <text x="716" y="276" font-size="14" fill="#69718a">频道消息与工作区</text>
+
+    <rect x="912" y="176" width="196" height="108" rx="14" fill="#ffffff" stroke="#e4e7f0"/>
+    <rect x="928" y="192" width="42" height="42" rx="10" fill="#5e6ad2"/>
+    <text x="949" y="220" text-anchor="middle" font-size="19" font-weight="800" fill="#ffffff">L</text>
+    <text x="928" y="258" font-size="18" font-weight="700" fill="#1a1f2e">Linear</text>
+    <text x="928" y="276" font-size="14" fill="#69718a">issue 与项目追踪</text>
+
+    <!-- verify badge overlapping the cluster -->
+    <rect x="806" y="292" width="388" height="44" rx="22" fill="#1a1f2e"/>
+    <circle cx="836" cy="314" r="13" fill="#16a34a"/>
+    <path d="M830 314 l4.5 4.5 l8 -9" stroke="#ffffff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="858" y="321" font-size="17" font-weight="600" fill="#e6eaf2">verify: 5,404 files · 0 divergences</text>
+  </g>
+</svg>

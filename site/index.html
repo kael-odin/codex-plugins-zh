@@ -3,9 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Codex 官方插件 · 中文导航</title>
-<meta name="description" content="自动同步 openai/plugins 的 Codex 官方插件中文市场：无损汉化、每日更新、可视化检索">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230e7490'/><text x='50' y='68' font-size='44' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='%2322d3ee'>CP</text></svg>">
+<title>Codex 官方插件中文市场 · 无损汉化导航</title>
+<meta name="description" content="自动同步 openai/plugins 的 Codex 官方插件中文市场：62+ 插件、真实官方图标、中文日常说法搜索（做表格 / 查邮件 / 控制电脑）、中英双语详情、无损汉化机器可证、每日自动更新。">
+<meta name="keywords" content="Codex, Codex 插件, Codex plugin, openai plugins, 插件市场, 中文插件目录, MCP, ChatGPT, AI 工具导航">
+<link rel="canonical" href="https://kael-odin.github.io/codex-plugins-zh/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='44' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='white'>CP</text></svg>">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="codex-plugins-zh">
+<meta property="og:title" content="Codex 官方插件 · 中文导航">
+<meta property="og:description" content="自动同步 openai/plugins 的无损汉化市场：真实官方图标、中文搜索、双语详情、每日更新，一键把中文市场加进 Codex。">
+<meta property="og:url" content="https://kael-odin.github.io/codex-plugins-zh/">
+<meta property="og:image" content="https://kael-odin.github.io/codex-plugins-zh/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Codex 官方插件 · 中文导航">
+<meta name="twitter:description" content="openai/plugins 无损汉化镜像 + 可视化中文导航，每日自动同步。">
+<meta name="twitter:image" content="https://kael-odin.github.io/codex-plugins-zh/og.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Codex 官方插件 · 中文导航","url":"https://kael-odin.github.io/codex-plugins-zh/","description":"自动同步 openai/plugins 的 Codex 官方插件中文市场：无损汉化、每日更新、可视化检索","inLanguage":["zh-CN","en"],"isAccessibleForFree":true}
+</script>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -13,31 +28,36 @@
   <div class="brand">
     <div class="logo">CP</div>
     <div>
-      <h1>Codex 官方插件 · 中文导航</h1>
-      <p class="sub">自动同步 openai/plugins · 无损汉化 · 每日更新</p>
+      <h1 data-i18n="title">Codex 官方插件 · 中文导航</h1>
+      <p class="sub" data-i18n="subtitle">自动同步 openai/plugins · 无损汉化 · 每日更新</p>
     </div>
   </div>
-  <div class="addbox">
-    <div class="addbox-title">把中文市场加进 Codex</div>
-    <ol>
-      <li>Codex 里打开 <b>设置 → 插件 → 添加市场</b></li>
-      <li>粘贴 <code id="market-url">https://github.com/kael-odin/codex-plugins-zh.git</code>
-          <button class="copy" data-copy="#market-url">复制</button></li>
-      <li>重开会话，市场列表出现「Codex 官方插件 · 中文版」</li>
-    </ol>
-    <a class="guide" href="https://github.com/kael-odin/codex-plugins-zh/blob/main/docs/setup-guide.md">完整安装 / 冗余清理指南 →</a>
+  <div class="controls">
+    <span class="snap"><span data-i18n="snapshot">数据快照</span> <span id="meta">…</span></span>
+    <button id="lang" class="ctl">English</button>
+    <button id="theme" class="ctl" aria-label="切换深浅主题">🌙</button>
+    <a class="ctl gh" href="https://github.com/kael-odin/codex-plugins-zh" target="_blank" rel="noopener">GitHub ↗</a>
   </div>
 </header>
 
-<main>
-  <div class="toolbar">
-    <input id="q" type="search" placeholder="搜索：做表格 / figma / 查邮件 / 数据可视化 / slack …">
-    <label class="toggle"><input type="checkbox" id="onlyzh"> 只看已译</label>
-  </div>
-  <div id="cats" class="chips"></div>
-  <div id="grid" class="grid"></div>
-  <p id="count" class="count"></p>
-</main>
+<div class="layout">
+  <aside class="rail">
+    <div class="rail-title" data-i18n="cats">快速分类</div>
+    <div id="rail"></div>
+  </aside>
+
+  <main>
+    <div class="searchrow">
+      <input id="q" type="search">
+      <button id="clear" class="ctl" data-i18n="clear">清空</button>
+    </div>
+    <div id="pills" class="pills"></div>
+    <div id="count" class="countline"></div>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <aside class="detailpane" id="detailpane"></aside>
+</div>
 
 <div id="modal" class="modal hidden">
   <div class="sheet">
@@ -47,9 +67,8 @@
 </div>
 
 <footer>
-  数据快照 <span id="meta">…</span> ·
-  <a href="https://github.com/kael-odin/codex-plugins-zh">kael-odin/codex-plugins-zh</a> ·
-  插件内容与商标归 OpenAI 及各自权利人所有，中文译文仅供参考，以英文原文为准
+  <span data-i18n="footerLegal">插件内容与商标归 OpenAI 及各自权利人所有，中文译文仅供参考，与英文原文冲突时以英文原文为准。</span>
+  <a href="https://github.com/kael-odin/codex-plugins-zh">kael-odin/codex-plugins-zh</a>
 </footer>
 
 <script src="./app.js"></script>

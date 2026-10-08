@@ -98,7 +98,7 @@ for (const name of allNames) {
     plugins.push({
       name, inMain: inMain.has(name), inApi: inApi.has(name), missing: true,
       displayName: name, shortZh: '', shortEn: '', longZh: '', longEn: '',
-      hasZh: false, prompts: [], category: catOf.get(name) ?? 'Other',
+      hasZh: false, prompts: [], promptsEn: [], category: catOf.get(name) ?? 'Other',
       categoryZh: glossary[catOf.get(name) ?? 'Other'] ?? catOf.get(name) ?? 'Other',
       brandColor: null, developerName: 'OpenAI', skills: [], skillsCount: 0,
       hasMcp: false, hasApp: false, icon: null,
@@ -124,6 +124,7 @@ for (const name of allNames) {
     longZh, longEn: up.longDescription ?? '',
     hasZh: hasCJK(shortZh) || hasCJK(longZh),
     prompts: Array.isArray(pub.defaultPrompt) ? pub.defaultPrompt : [],
+    promptsEn: Array.isArray(up.defaultPrompt) ? up.defaultPrompt : [],
     category: catOf.get(name) ?? 'Other',
     categoryZh: glossary[catOf.get(name) ?? ''] ?? catOf.get(name) ?? 'Other',
     brandColor: pub.brandColor ?? null,

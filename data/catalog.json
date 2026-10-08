@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T09:46:29.545Z",
+  "generatedAt": "2026-10-08T12:02:22.467Z",
   "upstream": {
     "repo": "https://github.com/openai/plugins",
     "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
@@ -84,6 +84,11 @@
         "把这些照片调整尺寸，适配我的社交媒体平台",
         "找一个促销宣传单模板"
       ],
+      "promptsEn": [
+        "turn my video into a short highlight reel",
+        "resize these photos for my social media platforms",
+        "find a template for a promotional flyer"
+      ],
       "category": "Creativity",
       "categoryZh": "创意设计",
       "brandColor": null,
@@ -117,6 +122,10 @@
         "给我看产品路线图的看板。哪些有风险？下一步是什么？",
         "今天我应该和企业销售团队讨论哪些路线图计划？"
       ],
+      "promptsEn": [
+        "show me a kanban of the product roadmap. What’s at risk? What’s up next?",
+        "which roadmap initiatives should I discuss with the enterprise sales team today?"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": null,
@@ -146,6 +155,9 @@
       "prompts": [
         "在 Vita MVP 项目中创建 Jira 任务"
       ],
+      "promptsEn": [
+        "Create Jira tasks in project Vita MVP"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": "#0052CC",
@@ -172,6 +184,11 @@
         "预测 EGFR L858R 与 osimertinib 的结合",
         "为 SARS-CoV-2 RBD 表位设计纳米抗体",
         "从 Enamine REAL 中设计具有选择性的 JAK2 结合体"
+      ],
+      "promptsEn": [
+        "Predict EGFR L858R binding to osimertinib",
+        "Design nanobodies for a SARS-CoV-2 RBD epitope",
+        "Design selective JAK2 binders from Enamine REAL"
       ],
       "category": "Scientific Research",
       "categoryZh": "科学研究",
@@ -207,6 +224,9 @@
       "prompts": [
         "使用 SwiftUI、App Intents 和模拟器构建或调试 iOS 应用"
       ],
+      "promptsEn": [
+        "Build or debug an iOS app with SwiftUI, App Intents, and Simulator."
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#0A84FF",
@@ -241,6 +261,9 @@
       "hasZh": true,
       "prompts": [
         "构建或重构原生 macOS UI、检查 AppKit 互操作、添加遥测，或调试 macOS 应用"
+      ],
+      "promptsEn": [
+        "Build/refactor native macOS UI, inspect AppKit interop, add telemetry, or debug a macOS app"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -279,6 +302,9 @@
       "prompts": [
         "为我的新 SaaS 产品设计一个全新的落地页"
       ],
+      "promptsEn": [
+        "Design a new landing page for my new SaaS product."
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#111111",
@@ -312,6 +338,11 @@
         "用大屏和移动端概念图在视觉上设计这个高级可视化",
         "为这个数据集选择最合适的图表、布局、可分享状态、语法和技术栈",
         "为这个图表、仪表盘、地图或 WebGL 可视化设计质量检查方案"
+      ],
+      "promptsEn": [
+        "Visually design this advanced visualization with large-screen and mobile concepts",
+        "Choose the best chart, layout, shareable state, grammar, and stack for this dataset",
+        "Design QA for this chart, dashboard, map, or WebGL visualization"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -359,6 +390,11 @@
         "用这份最新的投资者会议纪要制作一份 2026 年 Q1 路演演示文稿",
         "能帮我把这张海报调整成用于我线上商店的 Instagram 帖子吗？"
       ],
+      "promptsEn": [
+        "Create some social media posts based on our October campaign brief",
+        "Use these latest investor meeting notes to make a Q1 2026 pitch deck",
+        "Can you resize this poster as an Instagram post for my online store?"
+      ],
       "category": "Creativity",
       "categoryZh": "创意设计",
       "brandColor": null,
@@ -395,6 +431,11 @@
         "把这段口播视频剪辑成更紧凑的故事，加上字幕、B-roll、音乐和动态图形。",
         "创建一段带动态图形和英文旁白的 AI 视频剪辑讲解。"
       ],
+      "promptsEn": [
+        "Create a new ChatCut project and start editing my video.",
+        "Edit this talking-head video for a tighter story with captions, B-roll, music, and motion graphics.",
+        "Create an AI video-editing explainer with motion graphics and an English voiceover."
+      ],
       "category": "Creativity",
       "categoryZh": "创意设计",
       "brandColor": "#111827",
@@ -423,6 +464,11 @@
         "审查本项目的 CircleCI 配置并提出改进建议",
         "诊断并修复当前分支的构建失败",
         "为本项目配置 Chunk CLI"
+      ],
+      "promptsEn": [
+        "Review the CircleCI configuration for this project and suggest improvements",
+        "Diagnose and fix build failures for the current branch",
+        "Setup the Chunk cli for this project"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -454,6 +500,9 @@
       "prompts": [
         "判断「Sprint 14：简化 UI」是否存在进度风险"
       ],
+      "promptsEn": [
+        "Flag whether Sprint 14: Simplifying UI is at risk"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": null,
@@ -478,6 +527,9 @@
       "hasZh": true,
       "prompts": [
         "帮我选择合适的 Cloudflare 产品、配置 Wrangler，并使用 Cloudflare MCP 检查或部署本项目"
+      ],
+      "promptsEn": [
+        "Help me choose the right Cloudflare product, configure Wrangler, and use Cloudflare MCP to inspect or deploy this project"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -514,6 +566,9 @@
       "prompts": [
         "审查我的当前改动并提供反馈"
       ],
+      "promptsEn": [
+        "Review my current changes and provide feedback"
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#FF570A",
@@ -542,6 +597,11 @@
         "对本仓库运行 Codex Security 扫描。",
         "对本 PR、提交、分支 diff 或工作区补丁运行 Codex Security diff 扫描。",
         "针对本仓库对已有的安全发现项进行分诊(triage)。"
+      ],
+      "promptsEn": [
+        "Run a Codex Security scan on this repository.",
+        "Run a Codex Security diff scan on this PR, commit, branch diff, or working-tree patch.",
+        "Triage existing security findings against this repository."
       ],
       "category": "Security",
       "categoryZh": "安全",
@@ -586,6 +646,11 @@
         "阿托伐他汀与葡萄柚汁之间是否存在相互作用？",
         "创建一张表格，比较环境效益、挑战和成本"
       ],
+      "promptsEn": [
+        "Does bilingual education benefit cognitive development?",
+        "Are there interactions between atorvastatin and grapefruit juice?",
+        "Create a table comparing the environmental benefits, challenges, and costs"
+      ],
       "category": "Education & Research",
       "categoryZh": "教育科研",
       "brandColor": null,
@@ -613,6 +678,11 @@
         "为这份视觉简报生成概念图",
         "根据这张图片创建产品植入"
       ],
+      "promptsEn": [
+        "Start me on a creative production workflow",
+        "Generate concept images for this visual brief",
+        "Create product placements from this image"
+      ],
       "category": "Creativity",
       "categoryZh": "创意设计",
       "brandColor": "#924FF7",
@@ -639,6 +709,7 @@
       "longEn": "",
       "hasZh": false,
       "prompts": [],
+      "promptsEn": [],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": null,
@@ -662,6 +733,7 @@
       "longEn": "",
       "hasZh": false,
       "prompts": [],
+      "promptsEn": [],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": null,
@@ -688,6 +760,11 @@
         "帮我开始第一个数据任务",
         "分析产品或业务数据，并建议下一步的聚焦方向",
         "诊断关键指标变化的原因，并找出最大的驱动因素"
+      ],
+      "promptsEn": [
+        "Help me get started with my first data task",
+        "Analyze product or business data and recommend where to focus next",
+        "Diagnose why a key metric changed and identify the biggest drivers"
       ],
       "category": "Data & Analytics",
       "categoryZh": "数据分析",
@@ -732,6 +809,11 @@
         "展示我的前 10 个服务在过去 6 小时的平均 CPU 使用率。",
         "我的用户来自哪里？请按国家展示图表。"
       ],
+      "promptsEn": [
+        "Show me a breakdown of log volume by service.",
+        "Show me average CPU usage for my top 10 services for the past 6 hours.",
+        "Where are my users coming from? Show me a chart by country."
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": null,
@@ -758,6 +840,11 @@
         "把这份提案保存到我的 Dropbox",
         "能给我看看我的度假照片吗？",
         "能为这个 PDF 生成 Dropbox 分享链接吗？"
+      ],
+      "promptsEn": [
+        "save this proposal to my Dropbox",
+        "can you show me my vacation photo?",
+        "can you generate a Dropbox shareable link for this PDF?"
       ],
       "category": "Productivity",
       "categoryZh": "效率办公",
@@ -789,6 +876,7 @@
       "longEn": "Official Expo-authored skills for building Expo Router UI, authoring API routes, configuring data fetching and styling, writing Expo native modules, creating dev clients, upgrading Expo SDKs, wiring Codex app Run actions, and deploying Expo apps with EAS workflows, builds, hosting, TestFlight, App Store, and Play Store guidance.",
       "hasZh": true,
       "prompts": [],
+      "promptsEn": [],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#000020",
@@ -830,6 +918,11 @@
         "为我的组件创建 Code Connect 模板",
         "在 Figma 中构建或更新屏幕"
       ],
+      "promptsEn": [
+        "Inspect a Figma design and implement it in code",
+        "Create Code Connect templates for my components",
+        "Build or update a screen in Figma"
+      ],
       "category": "Creativity",
       "categoryZh": "创意设计",
       "brandColor": "#1ABCFE",
@@ -868,6 +961,9 @@
       "prompts": [
         "设计一款浏览器游戏并规划核心玩法循环"
       ],
+      "promptsEn": [
+        "Design a browser game and plan the core loop"
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#0F766E",
@@ -903,6 +999,9 @@
       "prompts": [
         "查阅 PR、分诊 issue、排查失败检查并准备代码改动送审"
       ],
+      "promptsEn": [
+        "Inspect PRs, triage issues, debug failing checks, and prepare code changes for review"
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#24292F",
@@ -927,6 +1026,9 @@
       "hasZh": true,
       "prompts": [
         "汇总收件箱、起草回复或处理邮件会话"
+      ],
+      "promptsEn": [
+        "Summarize inbox, draft replies, or process email threads"
       ],
       "category": "Communication",
       "categoryZh": "沟通协作",
@@ -953,6 +1055,9 @@
       "prompts": [
         "汇总我的日历、比较空闲时段、准备会议或起草活动详情"
       ],
+      "promptsEn": [
+        "Summarize my calendar, compare availability, prep meetings, or draft event details"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": "#4285F4",
@@ -977,6 +1082,9 @@
       "hasZh": true,
       "prompts": [
         "找到合适的 Drive 文件，然后摘要一份 Doc、更新一份 Sheet，或编辑一份 Slides 演示文稿"
+      ],
+      "promptsEn": [
+        "Find the right Drive file, then summarize a Doc, update a Sheet, or edit a Slides deck"
       ],
       "category": "Productivity",
       "categoryZh": "效率办公",
@@ -1009,6 +1117,9 @@
       "prompts": [
         "总结 Hearthbase 项目迄今为止发生了什么"
       ],
+      "promptsEn": [
+        "Summarize what happened in the Hearthbase deal so far"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": null,
@@ -1035,6 +1146,11 @@
         "制作一段 2 分钟的无真人出镜讲解视频，讲解航空公司如何靠卖里程积分比卖座位赚更多钱",
         "为这款巧克力零食棒制作电影级视频广告",
         "为我的运动鞋品牌制作 9:16 广告"
+      ],
+      "promptsEn": [
+        "Make a 2-minute faceless explainer on how airlines make more money selling points than seats",
+        "Make a cinematic video ad for this chocolate snack bar",
+        "Make a 9:16 ad for my sneaker brand"
       ],
       "category": "Creativity",
       "categoryZh": "创意设计",
@@ -1067,6 +1183,11 @@
         "创建一个带动态排版的标题卡",
         "为这段旁白添加同步字幕"
       ],
+      "promptsEn": [
+        "Turn this website into a 20-second product promo",
+        "Create an animated title card with kinetic type",
+        "Add synced captions to this voiceover"
+      ],
       "category": "Creativity",
       "categoryZh": "创意设计",
       "brandColor": "#0a0a0a",
@@ -1097,6 +1218,9 @@
       "hasZh": true,
       "prompts": [
         "使用相关技能和数据库支持生命科学研究任务"
+      ],
+      "promptsEn": [
+        "Use relevant skills and databases to support life-science research tasks."
       ],
       "category": "Education & Research",
       "categoryZh": "教育科研",
@@ -1174,6 +1298,9 @@
       "prompts": [
         "整理或更新此任务相关的问题，并给出明确的后续行动"
       ],
+      "promptsEn": [
+        "Triage or update relevant issues for this task with clear next actions"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": "#5E6AD2",
@@ -1201,6 +1328,11 @@
         "帮我构建一个 AI 驱动的教练辅导应用",
         "帮我构建一个营销活动规划工具"
       ],
+      "promptsEn": [
+        "build me an AI-powered customer support app",
+        "build me an AI-powered coaching app",
+        "build me a marketing campaign planner"
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": null,
@@ -1227,6 +1359,11 @@
         "查找一个 MagicPath 按钮组件，并帮我添加到这个应用中。",
         "从这个仓库的 UI 创建一个新的 MagicPath 画布组件。",
         "使用我的 MagicPath 主题调整这个组件的样式。"
+      ],
+      "promptsEn": [
+        "Find a MagicPath button component and help me add it to this app.",
+        "Create a new MagicPath canvas component from this repository UI.",
+        "Use my MagicPath theme to adapt this component."
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -1256,6 +1393,11 @@
         "用 Python 分析我的 Mixpanel 注册漏斗",
         "在 Mixpanel 中发现产品分析洞察",
         "基于关键事件构建 Mixpanel 仪表板"
+      ],
+      "promptsEn": [
+        "Analyze my Mixpanel signup funnel with Python",
+        "Find product analytics insights in Mixpanel",
+        "Build a Mixpanel dashboard from key events"
       ],
       "category": "Data & Analytics",
       "categoryZh": "数据分析",
@@ -1287,6 +1429,9 @@
       "prompts": [
         "这个连接器能做什么？"
       ],
+      "promptsEn": [
+        "what can this connector do?"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": null,
@@ -1311,6 +1456,9 @@
       "hasZh": true,
       "prompts": [
         "引导我完成 NGS 分析所需的最少配置问题，检查可用的 BCL/FASTQ 文件或 count matrix，选择合适的公开流程或更深入的检测类型技能，确认所需工具是否已存在，并执行支持的本地工作流，输出预执行验证和结果归档。"
+      ],
+      "promptsEn": [
+        "Guide me through the minimum required NGS analysis questions, inspect available BCL/FASTQ files or count matrices, choose the right public pipeline or deeper assay-specific skill, check whether required tools already exist, and execute supported local workflows with pre-execution validation and artifact capture."
       ],
       "category": "Education & Research",
       "categoryZh": "教育科研",
@@ -1356,6 +1504,9 @@
       "prompts": [
         "搜索 Notion 工作区内容、更新页面，或将规格文档、笔记和会议背景转化为结构化成果"
       ],
+      "promptsEn": [
+        "Search Notion workspace content, update pages, or turn specs, notes, and meeting context into structured outputs"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": "#111111",
@@ -1387,6 +1538,11 @@
         "帮我了解 NVIDIA CUDA-X，并说明哪些库对仿真和机器人最重要。",
         "如何把真实驾驶视频转换成用于仿真的 3D 神经场景？",
         "帮我部署一个安全的 OpenClaw Agent。"
+      ],
+      "promptsEn": [
+        "Research NVIDIA CUDA-X for me and explain which libraries matter for simulation and robotics",
+        "How I could turn real-world driving footage into a 3D neural scene for simulation",
+        "Help me deploy a secure OpenClaw agent"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -1426,6 +1582,9 @@
       "prompts": [
         "在本仓库中配置 OpenAI Ads 转化跟踪。"
       ],
+      "promptsEn": [
+        "Set up OpenAI Ads conversions tracking in this repository."
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": null,
@@ -1454,6 +1613,11 @@
         "为这个项目创建一个 OpenAI API 密钥",
         "用 Agents SDK 构建一个智能体",
         "基于我本地的 MCP Server 和 Widget 构想，构建一个 ChatGPT 应用。"
+      ],
+      "promptsEn": [
+        "Create an OpenAI API key to use in this project",
+        "Build an agent with the Agents SDK",
+        "Build a ChatGPT app from my local MCP server and widget idea."
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -1484,6 +1648,7 @@
       "longEn": "Use Outlook Calendar to summarize a day, compare availability, prepare for meetings, explain Outlook status semantics, and schedule, reschedule, or cancel events through the connected Microsoft Outlook app.",
       "hasZh": true,
       "prompts": [],
+      "promptsEn": [],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": "#0078D4",
@@ -1508,6 +1673,9 @@
       "hasZh": true,
       "prompts": [
         "整理收件箱、汇总会话或起草回复/转发"
+      ],
+      "promptsEn": [
+        "Triage inbox, summarize thread, or draft reply or forward"
       ],
       "category": "Communication",
       "categoryZh": "沟通协作",
@@ -1535,6 +1703,11 @@
         "分析一下 game studio 插件",
         "评估这个插件",
         "为什么得了这个分？"
+      ],
+      "promptsEn": [
+        "Give me an analysis of the game studio plugin.",
+        "Evaluate this plugin.",
+        "Why did this score that way?"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -1569,6 +1742,11 @@
         "为新版结账流程创建一个 Feature Flag。",
         "为什么用户在新手引导环节流失？"
       ],
+      "promptsEn": [
+        "Show me signups this month",
+        "Create a feature flag for the new checkout",
+        "Why are users dropping off in onboarding?"
+      ],
       "category": "Data & Analytics",
       "categoryZh": "数据分析",
       "brandColor": "#1D4AFF",
@@ -1597,6 +1775,11 @@
         "帮我快速上手",
         "把这个产品想法变成三个视觉方向",
         "为我的业务设计一个落地页"
+      ],
+      "promptsEn": [
+        "Help me get started",
+        "Turn this product idea into three visual directions",
+        "Design a landing page for my business"
       ],
       "category": "Creativity",
       "categoryZh": "创意设计",
@@ -1635,6 +1818,11 @@
         "构建一份深入的 NVIDIA 财报前瞻：预期、KPI、利润率争议、情景分析和管理层提问。",
         "创建一份 Disney 多空推介：流媒体、主题公园、ESPN、资本配置、估值、催化剂和下行风险。",
         "构建一份 Tesla 催化剂与估值简报：近期新闻、预期、关键争议、情景、风险和投资观点。"
+      ],
+      "promptsEn": [
+        "Build a deep NVIDIA pre-earnings preview: expectations, KPIs, margin debates, scenarios, and management questions.",
+        "Create a Disney long/short pitch: streaming, parks, ESPN, capital allocation, valuation, catalysts, and downside risks.",
+        "Build a Tesla catalyst and valuation brief: recent news, expectations, key debates, scenarios, risks, and an investment view."
       ],
       "category": "Finance",
       "categoryZh": "金融财务",
@@ -1683,6 +1871,7 @@
       "longEn": "",
       "hasZh": false,
       "prompts": [],
+      "promptsEn": [],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": null,
@@ -1709,6 +1898,11 @@
         "创建一个包含 5 根柱子的动态柱状图",
         "为我们的 YouTube 频道制作一个带动画的订阅行动号召按钮",
         "使用 Remotion 为视频合成添加字幕和音频"
+      ],
+      "promptsEn": [
+        "Create an animated chart with 5 bars",
+        "Make an animated call-to-action subscribe button for our YouTube channel",
+        "Use Remotion to add captions and audio to a video composition."
       ],
       "category": "Creativity",
       "categoryZh": "创意设计",
@@ -1748,6 +1942,9 @@
       "prompts": [
         "查看近期 Sentry issues 并汇总主要生产报错"
       ],
+      "promptsEn": [
+        "Inspect recent Sentry issues and summarize the top production errors"
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#362D59",
@@ -1775,6 +1972,9 @@
       "prompts": [
         "汇总 SharePoint 站点或文件、识别所有者和状态，或规划跨文档、电子表格或演示文稿的安全更新"
       ],
+      "promptsEn": [
+        "Summarize a SharePoint site or file, identify owners and status, or plan a safe update across documents, spreadsheets, or decks"
+      ],
       "category": "Productivity",
       "categoryZh": "效率办公",
       "brandColor": "#038387",
@@ -1801,6 +2001,11 @@
         "上传这款商品并添加到我的店铺。",
         "显示我店铺里的商品。",
         "显示我店铺过去三周的销售额。"
+      ],
+      "promptsEn": [
+        "Upload and add this product to my store.",
+        "Show me the products I have in my store.",
+        "Show me my store's sales for the past three weeks."
       ],
       "category": "Business & Operations",
       "categoryZh": "商业运营",
@@ -1848,6 +2053,9 @@
       "prompts": [
         "汇总未读动态、起草回复或准备更新内容"
       ],
+      "promptsEn": [
+        "Summarize unread activity, draft replies, or prepare updates"
+      ],
       "category": "Communication",
       "categoryZh": "沟通协作",
       "brandColor": "#611F69",
@@ -1874,6 +2082,11 @@
         "显示我的客户列表",
         "显示我有哪些产品",
         "告诉我我创建了哪些价格"
+      ],
+      "promptsEn": [
+        "Show me the list of my customers",
+        "Show me what products I have",
+        "Tell me the prices I have created"
       ],
       "category": "Finance",
       "categoryZh": "金融财务",
@@ -1910,6 +2123,11 @@
         "检查我的 Supabase Schema 和 RLS 策略是否存在安全问题。",
         "按照 Supabase 最佳实践优化我的 Postgres 查询和索引。"
       ],
+      "promptsEn": [
+        "Use Supabase to set up Auth and protected routes for my app.",
+        "Review my Supabase schema and RLS policies for security issues.",
+        "Optimize my Postgres queries and indexes using Supabase best practices."
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#3ECE8E",
@@ -1938,6 +2156,10 @@
       "prompts": [
         "我有一个想构建的想法。",
         "来给这个项目加一个新功能吧。"
+      ],
+      "promptsEn": [
+        "I've got an idea for something I'd like to build.",
+        "Let's add a feature to this project."
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -1979,6 +2201,9 @@
       "prompts": [
         "汇总聊天内容、提取行动项或起草跟进消息"
       ],
+      "promptsEn": [
+        "Summarize chat, pull out action items, or draft follow-up"
+      ],
       "category": "Communication",
       "categoryZh": "沟通协作",
       "brandColor": "#5B5FC7",
@@ -2004,6 +2229,10 @@
       "prompts": [
         "用 Temporal 创建一个工作流。",
         "在 Temporal 上开发 Agent"
+      ],
+      "promptsEn": [
+        "Create a workflow using Temporal.",
+        "Develop an Agent on Temporal"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -2035,6 +2264,9 @@
       "prompts": [
         "使用 Test Android Apps 复现模拟器中的问题，然后采集截图、日志、UI 状态和性能证据"
       ],
+      "promptsEn": [
+        "Use Test Android Apps to reproduce an emulator issue, then capture screenshots, logs, UI state, and performance evidence."
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#3DDC84",
@@ -2064,6 +2296,11 @@
         "帮我发送带投递追踪的 SMS 通知",
         "我应该用哪个 Twilio API 来构建用户验证流程？",
         "在向美国发送 SMS 前，如何完成 A2P 10DLC 注册？"
+      ],
+      "promptsEn": [
+        "Help me send an SMS notification with delivery tracking",
+        "What Twilio API should I use to build a user verification flow?",
+        "How do I register for A2P 10DLC before sending US SMS?"
       ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
@@ -2148,6 +2385,11 @@
         "哪些 Vercel 工具最适合这个应用",
         "帮助将 Vercel 应用接入此工作流"
       ],
+      "promptsEn": [
+        "Audit this repo for Vercel deployment risks",
+        "Which Vercel tools fit this app best",
+        "Help wire the Vercel app into this workflow"
+      ],
       "category": "Developer Tools",
       "categoryZh": "开发工具",
       "brandColor": "#000000",
@@ -2229,6 +2471,10 @@
         "在我最近的 Zoom 会议记录中搜索关于定价的讨论。",
         "针对一个 Zoom 集成想法运行 /plan-zoom-product。"
       ],
+      "promptsEn": [
+        "Search my recent Zoom meetings for the discussion about pricing.",
+        "Run /plan-zoom-product for a Zoom integration idea."
+      ],
       "category": "Communication",
       "categoryZh": "沟通协作",
       "brandColor": "#0B5CFF",
@@ -2283,6 +2529,11 @@
         "@Zotero 在我的文库中查找关于 transformer 的文献，并将引用添加到我的草稿中",
         "@Zotero 将我的 Zotero 文库导出为 references.bib",
         "@Zotero 搜索我的 Zotero 文库并显示 BibTeX 键"
+      ],
+      "promptsEn": [
+        "@Zotero find papers in my library about transformers and add citations to my draft",
+        "@Zotero export my Zotero library to references.bib",
+        "@Zotero search my Zotero library and show the BibTeX keys"
       ],
       "category": "Education & Research",
       "categoryZh": "教育科研",
