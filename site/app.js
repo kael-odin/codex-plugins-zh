@@ -4,91 +4,91 @@ const GUIDE_URL = 'https://github.com/kael-odin/codex-plugins-zh/blob/main/docs/
 const I18N = {
   zh: {
     title: 'Codex 官方插件 · 中文导航',
-    subtitle: '全量 1,697+ 项目 · 无损汉化 · 每日更新',
-    searchPh: '搜索：做表格 / figma / 查邮件 / 控制电脑 / 销售 / 英伟达 …',
+    subtitle: '全量 1,694+ 项目 · 无损汉化 · 每日更新',
+    searchPh: '例如：做表格、PPT、控制电脑、查邮件、英伟达、Notion...',
     clear: '清空',
     cats: '快速分类',
     all: '全部',
     quick: { all: '全部', plugin: '插件', app: '应用与连接器' },
     kindPlugin: '插件',
     kindApp: '应用/连接器',
-    found: (x, y) => `显示 ${x} / ${y} 个项目`,
-    split: (p, a) => `插件 ${p} · 应用与连接器 ${a}`,
-    zhCount: (n) => `插件已译 ${n}`,
+    summary: (n, p, a, t) => `找到 ${n} 项（插件 ${p} · 应用与连接器 ${a}）· 插件已译 ${t}/189 · 数据每日自动同步`,
     intro: '简介',
     detail: '详细介绍',
+    enOriginal: '英文原文',
     prompts: '上手示例',
-    skills: (n) => `包含技能（${n}）`,
+    skills: '包含技能',
     links: '链接',
-    upstream: '上游源码（openai/plugins）↗',
-    website: '官方网站 ↗',
+    upstream: '在 openai/plugins 查看源码 ↗',
+    website: '打开官方网站 ↗',
     mainList: '主清单',
     apiList: 'API 清单',
     hasMcp: 'MCP 连接器',
     hasApp: 'App',
     translated: '已译',
     untranslated: '未译',
-    noneZh: '（暂无译文，见英文原文）',
-    enOriginal: '英文原文',
-    snapshot: '数据快照',
     originUpstream: '上游',
     originSnapshot: '快照',
+    snapshot: '数据快照',
     installTitle: '把中文市场加进 Codex',
-    installSteps: ['Codex 里打开 设置 → 插件 → 添加市场', '粘贴下方地址（带复制按钮）', '重开会话，出现「Codex 官方插件 · 中文版」'],
-    copy: '复制',
+    installSteps: ['Codex 里打开 设置 → 插件 → 添加市场', '粘贴下方地址，点击复制', '重开会话，出现「Codex 官方插件 · 中文版」'],
+    copy: '复制市场地址',
     copied: '已复制 ✓',
     guide: '完整安装 / 冗余清理指南 →',
-    installHint: 'API-key 登录用户：App 自带的「Built by OpenAI · 50 个插件」请保留，两者并存互不影响。',
-    footerLegal: '插件内容与商标归 OpenAI 及各自权利人所有；应用目录数据来自 Source-blip 中文导航（2026-07 快照），译文仅供参考。',
-    close: '关闭',
+    installHint: 'API-key 登录用户：App 自带的「Built by OpenAI · 50 个插件」请保留，两个市场并存互不影响。',
+    footerLegal: '插件内容与商标归 OpenAI 及各自权利人所有；应用目录数据来自 Source-blip 中文导航（2026-07 快照），译文仅供参考，与英文原文冲突时以英文原文为准。',
+    close: '关闭详情',
+    statusAll: '全部状态',
+    catAll: '全部分类',
+    sortDefault: '推荐排序',
   },
   en: {
     title: 'Codex Official Plugins · Chinese Navigator',
-    subtitle: '1,697+ items · lossless Chinese edition · daily updates',
-    searchPh: 'Search: spreadsheet / figma / email / sales / NVIDIA …',
+    subtitle: '1,694+ items · lossless Chinese edition · daily updates',
+    searchPh: 'e.g. spreadsheet, PPT, browser control, email, NVIDIA, Notion...',
     clear: 'Clear',
     cats: 'Categories',
     all: 'All',
     quick: { all: 'All', plugin: 'Plugins', app: 'Apps & connectors' },
     kindPlugin: 'Plugin',
     kindApp: 'App/Connector',
-    found: (x, y) => `Showing ${x} of ${y} items`,
-    split: (p, a) => `${p} plugins · ${a} apps & connectors`,
-    zhCount: (n) => `${n} plugins translated`,
+    summary: (n, p, a, t) => `${n} items (${p} plugins · ${a} apps & connectors) · ${t}/189 plugins translated · synced daily`,
     intro: 'Intro',
     detail: 'Details',
+    enOriginal: 'English original',
     prompts: 'Starter prompts',
-    skills: (n) => `Skills (${n})`,
+    skills: 'Skills',
     links: 'Links',
-    upstream: 'Upstream source (openai/plugins) ↗',
-    website: 'Official website ↗',
+    upstream: 'View source on openai/plugins ↗',
+    website: 'Open official website ↗',
     mainList: 'Main catalog',
     apiList: 'API catalog',
     hasMcp: 'MCP connector',
     hasApp: 'App',
     translated: 'Translated',
     untranslated: 'Not translated',
-    noneZh: '(No Chinese yet — see English below)',
-    enOriginal: 'English original',
-    snapshot: 'Snapshot',
     originUpstream: 'upstream',
     originSnapshot: 'snapshot',
+    snapshot: 'Snapshot',
     installTitle: 'Add the Chinese marketplace to Codex',
-    installSteps: ['Open Settings → Plugins → Add marketplace in Codex', 'Paste the URL below (copy button provided)', 'Start a new session — “Codex 官方插件 · 中文版” appears'],
-    copy: 'Copy',
+    installSteps: ['Open Settings → Plugins → Add marketplace in Codex', 'Paste the URL below and copy', 'Start a new session — “Codex 官方插件 · 中文版” appears'],
+    copy: 'Copy marketplace URL',
     copied: 'Copied ✓',
     guide: 'Full setup & cleanup guide →',
     installHint: 'API-key users: keep the built-in “Built by OpenAI · 50 plugins” — both marketplaces coexist.',
     footerLegal: 'Plugin content and trademarks belong to OpenAI and their respective owners. Apps dataset from Source-blip (2026-07 snapshot); translations are informational.',
-    close: 'Close',
+    close: 'Close details',
+    statusAll: 'All statuses',
+    catAll: 'All categories',
+    sortDefault: 'Recommended',
   },
 };
 
-const state = { q: '', cat: null, quick: 'all', onlyZh: false, lang: 'zh', theme: 'light', selected: null };
+const state = { q: '', cat: null, quick: 'all', status: '', sort: 'default', onlyZh: false, lang: 'zh', theme: 'light', selected: null };
 let CATALOG = null;
 let APPS = [];
 let ALIASES = {};
-let ITEMS = []; // unified view
+let ITEMS = [];
 
 const $ = (s) => document.querySelector(s);
 const t = () => I18N[state.lang];
@@ -118,11 +118,13 @@ function buildItems() {
     long: state.lang === 'zh' ? p.longZh || p.longEn : p.longEn || p.longZh,
     longEn: p.longEn,
     category: state.lang === 'zh' ? p.categoryZh : p.category,
+    status: null,
     badges: [
-      T.kindPlugin,
-      p.origin === 'snapshot' ? T.originSnapshot : T.originUpstream,
-      ...(p.hasMcp ? [T.hasMcp] : []),
-      ...(p.inApi ? [T.apiList] : []),
+      { text: T.kindPlugin, cls: 'kind' },
+      { text: p.origin === 'snapshot' ? T.originSnapshot : T.originUpstream, cls: '' },
+      ...(p.inApi ? [{ text: T.apiList, cls: 'warn' }] : []),
+      ...(p.hasMcp ? [{ text: T.hasMcp, cls: '' }] : []),
+      ...(p.hasZh ? [{ text: T.translated, cls: 'ok' }] : []),
     ],
     search: [p.name, p.displayName, p.shortZh, p.shortEn, p.longZh, p.longEn, p.category, p.categoryZh, ...(ALIASES[p.name] ?? [])],
   }));
@@ -138,7 +140,12 @@ function buildItems() {
     long: state.lang === 'zh' ? a.plain : a.enDesc || a.plain,
     longEn: a.enDesc,
     category: a.category,
-    badges: [T.kindApp, a.status, ...(a.iconStatus ? [a.iconStatus] : [])],
+    status: a.status ?? null,
+    badges: [
+      { text: T.kindApp, cls: 'kind' },
+      ...(a.status ? [{ text: a.status, cls: a.status === '可安装' ? 'ok' : '' }] : []),
+      ...(state.lang === 'zh' && a.iconStatus ? [{ text: a.iconStatus, cls: '' }] : []),
+    ],
     search: [a.en, a.zh, a.plain, a.enDesc, a.category, a.kind, a.status, ...(a.keywords ?? [])],
   }));
   ITEMS = [...plugins, ...apps];
@@ -147,6 +154,7 @@ function buildItems() {
 function match(it) {
   if (state.quick === 'plugin' && it.type !== 'plugin') return false;
   if (state.quick === 'app' && it.type !== 'app') return false;
+  if (state.status && it.status !== state.status) return false;
   if (state.onlyZh && it.type === 'plugin') {
     const p = CATALOG.plugins.find((x) => x.name === it.key);
     if (p && !p.hasZh) return false;
@@ -157,25 +165,30 @@ function match(it) {
   return it.search.some((v) => norm(v).includes(q));
 }
 
-function iconHTML(it, size = 52) {
+function sorted(list) {
+  const byName = (a, b) => (a.zh || a.en).localeCompare(b.zh || b.en, 'zh-Hans-CN');
+  if (state.sort === 'az') return [...list].sort(byName);
+  if (state.sort === 'za') return [...list].sort((a, b) => byName(b, a));
+  return list;
+}
+
+function iconHTML(it, size) {
+  const s = size ? `style="width:${size}px;height:${size}px"` : '';
   if (it.icon) {
-    return `<img class="picon" loading="lazy" style="width:${size}px;height:${size}px" src="${esc(it.icon)}" alt="${esc(it.zh)}"
+    return `<img class="icon" loading="lazy" ${s} src="${esc(it.icon)}" alt="${esc(it.zh)}"
       onerror="this.classList.add('hide');this.nextElementSibling.classList.remove('hide')">
-      <div class="tile hide" style="background:${esc(it.color)};width:${size}px;height:${size}px;font-size:${Math.round(size * 0.38)}px">${esc(it.initial)}</div>`;
+      <div class="tile hide" ${s} >${esc(it.initial)}</div>`;
   }
-  return `<div class="tile" style="background:${esc(it.color)};width:${size}px;height:${size}px;font-size:${Math.round(size * 0.38)}px">${esc(it.initial)}</div>`;
+  return `<div class="tile" ${s}>${esc(it.initial)}</div>`;
 }
 
 function badgesHTML(it) {
-  return `<div class="meta">${it.badges.map((b, i) => {
-    let cls = 'badge';
-    if (it.type === 'plugin' && i === 0) cls = 'badge b-kind';
-    if (it.type === 'app' && i === 0) cls = 'badge b-app';
-    if (b === t().translated) cls = 'badge b-zh';
-    if (b === t().apiList) cls = 'badge b-api';
-    return `<span class="${cls}">${esc(b)}</span>`;
-  }).join('')}</div>`;
+  return `<div class="badges">${it.badges
+    .map((b) => `<span class="badge ${b.cls || ''}">${esc(b.text)}</span>`)
+    .join('')}</div>`;
 }
+
+function tileBg(it) { return `background:${esc(it.color)}`; }
 
 function renderRail() {
   const T = t();
@@ -183,30 +196,36 @@ function renderRail() {
   for (const it of ITEMS) {
     if (state.quick === 'plugin' && it.type !== 'plugin') continue;
     if (state.quick === 'app' && it.type !== 'app') continue;
+    if (state.status && it.status !== state.status) continue;
     counts.set(it.category, (counts.get(it.category) ?? 0) + 1);
   }
   const cats = [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  const total = ITEMS.filter((it) => (state.quick === 'all' || (state.quick === 'plugin' ? it.type === 'plugin' : it.type === 'app'))).length;
+  const total = [...counts.values()].reduce((x, y) => x + y, 0);
   const items = [{ key: null, label: T.all, count: total }].concat(cats.map(([label, count]) => ({ key: label, label, count })));
   $('#rail').innerHTML = items
-    .map((c) => `<button class="rail-item ${state.cat === c.key ? 'active' : ''}" data-cat="${esc(c.key ?? '')}">
-        <span>${esc(c.label)}</span><span class="n">${fmt(c.count)}</span></button>`)
+    .map((c) => `<button class="side-btn ${state.cat === c.key ? 'active' : ''}" data-cat="${esc(c.key ?? '')}">
+        <span>${esc(c.label)}</span><span>${fmt(c.count)}</span></button>`)
     .join('');
-  $('#rail').querySelectorAll('.rail-item').forEach((el) =>
+  $('#rail').querySelectorAll('.side-btn').forEach((el) =>
     el.addEventListener('click', () => {
       state.cat = el.dataset.cat || null;
       renderAll();
     }),
   );
+  // category select keeps in sync with rail
+  const sel = $('#f-cat');
+  const cur = state.cat ?? '';
+  sel.innerHTML = `<option value="">${esc(t().catAll)}</option>` +
+    cats.map(([label, count]) => `<option value="${esc(label)}"${label === cur ? ' selected' : ''}>${esc(label)} (${count})</option>`).join('');
 }
 
 function renderPills() {
   const T = t();
   const defs = [['all', T.quick.all], ['plugin', `${T.quick.plugin} ${fmt(CATALOG.total)}`], ['app', `${T.quick.app} ${fmt(APPS.length)}`]];
   $('#pills').innerHTML = defs
-    .map(([k, label]) => `<button class="pill ${state.quick === k ? 'active' : ''}" data-k="${k}">${esc(label)}</button>`)
+    .map(([k, label]) => `<button class="quick-btn ${state.quick === k ? 'active' : ''}" data-k="${k}">${esc(label)}</button>`)
     .join('');
-  $('#pills').querySelectorAll('.pill').forEach((el) =>
+  $('#pills').querySelectorAll('.quick-btn').forEach((el) =>
     el.addEventListener('click', () => {
       state.quick = el.dataset.k;
       state.cat = null;
@@ -217,12 +236,12 @@ function renderPills() {
 
 function renderGrid() {
   const T = t();
-  const list = ITEMS.filter(match);
+  const list = sorted(ITEMS.filter(match));
   $('#grid').innerHTML = list
     .map(
       (it) => `<div class="card ${state.selected === it.type + ':' + it.key ? 'selected' : ''}" data-type="${it.type}" data-key="${esc(it.key)}" role="button" tabindex="0">
         ${iconHTML(it)}
-        <h3>${esc(it.type === 'app' ? it.zh : it.zh)}</h3>
+        <h3>${esc(it.zh)}</h3>
         <div class="en">${esc(it.en)}</div>
         <p class="desc">${esc(it.desc)}</p>
         ${badgesHTML(it)}
@@ -231,87 +250,84 @@ function renderGrid() {
     .join('');
   $('#grid').querySelectorAll('.card').forEach((el) => {
     const key = el.dataset.type + ':' + el.dataset.key;
-    const open = () => {
-      if (window.matchMedia('(min-width: 1101px)').matches) {
-        state.selected = key;
-        renderGrid();
-        renderPane();
-      } else {
-        openModal(el.dataset.type, el.dataset.key);
-      }
-    };
+    const open = () => openDetail(el.dataset.type, el.dataset.key);
     el.addEventListener('click', open);
     el.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
   });
   const pCount = list.filter((i) => i.type === 'plugin').length;
-  const aCount = list.length - pCount;
-  $('#count').textContent =
-    `${T.found(list.length, ITEMS.length)} · ${T.split(fmt(pCount), fmt(aCount))} · ${T.zhCount(CATALOG.translated)}`;
+  $('#count').textContent = T.summary(fmt(list.length), fmt(pCount), fmt(list.length - pCount), `${CATALOG.translated}`);
 }
 
 function installHTML() {
   const T = t();
-  return `<div class="install">
-    <div class="install-title">${esc(T.installTitle)}</div>
-    <ol>${T.installSteps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
-    <div class="urlrow"><code>${MARKET_URL}</code><button class="copy" data-copy>${esc(T.copy)}</button></div>
-    <p style="font-size:12px;color:var(--dim)">${esc(T.installHint)}</p>
-    <a href="${GUIDE_URL}" target="_blank" rel="noopener">${esc(T.guide)}</a>
+  return `<div class="block">
+    <strong>${esc(T.installTitle)}</strong>
+    <div class="install">
+      <ol>${T.installSteps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
+      <button class="copybtn" data-copy>${esc(MARKET_URL)} — ${esc(T.copy)}</button>
+      <div class="notice">${esc(T.installHint)}</div>
+      <p style="margin:12px 0 0"><a href="${GUIDE_URL}" target="_blank" rel="noopener">${esc(T.guide)}</a></p>
+    </div>
   </div>`;
 }
 
 function detailHTML(it) {
   const T = t();
-  if (it.type === 'app') {
-    return `<div class="headrow">
-        ${iconHTML(it, 56)}
-        <div style="min-width:0">
-          <h2>${esc(it.zh)}</h2>
-          <div class="en-name">${esc(it.en)} · ${esc(it.category)}</div>
-        </div>
+  const head = `<div style="display:flex;gap:16px;align-items:flex-start">
+      ${iconHTML(it, 80)}
+      <div style="min-width:0">
+        <h2>${esc(it.zh)}</h2>
+        <div class="detail-en">${esc(it.en)}</div>
       </div>
-      ${badgesHTML(it)}
-      <h4>${esc(T.intro)}</h4>
-      <p style="margin:4px 0;white-space:pre-wrap">${esc(it.long)}</p>
-      ${it.longEn ? `<details><summary style="cursor:pointer;color:var(--dim);font-size:13px">${esc(T.enOriginal)}</summary><div class="en-block">${esc(it.longEn)}</div></details>` : ''}
-      <h4>${esc(T.links)}</h4>
-      <p>${it.installUrl ? `<a href="${esc(it.installUrl)}" target="_blank" rel="noopener">${esc(T.website)}</a><br>` : ''}<button class="copy" data-copy>${esc(T.copy)} ${esc(MARKET_URL)}</button></p>`;
+    </div>
+    <div class="badges" style="margin-top:12px">${it.badges.map((b) => `<span class="badge ${b.cls || ''}">${esc(b.text)}</span>`).join('')}</div>`;
+  if (it.type === 'app') {
+    return `${head}
+      <div class="block"><strong>${esc(T.intro)}</strong><div class="detail-desc">${esc(it.long)}</div>
+      ${it.longEn ? `<details><summary style="cursor:pointer;font-size:13px">${esc(T.enOriginal)}</summary><div class="original detail-desc">${esc(it.longEn)}</div></details>` : ''}</div>
+      <div class="block"><strong>${esc(T.links)}</strong>
+        ${it.installUrl ? `<a class="link" href="${esc(it.installUrl)}" target="_blank" rel="noopener">${esc(T.website)}</a>` : ''}
+        <button class="copybtn" data-copy>${esc(MARKET_URL)} — ${esc(T.copy)}</button>
+      </div>`;
   }
   const p = CATALOG.plugins.find((x) => x.name === it.key);
-  return `<div class="headrow">
-      ${iconHTML(it, 56)}
-      <div style="min-width:0">
-        <h2>${esc(p.displayName)}</h2>
-        <div class="en-name">${esc(p.name)} · ${esc(state.lang === 'zh' ? p.categoryZh : p.category)} · ${esc(p.origin === 'snapshot' ? T.originSnapshot : T.originUpstream)}</div>
-      </div>
-    </div>
-    <div class="meta" style="margin-bottom:8px">
-      ${p.inMain ? `<span class="badge">${T.mainList}</span>` : ''}
-      ${p.inApi ? `<span class="badge b-api">${T.apiList}</span>` : ''}
-      ${p.hasMcp ? `<span class="badge">${T.hasMcp}</span>` : ''}
-      ${p.hasApp ? `<span class="badge">${T.hasApp}</span>` : ''}
-      ${p.hasZh ? `<span class="badge b-zh">${T.translated}</span>` : `<span class="badge">${T.untranslated}</span>`}
-    </div>
-    <h4>${esc(T.intro)}</h4>
-    <p style="margin:4px 0">${esc(state.lang === 'zh' ? p.shortZh || T.noneZh : p.shortEn || p.shortZh)}</p>
-    <h4>${esc(T.detail)}</h4>
-    <p style="margin:4px 0;white-space:pre-wrap">${esc(state.lang === 'zh' ? p.longZh || T.noneZh : p.longEn || p.longZh)}</p>
-    ${p.longEn ? `<details><summary style="cursor:pointer;color:var(--dim);font-size:13px">${esc(T.enOriginal)}</summary><div class="en-block">${esc(p.longEn)}</div></details>` : ''}
-    ${(state.lang === 'en' && p.promptsEn?.length ? p.promptsEn : p.prompts).length ? `<h4>${esc(T.prompts)}</h4><ul>${(state.lang === 'en' && p.promptsEn?.length ? p.promptsEn : p.prompts).map((s) => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
-    ${p.skillsCount ? `<h4>${esc(T.skills(p.skillsCount))}</h4><div class="meta">${p.skills.map((s) => `<span class="badge">${esc(s)}</span>`).join('')}</div>` : ''}
-    <h4>${esc(T.links)}</h4>
-    <p><a href="${esc(p.upstreamUrl)}" target="_blank" rel="noopener">${esc(T.upstream)}</a></p>
-    <p><button class="copy" data-copy>${esc(T.copy)} ${esc(MARKET_URL)}</button></p>`;
+  const prompts = state.lang === 'en' && p.promptsEn?.length ? p.promptsEn : p.prompts;
+  return `${head}
+    <div class="block"><strong>${esc(T.intro)}</strong><div class="detail-desc">${esc(state.lang === 'zh' ? p.shortZh || T.enOriginal && p.shortEn : p.shortEn || p.shortZh)}</div></div>
+    <div class="block"><strong>${esc(T.detail)}</strong><div class="detail-desc">${esc(state.lang === 'zh' ? p.longZh || p.longEn : p.longEn || p.longZh)}</div>
+      ${p.longEn ? `<details><summary style="cursor:pointer;font-size:13px">${esc(T.enOriginal)}</summary><div class="original detail-desc">${esc(p.longEn)}</div></details>` : ''}</div>
+    ${prompts.length ? `<div class="block"><strong>${esc(T.prompts)}</strong><ul style="margin:6px 0;padding-left:18px">${prompts.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>` : ''}
+    ${p.skillsCount ? `<div class="block"><strong>${esc(T.skills)}（${p.skillsCount}）</strong><div class="badges">${p.skills.map((s) => `<span class="badge">${esc(s)}</span>`).join('')}</div></div>` : ''}
+    <div class="block"><strong>${esc(T.links)}</strong>
+      <a class="link" href="${esc(p.upstreamUrl)}" target="_blank" rel="noopener">${esc(T.upstream)}</a>
+      <button class="copybtn" data-copy>${esc(MARKET_URL)} — ${esc(T.copy)}</button>
+    </div>`;
 }
 
 function renderPane() {
   const it = ITEMS.find((x) => state.selected === x.type + ':' + x.key);
-  $('#detailpane').innerHTML = it ? detailHTML(it) : installHTML();
+  $('#detailpane').innerHTML = `
+    <button class="detail-close" id="dclose">${esc(t().close)}</button>
+    ${it ? detailHTML(it) : installHTML()}`;
   bindCopy($('#detailpane'));
+  $('#dclose').addEventListener('click', closeDrawer);
+}
+
+function openDetail(type, key) {
+  state.selected = type + ':' + key;
+  renderGrid();
+  renderPane();
+  if (!window.matchMedia('(min-width: 1121px)').matches) {
+    document.body.classList.add('detail-open');
+  }
+}
+
+function closeDrawer() {
+  document.body.classList.remove('detail-open');
 }
 
 function bindCopy(root) {
-  root.querySelectorAll('.copy[data-copy]').forEach((btn) =>
+  root.querySelectorAll('.copybtn[data-copy]').forEach((btn) =>
     btn.addEventListener('click', async () => {
       await navigator.clipboard.writeText(MARKET_URL);
       const old = btn.textContent;
@@ -321,14 +337,6 @@ function bindCopy(root) {
   );
 }
 
-function openModal(type, key) {
-  const it = ITEMS.find((x) => x.type === type && x.key === key);
-  if (!it) return;
-  $('#detail').innerHTML = detailHTML(it);
-  bindCopy($('#detail'));
-  $('#modal').classList.remove('hidden');
-}
-
 function applyI18nStatic() {
   const T = t();
   document.documentElement.lang = state.lang === 'zh' ? 'zh-CN' : 'en';
@@ -336,8 +344,15 @@ function applyI18nStatic() {
   $('#q').placeholder = T.searchPh;
   $('#lang').textContent = state.lang === 'zh' ? 'English' : '中文';
   document.title = state.lang === 'zh'
-    ? 'Codex 官方插件中文市场 · 全量 1,697+ 项目导航'
-    : 'Codex Official Plugins, in Chinese · 1,697+ Items Navigator';
+    ? 'Codex 官方插件中文市场 · 全量 1,694 项目导航'
+    : 'Codex Official Plugins, in Chinese · 1,694 Items Navigator';
+  const st = $('#f-status');
+  const cur = state.status;
+  const statuses = [...new Set(APPS.map((a) => a.status).filter(Boolean))];
+  st.innerHTML = `<option value="">${esc(T.statusAll)}</option>` +
+    statuses.map((s) => `<option value="${esc(s)}"${s === cur ? ' selected' : ''}>${esc(s)}</option>`).join('');
+  const sort = $('#f-sort');
+  sort.options[0].text = T.sortDefault;
 }
 
 function renderAll() {
@@ -362,8 +377,15 @@ async function init() {
   $('#meta').textContent = new Date(CATALOG.generatedAt).toLocaleDateString(state.lang === 'zh' ? 'zh-CN' : 'en-US');
 
   $('#q').addEventListener('input', (e) => { state.q = e.target.value.trim(); renderGrid(); });
-  $('#clear').addEventListener('click', () => { state.q = ''; $('#q').value = ''; renderGrid(); });
+  $('#clear').addEventListener('click', () => {
+    state.q = ''; state.cat = null; state.status = ''; state.sort = 'default'; state.onlyZh = false; state.quick = 'all';
+    $('#q').value = ''; $('#onlyzh').checked = false;
+    renderAll();
+  });
   $('#onlyzh').addEventListener('change', (e) => { state.onlyZh = e.target.checked; renderGrid(); });
+  $('#f-cat').addEventListener('change', (e) => { state.cat = e.target.value || null; renderAll(); });
+  $('#f-status').addEventListener('change', (e) => { state.status = e.target.value; renderAll(); });
+  $('#f-sort').addEventListener('change', (e) => { state.sort = e.target.value; renderGrid(); });
   $('#lang').addEventListener('click', () => {
     state.lang = state.lang === 'zh' ? 'en' : 'zh';
     localStorage.setItem('czh-lang', state.lang);
@@ -375,9 +397,8 @@ async function init() {
     document.documentElement.dataset.theme = state.theme;
     $('#theme').textContent = state.theme === 'light' ? '🌙' : '☀️';
   });
-  $('#close').addEventListener('click', () => $('#modal').classList.add('hidden'));
-  $('#modal').addEventListener('click', (e) => { if (e.target === e.currentTarget) $('#modal').classList.add('hidden'); });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $('#modal').classList.add('hidden'); });
+  $('#backdrop').addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
 
   renderAll();
 }
