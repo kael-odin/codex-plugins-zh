@@ -36,9 +36,9 @@ for (const p of catalog.plugins) {
     const pool = under.length ? under : usable;
     chosen = pool.sort((a, b) => fs.statSync(a).size - fs.statSync(b).size)[0];
   }
-  // final fallback: the icon extracted from the source-blip dataset (plugin-<name>.*)
+  // final fallback: the icon extracted from the source-blip dataset (<name>.* or plugin-<name>.*)
   if (!chosen && fs.existsSync(appiconsDir)) {
-    const hit = fs.readdirSync(appiconsDir).find((f) => f.startsWith(`plugin-${p.name}.`));
+    const hit = fs.readdirSync(appiconsDir).find((f) => f.startsWith(`${p.name}.`) || f.startsWith(`plugin-${p.name}.`));
     if (hit) chosen = path.join(appiconsDir, hit);
   }
   if (chosen) {
