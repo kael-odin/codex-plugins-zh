@@ -24,7 +24,7 @@
     "shortDescription": "在 Codex 中使用 Catalyst by Zoho 功能",
     "longDescription": "Catalyst by Zoho 插件通过 MCP 支持的工作流和技能扩展 Codex，用于构建、管理和运营 Catalyst 项目。",
     "developerName": "Catalyst by Zoho",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "MCP",
       "Read",

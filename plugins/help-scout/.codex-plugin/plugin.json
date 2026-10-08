@@ -15,7 +15,7 @@
     "shortDescription": "连接并同步 Help Scout 邮箱和对话记录，在 Codex 中直接使用。",
     "longDescription": "连接并同步 Help Scout 邮箱和对话记录，在 Codex 中直接使用。",
     "developerName": "OpenAI",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "总结 Help Scout 工单内容及下一步行动"

@@ -24,7 +24,7 @@
     "shortDescription": "在 Deepnote 中探索数据并自动化分析",
     "longDescription": "Deepnote 为团队提供集笔记本、SQL、应用和数据工作流于一体的协作工作区。本插件帮助 OpenAI 操作已连接的 Deepnote 项目、查看并运行笔记本，将工作区上下文转化为有价值的分析结果和可共享的产出。",
     "developerName": "Deepnote",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [
       "Interactive",
       "Read",

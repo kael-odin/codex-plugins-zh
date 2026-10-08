@@ -8,7 +8,7 @@
   "homepage": "https://www.granola.ai",
   "interface": {
     "capabilities": [],
-    "category": "Productivity",
+    "category": "效率办公",
     "composerIcon": "./assets/composer-icon.png",
     "defaultPrompt": [
       "总结 Hearthbase 项目迄今为止发生了什么"

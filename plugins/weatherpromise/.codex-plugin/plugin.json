@@ -15,7 +15,7 @@
     "shortDescription": "用 WeatherPromise 保障你的旅行，如果假期中降雨超出承诺，全额自动退款。",
     "longDescription": "用 WeatherPromise 保障你的旅行，如果假期中降雨超出承诺，全额自动退款。\n告知目的地、出行日期和行程费用，我们将为你生成专属报价。购买后，行程即受到保障。\n你将获得个人仪表盘链接，可在旅途中实时监控天气。降雨数据来自 NASA、NOAA 等官方机构，独立、准确。\n如果降雨量超过约定阈值，我们会自动发送邮件通知。确认信息后立即付款，无需额外证明材料。\n出发旅行，一旦降雨超标，全额退款自动到账。",
     "developerName": "WeatherPromise, Inc.",
-    "category": "Travel",
+    "category": "旅行",
     "capabilities": [],
     "defaultPrompt": [
       "查看 WeatherPromise 的天气预测概况"

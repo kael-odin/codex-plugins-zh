@@ -24,7 +24,7 @@
     "shortDescription": "从对话出发，在本地评估或基准测试插件",
     "longDescription": "让 Codex 评估插件或技能、对指定插件（如 game-studio）给出完整分析、解释得分原因、列出优先修复项、说明 token 预算、统计实际 token 用量、做基准测试，或告诉你下一步该跑什么。Plugin Eval 保持对工程师友好的体验：从自然语言请求出发，再通过本地 `plugin-eval start` 入口或推荐的工作流命令执行。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

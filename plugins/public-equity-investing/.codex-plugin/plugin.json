@@ -41,7 +41,7 @@
     "shortDescription": "公开市场股票 PM 研究、多空、财报、ETF/指数尽调与投资备忘录",
     "longDescription": "面向纯多头投资者、多空对冲基金、卖方股票研究团队、ETF/指数及成分股尽调、事件驱动型股票投资者，以及行业/主题上市股票研究团队的公开市场股票投资工作流。输出应点明哪些标的定价错误、哪些已计入定价、什么能验证或推翻投资论点、下一步该做什么，以及还缺哪些证据。信用工具、信用资质、重组、困境、回收、利差、收益率、契约条款和债务证券分析请使用 Credit Markets。",
     "developerName": "OpenAI",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [
       "Interactive",
       "Read",

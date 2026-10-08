@@ -23,7 +23,7 @@
     "shortDescription": "排程链接、可用时段与预约",
     "longDescription": "将 Calendly 引入 ChatGPT，通过简单提示执行排程操作。创建和更新事件类型、生成排程链接、调整可用时段、预约或取消会议等——尽在 ChatGPT 中完成。",
     "developerName": "Calendly",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "websiteURL": "https://calendly.com",
     "privacyPolicyURL": "https://calendly.com/legal/privacy-notice",

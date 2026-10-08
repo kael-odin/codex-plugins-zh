@@ -24,7 +24,7 @@
     "shortDescription": "分析 Rox 工作空间中的销售数据",
     "longDescription": "Rox 帮助用户查找并分析来自其 Rox 工作空间的已认证销售数据，包括客户、交易、联系人、备注、邮件、会议、文档、组织架构图和 Slack 活动。该应用提供引导式数据接口：用户可以发现可用的数据函数、查看每个函数的 schema 与工作流指引，然后调用只读函数来回答销售与客户情报相关的问题。",
     "developerName": "Rox Data Corp",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "websiteURL": "https://www.rox.com",
     "privacyPolicyURL": "https://www.rox.com/privacy-policy",

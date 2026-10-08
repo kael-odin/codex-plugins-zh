@@ -14,7 +14,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "atlassian-rovo",
@@ -26,7 +26,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "google-calendar",
@@ -38,7 +38,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "gmail",
@@ -50,7 +50,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "slack",
@@ -62,7 +62,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "teams",
@@ -74,7 +74,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "sharepoint",
@@ -86,7 +86,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "outlook-email",
@@ -98,7 +98,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "outlook-calendar",
@@ -110,7 +110,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "canva",
@@ -122,7 +122,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "figma",
@@ -134,7 +134,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "stripe",
@@ -146,7 +146,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "vercel",
@@ -158,7 +158,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "game-studio",
@@ -173,7 +173,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "superpowers",
@@ -188,7 +188,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "github",
@@ -200,7 +200,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "circleci",
@@ -212,7 +212,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "google-drive",
@@ -224,7 +224,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "notion",
@@ -236,7 +236,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "cloudflare",
@@ -248,7 +248,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "sentry",
@@ -260,7 +260,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "build-ios-apps",
@@ -275,7 +275,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "build-macos-apps",
@@ -290,7 +290,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "build-web-apps",
@@ -305,7 +305,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "build-web-data-visualization",
@@ -320,7 +320,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "test-android-apps",
@@ -335,7 +335,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "life-science-research",
@@ -347,7 +347,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "zotero",
@@ -362,7 +362,7 @@
           "CODEX"
         ]
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "expo",
@@ -377,7 +377,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "coderabbit",
@@ -392,7 +392,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "remotion",
@@ -407,7 +407,7 @@
           "CODEX"
         ]
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "plugin-eval",
@@ -422,7 +422,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "granola",
@@ -434,7 +434,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "monday-com",
@@ -446,7 +446,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "temporal",
@@ -458,7 +458,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "hyperframes",
@@ -473,7 +473,7 @@
           "CODEX"
         ]
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "supabase",
@@ -485,7 +485,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "codex-security",
@@ -500,7 +500,7 @@
           "CODEX"
         ]
       },
-      "category": "Security"
+      "category": "安全"
     },
     {
       "name": "twilio-developer-kit",
@@ -512,7 +512,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "openai-developers",
@@ -527,7 +527,7 @@
           "CODEX"
         ]
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "datadog",
@@ -539,7 +539,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "zoom",
@@ -551,7 +551,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "mixpanel-headless",
@@ -563,7 +563,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "airtable",
@@ -575,7 +575,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "nvidia",
@@ -587,7 +587,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "posthog",
@@ -599,7 +599,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "ngs-analysis",
@@ -611,7 +611,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "shopify",
@@ -623,7 +623,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "magicpath",
@@ -635,7 +635,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "openai-ads-conversions",
@@ -647,7 +647,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "boltz-api-cli",
@@ -659,7 +659,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Scientific Research"
+      "category": "科学研究"
     },
     {
       "name": "dropbox",
@@ -671,7 +671,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "product-design",
@@ -683,7 +683,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "data-analytics",
@@ -695,7 +695,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "creative-production",
@@ -707,7 +707,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "public-equity-investing",
@@ -719,7 +719,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "adobe",
@@ -731,7 +731,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "lovable",
@@ -743,7 +743,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "clickup",
@@ -755,7 +755,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "consensus",
@@ -767,7 +767,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "chatcut",
@@ -779,7 +779,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "higgsfield",
@@ -791,7 +791,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "crowdstrike-falcon-foundry",
@@ -803,7 +803,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools",
+      "category": "开发工具",
       "interface": {
         "displayName": "CrowdStrike Falcon Foundry"
       }
@@ -818,7 +818,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools",
+      "category": "开发工具",
       "interface": {
         "displayName": "CrowdStrike Falcon Fusion"
       }
@@ -834,7 +834,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools",
+      "category": "开发工具",
       "interface": {
         "displayName": "Qodo"
       }
@@ -849,7 +849,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "jam",
@@ -861,7 +861,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "netlify",
@@ -873,7 +873,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "box",
@@ -885,7 +885,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "deepnote",
@@ -897,7 +897,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "neon-postgres",
@@ -909,7 +909,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "alpaca",
@@ -921,7 +921,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "amplitude",
@@ -933,7 +933,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "attio",
@@ -945,7 +945,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "binance",
@@ -957,7 +957,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "biorender",
@@ -969,7 +969,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "brand24",
@@ -981,7 +981,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "brex",
@@ -993,7 +993,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "carta-crm",
@@ -1005,7 +1005,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "cb-insights",
@@ -1017,7 +1017,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "channel99",
@@ -1029,7 +1029,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "circleback",
@@ -1041,7 +1041,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "cloudinary",
@@ -1053,7 +1053,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "cogedim",
@@ -1065,7 +1065,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Other"
+      "category": "其他"
     },
     {
       "name": "common-room",
@@ -1077,7 +1077,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "conductor",
@@ -1089,7 +1089,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "coupler-io",
@@ -1101,7 +1101,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "coveo",
@@ -1113,7 +1113,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "cube",
@@ -1125,7 +1125,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "daloopa",
@@ -1137,7 +1137,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "demandbase",
@@ -1149,7 +1149,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "dnb-finance-analytics",
@@ -1161,7 +1161,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "docket",
@@ -1173,7 +1173,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "domotz-preview",
@@ -1185,7 +1185,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "dovetail",
@@ -1197,7 +1197,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "dow-jones-factiva",
@@ -1209,7 +1209,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "egnyte",
@@ -1221,7 +1221,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "finn",
@@ -1233,7 +1233,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Travel"
+      "category": "旅行"
     },
     {
       "name": "fireflies",
@@ -1245,7 +1245,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "fyxer",
@@ -1257,7 +1257,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "govtribe",
@@ -1269,7 +1269,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "happenstance",
@@ -1281,7 +1281,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "help-scout",
@@ -1293,7 +1293,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "hex",
@@ -1305,7 +1305,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "highlevel",
@@ -1317,7 +1317,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "hostinger",
@@ -1329,7 +1329,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "hubspot",
@@ -1341,7 +1341,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "keybid-puls",
@@ -1353,7 +1353,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "marcopolo",
@@ -1365,7 +1365,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "mem",
@@ -1377,7 +1377,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "moody-s",
@@ -1389,7 +1389,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "morningstar",
@@ -1401,7 +1401,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "motherduck",
@@ -1413,7 +1413,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "mt-newswires",
@@ -1425,7 +1425,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "myregistry-com",
@@ -1437,7 +1437,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Other"
+      "category": "其他"
     },
     {
       "name": "network-solutions",
@@ -1449,7 +1449,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "omni-analytics",
@@ -1461,7 +1461,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "otter-ai",
@@ -1473,7 +1473,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "particl-market-research",
@@ -1485,7 +1485,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "pipedrive",
@@ -1497,7 +1497,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "pitchbook",
@@ -1509,7 +1509,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "policynote",
@@ -1521,7 +1521,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "pylon",
@@ -1533,7 +1533,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "quartr",
@@ -1545,7 +1545,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "quicknode",
@@ -1557,7 +1557,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "ranked-ai",
@@ -1569,7 +1569,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "razorpay",
@@ -1581,7 +1581,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "read-ai",
@@ -1593,7 +1593,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "readwise",
@@ -1605,7 +1605,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "responsive",
@@ -1617,7 +1617,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "scite",
@@ -1629,7 +1629,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "semrush",
@@ -1641,7 +1641,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "sendgrid",
@@ -1653,7 +1653,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "setu-bharat-connect-billpay",
@@ -1665,7 +1665,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "signnow",
@@ -1677,7 +1677,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "skywatch",
@@ -1689,7 +1689,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "statsig",
@@ -1701,7 +1701,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "streak",
@@ -1713,7 +1713,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "taxdown",
@@ -1725,7 +1725,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "teamwork-com",
@@ -1737,7 +1737,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "third-bridge",
@@ -1749,7 +1749,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "tinman-ai",
@@ -1761,7 +1761,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "united-rentals",
@@ -1773,7 +1773,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "vantage",
@@ -1785,7 +1785,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "waldo",
@@ -1797,7 +1797,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "weatherpromise",
@@ -1809,7 +1809,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Travel"
+      "category": "旅行"
     },
     {
       "name": "windsor-ai",
@@ -1821,7 +1821,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "yepcode",
@@ -1833,7 +1833,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "render",
@@ -1845,7 +1845,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "heygen",
@@ -1857,7 +1857,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "asana",
@@ -1869,7 +1869,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "similarweb",
@@ -1881,7 +1881,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "lseg",
@@ -1893,7 +1893,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "s-p",
@@ -1905,7 +1905,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "datasite",
@@ -1917,7 +1917,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "factset",
@@ -1929,7 +1929,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "zoominfo",
@@ -1941,7 +1941,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "docusign",
@@ -1953,7 +1953,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "mixpanel",
@@ -1965,7 +1965,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "aiera",
@@ -1977,7 +1977,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "close",
@@ -1989,7 +1989,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "apollo",
@@ -2001,7 +2001,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "meticulate",
@@ -2013,7 +2013,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "thoughtspot",
@@ -2025,7 +2025,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "midpage",
@@ -2037,7 +2037,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Education & Research"
+      "category": "教育科研"
     },
     {
       "name": "clay",
@@ -2049,7 +2049,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "calendly",
@@ -2061,7 +2061,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "rox",
@@ -2073,7 +2073,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "hg-insights",
@@ -2085,7 +2085,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "convex",
@@ -2097,7 +2097,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "outreach",
@@ -2109,7 +2109,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "shutterstock",
@@ -2121,7 +2121,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "replit",
@@ -2133,7 +2133,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "quickbooks",
@@ -2145,7 +2145,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "intercom",
@@ -2157,7 +2157,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "chronograph-lp",
@@ -2169,7 +2169,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "actively",
@@ -2181,7 +2181,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "zoho",
@@ -2193,7 +2193,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "fiscal-ai",
@@ -2205,7 +2205,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "picsart",
@@ -2217,7 +2217,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "alation",
@@ -2229,7 +2229,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data & Analytics"
+      "category": "数据分析"
     },
     {
       "name": "fal",
@@ -2241,7 +2241,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Creativity"
+      "category": "创意设计"
     },
     {
       "name": "hebbia",
@@ -2253,7 +2253,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Business & Operations"
+      "category": "商业运营"
     },
     {
       "name": "wix",
@@ -2265,7 +2265,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "base44",
@@ -2277,7 +2277,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "superhuman",
@@ -2289,7 +2289,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Communication"
+      "category": "沟通协作"
     },
     {
       "name": "brighthire",
@@ -2301,7 +2301,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "catalyst-by-zoho",
@@ -2313,7 +2313,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "glean",
@@ -2325,7 +2325,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "效率办公"
     },
     {
       "name": "chronograph-gp",
@@ -2337,7 +2337,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Finance"
+      "category": "金融财务"
     },
     {
       "name": "replayio",
@@ -2349,7 +2349,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     },
     {
       "name": "digitalocean",
@@ -2361,7 +2361,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "开发工具"
     }
   ]
 }

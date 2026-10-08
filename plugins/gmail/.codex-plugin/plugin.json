@@ -26,7 +26,7 @@
     "shortDescription": "读取和管理 Gmail",
     "longDescription": "使用 Gmail 汇总收件箱动态、起草回复，并通过已连接的 Gmail 应用整理邮件会话。",
     "developerName": "OpenAI",
-    "category": "Communication",
+    "category": "沟通协作",
     "capabilities": [
       "Interactive",
       "Write"

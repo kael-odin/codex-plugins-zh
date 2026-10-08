@@ -15,7 +15,7 @@
     "shortDescription": "YepCode 让你用自己的代码构建自定义 AI 工具，支持 JSON Schema 定义输入，在隔离沙箱中执行。",
     "longDescription": "YepCode 让你用自己的代码构建自定义 AI 工具，支持 JSON Schema 定义输入，在隔离沙箱中执行，可访问任意 npm 或 PyPI 包及安全的环境变量。\n\n用 Node.js 或 Python 定义可复用的流程，将其作为可调用的 AI 工具暴露出来，按需或按计划执行。每次运行均有日志记录，支持审计追溯，实现可追踪的生产级 AI 集成。\n\n专为需要可编程、可观测的 AI 工具执行能力的开发者而生。",
     "developerName": "YepCode S.L.",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [],
     "defaultPrompt": [
       "查找相关的 YepCode 工作流上下文"

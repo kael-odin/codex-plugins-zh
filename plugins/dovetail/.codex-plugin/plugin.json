@@ -15,7 +15,7 @@
     "shortDescription": "将 Dovetail 接入 Codex，无需切换界面即可将客户反馈转化为决策依据。",
     "longDescription": "将 Dovetail 接入 Codex，无需切换界面即可将客户反馈转化为决策依据。在 Dovetail 工作区中搜索相关项目、笔记、文档和主题，即时获取结果。例如，输入「总结影响企业级续约对话的主要痛点」，即可在数秒内浮现关键证据。",
     "developerName": "Dovetail",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "在 Dovetail 中查找相关客户洞察"

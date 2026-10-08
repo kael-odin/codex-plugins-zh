@@ -15,7 +15,7 @@
     "displayName": "Alpaca",
     "shortDescription": "不必盯盘，让数据来找你。",
     "longDescription": "不必盯盘，用 Alpaca 把你的问题转化为洞察。\n向 Codex 提出真实市场问题，获取可直接参考的实时答案，包括历史数据、快照、报价及期权链信息。股票、期权和加密货币市场数据直接嵌入对话，让你从分析走向自动化操作。\n「AAPL 本季度相比 GOOG 表现如何？」\n「给我看下周五到期的 SPY 期权链。」\n「BTC 今年什么时候达到过 10 万美元？」",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "websiteURL": "https://alpaca.markets/",
     "privacyPolicyURL": "https://s3.amazonaws.com/files.alpaca.markets/disclosures/PrivacyPolicy.pdf",

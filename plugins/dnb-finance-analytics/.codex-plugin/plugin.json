@@ -28,7 +28,7 @@
     "shortDescription": "商业信贷发起与风险工作流",
     "longDescription": "借助 D&B Finance Analytics 内嵌的 AI 决策层，驱动商业信贷发起与投资组合管理工作流。\n\nDun & Bradstreet 将 D&B Commercial Graph 与专有客户数据和信贷政策相连接，帮助评估申请、设定授信额度，并发掘投资组合中的风险与机会。",
     "developerName": "Dun & Bradstreet",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [
       "Portfolio search, filtering, aggregation, and sorting",
       "Company search by name or D-U-N-S number",

@@ -16,7 +16,7 @@
     "shortDescription": "可信赖的企业数据背景与治理",
     "longDescription": "Alation 将可信赖的企业数据背景带入 ChatGPT。\n\n将 ChatGPT 连接到 Alation 的企业数据目录、治理与可信业务背景，让用户能够自信地发现、理解和使用数据。\n\nAlation Intelligence Operating System (AIOS) 帮助 AI 将回答建立在可信赖的企业背景之上，包括目录元数据、治理政策、语义定义、数据血缘、数据质量和文档。该应用专为需要 AI 主导的数据发现、同时又不愿失去信任、背景或治理的企业团队而设计。",
     "developerName": "Alation",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [],
     "websiteURL": "https://www.alation.com",
     "defaultPrompt": [

@@ -15,7 +15,7 @@
     "shortDescription": "Channel99 实时市场情报将 Codex 直接接入 Channel99 的效果营销数据与洞察。",
     "longDescription": "Channel99 实时市场情报将 Codex 直接接入 Channel99 的效果营销数据与洞察，让 AI 助手能够实时访问统一的 B2B 营销数据。依托 Channel99 的先进归因、账户识别和 AI 分析能力，你可以用自然语言查询获取精准的广告效果、投入产出比、受众互动和跨渠道归因洞察，无需手动导数据、切换孤立仪表盘或复杂的 API 开发。\n\n营销人员、分析师和业务负责人可以直接向 Codex 提问战略性问题，如「上季度哪些渠道带来了最高价值互动？」或「应该把预算重新分配到哪里来提升管道效率？」，并获得由 Channel99 行业领先数据驱动的精准答案。\n\nChannel99 是一家 B2B 营销技术公司，致力于提升 ROI、降低获客成本，并为数字营销投资带来财务透明度。",
     "developerName": "Channel99 Inc. ",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "从 Channel99 汇总营销活动效果"

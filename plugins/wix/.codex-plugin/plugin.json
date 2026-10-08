@@ -26,7 +26,7 @@
     "shortDescription": "在 Codex 中构建 Wix 应用、Headless 网站并管理 Wix 业务",
     "longDescription": "在 Codex 中构建和部署 Wix 应用与 Headless 网站，并管理 Wix 业务。包含 Wix CLI 开发技能，涵盖仪表盘扩展、后端 API、站点 Widget、服务插件和数据集合。通过 Wix Headless 构建 Headless 网站——从完整托管的 Astro 应用到任意框架的自托管方案——均由 Wix 后端驱动，支持电商、预约、CMS、活动和会员功能。同时提供 Wix 商业解决方案管理操作指南。",
     "developerName": "Wix",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

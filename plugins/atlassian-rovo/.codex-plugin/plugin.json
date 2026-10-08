@@ -24,7 +24,7 @@
     "shortDescription": "管理 Jira 和 Confluence",
     "longDescription": "快速管理 Jira 和 Confluence",
     "developerName": "Atlassian",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [
       "Interactive",
       "Write"

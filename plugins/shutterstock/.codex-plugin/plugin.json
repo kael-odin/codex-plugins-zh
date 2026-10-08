@@ -16,7 +16,7 @@
     "shortDescription": "检索素材媒体库",
     "longDescription": "检索素材库，找到与用户指定的主题、风格、情绪或场景相匹配的候选图片、视频、音乐和音效，返回带水印的预览 URL 及基本元数据供选择。适用于用户想要浏览或挑选现有素材媒体（包括多组分类图片检索）的场景，而非用于生成、编辑、授权或下载文件。",
     "developerName": "Shutterstock",
-    "category": "Creativity",
+    "category": "创意设计",
     "capabilities": [],
     "websiteURL": "https://www.shutterstock.com",
     "privacyPolicyURL": "https://www.shutterstock.com/privacy",

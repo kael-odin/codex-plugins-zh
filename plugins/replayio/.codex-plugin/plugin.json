@@ -26,7 +26,7 @@
     "shortDescription": "录制浏览器会话，并检查 Replay 录制或 Replay QA 结果",
     "longDescription": "使用由 AGENT_BROWSER_EXECUTABLE_PATH 指定的 Replay Chromium 驱动宿主智能体浏览器，以捕获支持时间旅行调试的录制，在运行结束后上传待处理录制，通过 Replay MCP 工具分析已上传的录制，并创建 Replay QA 项目用于录制分析或实时应用探索。在感知 MCP Apps 的宿主中，Replay 工具结果可渲染丰富的调试组件，涵盖日志断点、控制台输出、React 树、Redux 状态、网络请求、截图、源代码、性能分析数据及异常堆栈。",
     "developerName": "Replay",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

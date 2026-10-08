@@ -15,7 +15,7 @@
     "displayName": "Egnyte",
     "shortDescription": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。",
     "longDescription": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。跨文件夹搜索、检索相关文件，并提取关键信息以回答问题或生成摘要。\n\n快速从合同、报告和内部文档中挖掘洞察。整合多个文件的信息，生成简洁摘要、干系人更新，或基于团队内部资料起草书面内容。",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "websiteURL": "https://www.egnyte.com",
     "privacyPolicyURL": "https://www.egnyte.com/privacy-policy",

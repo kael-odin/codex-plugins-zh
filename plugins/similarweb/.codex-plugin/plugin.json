@@ -15,7 +15,7 @@
     "developerName": "Similarweb",
     "shortDescription": "研究网站与应用的市场情报",
     "longDescription": "在 ChatGPT 内使用 Similarweb 的市场情报数据，研究任意网站或应用。分析竞品流量、发掘热门关键词、洞察受众画像，并在各行业间对标表现——一切只需简单提示。比如问「展示 Nike 的流量来源构成」或「Adidas 在哪些关键词上排名靠前？」，无需切换工具即可获得实时洞察。无论你是营销人员、分析师、投资者还是策略师，Similarweb 都能让你即刻把竞争问题转化为答案。",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [],
     "brandColor": "#F07028",
     "defaultPrompt": [

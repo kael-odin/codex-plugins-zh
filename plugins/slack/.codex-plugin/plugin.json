@@ -14,7 +14,7 @@
       "Interactive",
       "Write"
     ],
-    "category": "Communication",
+    "category": "沟通协作",
     "composerIcon": "./assets/composer-icon.png",
     "defaultPrompt": [
       "汇总未读动态、起草回复或准备更新内容"

@@ -6,7 +6,7 @@
   "description": "Shopify for ChatGPT makes store building and management as easy as having a conversation. Effortlessly connect your existing store or create a new online store by describing your business. Simply chat to add products, adjust inventory across locations, create discount codes, browse recent orders, view customer details, or pull analytics on your store’s performance.",
   "interface": {
     "capabilities": [],
-    "category": "Business & Operations",
+    "category": "商业运营",
     "composerIcon": "./assets/composer-icon.svg",
     "defaultPrompt": [
       "上传这款商品并添加到我的店铺。",

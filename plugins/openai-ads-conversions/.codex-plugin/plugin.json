@@ -23,7 +23,7 @@
     "shortDescription": "配置 OpenAI Ads Pixel 与 CAPI 转化跟踪",
     "longDescription": "使用 OpenAI Ads Conversions 引导 Codex 在代码库中添加或扩展 Measurement Pixel 及可选的 Conversions API 埋点，并附带本地校验辅助工具，以及关于安全处理密钥、去重、归因上下文与配置上报的指引。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

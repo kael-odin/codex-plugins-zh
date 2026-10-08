@@ -15,7 +15,7 @@
     "developerName": "LSEG",
     "shortDescription": "金融市场数据与分析",
     "longDescription": "LSEG 连接器提供对 LSEG 全面金融市场数据生态的实时访问，覆盖各类资产与领域。它将机构级市场数据、分析与估值工具无缝集成到对话式 AI 工作流中，让用户能够通过自然语言交互获取深度市场洞察、执行复杂计算并分析金融工具。",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "brandColor": "#0018F8",
     "defaultPrompt": [

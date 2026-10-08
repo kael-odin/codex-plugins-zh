@@ -33,7 +33,7 @@
     "shortDescription": "探索想法并制作原型",
     "longDescription": "把早期的想法变成团队可以评审的原型。探索产品方向、审查用户流程、研究用户摩擦、从线上 URL 制作原型，并让静态截图变得可交互。可以从书面简报、URL、截图或现有设计开始，然后在构建前比较不同的视觉方向。\n\n使用可用的浏览器、Figma、Canva、图像生成和托管工具来收集参考、创建概念、评审结果，并与团队一起把工作继续推进。",
     "developerName": "OpenAI",
-    "category": "Creativity",
+    "category": "创意设计",
     "capabilities": [
       "Interactive",
       "Read",

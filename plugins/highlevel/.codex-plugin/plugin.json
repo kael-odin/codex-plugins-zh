@@ -15,7 +15,7 @@
     "displayName": "HighLevel",
     "shortDescription": "HighLevel 为代理机构提供统一的 CRM、自动化与客户沟通平台。",
     "longDescription": "HighLevel 为代理机构提供统一的 CRM、自动化与客户沟通平台。此连接器可将 HighLevel 数据——联系人、商机、预约、对话等——安全引入 GPT，将原始记录转化为清晰摘要、下一步建议和可直接使用的内容。无需离开对话，即可分析销售管道、筛选潜在客户，几秒内完成跟进准备。",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "websiteURL": "https://www.gohighlevel.com",
     "privacyPolicyURL": "https://www.gohighlevel.com/privacy-policy",

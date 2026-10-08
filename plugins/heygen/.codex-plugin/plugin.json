@@ -29,7 +29,7 @@
     "shortDescription": "数字人视频与个性化视频消息",
     "longDescription": "HeyGen 技能为你的智能体赋予形象、声音，以及像发消息一样发送视频的能力。使用 heygen-avatar 从文字描述或托管图片 URL 构建持久的数字身份并选择声音，再用 heygen-video 通过 HeyGen v3 视频智能体流水线生成以数字人为主角的视频（数字人分辨率、画面比例校正、提示词工程和声音选择均自动处理）。",
     "developerName": "HeyGen",
-    "category": "Creativity",
+    "category": "创意设计",
     "capabilities": [
       "Read",
       "Write"

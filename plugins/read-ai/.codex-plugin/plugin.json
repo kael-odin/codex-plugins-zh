@@ -15,7 +15,7 @@
     "shortDescription": "将 Read AI 的会议智能直接带入你的 AI 工作流。",
     "longDescription": "将 Read AI 的会议智能直接带入你的 AI 工作流。连接 Read AI 账户后，即可通过自然对话获取会议摘要、文字记录、待办事项、关键问题等内容。\n\nRead AI 可以查找近期会议、提取指定通话的完整文字记录、列出上周同步会议的待办事项，或找出某次讨论中提出的关键问题。\n\n你可以：\n\n- 按日期范围浏览和筛选会议\n- 获取任意会议的摘要、章节分解和主题\n- 提取待办事项和关键问题，跟进后续行动\n- 访问完整文字记录，深入研究或逐字引用\n\n无论是准备跟进会议、补看错过的会议，还是围绕录制对话构建工作流，Read AI 的 MCP 集成都能让会议数据成为你 AI 体验的一等公民。",
     "developerName": "Read AI, Inc",
-    "category": "Communication",
+    "category": "沟通协作",
     "capabilities": [],
     "defaultPrompt": [
       "汇总 Read AI 最新的会议洞察"

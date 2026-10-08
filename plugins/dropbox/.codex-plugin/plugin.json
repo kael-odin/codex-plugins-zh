@@ -6,7 +6,7 @@
   "description": "The Dropbox plugin for ChatGPT connects your Dropbox files directly to ChatGPT. You can access files, save ChatGPT-generated content to Dropbox, and create sharing links without switching tools. Everything respects your existing Dropbox permissions, and ChatGPT only works with files you already have access to.",
   "interface": {
     "capabilities": [],
-    "category": "Productivity",
+    "category": "效率办公",
     "defaultPrompt": [
       "把这份提案保存到我的 Dropbox",
       "能给我看看我的度假照片吗？",

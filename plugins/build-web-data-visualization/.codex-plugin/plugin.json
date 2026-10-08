@@ -57,7 +57,7 @@
     "shortDescription": "设计、构建、测试并导出 Web 数据可视化",
     "longDescription": "使用 Build Web Data Visualization，选择、设计、实现、测试并导出浏览器图表、仪表盘、地图、WebGL/Three.js 场景、Canvas/D3 可视化、甘特图、UML/软件图示、滚动叙事、报告、PDF 和幻灯片。强调基于可信数据源、无障碍响应式布局、URL 可分享的分析状态，以及面向高级视觉叙事的概念优先设计。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

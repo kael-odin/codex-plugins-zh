@@ -15,7 +15,7 @@
     "shortDescription": "Vantage 是一个云可观测与优化平台，汇聚多云基础设施费用，提供统一的云支出全景视图。",
     "longDescription": "Vantage 是一个云可观测与优化平台，汇聚多云基础设施费用，提供统一的云支出全景视图。Vantage 提供多种云成本优化工具，为企业提供高级 FinOps 工作流和成本治理能力。",
     "developerName": "Vantage",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [],
     "defaultPrompt": [
       "总结 Vantage 中当前的云成本概况"

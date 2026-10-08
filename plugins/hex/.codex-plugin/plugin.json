@@ -23,7 +23,7 @@
     "shortDescription": "搜索 Hex 项目并向 Hex Threads 提问",
     "longDescription": "Hex 帮助用户查找现有的 Hex 项目、仪表盘和数据应用，并在用户明确想在 Hex 中操作时向 Hex Threads 提问。",
     "developerName": "Hex",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [
       "Interactive",
       "Read",

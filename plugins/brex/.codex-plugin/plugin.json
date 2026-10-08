@@ -16,7 +16,7 @@
     "shortDescription": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况。",
     "longDescription": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况——速度与 Codex 同步。\n\n财务团队：即时分析支出、发现异常、运行自定义查询和报表，加速决策、提升效率。\n\n员工：直接在 Codex 中查看可用预算、咨询报销政策、查看报销状态、管理出行等。\n\n访问权限默认按角色区分：员工只看与自己相关的内容，管理员保留完整可见性和控制权。",
     "developerName": "Brex Inc.",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "websiteURL": "https://brex.com",
     "privacyPolicyURL": "https://www.brex.com/legal/privacy",

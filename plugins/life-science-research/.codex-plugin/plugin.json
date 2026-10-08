@@ -33,7 +33,7 @@
     "shortDescription": "通用生命科学研究，支持请求路由、证据综合和可选的并行子代理分析",
     "longDescription": "内部生命科学研究工作流，帮助 Codex 理解用户的研究问题、规范化相关实体、选择合适的技能，并跨公开资源综合产出循证答案。本插件涵盖人类遗传学、功能基因组学、表达、通路、蛋白质结构、化学、药理学、文献、临床证据和公开研究发现，提供面向宽泛任务的研究路由入口，以及在证据通道相互独立时可选的子代理并行支持。",
     "developerName": "OpenAI",
-    "category": "Education & Research",
+    "category": "教育科研",
     "capabilities": [
       "Interactive",
       "Read",

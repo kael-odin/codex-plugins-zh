@@ -20,7 +20,7 @@
     "shortDescription": "构建、测试并部署任何应用",
     "longDescription": "将测试、部署和 CI 最佳实践引入 Codex",
     "developerName": "CircleCI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

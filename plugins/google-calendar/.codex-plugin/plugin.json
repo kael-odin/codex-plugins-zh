@@ -29,7 +29,7 @@
     "shortDescription": "管理 Google Calendar 活动",
     "longDescription": "使用 Google Calendar 汇总当天日程、查看空闲时段、列出日历，以及直接在任务提示中创建、更新或删除活动。",
     "developerName": "OpenAI",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [
       "Interactive",
       "Write"

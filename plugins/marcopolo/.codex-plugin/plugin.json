@@ -16,7 +16,7 @@
     "shortDescription": "MarcoPolo 启动一个安全容器，让 Codex 可以直接处理你的真实数据。",
     "longDescription": "MarcoPolo 启动一个安全容器，让 Codex 可以直接处理你的真实数据。通过限定范围的凭据连接数据库、API、S3、数据湖仓、CRM、Jira、日志等各类系统——模型始终无法接触到原始凭据。\n\nCodex 可使用 DuckDB、Python、Shell 及一套工具，跨系统探索、查询、转换和分析数据。工作区持久保存，支持在之前工作基础上继续深入。\n\n直接在对话中准备报告、理解数据、排查问题或查看最新指标。",
     "developerName": "Immersa, Inc.",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [],
     "websiteURL": "https://marcopolo.dev",
     "privacyPolicyURL": "https://marcopolo.dev/privacy-policy",

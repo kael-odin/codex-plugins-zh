@@ -32,7 +32,7 @@
     "shortDescription": "管理 PR、issue、CI 及代码发布流程",
     "longDescription": "使用 GitHub 查阅仓库、审查 pull request、处理评审反馈、排查失败的 Actions 检查，并通过以 connector 优先、辅以 CLI 兜底的工作流，将代码改动准备好送审。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

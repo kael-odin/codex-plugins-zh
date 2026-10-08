@@ -15,7 +15,7 @@
     "shortDescription": "连接并同步 Pipedrive 的商机和联系人，在 Codex 中直接使用。",
     "longDescription": "连接并同步 Pipedrive 的商机和联系人，在 Codex 中直接使用。",
     "developerName": "OpenAI",
-    "category": "Business & Operations",
+    "category": "商业运营",
     "capabilities": [],
     "defaultPrompt": [
       "查找 Pipedrive 中的最新商机状态"

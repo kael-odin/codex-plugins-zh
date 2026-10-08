@@ -23,7 +23,7 @@
     "shortDescription": "查询和分析 Mixpanel 数据",
     "longDescription": "直接在 ChatGPT 中查询和分析你的 Mixpanel 数据。运行分群、漏斗和留存分析，探索事件分类体系，管理 Lexicon 元数据，解决数据质量问题——全程无需离开对话界面。\n\n接入 Mixpanel MCP server 后，ChatGPT 可将产品分析数据与你的代码、文档和决策一并进行推理。用自然语言提问，深入分析用户行为，获取基于真实数据的答案。",
     "developerName": "Mixpanel",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [
       "Interactive",
       "Read",

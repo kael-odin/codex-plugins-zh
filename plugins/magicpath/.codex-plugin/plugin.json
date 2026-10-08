@@ -23,7 +23,7 @@
     "shortDescription": "在 Codex 中查找、安装和创作 MagicPath UI 组件",
     "longDescription": "通过 magicpath-ai CLI 使用 MagicPath：搜索 UI 组件、查看源码、将 React 和 TypeScript 组件安装到应用中、管理团队项目和主题，以及从本地代码创建或编辑画布组件。",
     "developerName": "MagicPathAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

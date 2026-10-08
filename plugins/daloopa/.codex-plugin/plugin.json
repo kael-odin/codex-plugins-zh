@@ -23,7 +23,7 @@
     "shortDescription": "机构级财务分析工作流。",
     "longDescription": "利用 Daloopa MCP 数据生成带引用的公司概览、财报解读、估值分析、可比公司表格、研究报告及投行风格的分析输出。",
     "developerName": "Daloopa",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [
       "Analysis",
       "Research",

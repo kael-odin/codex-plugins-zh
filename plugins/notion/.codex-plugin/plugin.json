@@ -15,7 +15,7 @@
       "Read",
       "Write"
     ],
-    "category": "Productivity",
+    "category": "效率办公",
     "composerIcon": "./assets/notion-small.svg",
     "defaultPrompt": [
       "搜索 Notion 工作区内容、更新页面，或将规格文档、笔记和会议背景转化为结构化成果"

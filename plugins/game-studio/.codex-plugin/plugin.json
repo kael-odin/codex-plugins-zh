@@ -27,7 +27,7 @@
     "shortDescription": "设计、原型制作并发布浏览器游戏",
     "longDescription": "通过引导式工作流，规划、原型制作和构建浏览器游戏，涵盖 2D 和 3D 项目的游戏系统、UI、资产流水线和测试。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

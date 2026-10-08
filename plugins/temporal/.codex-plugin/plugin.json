@@ -7,7 +7,7 @@
   "homepage": "https://temporal.io/",
   "interface": {
     "capabilities": [],
-    "category": "Developer Tools",
+    "category": "开发工具",
     "composerIcon": "./.codex-plugin/assets/composer-icon.svg",
     "defaultPrompt": [
       "用 Temporal 创建一个工作流。",

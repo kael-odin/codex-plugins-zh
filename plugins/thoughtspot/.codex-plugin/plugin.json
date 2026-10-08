@@ -15,7 +15,7 @@
     "developerName": "ThoughtSpot",
     "shortDescription": "可信赖的业务数据答案",
     "longDescription": "从日常的数据问题到高层次的战略分析，ThoughtSpot 的 Spotter 帮助业务与数据团队获得可信赖、可验证、可执行的答案与洞察，让每个人都能用数据推动业务前行。",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [],
     "brandColor": "#000000",
     "defaultPrompt": [

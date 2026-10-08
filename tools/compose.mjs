@@ -95,6 +95,25 @@ if (seedAvailable) {
   console.log('[compose] WARNING: .seed not found — publishing upstream-only catalog');
 }
 
+// 4b) Chinese categories — the manifest category field and plugin.json
+// interface.category are whitelist-owned, so the Codex UI shows 中文分类.
+const mapCat = (c) => glossary[c] ?? c;
+for (const key of ['main', 'api']) {
+  const m = JSON.parse(fs.readFileSync(manifestPaths[key], 'utf8'));
+  for (const entry of m.plugins) if (entry.category) entry.category = mapCat(entry.category);
+  writeJson(manifestPaths[key], m);
+}
+for (const name of fs.readdirSync(path.join(ROOT, 'plugins'))) {
+  const mf = path.join(ROOT, 'plugins', name, '.codex-plugin', 'plugin.json');
+  if (!fs.existsSync(mf)) continue;
+  const m = JSON.parse(fs.readFileSync(mf, 'utf8'));
+  if (m.interface?.category) {
+    m.interface.category = mapCat(m.interface.category);
+    writeJson(mf, m);
+  }
+}
+console.log('[compose] categories mapped to zh');
+
 // 5) per-plugin interface overrides from sidecars (upstream part)
 let applied = 0;
 for (const name of fs.readdirSync(path.join(ROOT, 'plugins'))) {
@@ -132,9 +151,18 @@ for (const k of ['main', 'api']) {
 }
 const mains = JSON.parse(fs.readFileSync(manifestPaths.main, 'utf8'));
 const apis = JSON.parse(fs.readFileSync(manifestPaths.api, 'utf8'));
+// English categories come from the source manifests (the publish tree now carries zh)
 const catOf = new Map();
-for (const p of mains.plugins) catOf.set(p.name, p.category);
-for (const p of apis.plugins) if (!catOf.has(p.name)) catOf.set(p.name, p.category);
+for (const f of ['marketplace.json', 'api_marketplace.json']) {
+  const m = JSON.parse(fs.readFileSync(path.join(UPSTREAM_DIR, '.agents', 'plugins', f), 'utf8'));
+  for (const p of m.plugins) catOf.set(p.name, p.category);
+}
+if (seedAvailable) {
+  for (const f of ['marketplace.json', 'api_marketplace.json']) {
+    const m = JSON.parse(fs.readFileSync(path.join(SEED_DIR, '.agents', 'plugins', f), 'utf8'));
+    for (const p of m.plugins) if (!catOf.has(p.name)) catOf.set(p.name, p.category);
+  }
+}
 const inMain = new Set(mains.plugins.map((p) => p.name));
 const inApi = new Set(apis.plugins.map((p) => p.name));
 const allNames = [...new Set([...inMain, ...inApi])].sort();

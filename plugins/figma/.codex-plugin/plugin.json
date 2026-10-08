@@ -28,7 +28,7 @@
     "shortDescription": "Figma 设计转代码工作流",
     "longDescription": "Figma 工作流，用于在代码中实现设计、为已发布的 Figma 组件创建 Code Connect 模板，以及生成可复用的项目级设计系统规则，支持 Figma 到代码的重复性工作。",
     "developerName": "Figma",
-    "category": "Creativity",
+    "category": "创意设计",
     "capabilities": [
       "Interactive",
       "Read",

@@ -38,7 +38,7 @@
     "shortDescription": "信用评级、研究报告、实体情报、股权结构、财务数据及备案文件。",
     "longDescription": "通过企业级 MCP 集成连接 Moody's GenAI-Ready Data。在工作流中直接解析覆盖实体、获取评级与展望、分析信用意见与评分卡、查看上调/下调驱动因素、ESG 考量、股权结构、子公司、公司档案、财务报表、备案文件、财报电话会议记录、新闻动态、同业组合、行业展望及国家风险背景。",
     "developerName": "Moody's",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [
       "Entity resolution and firmographics",
       "Credit ratings and rating history",

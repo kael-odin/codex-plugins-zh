@@ -28,7 +28,7 @@
     "shortDescription": "编写 HTML，渲染视频",
     "longDescription": "用 HyperFrames 从 HTML 构建视频。使用 HTML + CSS + GSAP 编写合成内容，通过 CLI 完成 init/preview/render/transcribe/tts，安装可复用的注册表 block 和组件，参考 GSAP 动画指南，并通过 7 步「截图转视频」流水线将任意网页转为视频。",
     "developerName": "HeyGen",
-    "category": "Creativity",
+    "category": "创意设计",
     "capabilities": [
       "Read",
       "Write"

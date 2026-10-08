@@ -15,7 +15,7 @@
     "shortDescription": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。",
     "longDescription": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。\n\n常见的数据源包括：Google Ads、Meta（Facebook）Ads、Instagram、LinkedIn Ads、LinkedIn 公司主页、TikTok Ads、GA4、Google Search Console、YouTube Analytics、Google Business Profile、HubSpot、Salesforce、Shopify、Klaviyo、Amazon Ads、Microsoft Ads（Bing）、Google Merchant Center、Stripe、GoHighLevel 等。",
     "developerName": "Windsor.ai",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [],
     "defaultPrompt": [
       "从 Windsor.ai 提取相关的归因分析数据"

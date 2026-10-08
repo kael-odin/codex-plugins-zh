@@ -15,7 +15,7 @@
     "shortDescription": "TaxDown 帮助西班牙个人和自雇人士解答税务问题：税收抵扣、个人所得税、年度申报及纳税义务，答复清晰且针对你的具体情况……",
     "longDescription": "TaxDown 帮助西班牙个人和自雇人士解答税务问题，涵盖税收抵扣、个人所得税（IRPF）、年度申报及纳税义务，提供清晰且针对你具体情况的解答。",
     "developerName": "TAXDOWN S.L.",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "defaultPrompt": [
       "汇总相关的 Taxdown 状态或指引"

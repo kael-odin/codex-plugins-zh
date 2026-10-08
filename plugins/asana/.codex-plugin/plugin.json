@@ -23,7 +23,7 @@
     "shortDescription": "读取和管理 Asana",
     "longDescription": "操作你的 Asana 任务、子任务、评论、截止日期和项目详情，生成摘要、梳理优先级，并撰写清晰的进展更新。",
     "developerName": "Asana, Inc.",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [
       "Interactive",
       "Write"

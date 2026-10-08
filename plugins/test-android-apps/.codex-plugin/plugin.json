@@ -30,7 +30,7 @@
     "shortDescription": "在 Android 模拟器中复现问题、检查 UI 并采集性能证据",
     "longDescription": "使用 Test Android Apps 构建和安装应用变体，通过 adb 输入事件驱动已启动的 Android 模拟器，检查 UI 树、截取截图、采集 logcat 输出，并在复现问题时收集 Simpleperf、Perfetto、gfxinfo 或内存/泄漏分析证据。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read"

@@ -35,7 +35,7 @@
     "shortDescription": "用于在 Twilio 上构建、调试和交付的 Twilio 技能集",
     "longDescription": "引导 AI 编程智能体针对各种场景调用正确 Twilio API 的过程性知识。涵盖渠道选择、生产最佳实践、合规要求，以及 Messaging、Voice、Verify、SendGrid 和 30 多个产品中的常见坑点。技能采用渐进式披露架构——智能体启动时仅加载轻量元数据，只在任务匹配时才加载完整指南。",
     "developerName": "Twilio",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Read",
       "Write"

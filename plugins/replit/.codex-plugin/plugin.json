@@ -16,7 +16,7 @@
     "shortDescription": "创建并迭代 Replit 网页应用",
     "longDescription": "支持根据自然语言描述，在用户的 Replit 账户中创建全新的网页应用，且不在对话中直接暴露代码。同时支持检查并解释当前应用的行为，并在迭代开发过程中将自然语言变更请求应用到同一应用上。",
     "developerName": "Replit",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [],
     "websiteURL": "https://replit.com",
     "privacyPolicyURL": "https://replit.com/site/privacy",

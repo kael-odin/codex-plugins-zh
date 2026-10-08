@@ -6,7 +6,7 @@
   "description": "Available for US1 customers only. Analyze, investigate, and act on your Datadog telemetry directly from ChatGPT using natural language. Ask questions about your production applications, identify, visualize, and remediate issues in your critical services. Run agentic loops to ensure you continue to maintain good observability and service management posture.",
   "interface": {
     "capabilities": [],
-    "category": "Developer Tools",
+    "category": "开发工具",
     "composerIcon": "./assets/composer-icon.png",
     "defaultPrompt": [
       "按服务展示日志量明细。",

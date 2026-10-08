@@ -31,7 +31,7 @@
     "shortDescription": "Drive、Docs、Sheets 或 Slides",
     "longDescription": "将 Google Drive 作为统一的 Google 文件插件，支持搜索、文件整理、共享，以及 Google Docs、Google Sheets 和 Google Slides 的完整工作流。",
     "developerName": "OpenAI",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [
       "Interactive",
       "Write"

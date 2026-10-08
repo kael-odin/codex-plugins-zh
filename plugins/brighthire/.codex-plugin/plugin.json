@@ -24,7 +24,7 @@
     "shortDescription": "搜索和分析 BrightHire 面试、候选人、通话和招聘数据",
     "longDescription": "在 Codex 中使用 BrightHire 检索面试情报上下文、查阅通话记录和候选人信息，并在受治理的数据访问下支持招聘工作流。",
     "developerName": "BrightHire",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [
       "Interactive",
       "Read"

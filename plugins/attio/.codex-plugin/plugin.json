@@ -15,7 +15,7 @@
     "shortDescription": "Attio 将 Codex 直接接入你的 CRM 工作区，让你通过自然对话管理客户关系。",
     "longDescription": "Attio 将 Codex 直接接入你的 CRM 工作区，让你通过自然对话管理客户关系。\n\n使用灵活的查询条件搜索和筛选联系人、公司和交易。无需在多个界面间切换，即可创建、更新和整理记录。通过简单指令添加备注、管理任务、跟踪销售管道。\n\n核心功能：\n- 使用强大的筛选器搜索记录（按规模、行业、最近联系时间查找公司）\n- 创建和更新联系人、公司及交易记录\n- 管理任意记录上的备注\n- 跟踪并完成任务\n- 浏览列表并整理数据\n\n无论是会前准备、更新交易阶段还是调研潜在客户，Attio 都能将 CRM 数据带入你的对话——无需手动录入。",
     "developerName": "Attio Ltd",
-    "category": "Business & Operations",
+    "category": "商业运营",
     "capabilities": [],
     "defaultPrompt": [
       "在 Attio 中查找最新备注和后续跟进事项"

@@ -30,7 +30,7 @@
     "shortDescription": "构建以前端为核心的 Web 应用，支持生成资产、浏览器测试、支付和数据库",
     "longDescription": "使用 Build Web Apps，结合 Codex 生成的视觉资产创建前端应用界面，通过 Browser 插件和内置应用浏览器进行验证，组合 shadcn/ui，接入 Stripe 支付，设计和调优 Supabase/Postgres 数据流。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

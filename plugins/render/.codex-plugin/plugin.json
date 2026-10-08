@@ -24,7 +24,7 @@
     "shortDescription": "在 Render 上部署、调试、监控和迁移应用。",
     "longDescription": "提供以下能力：使用 Blueprint 部署应用、调试失败的部署、监控服务健康与指标、构建 Render Workflows，以及从 Heroku 迁移。",
     "developerName": "Render",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

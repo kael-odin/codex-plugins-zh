@@ -15,7 +15,7 @@
     "developerName": "Aiera",
     "shortDescription": "机构级金融数据与事件",
     "longDescription": "访问 Aiera 提供的机构级金融数据，包括实时企业事件、监管文件、公司刊物、券商研究等。",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "brandColor": "#180830",
     "defaultPrompt": [

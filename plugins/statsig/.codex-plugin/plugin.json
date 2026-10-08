@@ -16,7 +16,7 @@
     "shortDescription": "将 Statsig 工作区接入 Codex。",
     "longDescription": "将 Statsig 工作区接入 Codex。产品团队现在可以直接在 Codex 对话中探索、管理和创建 Statsig 实验、功能门控、动态配置等内容。\n\n你可以这样问：\n「将这个实验的流量推到 50%。」\n「为所有用户开启这个功能门控。」\n「显示本周哪些动态配置发生了变更。」\n「解释 DAU 指标的定义。」\n\n你可以对 Statsig 进行读写操作：查看实验设置、读取指标定义、更新流量分配、切换功能开关、编辑定向规则，以及直接在 Codex 中修改动态配置值。\n\n该应用通过 Statsig 的 MCP 服务器连接，并遵循你现有的 Statsig 权限设置——你只能查看和修改你有权访问的内容，涵盖所有项目、环境和团队。",
     "developerName": "Statsig, LLC",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [],
     "websiteURL": "https://statsig.com",
     "privacyPolicyURL": "https://www.statsig.com/privacy",

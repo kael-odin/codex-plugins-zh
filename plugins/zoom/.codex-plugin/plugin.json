@@ -14,7 +14,7 @@
       "Read",
       "Write"
     ],
-    "category": "Communication",
+    "category": "沟通协作",
     "composerIcon": "./assets/composer-icon.svg",
     "defaultPrompt": [
       "在我最近的 Zoom 会议记录中搜索关于定价的讨论。",

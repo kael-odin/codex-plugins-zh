@@ -16,7 +16,7 @@
     "shortDescription": "将 AI 助手连接到你的 MotherDuck 数据仓库。",
     "longDescription": "将 AI 助手连接到你的 MotherDuck 数据仓库。用自然语言探索、可视化和管理数据——无需 SQL 技能。创建 Dive：可交互的可视化视图，让你将分析结果保存并分享给团队，始终与最新数据保持同步。无需语义模型或预配置，即可直接处理真实数据。AI 助手化身数据分析师，迭代式地探索、验证、分析和可视化数据，回答你的问题。",
     "developerName": "MotherDuck Corporation",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [],
     "websiteURL": "https://motherduck.com/",
     "privacyPolicyURL": "https://motherduck.com/privacy-policy/",

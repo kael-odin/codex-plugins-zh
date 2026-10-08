@@ -16,7 +16,7 @@
     "developerName": "Midpage",
     "shortDescription": "带判例引用的法律研究",
     "longDescription": "将 ChatGPT 连接到判例法数据库。借助 Midpage 应用，ChatGPT 能够开展复杂的法律研究、审阅判决意见并撰写高质量工作成果。所有内容都超链接到真实来源，便于核查。",
-    "category": "Education & Research",
+    "category": "教育科研",
     "capabilities": [],
     "brandColor": "#000000",
     "defaultPrompt": [

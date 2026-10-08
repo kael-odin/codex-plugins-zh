@@ -15,7 +15,7 @@
     "shortDescription": "通过自然语言访问 Binance 公开的只读市场数据。",
     "longDescription": "Binance for Codex 让你通过自然语言访问 Binance 公开的只读市场数据。可查询现货、合约和期权市场的当前及历史价格、订单簿、近期成交、K 线（klines）及交易所元数据。无需身份验证，不访问用户账户，不支持交易或资金操作。\n\n市场数据来自 Binance 公开 API，按原样提供，可能存在延迟、不完整或随时变化。相关信息仅供参考，不应作为交易或财务决策依据。Binance 对数据的准确性和及时性不作任何保证，并免除因使用本数据产生的一切责任。",
     "developerName": "Binance",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "defaultPrompt": [
       "展示该资产最新的 Binance 市场数据"

@@ -13,7 +13,7 @@
       "Interactive",
       "Write"
     ],
-    "category": "Developer Tools",
+    "category": "开发工具",
     "composerIcon": "./assets/composer-icon.png",
     "defaultPrompt": [
       "审查此仓库的 Vercel 部署风险",

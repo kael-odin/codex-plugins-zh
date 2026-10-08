@@ -23,7 +23,7 @@
     "shortDescription": "使用 Morningstar 应用筛选、汇总并对比基金。",
     "longDescription": "适用于 Codex 的 Morningstar 基金工作流集合：支持标准化的生产级筛选、基金收益率筛选、单只基金深度汇总，以及 2 至 4 只基金的横向对比。该插件关联已审核的 Morningstar ChatGPT 应用以进行认证数据访问，并包含明确的数据可用性披露说明。",
     "developerName": "Morningstar",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [
       "Interactive",
       "Read",

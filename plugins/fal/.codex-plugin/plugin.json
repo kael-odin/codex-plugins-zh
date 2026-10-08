@@ -16,7 +16,7 @@
     "shortDescription": "用 Fal 模型生成与管理媒体",
     "longDescription": "Fal 通过一个 OpenAI 应用连接器，并配合专注于生产的技能（涵盖模型推荐、schema 检查、定价、异步任务、文件上传和媒体生成），将图像、视频、音频、3D、训练和编辑工作流带入 Codex。",
     "developerName": "Fal",
-    "category": "Creativity",
+    "category": "创意设计",
     "capabilities": [],
     "websiteURL": "https://fal.ai",
     "defaultPrompt": [

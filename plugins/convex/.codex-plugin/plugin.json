@@ -37,7 +37,7 @@
     "shortDescription": "为 JS/TS 应用添加后端支持。",
     "longDescription": "当项目需要后端时，在 Codex 中调用经过审核的 Convex ChatGPT 应用：包括数据库 Schema 设计、响应式查询、数据变更、服务端函数、带权限控制的数据访问、实时特性、文件存储、定时任务、移动端/Web 应用后端及生产扩容指导。Convex 帮助编码 Agent 选择类型安全、响应式且适合全栈 JavaScript 和 TypeScript 应用的后端原语。",
     "developerName": "Convex, Inc.",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Backend setup",
       "Database schema",

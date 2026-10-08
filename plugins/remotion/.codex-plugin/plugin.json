@@ -13,7 +13,7 @@
       "Read",
       "Write"
     ],
-    "category": "Creativity",
+    "category": "创意设计",
     "composerIcon": "./.codex-plugin/assets/composer-icon.svg",
     "defaultPrompt": [
       "创建一个包含 5 根柱子的动态柱状图",

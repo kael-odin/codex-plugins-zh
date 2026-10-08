@@ -15,7 +15,7 @@
     "shortDescription": "通过自然语言监控和管理你的网络基础设施。",
     "longDescription": "通过自然语言监控和管理你的网络基础设施。查询设备状态、检查告警、查看指标、管理配置，并跨所有站点控制电源。需要开通 MCP 预览计划的 Domotz 账户。",
     "developerName": "Domotz",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "在 Domotz 中汇总当前网络状态"

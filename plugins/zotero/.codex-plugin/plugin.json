@@ -26,7 +26,7 @@
     "shortDescription": "从 Zotero 中查找文献并添加引用",
     "longDescription": "将 Codex 连接到你的 Zotero 桌面文库，让它能够查找已保存的文献、导出 BibTeX、向草稿添加引用键、按需读取已索引的附件全文，并在你确认后将新参考记录导入 Zotero。",
     "developerName": "OpenAI",
-    "category": "Education & Research",
+    "category": "教育科研",
     "capabilities": [
       "Interactive",
       "Read",

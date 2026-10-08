@@ -29,7 +29,7 @@
     "shortDescription": "使用 SwiftUI 和 AppKit 指引构建、调试、监测和实现 macOS 应用",
     "longDescription": "macOS 开发工作流，涵盖发现本地项目、构建和运行桌面应用、实现原生 SwiftUI 场景、在必要时桥接 AppKit、添加轻量级 Logger 遥测、分诊测试失败、检查签名和权限，以及排查桌面端特有的构建或运行时错误。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

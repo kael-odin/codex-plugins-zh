@@ -15,7 +15,7 @@
     "shortDescription": "告别猜测，精准找到适合工作的设备。",
     "longDescription": "告别猜测，精准找到适合工作的设备。提供项目详情，即可获得量身定制的设备推荐及规格说明，帮助你做出有把握的选择。",
     "developerName": "United Rentals",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "查找 United Rentals 相关库存或可用设备"

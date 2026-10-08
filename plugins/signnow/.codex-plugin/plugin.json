@@ -15,7 +15,7 @@
     "shortDescription": "无需切换工具，更快完成文件签署。",
     "longDescription": "无需切换工具，更快完成文件签署。SignNow MCP 服务器将 Codex 直接连接到你的 SignNow 账户，让你通过对话管理完整的电子签名流程。用自然语言描述需求，即可发送签署请求、从模板创建文件并预填内容、追踪邀请状态、获取已签文件——一切尽在对话中完成。无论处理合同、协议还是审批，Codex 会替你执行 SignNow 操作，让你专注于工作本身，而不是追着人要签名。\n\nSignNow 使用场景：\n\n创建并发送文件：\n「从员工保密协议模板创建一份文件，并发送给 client@example.com 签署」\n\n追踪签署状态：\n「查看销售协议的签署状态，显示所有待签条目」\n\n管理模板：\n「列出所有可用模板，并从服务协议模板创建一份新合同」\n\n下载已签文件：\n「获取已完成的劳动合同的下载链接」",
     "developerName": "airSlate Inc",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "查询相关 SignNow 文件的状态"

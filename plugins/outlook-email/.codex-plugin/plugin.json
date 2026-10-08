@@ -27,7 +27,7 @@
     "shortDescription": "整理 Outlook 收件箱",
     "longDescription": "使用 Outlook Email 整理收件箱、汇总会话、提取行动项，并通过已连接的 Microsoft Outlook 应用起草回复或转发邮件。",
     "developerName": "OpenAI",
-    "category": "Communication",
+    "category": "沟通协作",
     "capabilities": [
       "Interactive",
       "Write"

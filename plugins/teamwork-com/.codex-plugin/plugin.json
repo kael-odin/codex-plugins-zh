@@ -15,7 +15,7 @@
     "shortDescription": "连接并同步 Teamwork 项目和任务，在 Codex 中直接使用。",
     "longDescription": "连接并同步 Teamwork 项目和任务，在 Codex 中直接使用。",
     "developerName": "OpenAI",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "总结当前 Teamwork.com 项目的进展状态"

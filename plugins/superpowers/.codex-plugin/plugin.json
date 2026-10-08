@@ -15,7 +15,7 @@
       "Read",
       "Write"
     ],
-    "category": "Developer Tools",
+    "category": "开发工具",
     "composerIcon": "./.codex-plugin/assets/composer-icon.svg",
     "defaultPrompt": [
       "我有一个想构建的想法。",

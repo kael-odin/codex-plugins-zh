@@ -23,7 +23,7 @@
     "shortDescription": "为代码库提供安全扫描能力",
     "longDescription": "Codex Security 封装了可复用的工作流，用于对代码、差异及相关制品进行安全扫描、分析、验证和调查。",
     "developerName": "OpenAI",
-    "category": "Security",
+    "category": "安全",
     "capabilities": [
       "Interactive",
       "Read",

@@ -15,7 +15,7 @@
     "shortDescription": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。",
     "longDescription": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。固定月费已包含保险、维保、登记注册，甚至 CO₂ 碳补偿，全程透明便捷。\n\n最棒的是，你可以在几分钟内完成在线预订，新车将直接送货上门，或你也可以前往我们的指定站点自提。",
     "developerName": "FINN GmbH",
-    "category": "Travel",
+    "category": "旅行",
     "capabilities": [],
     "defaultPrompt": [
       "根据需求查找合适的 FINN 车型"

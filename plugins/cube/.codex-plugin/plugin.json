@@ -16,7 +16,7 @@
     "shortDescription": "通过 Cube MCP Server，你可以查询实际、预算、预测、差异等实时 Cube 数据，让 AI 生成董事会汇报材料、进行差异分析或基于真实数据构建财务摘要。",
     "longDescription": "通过 Cube MCP Server，你可以：\n- 查询实际值、预算、预测、差异等实时 Cube 数据\n- 让 AI 基于真实 Cube 数据生成董事会汇报材料、执行差异分析或构建财务摘要\n- 直接在 AI 对话中钻取交易级别明细和维度分解\n- 保持完整安全管控：Cube 的基于角色的访问控制（RBAC）安全模型对每条 AI 请求都强制执行用户权限。你在 Cube 中看不到的数据，AI 同样看不到。",
     "developerName": "Cube",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "websiteURL": "https://www.cubesoftware.com/",
     "privacyPolicyURL": "https://www.cubesoftware.com/privacy-policy",

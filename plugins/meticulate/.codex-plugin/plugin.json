@@ -14,7 +14,7 @@
     "developerName": "Meticulate",
     "shortDescription": "研究公司及相似目标",
     "longDescription": "Meticulate 帮助销售与市场拓展团队直接在 ChatGPT 中研究公司。上传一份公司名单或描述你关注的客户，即可识别公司、寻找相似目标、提取关键业务信息，并跨客户回答结构化的研究问题。",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "brandColor": "#7000D8",
     "defaultPrompt": [

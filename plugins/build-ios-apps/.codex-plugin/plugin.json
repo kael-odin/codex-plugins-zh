@@ -30,7 +30,7 @@
     "shortDescription": "使用 App Intents、SwiftUI 和 Xcode 工作流构建、打磨和调试 iOS 应用",
     "longDescription": "使用 Build iOS Apps 设计 App Intents 和 App Shortcuts、构建或重构 SwiftUI UI、在 Codex 内置浏览器中渲染 SwiftUI 预览、采用 Liquid Glass 等现代 iOS 模式、审计运行时性能、采集 ETTrace 性能剖析数据、排查内存泄漏，并通过 XcodeBuildMCP 支持的工作流在模拟器上调试应用。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

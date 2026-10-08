@@ -66,13 +66,15 @@ function checkManifest(rel) {
     : new Map();
   let upstreamEntries = 0;
   let extraEntries = 0;
+  // category is whitelist-owned (zh remap via glossary) — exclude from entry equality
+  const stripCat = (e) => { const c = { ...e }; delete c.category; return c; };
   for (const entry of ours.plugins) {
-    if (upstreamEntries !== undefined && upEntries.has(entry.name)) {
-      if (!sameJson(entry, upEntries.get(entry.name))) {
+    if (upEntries.has(entry.name)) {
+      if (!sameJson(stripCat(entry), stripCat(upEntries.get(entry.name)))) {
         divergences.push({ rel, kind: 'manifest-upstream-entry-changed', extra: entry.name });
       } else upstreamEntries++;
     } else if (seedEntries.has(entry.name)) {
-      if (!sameJson(entry, seedEntries.get(entry.name))) {
+      if (!sameJson(stripCat(entry), stripCat(seedEntries.get(entry.name)))) {
         divergences.push({ rel, kind: 'manifest-snapshot-entry-changed', extra: entry.name });
       } else extraEntries++;
     } else {
@@ -130,6 +132,18 @@ for (const rel of [...pub.keys()].sort()) {
     delete aRest.interface;
     delete bRest.interface;
     if (!sameJson(aRest, bRest)) divergences.push({ rel, kind: 'changed-outside-whitelist' });
+  } else if (mode === 'seed' && inner === '.codex-plugin/plugin.json') {
+    // snapshot manifests get the same narrow allowance: interface.category may be
+    // zh-remapped; every other field (incl. the seed's own zh copy) stays strict
+    whitelisted++;
+    const stripCat = (f) => {
+      const m = JSON.parse(fs.readFileSync(f, 'utf8'));
+      if (m.interface) delete m.interface.category;
+      return m;
+    };
+    if (!sameJson(stripCat(p), stripCat(src))) {
+      divergences.push({ rel, kind: 'changed-outside-whitelist' });
+    }
   } else if (fs.readFileSync(p).equals(fs.readFileSync(src))) {
     if (mode === 'upstream') upstreamBytes++; else seedBytes++;
   } else {

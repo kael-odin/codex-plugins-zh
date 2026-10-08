@@ -23,7 +23,7 @@
     "shortDescription": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。",
     "longDescription": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。读写你有权限访问的商机、联系人、公司、工单、互动记录及其他对象。会议前准备报告、更新商机阶段、记录通话和邮件、创建任务或查看管道详情。既可用于对话中的快速更新，也支持全面的 CRM 管理——所有操作均基于你的真实 HubSpot 数据。",
     "developerName": "HubSpot",
-    "category": "Business & Operations",
+    "category": "商业运营",
     "capabilities": [
       "Interactive",
       "Read",

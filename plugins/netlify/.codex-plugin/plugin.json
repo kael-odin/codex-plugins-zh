@@ -23,7 +23,7 @@
     "shortDescription": "部署项目并管理发布",
     "longDescription": "使用 Netlify 查看部署状态、管理站点，并结合精选部署技能和已连接的 Netlify 应用，支持预览和生产工作流。",
     "developerName": "Netlify",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

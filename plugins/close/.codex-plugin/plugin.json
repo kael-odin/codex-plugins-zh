@@ -15,7 +15,7 @@
     "developerName": "Close",
     "shortDescription": "查阅并更新 Close CRM",
     "longDescription": "借助 Close 的 ChatGPT 应用，ChatGPT 能够为你所能想到的任何任务查阅并更新 Close。无论是生成自定义报告、调研并创建新的潜客名单、获取近期客户互动摘要，还是创建新的 Workflows——你只需让 ChatGPT 替你搞定即可。",
-    "category": "Business & Operations",
+    "category": "商业运营",
     "capabilities": [],
     "brandColor": "#50C078",
     "defaultPrompt": [

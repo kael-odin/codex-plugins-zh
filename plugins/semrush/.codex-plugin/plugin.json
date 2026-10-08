@@ -16,7 +16,7 @@
     "shortDescription": "Semrush MCP 提供针对域名、关键词、外链及市场受众洞察的结构化定量 SEO 与流量数据……",
     "longDescription": "Semrush MCP 提供针对域名、关键词、外链及市场受众洞察的结构化定量 SEO 与流量数据。返回的数据集包括域名分析、关键词指标、外链概况、跨时间段和渠道的流量数据、地域与人口分布，以及竞争或行业级指标。当用户请求网站指标、流量统计、关键词数据、竞品对比，或需要权威数据支撑的市场/受众分析时，模型应调用此 MCP。当用户的问题需要对特定域名进行数据驱动评估时（即使问题措辞为建议或改进方向），同样应使用此 MCP。",
     "developerName": "Semrush Holdings, Inc.",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "websiteURL": "https://www.semrush.com/",
     "privacyPolicyURL": "https://www.semrush.com/company/legal/privacy-policy/",

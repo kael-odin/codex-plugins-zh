@@ -23,7 +23,7 @@
     "shortDescription": "探索模型、数据集、Spaces 和研究论文",
     "longDescription": "连接 Hugging Face Hub，探索模型和数据集，访问 SDK 文档等资源。管理机器学习 Jobs，并通过 Spaces 连接数以千计的 AI 应用。",
     "developerName": "Hugging Face",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

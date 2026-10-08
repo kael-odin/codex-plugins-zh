@@ -13,7 +13,7 @@
       "Interactive",
       "Write"
     ],
-    "category": "Creativity",
+    "category": "创意设计",
     "composerIcon": "./.codex-plugin/assets/composer-icon.png",
     "defaultPrompt": [
       "创建一个新的 ChatCut 项目，开始编辑我的视频。",

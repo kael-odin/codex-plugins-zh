@@ -15,7 +15,7 @@
     "shortDescription": "让 Codex 成为你的私募市场调研助手。",
     "longDescription": "让 Codex 成为你的私募市场调研助手。借助 CB Insights 的预测性智能，发掘目标公司、绘制市场地图、起草投资备忘录、监控竞争对手。访问超过 1100 万份经双重核验的公司档案、领先的股权交易数据、专有分类体系、独家评分、隐性信号以及 20 余年的前沿技术研究，抢先于竞争对手发现并分析高潜力公司。\n\n专为寻找并购标的的企业战略团队、筛选项目的风险投资人，以及寻找新合作伙伴的商务拓展团队打造。只要你的工作涉及非上市公司，CB Insights 都能为你的下一步行动提供所需洞察。",
     "developerName": "CB Insights",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "defaultPrompt": [
       "从 CB Insights 获取最新市场背景"

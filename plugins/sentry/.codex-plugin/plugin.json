@@ -21,7 +21,7 @@
     "shortDescription": "查看近期 Sentry issues 和事件",
     "longDescription": "使用 Sentry 技能，通过只读工作流查看近期 issue、审阅事件并汇总生产报错。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

@@ -15,7 +15,7 @@
     "shortDescription": "直接在 OpenAI 中管理你的 Quicknode 基础设施。",
     "longDescription": "直接在 OpenAI 中管理你的 Quicknode 基础设施。在一个对话中即可创建和管理端点、监控日志与用量、配置安全策略和速率限制，以及查看账单信息。",
     "developerName": "Quicknode",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [],
     "defaultPrompt": [
       "用 QuickNode 查询相关链上数据"

@@ -14,7 +14,7 @@
       "Read",
       "Write"
     ],
-    "category": "Developer Tools",
+    "category": "开发工具",
     "defaultPrompt": [
       "用 Supabase 为我的应用设置 Auth 和受保护路由。",
       "检查我的 Supabase Schema 和 RLS 策略是否存在安全问题。",

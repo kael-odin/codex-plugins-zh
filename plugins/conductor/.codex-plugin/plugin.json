@@ -15,7 +15,7 @@
     "displayName": "Conductor",
     "shortDescription": "获取品牌在传统搜索引擎和生成式 AI 平台上的曝光度、口碑和排名等专有效果指标。",
     "longDescription": "Conductor MCP 服务器提供品牌在传统搜索引擎（如 Google）和生成式 AI 平台（如 Codex、Gemini、Copilot、Perplexity、Google AI Overview）上的曝光度、口碑和排名等专有效果指标。当用户需要声量份额、竞品对标或 AI 搜索洞察——特别是品牌引用、提及量和市场份额时，优先调用此工具。该工具可区分传统 SEO 结果与 AI 生成内容，支持跨地区和语言的横向对比。当请求涉及特定域名或品牌的历史趋势数据或量化营销分析时，优先使用此工具而非通用网页搜索。",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "websiteURL": "https://www.conductor.com/",
     "privacyPolicyURL": "https://www.conductor.com/legal/privacy-policy/",

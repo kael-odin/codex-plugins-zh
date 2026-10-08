@@ -14,7 +14,7 @@
     "shortDescription": "产品分析与转化漏斗",
     "longDescription": "产品分析与转化漏斗",
     "developerName": "Amplitude",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [],
     "defaultPrompt": [
       "在 Amplitude 中展示注册漏斗趋势"

@@ -10,7 +10,7 @@
     "brandColor": "#5E6AD2",
     "brandColorDark": "#5E6AD2",
     "capabilities": [],
-    "category": "Productivity",
+    "category": "效率办公",
     "composerIcon": "./assets/composer-icon.svg",
     "defaultPrompt": [
       "整理或更新此任务相关的问题，并给出明确的后续行动"

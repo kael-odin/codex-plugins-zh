@@ -15,7 +15,7 @@
     "shortDescription": "连接你的 Razorpay 账户，通过对话访问支付数据。",
     "longDescription": "连接你的 Razorpay 账户，通过对话访问支付数据。\n向 Codex 询问你的支付、订单、退款、结算、QR 码、支付链接等信息，即时获取答案，例如「显示今天的支付记录」、「近期结算状态如何」或「查找上周的退款」。\n非常适合希望快速获取数据而不想在仪表盘间来回切换的商户。通过自然语言查看交易详情、追踪结算时间线、查看已保存的支付方式，并分析支付活动。\n\n可用功能：\n1. 查询支付和订单详情\n2. 检查退款和结算状态\n3. 查看 QR 码和支付链接活动\n4. 追踪打款和对账数据\n5. 访问已保存的客户支付方式\n\n仅限只读访问——数据安全，不会通过本应用执行任何交易。",
     "developerName": "Razorpay Software Private Limited",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "defaultPrompt": [
       "在 Razorpay 中查询相关支付背景"

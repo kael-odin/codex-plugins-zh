@@ -15,7 +15,7 @@
     "developerName": "S&P Global",
     "shortDescription": "查询 S&P Global 金融数据集",
     "longDescription": "用自然语言查询一系列 S&P Global 数据集，包括 S&P Capital IQ Financials、电话会议记录等。本服务专为金融服务领域的工程、产品和业务团队节省时间与资源而设计，简化对公司信息、财务报表、历史市场数据及全球证券的访问。",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "brandColor": "#D80028",
     "defaultPrompt": [

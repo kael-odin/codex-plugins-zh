@@ -16,7 +16,7 @@
     "developerName": "Datasite",
     "shortDescription": "管理安全的并购数据室",
     "longDescription": "将 ChatGPT 连接到你的 Datasite 虚拟数据室——每年促成数千宗并购交易的安全工作空间。通过自然语言搭建文件夹结构、邀请用户、检索文档、跟踪买方问答并审核数据室就绪情况，全程不打断工作流，也不牺牲安全性。专为顾问、银行家和企业发展团队打造——以每宗交易所需的企业级安全与权限管控为后盾。\n\n1. 搭建交易数据室——「为 Project Alpha 新建一个 Datasite Prepare 数据室，建立标准并购文件夹索引，并邀请 sarah@advisorfirm.com 作为管理员。」\n\n2. 语义检索文档——「在数据室中检索任何与未决诉讼或监管风险相关的文档。」\n\n3. 跟踪买方问答——「列出数据室中所有未结的问答，并在我们有支撑文档时起草回复。」\n\n4. 审核数据室就绪情况——「在正式启用前，检查数据室中是否有空文件夹、缺失文档，以及任何被标记为受密码保护或空白的文件。」\n\n5. 管理用户权限——「创建一个仅可查看权限的买方角色，并为 Acme Capital 的以下五位联系人创建邀请草稿。」",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "brandColor": "#F89820",
     "defaultPrompt": [

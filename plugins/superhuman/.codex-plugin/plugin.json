@@ -23,7 +23,7 @@
     "shortDescription": "适用于 Gmail 和 Outlook 的高效邮件应用",
     "longDescription": "为邮件和日历构建强大的工作流与自动化。在 Codex 中搜索收件箱内容、起草符合你风格的邮件回复、查看已读状态、安排会议并发送——无需离开 Codex。",
     "developerName": "Superhuman",
-    "category": "Communication",
+    "category": "沟通协作",
     "capabilities": [
       "Interactive",
       "Read",

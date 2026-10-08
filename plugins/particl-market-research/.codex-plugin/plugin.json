@@ -15,7 +15,7 @@
     "shortDescription": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。",
     "longDescription": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。支持公司发现、产品目录研究、产品详情与变体分析、市场领导者发现、市场趋势分析、营销素材发现、零售活动追踪、销售时序数据及产品结构拆解。\n\n应用使用你认证的 Particl 账户，通过 Particl API 返回结构化市场情报数据。",
     "developerName": "Particl",
-    "category": "Education & Research",
+    "category": "教育科研",
     "capabilities": [],
     "defaultPrompt": [
       "从 Particl 拉取相关市场快照"

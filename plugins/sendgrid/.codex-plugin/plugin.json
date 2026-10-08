@@ -15,7 +15,7 @@
     "displayName": "SendGrid",
     "shortDescription": "与 SendGrid 邮件 API 交互的连接器。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [],
     "websiteURL": "https://sendgrid.com/",
     "privacyPolicyURL": "https://www.twilio.com/legal/privacy",

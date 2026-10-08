@@ -25,7 +25,7 @@
     "shortDescription": "管理 Neon Serverless Postgres 项目和数据库",
     "longDescription": "使用 Neon Postgres 插件创建和管理 Neon Serverless Postgres 项目及数据库。包含用于项目和数据库管理的 Neon MCP Server，以及提供连接方式、分支、自动扩缩容、Neon Auth 等指南的 neon-postgres 技能。",
     "developerName": "Neon",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

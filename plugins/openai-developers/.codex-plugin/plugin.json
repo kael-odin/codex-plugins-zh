@@ -29,7 +29,7 @@
     "shortDescription": "遵循 OpenAI 最佳实践，开发 AI 应用、智能体和 ChatGPT 应用",
     "longDescription": "在 Codex 中使用 OpenAI Developers，结合 OpenAI 文档、OpenAI API、Apps SDK 和 Agents SDK 构建 AI 应用、智能体和 ChatGPT 应用。连接 OpenAI Platform（platform.openai.com），使用真实 OpenAI API 密钥，让 Codex 构建的应用开箱即用。通过 Deployment Manager 在本地运行和部署 Agents SDK 项目，快速搭建 ChatGPT 应用脚手架，并生成 ChatGPT 应用提交材料。",
     "developerName": "OpenAI",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

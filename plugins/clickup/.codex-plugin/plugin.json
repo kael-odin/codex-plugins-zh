@@ -6,7 +6,7 @@
   "description": "Turn Codex into your ClickUp command center.",
   "interface": {
     "capabilities": [],
-    "category": "Productivity",
+    "category": "效率办公",
     "composerIcon": "./assets/composer-icon.png",
     "defaultPrompt": [
       "判断「Sprint 14：简化 UI」是否存在进度风险"

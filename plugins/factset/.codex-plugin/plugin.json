@@ -15,7 +15,7 @@
     "developerName": "FactSet",
     "shortDescription": "连接金融数据、分析与工作流",
     "longDescription": "FactSet Model Context Protocol (MCP) 是一项开放的、基于 API 的标准，旨在跨平台无缝连接金融数据、分析模型与应用。通过实现顺畅的互操作性，MCP 让投资团队无论使用何种工具或技术栈，都能轻松共享洞察、简化工作流并加强协作。借助 MCP，机构能够高效集成新方案、推动创新，并最大化金融业务的价值——确保整个投资流程中始终如一、上下文丰富的决策。",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "brandColor": "#182850",
     "defaultPrompt": [

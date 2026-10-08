@@ -15,7 +15,7 @@
     "shortDescription": "Readwise 和 Reader 的官方应用。",
     "longDescription": "Readwise 和 Reader 的官方应用。\n\n本应用让 Codex 能对你所有的高亮内容以及保存到 Reader 书库中的内容进行语义搜索。\n\n不仅如此，它几乎可以完成你在 Reader 中能做的所有操作！整理收件箱、管理书库、浏览订阅 Feed 等，直接说就行 :)",
     "developerName": "Readwise Inc.",
-    "category": "Education & Research",
+    "category": "教育科研",
     "capabilities": [],
     "defaultPrompt": [
       "在 Readwise 中找到最相关的高亮内容"

@@ -21,7 +21,7 @@
     "shortDescription": "用 Glean 访问企业知识",
     "longDescription": "通过 Glean 的 Remote MCP server，把企业上下文带入 ChatGPT 及你的各类 AI 工具。在组织接入的全部数据源中检索——文档、wiki、代码仓库等。按姓名、职务或专长查找员工。读取特定文档、访问 Gmail 与 Outlook 邮件、查询会议详情。自定义 agent 工作流可实现为你的组织量身定制的强大自动化。让 Glean 成为你 AI 助手的企业记忆——确保 ChatGPT 及其它支持 MCP 的应用，无论你在何处工作都深谙公司上下文。",
     "developerName": "Glean Technologies, Inc.",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [
       "Read"
     ],

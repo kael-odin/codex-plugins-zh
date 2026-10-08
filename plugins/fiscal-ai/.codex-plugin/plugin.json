@@ -16,7 +16,7 @@
     "shortDescription": "可供审计的金融数据与股票研究",
     "longDescription": "直接在 ChatGPT 内访问机构级金融数据。Fiscal.ai 在财报发布后几分钟内即提供基本面指标与比率，每个数字都可通过直达原始申报文件的链接进行核验。除核心财务数据外，Fiscal.ai 还提供公司特有的 KPI、营收分部和调整后指标。结合历史与当前的市场报价，它以无与伦比的速度实现有据可依、可供审计的股票研究。",
     "developerName": "Fiscal AI",
-    "category": "Finance",
+    "category": "金融财务",
     "capabilities": [],
     "websiteURL": "https://fiscal.ai",
     "defaultPrompt": [

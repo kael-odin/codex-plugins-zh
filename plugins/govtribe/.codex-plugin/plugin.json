@@ -15,7 +15,7 @@
     "shortDescription": "直接在 Codex 中搜索政府合同、中标结果和供应商信息。",
     "longDescription": "直接在 Codex 中搜索政府合同、中标结果和供应商信息。GovTribe 将美国政府采购情报融入你的 AI 工作流——查找各联邦机构的相关机会、分析供应商竞争格局、挖掘合作伙伴，并追踪机构支出规律。无论是开拓新市场、进行竞争分析，还是准备投标提案，都能在不离开对话的情况下即时获取数千亿美元公共采购数据。",
     "developerName": "Government Executive Media Group LLC",
-    "category": "Education & Research",
+    "category": "教育科研",
     "capabilities": [],
     "defaultPrompt": [
       "从 GovTribe 拉取相关采购机会背景信息"

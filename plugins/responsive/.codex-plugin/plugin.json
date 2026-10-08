@@ -15,7 +15,7 @@
     "shortDescription": "Responsive 应用让你在 Codex 中轻松使用组织数据。",
     "longDescription": "Responsive 应用让你在 Codex 中轻松使用组织数据。搜索内容库并生成回复，基于可信信息快速推进工作，无需切换工具。",
     "developerName": "RFPIO Inc. (d/b/a Responsive)",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [],
     "defaultPrompt": [
       "从 Responsive 提取相关提案内容"

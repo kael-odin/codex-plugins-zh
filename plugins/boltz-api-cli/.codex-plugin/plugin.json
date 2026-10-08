@@ -12,7 +12,7 @@
       "Interactive",
       "Write"
     ],
-    "category": "Scientific Research",
+    "category": "科学研究",
     "composerIcon": "./assets/app-icon.png",
     "defaultPrompt": [
       "预测 EGFR L858R 与 osimertinib 的结合",

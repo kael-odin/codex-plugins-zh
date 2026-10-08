@@ -6,7 +6,7 @@
   "description": "Build apps and websites",
   "interface": {
     "capabilities": [],
-    "category": "Developer Tools",
+    "category": "开发工具",
     "defaultPrompt": [
       "帮我构建一个 AI 驱动的客户支持应用",
       "帮我构建一个 AI 驱动的教练辅导应用",

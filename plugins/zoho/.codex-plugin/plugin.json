@@ -16,7 +16,7 @@
     "shortDescription": "管理 Zoho CRM 销售工作流",
     "longDescription": "Zoho CRM 是一款 AI 驱动的销售软件，帮助各种规模的企业更好地管理销售。凭借 SFA 功能、高级自动化、易用的 UI、高级分析和深度定制能力，Zoho CRM 真正读懂你的业务。\n\n借助 Codex，你只需提示即可扩展 Zoho CRM 的功能。你的业务，你的 Zoho CRM——由 Codex 驱动。",
     "developerName": "Zoho",
-    "category": "Business & Operations",
+    "category": "商业运营",
     "capabilities": [],
     "websiteURL": "https://www.zoho.com",
     "defaultPrompt": [

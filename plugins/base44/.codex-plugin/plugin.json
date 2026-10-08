@@ -27,7 +27,7 @@
     "shortDescription": "在 Codex 中构建和部署 Base44 全栈应用",
     "longDescription": "在 Codex 中构建和部署 Base44 全栈应用。包含 CLI 项目管理、JavaScript/TypeScript SDK 开发以及生产问题排查技能。",
     "developerName": "base44",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

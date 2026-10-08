@@ -16,7 +16,7 @@
     "shortDescription": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。",
     "longDescription": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。让内部团队在 AI 工作流中提问数据问题，无需直接登录 Omni，同时仍强制执行行级安全和业务定义。",
     "developerName": "Omni Analytics",
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "capabilities": [],
     "websiteURL": "https://www.omni.co",
     "privacyPolicyURL": "https://omni.co/privacy",

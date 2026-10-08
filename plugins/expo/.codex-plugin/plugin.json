@@ -29,7 +29,7 @@
     "shortDescription": "构建、部署、升级和调试 Expo 及 React Native 应用",
     "longDescription": "由 Expo 官方编写的技能集，涵盖构建 Expo Router UI、编写 API 路由、配置数据获取和样式、编写 Expo 原生模块、创建开发客户端、升级 Expo SDK、接入 Codex 应用运行 action，以及通过 EAS 工作流、构建、托管、TestFlight、App Store 和 Play Store 指南部署 Expo 应用。",
     "developerName": "Expo",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Read",

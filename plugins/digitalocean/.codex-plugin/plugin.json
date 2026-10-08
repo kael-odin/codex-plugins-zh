@@ -21,7 +21,7 @@
     "shortDescription": "将 droplet 开通为 Codex 工作区",
     "longDescription": "使用已连接的 DigitalOcean 应用，将 DigitalOcean droplet 开通并配置为远程 Codex SSH 工作区。",
     "developerName": "DigitalOcean",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

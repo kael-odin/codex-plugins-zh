@@ -27,7 +27,7 @@
     "shortDescription": "汇总 SharePoint 内容",
     "longDescription": "使用 SharePoint 汇总站点、页面和文件，提取所有者和状态，并通过已连接的 Microsoft SharePoint 应用规划安全的内容更新。",
     "developerName": "OpenAI",
-    "category": "Productivity",
+    "category": "效率办公",
     "capabilities": [
       "Interactive",
       "Write"

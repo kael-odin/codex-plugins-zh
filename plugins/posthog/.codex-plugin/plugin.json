@@ -14,7 +14,7 @@
       "Read",
       "Write"
     ],
-    "category": "Data & Analytics",
+    "category": "数据分析",
     "composerIcon": "./assets/composer-icon.png",
     "defaultPrompt": [
       "显示本月注册用户数。",

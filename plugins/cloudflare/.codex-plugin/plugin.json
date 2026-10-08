@@ -28,7 +28,7 @@
     "shortDescription": "官方 MCP 加持的 Cloudflare 平台指引",
     "longDescription": "将 Cloudflare 平台指引引入 Codex，提供针对整体平台、Wrangler CLI 和 Agents SDK 的精选技能，并通过官方 Cloudflare API MCP 服务器，实现对 Workers、Pages、存储、AI、网络、安全和分析服务的账号数据与工作流的已认证访问。",
     "developerName": "Cloudflare",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

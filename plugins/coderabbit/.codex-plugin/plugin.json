@@ -22,7 +22,7 @@
     "shortDescription": "对当前改动运行 AI 驱动的代码审查",
     "longDescription": "在 Codex 中运行 CodeRabbit 审查工作流，检查 diff、呈现可操作的发现，并将审查结果转化为后续修复。",
     "developerName": "CodeRabbit",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

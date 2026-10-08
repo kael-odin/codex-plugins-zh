@@ -30,7 +30,7 @@
     "shortDescription": "NVIDIA AI、GPU、机器人、仿真及 3D 工作流的导航指南。",
     "longDescription": "NVIDIA 的生态涵盖 GPU 加速、CUDA、AI Agent、推理、机器人、Physical AI、Omniverse 及仿真。该插件帮助你理解各个模块、选择合适路径、验证环境配置，并构建实际可用的 NVIDIA 驱动工作流。",
     "developerName": "NVIDIA",
-    "category": "Developer Tools",
+    "category": "开发工具",
     "capabilities": [
       "Interactive",
       "Write"

@@ -28,7 +28,7 @@
     "shortDescription": "汇总 Teams 动态并跟进",
     "longDescription": "使用 Teams 汇总聊天内容、提取行动项，并通过已连接的 Microsoft Teams 应用起草频道或会议跟进消息。",
     "developerName": "OpenAI",
-    "category": "Communication",
+    "category": "沟通协作",
     "capabilities": [
       "Interactive",
       "Write"
