@@ -1,0 +1,23 @@
+{
+  "7d651d9139d5145c": {
+    "zh": "汇总 SharePoint 内容",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "29c72186d9bc6225": {
+    "zh": "使用 SharePoint 汇总站点、页面和文件，提取所有者和状态，并通过已连接的 Microsoft SharePoint 应用规划安全的内容更新。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "39bb17da3a69b8aa": {
+    "zh": "汇总 SharePoint 站点或文件、识别所有者和状态，或规划跨文档、电子表格或演示文稿的安全更新",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

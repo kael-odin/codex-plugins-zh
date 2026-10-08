@@ -1,0 +1,37 @@
+{
+  "8bebd635d297b476": {
+    "zh": "搜索并操作你的数据",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6b1e361215314c71": {
+    "zh": "仅面向 US1 客户提供。直接在 ChatGPT 中用自然语言分析、排查和处理 Datadog 遥测数据。查询生产应用状态、定位并可视化关键服务中的问题并进行修复。通过 agentic 循环持续保持良好可观测性与服务管理态势。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fc39c1ab53b70231": {
+    "zh": "按服务展示日志量明细。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "91091c72c85ed260": {
+    "zh": "展示我的前 10 个服务在过去 6 小时的平均 CPU 使用率。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "67468eca34e08aed": {
+    "zh": "我的用户来自哪里？请按国家展示图表。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

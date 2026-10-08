@@ -1,0 +1,50 @@
+{
+  "name": "build-web-apps",
+  "version": "0.1.2",
+  "description": "Build web apps with frontend asset design, browser testing, UI components, payments, and database guidance.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://openai.com/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "build-web-apps",
+    "build",
+    "product-apps",
+    "frontend",
+    "image-generation",
+    "browser-testing",
+    "frontend-debugging",
+    "stripe",
+    "supabase",
+    "shadcn",
+    "full-stack",
+    "frontend-qa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Build Web Apps",
+    "shortDescription": "构建以前端为核心的 Web 应用，支持生成资产、浏览器测试、支付和数据库",
+    "longDescription": "使用 Build Web Apps，结合 Codex 生成的视觉资产创建前端应用界面，通过 Browser 插件和内置应用浏览器进行验证，组合 shadcn/ui，接入 Stripe 支付，设计和调优 Supabase/Postgres 数据流。",
+    "developerName": "OpenAI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "为我的新 SaaS 产品设计一个全新的落地页"
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/build-web-apps-small.svg",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}

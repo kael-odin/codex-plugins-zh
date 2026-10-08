@@ -1,0 +1,163 @@
+{
+  "03767a3189ac9ce1": {
+    "zh": "设计、构建、测试并导出 Web 数据可视化",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "83a4496055262c49": {
+    "zh": "使用 Build Web Data Visualization，选择、设计、实现、测试并导出浏览器图表、仪表盘、地图、WebGL/Three.js 场景、Canvas/D3 可视化、甘特图、UML/软件图示、滚动叙事、报告、PDF 和幻灯片。强调基于可信数据源、无障碍响应式布局、URL 可分享的分析状态，以及面向高级视觉叙事的概念优先设计。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "55cdd5f4406f8967": {
+    "zh": "用大屏和移动端概念图在视觉上设计这个高级可视化",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d19724fff7aa0414": {
+    "zh": "为这个数据集选择最合适的图表、布局、可分享状态、语法和技术栈",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ce8ec40fd5f76491": {
+    "zh": "为这个图表、仪表盘、地图或 WebGL 可视化设计质量检查方案",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3da250243d19c6fa": {
+    "zh": "让数据可视化兼顾无障碍和包容性。适用于需要图表或图示无障碍指南、为复杂视觉内容提供文字替代方案、颜色和对比度审查、键盘支持、动画或视差的减少动效行为，或对导出图形、类 UML 图和仪表盘进行无障碍质量检查的场景。",
+    "field": "skill:accessibility-and-inclusive-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "422e1023da18c756": {
+    "zh": "使用 Canvas2D 渲染数据可视化。适用于可视化需要大量标记数量、快速重绘、即时模式渲染、自定义命中测试，或 Canvas 与 SVG/HTML 混合架构的场景。",
+    "field": "skill:canvas2d-data-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7a000ded68e313f0": {
+    "zh": "使用 D3 构建自定义数据可视化。适用于需要基于 SVG 或 DOM 的图表、丰富标注、领域原生背景、数据连接、自定义比例尺或交互、滚动驱动的 SVG 场景状态，或对浏览器可视化行为需要精确控制的场景。",
+    "field": "skill:d3-data-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "237dad4b59c5a7a4": {
+    "zh": "设计仪表盘和实时可视化系统。适用于需要监控视图、流式图表、联动交互、数据降采样或性能感知的运营可视化的场景。",
+    "field": "skill:dashboards-and-real-time-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2b2ed181989203d6": {
+    "zh": "路由 Web 数据可视化工作。适用于需要选择图表类型、视觉批评、仪表盘、地图或地理空间视图、甘特时间线、UML/软件图示、滚动叙事、报告或导出、测试、无障碍、浏览器实现，或以概念为先的视觉设计的场景。",
+    "field": "skill:data-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7f1979cdb16b4fa9": {
+    "zh": "设计、批评、路由和实现甘特图及排期可视化。适用于用户提及甘特图、项目排期、带任务跨度的路线图、里程碑、依赖关系、前置任务、关键路径、基准线、WBS、资源计划、容量时间线、MS Project、Primavera P6、Jira Advanced Roadmaps、GitHub Projects、Smartsheet、monday.com、Asana、ClickUp、Azure DevOps 迭代，或为时间线图表导入/导出项目管理数据的场景。",
+    "field": "skill:gantt-chart-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "31dcf317f838cc85": {
+    "zh": "设计地理空间和制图可视化。适用于需要决定是否使用地图、选择投影或底图、构建等值区域图或符号地图，或使用 D3 geo、Leaflet、MapLibre、Mapbox GL JS、Google Maps、OpenLayers、deck.gl、ArcGIS Maps SDK、Azure Maps、HERE Maps、CesiumJS 等工具实现主题地图、瓦片地图或地理空间交互的场景。",
+    "field": "skill:geospatial-and-cartographic-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "be6e0a3bd95997bd": {
+    "zh": "使用声明式语法构建数据可视化。适用于需要 Vega-Lite、Vega、Observable Plot 或图形语法推理的场景，尤其适合无需定制渲染的表格图表。",
+    "field": "skill:grammar-of-graphics-and-declarative-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "34c674a9125be709": {
+    "zh": "为节点连接图和连线视觉选择并应用自动布局策略。适用于用户询问如何自动排列节点、减少线条交叉、路由边线、避免重叠、稳定布局，或为网络图、依赖关系图、数据库 schema 图、ERD、状态机、决策树、流程图、盒线编辑器或其他连线节点选择图布局算法的场景。",
+    "field": "skill:node-link-and-diagram-layout",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3b581b03f45917b0": {
+    "zh": "将数据可视化集成到 React 和 Next.js 应用中。适用于需要图表组件、类 UML 或架构图组件、React 集成模式、Next.js 客户端或服务端边界、可安全水化的渲染、懒加载、框架感知的性能优化、滚动驱动的视觉叙事或导出指南的场景。",
+    "field": "skill:react-and-nextjs-data-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "29b5aa264230283a": {
+    "zh": "排版并导出数据丰富的报告和文档。适用于需要报告结构、图形打包、PDF、PowerPoint 或 Google Slides 自动化，或以编程方式将可视化内容、类 UML 图或架构图插入文档的场景。",
+    "field": "skill:reports-pdfs-and-slide-automation",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3605cb8912317f35": {
+    "zh": "设计并实现视差滚动和滚动叙事数据可视化。适用于用户提及视差滚动、滚动叙事、滚动驱动时间线、固定图形、Scrollama、ScrollTrigger、ScrollTimeline、视图时间线、富媒体时间线、movie scroller、滚动擦洗图表、分阶段叙事揭示，或需要通过滚动改变数据可视化或媒体场景的交互式视觉故事的场景。",
+    "field": "skill:scrollytelling-and-parallax-data-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "04380ea86f568f9a": {
+    "zh": "设计统计诚实且能体现不确定性的可视化。适用于需要展示分布、区间、置信度、缺失数据、采样效应，或在图表和仪表盘中体现分析严谨性的场景。",
+    "field": "skill:statistical-and-uncertainty-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "58faad4631b3be6a": {
+    "zh": "测试数据可视化和仪表盘。适用于需要图表或图示测试策略、截图或图像差异测试、视觉回归测试、模拟或合成图表数据、组件或单元测试、E2E 仪表盘质量检查、交互式类 UML 图验证、滚动叙事验证、导出验证，或避免过度脆弱测试指南的场景。",
+    "field": "skill:testing-data-visualizations",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e78cb54a3eed2158": {
+    "zh": "使用 Three.js、原生 WebGL、deck.gl、luma.gl、PixiJS、Sigma.js、Plotly WebGL traces、ECharts GL、CesiumJS、Babylon.js 或相关 GPU 库渲染 WebGL 加速的数据可视化。适用于可视化需要真实空间结构、密集 2D 或 3D GPU 渲染、粒子或流场动画、体积视图，或能真正提升分析价值的交互式探索的场景。",
+    "field": "skill:threejs-data-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a5dc36b22fead4aa": {
+    "zh": "使用 TypeScript 构建类型化数据可视化。适用于需要 TypeScript 可视化代码、类型化数据模型、浏览器可视化组件、类 UML 图模型、交互式图或架构图契约、滚动驱动场景契约、库选型指南，或超越 React/Next.js 特定关注点的可维护可视化架构的场景。",
+    "field": "skill:typescript-data-visualization-engineering",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7e9dcfe93a8537c7": {
+    "zh": "设计、批评、阅读、编写、渲染和实现 UML 及类 UML 软件图示。适用于用户提及 UML、序列图、类图、活动图、状态机、用例图、组件图、部署图、对象图、包图、配置文件图、时序图、通信图、交互概览图、复合结构图、ERD、数据库 schema 图、C4、BPMN、泳道、流程图、网络图、应用架构图、软件架构图、图即代码、模型即代码、XMI、UMLDI、PlantUML、Mermaid、Graphviz DOT、D2、Structurizr、DBML、diagrams.net/draw.io、Kroki，或交互式图示编辑器和浏览器的场景。",
+    "field": "skill:uml-and-software-architecture-visualization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "86b0f1bf93a9a521": {
+    "zh": "选择、排版、批评并解释数据可视化。适用于用户询问哪种可视化适合某个数据集或目标、图表/仪表盘/运营工作区/类 UML 图或软件架构图应如何组合或交互、请求视觉页面设计或布局草图、生成大屏和移动端概念图、或希望预览可视化效果，以及领域原生背景或图形背景可能有所帮助、滚动叙事或视差可能适用、需要对现有可视化进行批评，或需要以可信的可视化理论和实践为依据的指导的场景。对于构图影响理解的高级视觉设计或页面布局需求，Codex 必须在实现或纯文本设计交付之前生成并展示大屏和移动竖屏概念图，必要时附移动横屏。",
+    "field": "skill:visualization-strategy-and-critique",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

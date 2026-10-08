@@ -1,0 +1,57 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "PostHog Inc.",
+    "url": "https://posthog.com"
+  },
+  "description": "PostHog gives your AI agent direct access to your product analytics, feature flags, experiments, error tracking, surveys, logs, and LLM analytics. Ask questions about your data, create insights, toggle feature flags, analyze errors, search docs, and more — all from chat.",
+  "homepage": "https://posthog.com/docs",
+  "interface": {
+    "brandColor": "#1D4AFF",
+    "brandColorDark": "#1D4AFF",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "category": "Data & Analytics",
+    "composerIcon": "./assets/composer-icon.png",
+    "defaultPrompt": [
+      "显示本月注册用户数。",
+      "为新版结账流程创建一个 Feature Flag。",
+      "为什么用户在新手引导环节流失？"
+    ],
+    "developerName": "PostHog Inc.",
+    "displayName": "PostHog",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "longDescription": "PostHog 让你的 AI 智能体直接访问产品分析、功能开关、实验、错误跟踪、调研问卷、日志和 LLM 分析。在对话中即可就数据提问、创建洞察、切换功能开关、分析错误、检索文档等。",
+    "privacyPolicyURL": "https://posthog.com/privacy",
+    "screenshots": [
+      "./assets/screenshot-1.png",
+      "./assets/screenshot-2.png"
+    ],
+    "shortDescription": "分析你的产品数据",
+    "supportURL": "https://posthog.com/support",
+    "termsOfServiceURL": "https://posthog.com/terms",
+    "websiteURL": "https://posthog.com"
+  },
+  "keywords": [
+    "posthog",
+    "analytics",
+    "product-analytics",
+    "feature-flags",
+    "experiments",
+    "error-tracking",
+    "session-replay",
+    "surveys",
+    "llm-analytics",
+    "hogql",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "name": "posthog",
+  "repository": "https://github.com/openai/plugins",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Build iOS Apps"
+  short_description: "Build, profile, debug, and refine iOS apps with SwiftUI and Xcode workflows"
+  icon_small: "./assets/build-ios-apps-small.svg"
+  icon_large: "./assets/app-icon.png"
+  default_prompt: "Build or debug an iOS app with SwiftUI, App Intents, and Simulator."

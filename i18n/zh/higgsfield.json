@@ -1,0 +1,58 @@
+{
+  "e72e0fe7020b0f00": {
+    "zh": "所有图像和视频模型",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "df9d7c14d5058290": {
+    "zh": "用文本提示词或你自己的照片生成图像和视频。把产品图变成视频广告，重新设计照片风格，让静帧动起来，或制作两分钟带解说的讲解视频。所有主流图像和视频模型尽在一处。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "116f7ca17c447705": {
+    "zh": "制作一段 2 分钟的无真人出镜讲解视频，讲解航空公司如何靠卖里程积分比卖座位赚更多钱",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9afb4cb206762e53": {
+    "zh": "为这款巧克力零食棒制作电影级视频广告",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dc865d9ae9736e5f": {
+    "zh": "为我的运动鞋品牌制作 9:16 广告",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7d8cf7e9686f6c4c": {
+    "zh": "仅在用户要求产出完整的多场景旁白主导视频，并明确要求无真人出镜频道、YouTube 自动化、旁白讲解/故事/教育、纪录片、故事书或神话重述，或儿童歌曲视频时使用。仅凭主题绝不足以触发：单纯生成一段关于某主题的视频，包括历史主题在内，都应使用普通的视频生成。不要用于策划或创意构思、单个片段、无声动画、图生视频、素材剪辑、广告、产品演示或 UGC。本工作流要求一致的非写实风格、可复用素材、旁白配音和硬字幕。",
+    "field": "skill:faceless-channel",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1a1d2e5719245de6": {
+    "zh": "当用户明确点名 narrator 技能，或要求可直接用于制作的旁白时激活，包括以下两种情形：(1) 贴合固定视频时间窗的编号录音条次，或 (2) 一段用锁定音色朗读的连续长故事，且必须测量并对音色或内部停顿进行重试。激活后收集缺失的 text、voice_id 或 voice_type；它们缺失不是跳过本工作流的理由。负责节奏、语音时长门控、重试和成品音频交付；绝不做时间拉伸。不要用于普通 TTS、「read this aloud」、无约束的配音、浏览音色、音乐、SFX、演唱、为已有语音配音或声音克隆。",
+    "field": "skill:narrator",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a4df0b1ed1b455c1": {
+    "zh": "把带时间轴的字幕烧录到成片，或在无真人出镜视频合成过程中配置 Whisper 计时字幕烧录。接受视频/音频生成任务或本地成片（可选带已写好的旁白文本），返回带字幕的视频或确切的后端字幕配置。时间轴始终来自 Whisper 对视频自身音频的识别——绝不靠估算。三种样式：`paper`（撕边奶油色纸质标签、手写墨水）、`bold`（UGC 全大写、白字黑描边、适配平台安全区）、`clean`（细体白色大写字母、无底板、底部小字号——无需 Pillow）。适用场景：为已有视频添加/烧录字幕或说明文字、重新设计字幕样式，或某个制作工作流需要为其成片加上字幕。不适用于：生成视频、翻译语音，或直播/软字幕轨道（本技能会把字幕烧进画面）。",
+    "field": "skill:subtitles",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "0fa6901087d0b906": {
+    "zh": "规划、开发和调试代码",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6dd2b50c46a5b8a3": {
+    "zh": "使用 Superpowers 通过头脑风暴、实现规划、测试驱动开发、系统性调试、并行执行、代码审查和完成分支工作流来引导智能体工作。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "365ffe9e1a45d3d2": {
+    "zh": "我有一个想构建的想法。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b644343352378645": {
+    "zh": "来给这个项目加一个新功能吧。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e9d027d6a5c7244d": {
+    "zh": "在任何创意工作前必须使用——创建功能、构建组件、添加新功能或修改行为。在实现前深入探索用户意图、需求和设计。",
+    "field": "skill:brainstorming",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5649c0d308ec206f": {
+    "zh": "当面临 2 个或更多可并行处理、无共享状态或顺序依赖的独立任务时使用",
+    "field": "skill:dispatching-parallel-agents",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f5ac56aa78b912c2": {
+    "zh": "当已有书面实现计划，需要在独立会话中执行并设置审查检查点时使用",
+    "field": "skill:executing-plans",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "abec2b086d3c16ee": {
+    "zh": "当实现完成、所有测试通过，需要决定如何集成工作时使用",
+    "field": "skill:finishing-a-development-branch",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aaf1de41eab32e80": {
+    "zh": "在收到代码审查反馈后、实施建议前使用，尤其是反馈不清晰或技术上存疑时——要求技术严谨性和验证，而非表面同意或盲目执行",
+    "field": "skill:receiving-code-review",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "739cdd1b776658eb": {
+    "zh": "在完成任务、实现重要功能，或合并前验证工作是否符合要求时使用",
+    "field": "skill:requesting-code-review",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4a3ca86a4a7b7f1a": {
+    "zh": "在当前会话中使用独立任务执行实现计划时使用",
+    "field": "skill:subagent-driven-development",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "45abe257b772fb52": {
+    "zh": "在遇到任何 Bug、测试失败或意外行为时使用，在提出修复方案之前触发",
+    "field": "skill:systematic-debugging",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "23b7e98c1a3494e1": {
+    "zh": "在实现任何功能或修复 Bug 时使用，在编写实现代码之前触发",
+    "field": "skill:test-driven-development",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f112aa0c9e54d2f6": {
+    "zh": "在开始需要与当前工作区隔离的功能工作，或在执行实现计划前使用——通过原生工具或 git worktree 回退确保存在隔离工作区",
+    "field": "skill:using-git-worktrees",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "574152d6113b5dfa": {
+    "zh": "在开始任何对话时使用——建立如何查找和使用技能的规则，要求在任何响应（包括澄清问题）之前先调用技能",
+    "field": "skill:using-superpowers",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fc4ba75fba42be6b": {
+    "zh": "在声称工作已完成、修复或通过，以及提交或创建 PR 之前使用——要求先运行验证命令并确认输出，然后再做任何成功声明；用证据说话，而非断言",
+    "field": "skill:verification-before-completion",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "90ae238dbfd4ac84": {
+    "zh": "当已有多步骤任务的规格或需求文档时使用，在触碰代码之前触发",
+    "field": "skill:writing-plans",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5699be5f365acafa": {
+    "zh": "在创建新技能、编辑现有技能，或在部署前验证技能是否正常工作时使用",
+    "field": "skill:writing-skills",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

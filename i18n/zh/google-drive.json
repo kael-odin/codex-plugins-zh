@@ -1,0 +1,58 @@
+{
+  "c7c64289d56fbde8": {
+    "zh": "Drive、Docs、Sheets 或 Slides",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3ce9e3a0dc336e79": {
+    "zh": "将 Google Drive 作为统一的 Google 文件插件，支持搜索、文件整理、共享，以及 Google Docs、Google Sheets 和 Google Slides 的完整工作流。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "18a7b11a78d6cc27": {
+    "zh": "找到合适的 Drive 文件，然后摘要一份 Doc、更新一份 Sheet，或编辑一份 Slides 演示文稿",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "de6f8f638ee89411": {
+    "zh": "提示词与模板完备的 Google Docs 创建与编辑，采用以显式指令为准的结构保留，包括语义角色、关系、对比维度以及被指令要求的扩展；全拓扑的原生副本路由；针对历史或示例参考的、有来源依据的逐标签页适配；保留样式的超链接和表格编辑；针对日期以及相关受支持人员或 Google 资源的规范化智能芯片优先撰写；在写入现有文档前进行基于文件的建议性可信读取；自动感知受保护控件；默认直接使用 connector API；仅在没有任何所提供的 Google Doc 模板或参考约束输出时才优先以 DOCX 导入；仅在需要精确变更原生下拉选项时使用 checked-in code 模式。当 Codex 必须创建、编辑、填写、适配、重新设计或验证 Google Docs，且不得覆盖用户或模板的显式指令、添加未被请求的文档范围，或将过时的参考事实带入新交付物时使用。",
+    "field": "skill:google-docs",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2dbe025d70b27f24": {
+    "zh": "将已连接的 Google Drive 作为统一入口，处理 Drive、Docs、Sheets 和 Slides 相关工作。适用于需要查找、获取、整理、共享、导出、复制或删除 Drive 文件，或通过统一的 Google Drive 插件摘要和编辑 Google Docs、Google Sheets、Google Slides 的场景。",
+    "field": "skill:google-drive",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7980fb0d15a2a065": {
+    "zh": "在 Docs、Sheets、Slides 和 Drive 文件上撰写、回复及解决评论，并附上有依据的位置上下文。适用于需要添加评论、带评论地审阅文件、回复评论线程或解决 Drive 评论的场景。",
+    "field": "skill:google-drive-comments",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7a5cee1e1cbf1153": {
+    "zh": "以精确的区域范围分析和编辑已连接的 Google Sheets。适用于需要创建 Google Sheets、查找电子表格、查看标签页或区域、搜索行、规划公式、创建或修复图表、清理或重构表格、撰写简明摘要，或明确更新指定单元格区域的场景。",
+    "field": "skill:google-sheets",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "babc3890eb530092": {
+    "zh": "路由 Google Slides 创作请求，并从原生模板或参考演示文稿中推导设计系统。当用户提供现有的原生 Google Slides 演示文稿作为模板、参考或往期来源，或要求编辑、更新、修复、重新设计样式或整理现有的原生 Google Slides 演示文稿时，使用本技能。当无需遵循任何现有原生 Google Slides 演示文稿、要全新创建演示文稿时，请改用 Presentations 技能。",
+    "field": "skill:google-slides",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

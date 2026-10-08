@@ -1,0 +1,37 @@
+{
+  "df6418746a951c7f": {
+    "zh": "在 Android 模拟器中复现问题、检查 UI 并采集性能证据",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "083cb357be69fa80": {
+    "zh": "使用 Test Android Apps 构建和安装应用变体，通过 adb 输入事件驱动已启动的 Android 模拟器，检查 UI 树、截取截图、采集 logcat 输出，并在复现问题时收集 Simpleperf、Perfetto、gfxinfo 或内存/泄漏分析证据。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "06cd7d1fafcaea9c": {
+    "zh": "使用 Test Android Apps 复现模拟器中的问题，然后采集截图、日志、UI 状态和性能证据",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a71e58daab174c57": {
+    "zh": "适用于在模拟器中通过 adb 驱动启动、输入、UI 树检查、截图和 logcat 采集，验证 Android 功能流程的场景。",
+    "field": "skill:android-emulator-qa",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c9e12b49fbd41642": {
+    "zh": "在 adb 目标设备上使用 Simpleperf CPU 剖析、Perfetto 或 Compose trace、gfxinfo 帧数据、dumpsys meminfo 快照、Java 堆转储和原生分配 trace 采集并分析 Android 性能证据。适用于需要对 Android 应用流程进行性能剖析、定位 CPU 密集型函数、诊断卡顿、采集启动或帧时序证据、对比前后性能、解释耗时代码，或采集内存/泄漏分析产物的场景。",
+    "field": "skill:android-performance",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

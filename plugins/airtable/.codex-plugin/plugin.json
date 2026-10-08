@@ -1,0 +1,27 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Airtable"
+  },
+  "description": "Bring operational data and context into the flow of your ChatGPT conversations. You can ask questions, create and update records, and analyze your data—all through conversation. Use the data in Airtable as input to the work you’re doing in ChatGPT, like building a landing page using content you’ve organized in Airtable. Make quick updates to Airtable without leaving the chat. Airtable for ChatGPT is ideal anytime you need quick access to structured internal data to inform your conversation.\n\nAirtable's App connects ChatGPT directly to your Airtable bases, so you can ask questions, create and update records, and analyze your data—all through conversation",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/composer-icon.svg",
+    "defaultPrompt": [
+      "给我看产品路线图的看板。哪些有风险？下一步是什么？",
+      "今天我应该和企业销售团队讨论哪些路线图计划？"
+    ],
+    "developerName": "Airtable",
+    "displayName": "Airtable",
+    "logo": "./assets/logo.png",
+    "longDescription": "把运营数据和背景带入你的 ChatGPT 对话流程。你可以提问、创建和更新记录、分析数据——一切都在对话中完成。把 Airtable 中的数据作为你在 ChatGPT 中所做工作的输入，例如用在 Airtable 里整理好的内容搭建落地页。无需离开对话即可快速更新 Airtable。任何时候你需要快速访问结构化的内部数据来为对话提供依据，Airtable for ChatGPT 都是理想之选。\n\nAirtable 应用把 ChatGPT 直接连接到你的 Airtable base，让你可以提问、创建和更新记录、分析数据——一切都在对话中完成",
+    "privacyPolicyURL": "https://www.airtable.com/company/privacy",
+    "shortDescription": "为 ChatGPT 添加结构化数据",
+    "supportURL": "https://support.airtable.com/docs/contacting-airtable-support",
+    "termsOfServiceURL": "https://www.airtable.com/company/tos",
+    "websiteURL": "https://airtable.com"
+  },
+  "name": "airtable",
+  "version": "6.0.1"
+}

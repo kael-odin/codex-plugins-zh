@@ -1,0 +1,23 @@
+{
+  "edf5fcb872dffac0": {
+    "zh": "管理 Jira 和 Confluence",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "61f22486782963c5": {
+    "zh": "快速管理 Jira 和 Confluence",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2ddac29d26bbc38f": {
+    "zh": "在 Vita MVP 项目中创建 Jira 任务",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

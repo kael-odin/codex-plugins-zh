@@ -1,0 +1,46 @@
+{
+  "name": "outlook-email",
+  "version": "0.1.7",
+  "description": "Work with Outlook Email using the configured Microsoft Outlook app connector.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "outlook-email",
+    "outlook",
+    "email",
+    "microsoft",
+    "microsoft 365",
+    "office 365",
+    "exchange",
+    "mail",
+    "inbox"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Outlook Email",
+    "shortDescription": "整理 Outlook 收件箱",
+    "longDescription": "使用 Outlook Email 整理收件箱、汇总会话、提取行动项，并通过已连接的 Microsoft Outlook 应用起草回复或转发邮件。",
+    "developerName": "OpenAI",
+    "category": "Communication",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+    "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "termsOfServiceURL": "https://www.microsoft.com/en-us/servicesagreement/",
+    "defaultPrompt": [
+      "整理收件箱、汇总会话或起草回复/转发"
+    ],
+    "brandColor": "#0078D4",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

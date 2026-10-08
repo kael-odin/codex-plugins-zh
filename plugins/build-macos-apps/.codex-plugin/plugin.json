@@ -1,0 +1,49 @@
+{
+  "name": "build-macos-apps",
+  "version": "0.1.4",
+  "description": "Build, run, test, debug, instrument, and implement local macOS apps using Xcode, SwiftUI, AppKit interop, unified logging, and shell-first desktop workflows.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://openai.com/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "swift",
+    "swiftui",
+    "appkit",
+    "xcode",
+    "swiftpm",
+    "debugging",
+    "codesign",
+    "logging",
+    "telemetry",
+    "oslog"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Build macOS Apps",
+    "shortDescription": "使用 SwiftUI 和 AppKit 指引构建、调试、监测和实现 macOS 应用",
+    "longDescription": "macOS 开发工作流，涵盖发现本地项目、构建和运行桌面应用、实现原生 SwiftUI 场景、在必要时桥接 AppKit、添加轻量级 Logger 遥测、分诊测试失败、检查签名和权限，以及排查桌面端特有的构建或运行时错误。",
+    "developerName": "OpenAI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "构建或重构原生 macOS UI、检查 AppKit 互操作、添加遥测，或调试 macOS 应用"
+    ],
+    "screenshots": [],
+    "brandColor": "#1F6FEB",
+    "composerIcon": "./assets/build-macos-apps-small.svg",
+    "logo": "./assets/app-icon.png"
+  }
+}

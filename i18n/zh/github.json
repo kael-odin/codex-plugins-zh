@@ -1,0 +1,23 @@
+{
+  "84c85328543d625b": {
+    "zh": "管理 PR、issue、CI 及代码发布流程",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b036ecdc2cd7c280": {
+    "zh": "使用 GitHub 查阅仓库、审查 pull request、处理评审反馈、排查失败的 Actions 检查，并通过以 connector 优先、辅以 CLI 兜底的工作流，将代码改动准备好送审。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1e9ccc76a248a0c7": {
+    "zh": "查阅 PR、分诊 issue、排查失败检查并准备代码改动送审",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

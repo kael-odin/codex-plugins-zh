@@ -1,0 +1,142 @@
+{
+  "def5b25f1b8ea45b": {
+    "zh": "用数据回答产品与业务问题",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a28dcc9f1771ce4a": {
+    "zh": "Data Analytics 帮你把关于产品或业务的问题转化为可信任的答案。无论是想弄清某项指标为何变化、数据表明团队下一步该聚焦何处、如何定义 KPI、某个数据集是否可靠，还是某个机会可能有多大，它都能帮你调查数据，并把发现转化为可分享的报告、图表、仪表盘、笔记本和建议。\n\n从你已有的数据开始：已连接的数据仓库、BI 或产品分析工具、文档、聊天记录、电子表格、上传的文件、粘贴的结果，或标注清晰的示例数据。插件会引导你走对工作流，尽可能核验来源，并让证据以可复核的表格、图表、仪表盘，以及你可分享的报告应用清晰呈现。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "72d273d12f65b1d7": {
+    "zh": "帮我开始第一个数据任务",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "40ace024cde920a7": {
+    "zh": "分析产品或业务数据，并建议下一步的聚焦方向",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "cddc69d44ed42ac7": {
+    "zh": "诊断关键指标变化的原因，并找出最大的驱动因素",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9d1c5941ca430d18": {
+    "zh": "评估结构化数据、查询结果、仪表盘或分析证据是否足够可信、可以使用。当任务是检查数据质量、核对相互冲突的来源或指标定义，或判断某项证据是否适合引用时使用。",
+    "field": "skill:analyze-data-quality",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "894e5f66254cef51": {
+    "zh": "构建有来源支撑的仪表盘，用于监控表现、探索驱动因素，或依据产品与业务指标采取行动。当任务需要带有清晰指标、筛选条件、来源定义和 QA 的仪表盘、评分卡或监控视图时使用。",
+    "field": "skill:build-dashboard",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7038a9da6ebd3557": {
+    "zh": "为高管、产品、业务或技术读者构建精致的分析报告。当任务需要一份持久、结论先行的叙述，并包含有证据支撑的发现、可视化或表格、注意事项和来源背景时使用。",
+    "field": "skill:build-report",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1a8c3e96ca98302d": {
+    "zh": "创建、更新、检查或修复 Data Analytics 语义层。当用户要求保存数据背景，或创建可供后续 Data Analytics 工作检查和引用的语义层时使用。",
+    "field": "skill:create-data-context",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "94527f38a85f919f": {
+    "zh": "为产品或业务决策设计 KPI 框架、指标定义、目标值、护栏和衡量方案。当需要定义或改进成功指标、驱动因素、护栏、目标值或衡量方式时使用。",
+    "field": "skill:design-kpis",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d6ad00895f36536e": {
+    "zh": "从已连接或用户提供的来源收集业务背景，让下游分析从一开始就采用正确的框架。当某个分析问题依赖缺失的背景时使用，例如某项指标的含义、最近发生了什么变化，或该检查哪些来源。如果同一个提示还要求诊断、建议或交付物，先收集背景，再继续到对应的专项技能。",
+    "field": "skill:gather-business-context",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2992a377fbc97338": {
+    "zh": "将 Data Analytics 插件级请求和宽泛的分析工作路由到合适的专项工作流。当用户以 @ 提及 Data Analytics 时使用，也用于涉及数据、指标、仪表盘、报告、图表、笔记本、电子表格、KPI、市场规模测算或语义层的分析请求。",
+    "field": "skill:index",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e0fb41990964dece": {
+    "zh": "创建、编辑或校验可复现的 SQL 或 Python 笔记本。适用于笔记本、SQL/Python 草稿本、可复现的探索、审计轨迹，或需要让分析可复核、可重跑的可运行配套材料。",
+    "field": "skill:jupyter-notebooks",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "65b3771da612e631": {
+    "zh": "基于量化的业务或产品指标准备 KPI 汇报、评分卡、WBR/MBR/QBR 更新和高管摘要；当任务需要汇报状态、对比目标、解释已验证的驱动因素并说明对运营的影响时使用。",
+    "field": "skill:kpi-reporting",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "941c342857e0d980": {
+    "zh": "用透明的假设和不确定性估算市场、细分市场或机会规模。适用于 TAM/SAM/SOM、规模测算场景，或比较各种可能机会的量级。",
+    "field": "skill:market-sizing",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fdd020e1790e9b33": {
+    "zh": "诊断某项指标为何变化或与预期不符。当任务需要找出指标变动、异常、差距或偏差的可能驱动因素时使用。",
+    "field": "skill:metric-diagnostics",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9713299d3ec2101c": {
+    "zh": "分析产品或业务数据，为决策或建议提供支持。当某个决策依赖指标支撑的证据时使用，例如选择方向、为机会排优先级、评估某次变更、做用户分群、权衡取舍，或决定下一步做什么。",
+    "field": "skill:product-business-analysis",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "52cc369e3f7a5b21": {
+    "zh": "通过 Sites 发布已验证的 Data Analytics 报告或仪表盘产物。当完整的 Sites 生命周期可调用时，在任何明确识别出的 Work Mode 中自动用于持久化产物；在 ChatGPT Desktop 中且不在 Work Mode 时，仅在用户明确提出 Sites 请求，或接受交接后的可选分享提议后使用。",
+    "field": "skill:publish-artifact-to-sites",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c7cacb262816a94c": {
+    "zh": "校验某项分析是否准确、论证是否充分，以及是否可以分享或用于决策。当需要审查方法论、计算、对比、可视化、注意事项或结论时使用。",
+    "field": "skill:validate-data",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0417f8e57c69000c": {
+    "zh": "设计、构建、修改或 QA 定量图表与图形。当分析结论需要可视化判断时使用，无论是内联回答、报告、仪表盘、笔记本还是产物。",
+    "field": "skill:visualize-data",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

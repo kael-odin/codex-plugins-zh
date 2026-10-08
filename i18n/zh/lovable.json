@@ -1,0 +1,30 @@
+{
+  "2fbdde22d9ee1b68": {
+    "zh": "构建应用和网站",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c2c6e67de06a9d27": {
+    "zh": "帮我构建一个 AI 驱动的客户支持应用",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d38d17a7f54191f9": {
+    "zh": "帮我构建一个 AI 驱动的教练辅导应用",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7154761b9d0c0611": {
+    "zh": "帮我构建一个营销活动规划工具",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

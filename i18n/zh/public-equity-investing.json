@@ -1,0 +1,198 @@
+{
+  "ddfa0fbbff77dd05": {
+    "zh": "公开市场股票 PM 研究、多空、财报、ETF/指数尽调与投资备忘录",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fb0ffc9db8591846": {
+    "zh": "面向纯多头投资者、多空对冲基金、卖方股票研究团队、ETF/指数及成分股尽调、事件驱动型股票投资者，以及行业/主题上市股票研究团队的公开市场股票投资工作流。输出应点明哪些标的定价错误、哪些已计入定价、什么能验证或推翻投资论点、下一步该做什么，以及还缺哪些证据。信用工具、信用资质、重组、困境、回收、利差、收益率、契约条款和债务证券分析请使用 Credit Markets。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f098ede9ff55dc12": {
+    "zh": "构建一份深入的 NVIDIA 财报前瞻：预期、KPI、利润率争议、情景分析和管理层提问。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fe7c85e1e2ab5115": {
+    "zh": "创建一份 Disney 多空推介：流媒体、主题公园、ESPN、资本配置、估值、催化剂和下行风险。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "97f1782d4d7ea26e": {
+    "zh": "构建一份 Tesla 催化剂与估值简报：近期新闻、预期、关键争议、情景、风险和投资观点。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a501e784400a2f1c": {
+    "zh": "当构建 public-equity-investing 催化剂日历时使用。不要用于完整的事件承销；请用 event-driven-analyzer。",
+    "field": "skill:catalyst-calendar",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6e020d860ecc9a09": {
+    "zh": "当创建有来源支撑的公开市场发行人 tearsheet 时使用。不要用于私募尽调、基金尽调、供应商或市场地图。",
+    "field": "skill:company-tearsheet",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "69b6fe859bef2a7b": {
+    "zh": "以报告或工作簿模式生成 Public Equity Investing 可比公司估值。适用于同业筛选、倍数分析、估值推演、隐含价格、可比公司仪表盘、Excel 或 Sheets 可比分析、可刷新的同业表格、模型更新以及可比公司工作簿 QA。不要用于仅做 DCF、信用证券或泛泛市场评论的请求。",
+    "field": "skill:comps-valuation",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d708ee2516d52cfb": {
+    "zh": "当构建公开市场股票 DCF 估值工作簿时使用。新建模型默认采用 banker formula 工作簿路径；确定性导出仅用于受控的辅助计算或明确要求的轻量运行。不要用于独立的工作簿审计；请用 model-audit-tieout。",
+    "field": "skill:dcf-model-builder",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f8a030dcc38a5b89": {
+    "zh": "当对 Public Equity Investing 演示文稿或报告做首轮 QC 时使用。不要用作对外分发认证。",
+    "field": "skill:deck-report-qc",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "948222833ca0a60d": {
+    "zh": "当在财报结果、业绩指引、文字记录或电话会议评论发布之后分析上市公司业绩时使用。不要用于财报公布前的预览。",
+    "field": "skill:earnings-deep-dive",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1b0a16dc29c8b0fe": {
+    "zh": "当编写包含执行摘要、预期门槛、指引可信度、KPI 仪表盘、情景分析和电话会议提问的完整财报前瞻报告时使用。除非用户明确要求摘要或简短版本，否则不要用于财报公布之后，也不要用于简短摘要。",
+    "field": "skill:earnings-preview",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "352a152f337345dd": {
+    "zh": "当需要把特定事件、政策变化、宏观冲击或行业发展转化为公开市场股票发行人、行业、财报、估值、仓位和投资组合层面的影响时使用。不要用于独立的宏观策略、利率、外汇、信用、期货或泛泛市场评论。",
+    "field": "skill:economic-impact-report",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "51fab0bb4bc976bf": {
+    "zh": "根据 source-to-model 映射安全地更新上市公司 Excel 模型副本；以 XLSX 作为主交付物，并输出 CSV、日志和清单作为辅助。不要用于单纯的财报笔记或宽泛的工作簿审计。",
+    "field": "skill:equity-model-update",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aec179167c5e8928": {
+    "zh": "当分析带日期的公开市场股票事件路径、概率、收益和预期回报时使用。不要用于泛泛的催化剂清单、风险规模测算、对冲、资本结构、契约条款或信用回收。",
+    "field": "skill:event-driven-analyzer",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7a86318d8e37c0f0": {
+    "zh": "当需要根据来源材料对上市公司财务数据进行标准化时使用。不要用于私募数据室或非财务数据整理。",
+    "field": "skill:financials-normalizer",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d7b856186690b7e6": {
+    "zh": "当需要对公开市场股票的投资想法候选进行分诊时使用。不要用于最终交易建议、推介、备忘录或模型。",
+    "field": "skill:idea-generation",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "005a3a42989e8477": {
+    "zh": "当构建 public-equity-investing 发起覆盖报告时使用。不要用于交易推介、备忘录、财报笔记、模型或 tearsheet。",
+    "field": "skill:initiating-coverage",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7f64547570302a01": {
+    "zh": "当构建面向 PM 的 Public Equity Investing 交易推介时使用，包括上下文稀疏或仅需部分章节的请求。不要用于正式备忘录；请用 memo-builder。",
+    "field": "skill:long-short-pitch",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aa7761e874de6b5c": {
+    "zh": "当创建 Public Equity Investing 会议准备简报时使用。不要用于私募尽调、IB、FP&A、法务或仅安排日程的任务。",
+    "field": "skill:meeting-prep",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "218f73cd963fbad5": {
+    "zh": "当起草或审阅正式的公开市场股票投资备忘录时使用。不要用于实盘交易构建或以信用为先的备忘录；请视情况使用 long-short-pitch 或 Credit Markets。",
+    "field": "skill:memo-builder",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "251b4ac67f4426c8": {
+    "zh": "当审计现有的 Public Equity Investing 模型或电子表格时使用。不要用于从零构建新模型。",
+    "field": "skill:model-audit-tieout",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "85296d474b7bca9f": {
+    "zh": "当对 Public Equity Investing 仓位进行规模测算、寻找股票对冲工具，或根据上市股票投资论点构建仓位与对冲一体化的风险方案时使用。不要用于投资论点构建、独立的事件承销、交易执行、个人投资建议或信用工具风险。",
+    "field": "skill:portfolio-risk-management",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "73983657838e0348": {
+    "zh": "为上市公司和公开证券研究、财报分析、估值、模型更新、多空推介、催化剂、投资论点跟踪、ETF/指数及成分股尽调、仓位规模测算、对冲、仪表盘和投资备忘录等场景路由 Public Equity Investing 工作流。当用户以投资者视角评估某家上市公司、股票代码、行业、投资组合持仓、事件、财报布局或投资论点时使用，包括哪些已计入定价、哪些定价错误、什么能验证或推翻投资论点，以及接下来该关注什么。不要用于私募公司尽调、以信用为先的分析、个人财务建议、泛泛的公司摘要，或没有公开市场股票投资背景的泛泛文档撰写。",
+    "field": "skill:public-equity-investing",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "de0218380f208b3e": {
+    "zh": "当把公开市场股票的基准情景、模型、投资论点、事件或催化剂转化为情景偏斜、敏感性、临界点和 PM 行动阈值分析时使用。不要用于首轮模型构建、信用证券估值或泛泛的规划。",
+    "field": "skill:scenario-sensitivity-generator",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1bbd735a660409e5": {
+    "zh": "当构建或更新 Public Equity Investing 投资论点跟踪表时使用。不要用于泛泛的新闻摘要、交易推介或首轮备忘录。",
+    "field": "skill:thesis-tracker",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "94b553bec7fe9fbf": {
+    "zh": "当构建公开市场股票三表经营模型工作簿时使用。新建模型默认采用 banker formula 工作簿路径；确定性导出仅用于受控的辅助计算或明确要求的轻量运行。不要用于独立的工作簿审计。",
+    "field": "skill:three-statement-model-builder",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6c23af4be48e4f17": {
+    "zh": "初始化、查看、保存、更新、遗忘、导出或显式重置 Public Equity Investing 插件的本地用户上下文、来源设置或可选自动化设置。仅在用户明确要求管理 Public Equity Investing 已保存的偏好、来源指针、上下文存储或周期性自动化时使用。",
+    "field": "skill:user-context",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

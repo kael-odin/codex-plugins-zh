@@ -1,0 +1,42 @@
+{
+  "name": "coderabbit",
+  "version": "1.1.4",
+  "description": "AI-powered code review in Codex, powered by CodeRabbit.",
+  "author": {
+    "name": "CodeRabbit AI",
+    "email": "support@coderabbit.ai",
+    "url": "https://coderabbit.ai"
+  },
+  "homepage": "https://docs.coderabbit.ai/cli/overview",
+  "repository": "https://github.com/coderabbitai/codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "ai",
+    "coderabbit",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CodeRabbit",
+    "shortDescription": "对当前改动运行 AI 驱动的代码审查",
+    "longDescription": "在 Codex 中运行 CodeRabbit 审查工作流，检查 diff、呈现可操作的发现，并将审查结果转化为后续修复。",
+    "developerName": "CodeRabbit",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://coderabbit.ai",
+    "privacyPolicyURL": "https://www.coderabbit.ai/privacy-policy",
+    "termsOfServiceURL": "https://www.coderabbit.ai/terms-of-service",
+    "brandColor": "#FF570A",
+    "composerIcon": "./assets/coderabbit-small.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "defaultPrompt": [
+      "审查我的当前改动并提供反馈"
+    ],
+    "screenshots": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "0f27359e78e2a071": {
+    "zh": "规划并构建产品",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5a6d2f920d266cdf": {
+    "zh": "在 Codex 中管理 Linear 的问题、项目和团队工作流。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7e5d4afae819ac4c": {
+    "zh": "整理或更新此任务相关的问题，并给出明确的后续行动",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

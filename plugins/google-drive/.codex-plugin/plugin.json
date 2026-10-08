@@ -1,0 +1,50 @@
+{
+  "name": "google-drive",
+  "version": "0.1.15",
+  "description": "Use Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://workspace.google.com/products/drive/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "google-drive",
+    "google",
+    "google workspace",
+    "drive",
+    "docs",
+    "sheets",
+    "slides",
+    "files",
+    "google-docs",
+    "google-sheets",
+    "google-slides",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Google Drive",
+    "shortDescription": "Drive、Docs、Sheets 或 Slides",
+    "longDescription": "将 Google Drive 作为统一的 Google 文件插件，支持搜索、文件整理、共享，以及 Google Docs、Google Sheets 和 Google Slides 的完整工作流。",
+    "developerName": "OpenAI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "websiteURL": "https://workspace.google.com/products/drive/",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "找到合适的 Drive 文件，然后摘要一份 Doc、更新一份 Sheet，或编辑一份 Slides 演示文稿"
+    ],
+    "brandColor": "#0F9D58",
+    "screenshots": []
+  }
+}

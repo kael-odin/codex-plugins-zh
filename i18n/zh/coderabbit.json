@@ -1,0 +1,30 @@
+{
+  "81f21f4227f56d4a": {
+    "zh": "对当前改动运行 AI 驱动的代码审查",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "62ed98a6ff71163f": {
+    "zh": "在 Codex 中运行 CodeRabbit 审查工作流，检查 diff、呈现可操作的发现，并将审查结果转化为后续修复。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e528aa26234963a1": {
+    "zh": "审查我的当前改动并提供反馈",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2e4b09d0eb31178e": {
+    "zh": "使用 CodeRabbit AI 审查代码改动。适用于用户需要代码审查、PR 反馈、代码质量检查、安全问题排查，或需要修复-审查循环的场景。",
+    "field": "skill:coderabbit-review",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

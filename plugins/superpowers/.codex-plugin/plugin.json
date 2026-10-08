@@ -1,0 +1,48 @@
+{
+  "author": {
+    "email": "jesse@fsck.com",
+    "name": "Jesse Vincent",
+    "url": "https://github.com/obra"
+  },
+  "description": "An agentic skills framework & software development methodology that works: planning, TDD, debugging, and collaboration workflows.",
+  "homepage": "https://github.com/obra/superpowers",
+  "hooks": {},
+  "interface": {
+    "brandColor": "#F59E0B",
+    "brandColorDark": "#F59E0B",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "category": "Developer Tools",
+    "composerIcon": "./.codex-plugin/assets/composer-icon.svg",
+    "defaultPrompt": [
+      "我有一个想构建的想法。",
+      "来给这个项目加一个新功能吧。"
+    ],
+    "developerName": "Jesse Vincent",
+    "displayName": "Superpowers",
+    "logo": "./.codex-plugin/assets/logo.png",
+    "longDescription": "使用 Superpowers 通过头脑风暴、实现规划、测试驱动开发、系统性调试、并行执行、代码审查和完成分支工作流来引导智能体工作。",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "shortDescription": "规划、开发和调试代码",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "websiteURL": "https://github.com/obra/superpowers"
+  },
+  "keywords": [
+    "brainstorming",
+    "subagent-driven-development",
+    "skills",
+    "planning",
+    "tdd",
+    "debugging",
+    "code-review",
+    "workflow"
+  ],
+  "license": "MIT",
+  "name": "superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "skills": "./skills/",
+  "version": "6.3.0"
+}

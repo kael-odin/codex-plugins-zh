@@ -1,0 +1,23 @@
+{
+  "564728775adcac57": {
+    "zh": "汇总 Teams 动态并跟进",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2d954962e4876d71": {
+    "zh": "使用 Teams 汇总聊天内容、提取行动项，并通过已连接的 Microsoft Teams 应用起草频道或会议跟进消息。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b49bed0dde1920bf": {
+    "zh": "汇总聊天内容、提取行动项或起草跟进消息",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "b1aa0ca3fb1fbfd4": {
+    "zh": "分析你的产品数据",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0202c12358c761e5": {
+    "zh": "PostHog 让你的 AI 智能体直接访问产品分析、功能开关、实验、错误跟踪、调研问卷、日志和 LLM 分析。在对话中即可就数据提问、创建洞察、切换功能开关、分析错误、检索文档等。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "69553fa7d7890369": {
+    "zh": "显示本月注册用户数。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ab8c96b470ac24a5": {
+    "zh": "为新版结账流程创建一个 Feature Flag。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "02c102db8eb2d6e7": {
+    "zh": "为什么用户在新手引导环节流失？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "81625d34e1472002": {
+    "zh": "在 PostHog 中分析产品数据并管理产品工具。当用户需要产品分析或洞察、HogQL/SQL 查询、Feature Flag、实验与 A/B 测试、错误追踪、会话回放、问卷调查、LLM 分析、数据看板、数据仓库或 PostHog 文档时使用。",
+    "field": "skill:posthog",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

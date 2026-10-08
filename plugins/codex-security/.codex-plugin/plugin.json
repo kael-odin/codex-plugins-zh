@@ -1,0 +1,45 @@
+{
+  "name": "codex-security",
+  "version": "0.1.32",
+  "description": "Codex Security workflows for security scans, analysis, and investigation.",
+  "author": {
+    "name": "OpenAI"
+  },
+  "homepage": "https://developers.openai.com/codex/security",
+  "repository": "https://github.com/openai/codex-security",
+  "license": "Proprietary",
+  "keywords": [
+    "security",
+    "code-review",
+    "diff-review",
+    "appsec",
+    "threat-modeling"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Codex Security",
+    "shortDescription": "为代码库提供安全扫描能力",
+    "longDescription": "Codex Security 封装了可复用的工作流，用于对代码、差异及相关制品进行安全扫描、分析、验证和调查。",
+    "developerName": "OpenAI",
+    "category": "Security",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "对本仓库运行 Codex Security 扫描。",
+      "对本 PR、提交、分支 diff 或工作区补丁运行 Codex Security diff 扫描。",
+      "针对本仓库对已有的安全发现项进行分诊(triage)。"
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

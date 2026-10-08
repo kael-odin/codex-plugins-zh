@@ -1,0 +1,45 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "email": "support@supabase.io",
+    "name": "Supabase",
+    "url": "https://supabase.com"
+  },
+  "description": "Manage Supabase projects directly through ChatGPT. Execute SQL queries on PostgreSQL databases, design and modify table schemas, deploy serverless edge functions, and configure user authentication. Access real-time logs for debugging, create and apply database migrations, and manage development branches through natural language.",
+  "homepage": "https://supabase.com",
+  "interface": {
+    "brandColor": "#3ECE8E",
+    "brandColorDark": "#3ECE8E",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "用 Supabase 为我的应用设置 Auth 和受保护路由。",
+      "检查我的 Supabase Schema 和 RLS 策略是否存在安全问题。",
+      "按照 Supabase 最佳实践优化我的 Postgres 查询和索引。"
+    ],
+    "developerName": "Supabase",
+    "displayName": "Supabase",
+    "logo": "./assets/logo.png",
+    "longDescription": "Supabase 官方 Codex 插件。包含 Supabase 开发智能体技能和 Postgres 最佳实践，以及 MCP Server 集成，可直接在 Codex 中管理你的 Supabase 项目。",
+    "privacyPolicyURL": "https://supabase.com/privacy",
+    "shortDescription": "管理和查询数据库",
+    "supportURL": "https://supabase.com/support",
+    "termsOfServiceURL": "https://supabase.com/terms",
+    "websiteURL": "https://supabase.com"
+  },
+  "keywords": [
+    "supabase",
+    "postgres",
+    "database",
+    "backend",
+    "mcp"
+  ],
+  "license": "MIT",
+  "name": "supabase",
+  "repository": "https://github.com/supabase-community/supabase-plugin",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

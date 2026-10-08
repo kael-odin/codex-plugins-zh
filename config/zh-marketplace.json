@@ -1,0 +1,13 @@
+{
+  "upstream": "https://github.com/openai/plugins.git",
+  "upstreamRepo": "https://github.com/openai/plugins",
+  "seedRepo": "https://cnb.cool/echobird/codex-plugins.git",
+  "marketplace": {
+    "name": "openai-curated-zh",
+    "displayName": "Codex 官方插件 · 中文版"
+  },
+  "apiMarketplace": {
+    "name": "openai-api-curated-zh",
+    "displayName": "Codex 官方插件 · 中文版（API 版）"
+  }
+}

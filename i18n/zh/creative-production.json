@@ -1,0 +1,51 @@
+{
+  "d0ffa70669ba6fad": {
+    "zh": "根据简报或产品图片创建营销视觉素材。",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6b2d3f568cb3abcd": {
+    "zh": "Creative Production 帮助营销人员将简报、产品图片、优惠方案或现有素材转化为可供团队审阅的视觉方案。用它来探索营销活动创意、概念图、情绪板、产品植入、广告方向、商品 listing 图片、社交媒体帖子和可复用风格。从简报或图片开始，比较最优的几个选项，然后针对你需要的渠道调整选定的方向。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dfac48a0b097ad79": {
+    "zh": "帮我启动一个创意制作工作流",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b298e6588937346d": {
+    "zh": "为这份视觉简报生成概念图",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "98f2baa0361e4440": {
+    "zh": "根据这张图片创建产品植入",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ac2d10ff51c22520": {
+    "zh": "当 Creative Production 被显式调用或提及但没有具体请求时，当用户询问 Creative Production 能做什么时，或当用户上下文不足以选择工作流、需要入门帮助时使用。",
+    "field": "skill:intake",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b53d776de8a83b84": {
+    "zh": "当用户想要创建、探索、调整、优化、打磨或审阅视觉创意时使用，例如营销活动、广告、社交媒体帖子、产品图像、场景、促销方案、logo、品牌体系、风格、图表、演示文稿或相关营销与设计素材。",
+    "field": "skill:produce",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

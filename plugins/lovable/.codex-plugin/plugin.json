@@ -1,0 +1,25 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Lovable Labs"
+  },
+  "description": "Build apps and websites",
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "帮我构建一个 AI 驱动的客户支持应用",
+      "帮我构建一个 AI 驱动的教练辅导应用",
+      "帮我构建一个营销活动规划工具"
+    ],
+    "developerName": "Lovable Labs",
+    "displayName": "Lovable",
+    "longDescription": "构建应用和网站",
+    "privacyPolicyURL": "https://lovable.dev/privacy",
+    "shortDescription": "构建应用和网站",
+    "termsOfServiceURL": "https://lovable.dev/terms",
+    "websiteURL": "https://lovable.dev/"
+  },
+  "name": "lovable",
+  "version": "2.0.1"
+}

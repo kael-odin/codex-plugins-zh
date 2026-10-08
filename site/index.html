@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex 官方插件 · 中文导航</title>
+<meta name="description" content="自动同步 openai/plugins 的 Codex 官方插件中文市场：无损汉化、每日更新、可视化检索">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo">CP</div>
+    <div>
+      <h1>Codex 官方插件 · 中文导航</h1>
+      <p class="sub">自动同步 openai/plugins · 无损汉化 · 每日更新</p>
+    </div>
+  </div>
+  <div class="addbox">
+    <div class="addbox-title">把中文市场加进 Codex</div>
+    <ol>
+      <li>Codex 里打开 <b>设置 → 插件 → 添加市场</b></li>
+      <li>粘贴 <code id="market-url">https://github.com/kael-odin/codex-plugins-zh.git</code>
+          <button class="copy" data-copy="#market-url">复制</button></li>
+      <li>重开会话，市场列表出现「Codex 官方插件 · 中文版」</li>
+    </ol>
+    <a class="guide" href="https://github.com/kael-odin/codex-plugins-zh/blob/main/docs/setup-guide.md">完整安装 / 冗余清理指南 →</a>
+  </div>
+</header>
+
+<main>
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="搜索：做表格 / figma / 查邮件 / 数据可视化 / slack …">
+    <label class="toggle"><input type="checkbox" id="onlyzh"> 只看已译</label>
+  </div>
+  <div id="cats" class="chips"></div>
+  <div id="grid" class="grid"></div>
+  <p id="count" class="count"></p>
+</main>
+
+<div id="modal" class="modal hidden">
+  <div class="sheet">
+    <button id="close" class="close" aria-label="关闭">✕</button>
+    <div id="detail"></div>
+  </div>
+</div>
+
+<footer>
+  数据快照 <span id="meta">…</span> ·
+  <a href="https://github.com/kael-odin/codex-plugins-zh">kael-odin/codex-plugins-zh</a> ·
+  插件内容与商标归 OpenAI 及各自权利人所有，中文译文仅供参考，以英文原文为准
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

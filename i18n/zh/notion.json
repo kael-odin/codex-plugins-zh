@@ -1,0 +1,51 @@
+{
+  "9ff513fdd606bf1c": {
+    "zh": "Notion 工作流：规格文档、调研、会议与知识沉淀",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a2c593406d08d824": {
+    "zh": "Notion 工作流，支持将规格文档转化为实施计划、将调研内容整合为结构化文档、结合工作区上下文准备会议材料，以及将决策或对话沉淀为持久的知识页面。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "14d958a64f135243": {
+    "zh": "搜索 Notion 工作区内容、更新页面，或将规格文档、笔记和会议背景转化为结构化成果",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ea6795665ebb4808": {
+    "zh": "将对话和决策整理为结构化的 Notion 页面。适用于将聊天记录或笔记转化为维基词条、操作指南、决策记录或 FAQ，并完成适当的内部链接。",
+    "field": "skill:notion-knowledge-capture",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5fd7aa5dc2aa8ee2": {
+    "zh": "结合 Notion 上下文和补充调研，准备会议材料。适用于收集背景信息、起草议程和会前阅读材料，并根据参会者定制内容。",
+    "field": "skill:notion-meeting-intelligence",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "52e5ceac2cd17de7": {
+    "zh": "跨 Notion 进行研究并整合为结构化文档。适用于从多个 Notion 来源汇集信息，产出带有引用的简报、对比分析或报告。",
+    "field": "skill:notion-research-documentation",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "60abc9721d8afe5f": {
+    "zh": "将 Notion 规格文档转化为实施计划、任务和进度跟踪。适用于根据 PRD 或功能规格在 Notion 中创建计划和任务并推进实施。",
+    "field": "skill:notion-spec-to-implementation",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

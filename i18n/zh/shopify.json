@@ -1,0 +1,177 @@
+{
+  "167f25539206a2eb": {
+    "zh": "构建并管理你的店铺",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "60b1e3c124e25cc6": {
+    "zh": "Shopify for ChatGPT 让建店和店铺管理像聊天一样简单。轻松关联你现有的店铺，或通过描述你的业务创建新的在线店铺。只需对话即可添加商品、跨地点调整库存、创建折扣码、浏览近期订单、查看客户详情，或获取店铺业绩的分析数据。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "23c9693fcb6b80eb": {
+    "zh": "上传这款商品并添加到我的店铺。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ed48e79b9b8c027b": {
+    "zh": "显示我店铺里的商品。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8490c7fc8e8b93f4": {
+    "zh": "显示我店铺过去三周的销售额。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8babd718d736324b": {
+    "zh": "为扩展 Shopify 后台的应用和集成编写或解释 **Admin GraphQL** 查询和变更。适用于用户需要**理解、设计或生成**操作本身的场景——即使尚未决定如何执行。**不要**将 `admin` 作为**应用或扩展配置验证**的首选——请使用 **`use-shopify-cli`**。**不要**将 `admin` 作为通过 Shopify CLI **立即执行** Admin GraphQL 或处理 CLI 店铺工作流配置/排错的首选——请使用 **`use-shopify-cli`**（店铺认证/执行、按 handle/SKU/location 查询、库存变更）。",
+    "field": "skill:shopify-admin",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7bef01f79995a381": {
+    "zh": "对 Shopify 应用代码库进行提交前合规检查。审查 App Store 要求，在正式提交前提前发现潜在问题。",
+    "field": "skill:shopify-app-store-review",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2a85da1dae18a8f9": {
+    "zh": "提示词中涉及 Metafield 或 Metaobject 时**必须优先使用**。使用 Metafield 和 Metaobject 为应用建模和存储自定义数据。Metafield 扩展 Shopify 内置数据类型（如商品或客户），Metaobject 是可存储任意自定义数据结构的自定义类型。Metafield 和 Metaobject 的定义为字段值提供 schema 和配置约束。",
+    "field": "skill:shopify-custom-data",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c93c85bd403e65aa": {
+    "zh": "Customer Account API 允许客户访问自己的数据，包括订单、支付方式和地址。",
+    "field": "skill:shopify-customer",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8fae3ccf54df94f9": {
+    "zh": "跨所有 API 搜索 Shopify 开发者文档。仅在没有适用的特定 API 技能时使用。",
+    "field": "skill:shopify-dev",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eecda4e99b6947d1": {
+    "zh": "Shopify Functions 允许开发者自定义驱动 Shopify 部分功能的后端逻辑。可用 API：折扣、购物车与结账验证、购物车转换、自提点配送选项生成器、配送定制、履单约束、本地自提配送选项生成器、订单路由选址规则、支付定制。",
+    "field": "skill:shopify-functions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7e8aaf1edafcaa83": {
+    "zh": "Hydrogen 店面实现操作指南。部分可用方案包括：B2B 商务、商品组合、联合商品列表、自定义购物车方法、基于 Metaobject 的动态内容、Express 服务器、Google Tag Manager 集成、无限滚动、旧版客户账户流程、Markets、Partytown + Google Tag Manager、订阅、第三方 API 查询与缓存。**强制要求：任何涉及 Hydrogen 店面的问题必须使用本 API——提到 'Hydrogen' 时禁止使用 Storefront GraphQL。**",
+    "field": "skill:shopify-hydrogen",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2c82fabf91070356": {
+    "zh": "Liquid 是 Shopify 创建的开源模板语言，是 Shopify 主题的核心，用于在店面加载动态内容。关键词：liquid、theme、shopify-theme、liquid-component、liquid-block、liquid-section、liquid-snippet、liquid-schemas、shopify-theme-schemas。",
+    "field": "skill:shopify-liquid",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1e292428ffa81662": {
+    "zh": "开始在 Shopify 上开发。适用于开发者询问构建应用、构建主题、创建开发店铺、注册合作伙伴账号、脚手架项目或入门 Shopify 开发。不适用于管理店铺的商家。",
+    "field": "skill:shopify-onboarding-dev",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d081aeeead251616": {
+    "zh": "通过 AI 助手配置和连接 Shopify 店铺。适用于用户需要：配置 Shopify 店铺、连接店铺、安装 Shopify 插件、Shopify 入门、管理店铺、添加商品、商家入门引导、开始在线销售、Shopify 配置帮助、创建第一个店铺、如何搭建网店、导入商品、从 Square/WooCommerce/Etsy/Amazon/eBay/Wix/Google Merchant Center/Clover/Lightspeed 迁移、移动商品目录、迁移到 Shopify。本技能面向店铺所有者，不面向开发者。",
+    "field": "skill:shopify-onboarding-merchant",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ef51056364ba96e0": {
+    "zh": "Partner API 允许通过程序访问合作伙伴仪表盘的数据，包括应用、主题和推荐佣金。",
+    "field": "skill:shopify-partner",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f148e4d03ecc4981": {
+    "zh": "Payments Apps API 允许支付服务商将其支付解决方案与 Shopify 结账流程集成。",
+    "field": "skill:shopify-payments-apps",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7fdd1a87e47dd156": {
+    "zh": "在 Shopify 后台的相关位置添加来自你应用的自定义操作和区块。Admin UI Extensions 还支持使用 Shopify CLI 命令脚手架新的 adminextension。",
+    "field": "skill:shopify-polaris-admin-extensions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c281d819467ed250": {
+    "zh": "构建嵌入在 Shopify 后台的应用主界面。如果提示词只提到 `Polaris` 且无法从上下文判断具体 API，默认使用本 API。",
+    "field": "skill:shopify-polaris-app-home",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ed9cf58a121f7d1e": {
+    "zh": "在结账流程的指定节点（包括商品信息、配送、支付、订单摘要和 Shop Pay）构建可供商家安装的自定义功能。Checkout UI Extensions 还支持使用 Shopify CLI 命令脚手架新的结账扩展。",
+    "field": "skill:shopify-polaris-checkout-extensions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e6640feb8ab75d96": {
+    "zh": "在客户账户的订单列表、订单状态和个人资料页面的指定节点构建可供商家安装的自定义功能。Customer Account UI Extensions 还支持使用 Shopify CLI 命令脚手架新的客户账户扩展。",
+    "field": "skill:shopify-polaris-customer-account-extensions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b69aae2d68311b8c": {
+    "zh": "使用 Shopify POS UI 组件构建零售销售点应用。这些组件为 POS 应用提供一致且熟悉的界面。POS UI Extensions 还支持使用 Shopify CLI 命令脚手架新的 POS 扩展。关键词：POS、Retail、smart grid。",
+    "field": "skill:shopify-pos-ui",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "14237952df95b46d": {
+    "zh": "适用于需要直接使用 GraphQL 查询/变更进行数据获取和购物车操作的自定义店面。当需要完全控制数据获取和自定义 UI 渲染时选择本技能。不适用于 Web Components——如果提示词涉及 `<shopify-store>`、`<shopify-cart>` 等 HTML 标签，请使用 storefront-web-components。",
+    "field": "skill:shopify-storefront-graphql",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "002de9ff72eaabf8": {
+    "zh": "适用于用户需要 **Shopify CLI** 立即运行或修复某些问题：验证磁盘上的应用或扩展配置（`shopify.app.toml`、`shopify.app.<name>.toml`、`shopify.extension.toml`）；运行或排查店铺工作流（`shopify store auth`、`shopify store execute`）；通过 handle、SKU 或 location 名称进行库存或商品变更；或处理 CLI 配置、认证、升级问题。重点是**命令和操作步骤**，而非仅生成 GraphQL。对于仅需理解 API 或纯代码生成而无需 CLI 执行的场景，请跳过本技能。示例：部署前验证配置；通过 CLI 运行现有查询；列出商品；找不到 `shopify store execute`。",
+    "field": "skill:shopify-use-shopify-cli",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "83048e7049008aff": {
+    "zh": "适用于用户需要使用 UCP CLI 从在线商家查找、比较、购买或追踪商品，或配置和排查本地 UCP Profile（商家级操作的前提）。涵盖全局目录搜索（「帮我找价格在 $Y 以内的 X」）、指定商家交易（「从 Z.com 购买这个」）、订单追踪、`ucp profile init`、`ucp doctor`、购物车、结账、订单管理和 UCP 配置/帮助。当无法直接在协议内完成结账时，回退到商家托管的跳转链接。",
+    "field": "skill:ucp",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

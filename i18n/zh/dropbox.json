@@ -1,0 +1,79 @@
+{
+  "02c2ee1ee434544d": {
+    "zh": "访问、保存和分享文件",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "970cdd9f4649216a": {
+    "zh": "Dropbox 插件将你的 Dropbox 文件直接连接到 ChatGPT。无需切换工具，即可访问文件、把 ChatGPT 生成的内容保存到 Dropbox，并创建分享链接。一切都遵循你现有的 Dropbox 权限，ChatGPT 只会处理你已有权限访问的文件。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a9bf87fd82c007c0": {
+    "zh": "把这份提案保存到我的 Dropbox",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6413057773f55af6": {
+    "zh": "能给我看看我的度假照片吗？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ca9110729076a9bf": {
+    "zh": "能为这个 PDF 生成 Dropbox 分享链接吗？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d0cabc0edd6d4ee6": {
+    "zh": "通过识别过时、重复、临时或不需要的文件来清理 Dropbox 内容，并且只在明确审查后才删除。当用户明确要求删除、移除或清理 Dropbox 文件或文件夹时使用。",
+    "field": "skill:clean-up-dropbox-content",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c996b03a156e7c98": {
+    "zh": "创建、检查和管理 Dropbox 文件请求，用于收集他人上传的文件。当用户要求收集文件、请求上传、创建上传门户、检查某个文件请求，或列出现有文件请求时使用。",
+    "field": "skill:collect-files-with-request",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "77612370724b34d5": {
+    "zh": "查找与用户请求相关的 Dropbox 文件和文件夹。当用户要求搜索 Dropbox、查找某个文档、定位最近的文件、浏览文件夹、识别可能的源文件，或在读取、分享、整理或恢复内容前缩小内容所在范围时使用。",
+    "field": "skill:find-dropbox-content",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9ae67cf78813ac28": {
+    "zh": "通过按需检查元数据、共享链接和文件内容来查看 Dropbox 文件或文件夹。当用户询问某个文件是什么、是否已共享、何时修改过、存在哪些访问链接，或要求读取/分析某个 Dropbox 文件时使用。",
+    "field": "skill:inspect-dropbox-file",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "708bd0bf3acd70fc": {
+    "zh": "通过创建文件夹、复制内容或将内容移动到更清晰的结构中来整理 Dropbox 文件和文件夹。当用户要求整理、归档、合并、重构、复制或移动 Dropbox 内容时使用。",
+    "field": "skill:organize-dropbox-folder",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6cea033b54bf446e": {
+    "zh": "通过创建共享链接、检查已有共享链接，或说明当前共享链接状态来分享 Dropbox 文件或文件夹。仅在用户明确要求创建共享链接、检查访问权限或查看 Dropbox 共享链接时使用。",
+    "field": "skill:share-dropbox-content",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

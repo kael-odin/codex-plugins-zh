@@ -1,0 +1,23 @@
+{
+  "d76b1d553e706d75": {
+    "zh": "管理项目、任务和 CRM",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5681125862835aa2": {
+    "zh": "monday.com AI Connector 将核心平台能力直接带给智能体和 AI 助手。它支持搜索看板、创建和更新条目与列、分配负责人、设置时间线以及发布更新——覆盖团队和部门间广泛的工作管理与 CRM 用例。\n\n团队与智能体把 monday.com 用作任务跟踪器和项目跟踪中心：策划活动与事件，跟踪里程碑、依赖关系和工作量，管理审批工作流和需求受理，并在项目与项目组合之间共享状态更新——同时也可作为管理潜在客户、联系人和交易的 CRM。\n\n除了日常工作管理，该连接器还让智能体使用 monday.com 官方知识库回答问题，规划和构建自动化与多步骤工作流，运行并保存可复用的代码操作，以及配置其他 monday.com 智能体。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "579a9bd1f9b12a4c": {
+    "zh": "这个连接器能做什么？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

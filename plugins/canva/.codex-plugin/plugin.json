@@ -1,0 +1,29 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Canva Pty Ltd."
+  },
+  "description": "Bring your Canva design workflow into Codex and create, refine, and review designs through natural conversation.\nAvailable skills:\nResize for social media: Adapt a design for Facebook, Instagram, and LinkedIn in one step.\nBulk create: Generate multiple designs from spreadsheet data using a brand template.\nEdit designs: Update text, media, and formatting, or reposition and resize elements.\nGet design feedback: Receive structured feedback on visual hierarchy, layout, readability, consistency, and accessibility.\nImplement feedback: Review comment threads and apply clear, actionable changes.\nBrand check: Check colors, fonts, logo usage, and copy against your Brand Kit.\nOnce installed, describe what you want in plain language or invoke Canva directly with @Canva.\nTry prompts like:\n- @Canva, resize this design for social media.\n- @Canva, create designs from this spreadsheet using my brand template.\n- @Canva, update the headline in this design.\n- @Canva, review this design’s visual hierarchy and readability.\n- @Canva, implement the feedback in the comment threads.\n- @Canva, check this design against my Brand Kit.\n\nRequirements: Connect your Canva account to use the plugin. Bulk Create requires an eligible Canva Enterprise plan.\n\nWant to take a more hands-on approach? Instantly open your design in Canva’s powerful editor for the final touches.",
+  "interface": {
+    "capabilities": [],
+    "category": "Creativity",
+    "composerIcon": "./assets/composer-icon.png",
+    "defaultPrompt": [
+      "根据我们十月的营销活动简报创建一些社交媒体帖子",
+      "用这份最新的投资者会议纪要制作一份 2026 年 Q1 路演演示文稿",
+      "能帮我把这张海报调整成用于我线上商店的 Instagram 帖子吗？"
+    ],
+    "developerName": "Canva Pty Ltd.",
+    "displayName": "Canva",
+    "logo": "./assets/logo.png",
+    "longDescription": "将你的 Canva 设计工作流带入 Codex，通过自然对话创建、优化和审阅设计。\n可用技能：\n为社交媒体调整尺寸：一步将设计适配 Facebook、Instagram 和 LinkedIn。\n批量创建：使用品牌模板从电子表格数据生成多个设计。\n编辑设计：更新文本、媒体和格式，或重新定位和调整元素尺寸。\n获取设计反馈：获取关于视觉层级、布局、可读性、一致性和无障碍性的结构化反馈。\n落实反馈：查看评论线程并应用清晰、可执行的修改。\n品牌检查：对照你的品牌套件检查颜色、字体、logo 使用和文案。\n安装后，用平实的语言描述你的需求，或直接用 @Canva 调用 Canva。\n试试这样的提示：\n- @Canva，把这个设计调整为社交媒体尺寸。\n- @Canva，用我的品牌模板根据这份电子表格创建设计。\n- @Canva，更新这个设计里的标题。\n- @Canva，审阅这个设计的视觉层级和可读性。\n- @Canva，落实评论线程里的反馈。\n- @Canva，对照我的品牌套件检查这个设计。\n\n要求：连接你的 Canva 账户才能使用此插件。批量创建需要符合条件的 Canva Enterprise 套餐。\n\n想更亲自动手？立即在 Canva 强大的编辑器中打开你的设计，完成最后的润色。",
+    "privacyPolicyURL": "https://www.canva.com/policies/privacy-policy/",
+    "shortDescription": "创建、审阅、编辑设计",
+    "supportURL": "https://www.canva.com/help/contact-us/",
+    "termsOfServiceURL": "https://www.canva.com/policies/terms-of-use/",
+    "websiteURL": "https://www.canva.com"
+  },
+  "name": "canva",
+  "skills": "./skills",
+  "version": "14.0.0"
+}

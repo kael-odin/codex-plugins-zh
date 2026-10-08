@@ -1,0 +1,29 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Stripe"
+  },
+  "description": "Develop your payments integration faster with the ability to create products, prices, and payment links directly in ChatGPT. Run your business from ChatGPT with the ability to retrieve and manage payments, subscriptions, invoices, refunds, disputes, and customers. Build and debug your payment integration quicker than ever by searching the Stripe documentation and getting integration recommendations without needing to leave ChatGPT.",
+  "interface": {
+    "capabilities": [],
+    "category": "Finance",
+    "composerIcon": "./assets/logo.png",
+    "defaultPrompt": [
+      "显示我的客户列表",
+      "显示我有哪些产品",
+      "告诉我我创建了哪些价格"
+    ],
+    "developerName": "Stripe",
+    "displayName": "Stripe",
+    "logo": "./assets/logo.png",
+    "longDescription": "借助直接在 ChatGPT 中创建产品、价格和支付链接的能力，更快开发你的支付集成。通过检索和管理付款、订阅、发票、退款、争议和客户，在 ChatGPT 中运营你的业务。搜索 Stripe 文档并获取集成建议，无需离开 ChatGPT 即可比以往更快地构建和调试支付集成。",
+    "privacyPolicyURL": "https://stripe.com/privacy",
+    "shortDescription": "接受付款，增长营收。",
+    "supportURL": "https://support.stripe.com",
+    "termsOfServiceURL": "https://stripe.com/legal/ssa",
+    "websiteURL": "https://stripe.com"
+  },
+  "name": "stripe",
+  "skills": "./skills",
+  "version": "7.0.0"
+}

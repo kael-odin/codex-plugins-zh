@@ -1,0 +1,53 @@
+{
+  "name": "life-science-research",
+  "version": "1.0.3",
+  "description": "General life-sciences research workflows with query routing, evidence synthesis, and optional parallel subagent analysis across genetics, omics, biology, chemistry, structure, clinical evidence, and public dataset discovery.",
+  "author": {
+    "name": "OpenAI"
+  },
+  "homepage": "https://github.com/openai/openai/tree/master/plugins/life-science-research",
+  "repository": "https://github.com/openai/openai/tree/master/plugins/life-science-research",
+  "license": "Proprietary",
+  "keywords": [
+    "life-science",
+    "research",
+    "bioinformatics",
+    "human-genetics",
+    "functional-genomics",
+    "transcriptomics",
+    "proteomics",
+    "metabolomics",
+    "clinical-research",
+    "drug-discovery",
+    "skill-routing",
+    "evidence-synthesis",
+    "parallel-analysis",
+    "gwas",
+    "variant-interpretation",
+    "pathway-biology",
+    "protein-structure"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Life Science Research",
+    "shortDescription": "通用生命科学研究，支持请求路由、证据综合和可选的并行子代理分析",
+    "longDescription": "内部生命科学研究工作流，帮助 Codex 理解用户的研究问题、规范化相关实体、选择合适的技能，并跨公开资源综合产出循证答案。本插件涵盖人类遗传学、功能基因组学、表达、通路、蛋白质结构、化学、药理学、文献、临床证据和公开研究发现，提供面向宽泛任务的研究路由入口，以及在证据通道相互独立时可选的子代理并行支持。",
+    "developerName": "OpenAI",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "使用相关技能和数据库支持生命科学研究任务"
+    ],
+    "brandColor": "#166534",
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}

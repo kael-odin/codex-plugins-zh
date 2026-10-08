@@ -1,0 +1,49 @@
+{
+  "name": "outlook-calendar",
+  "version": "0.1.8",
+  "description": "Connect Microsoft Outlook Calendar for scheduling, daily briefs, event prep, and safe meeting changes.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-app",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "outlook-calendar",
+    "outlook",
+    "calendar",
+    "microsoft",
+    "microsoft 365",
+    "office 365",
+    "exchange",
+    "events",
+    "meetings",
+    "availability",
+    "scheduling",
+    "teams",
+    "daily-brief",
+    "meeting-prep"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Outlook Calendar",
+    "shortDescription": "管理 Outlook 日程",
+    "longDescription": "使用 Outlook Calendar 汇总当天日程、比较空闲时段、准备会议、解释 Outlook 状态语义，并通过已连接的 Microsoft Outlook 应用安排、改期或取消活动。",
+    "developerName": "OpenAI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-app",
+    "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "termsOfServiceURL": "https://www.microsoft.com/en-us/servicesagreement/",
+    "defaultPrompt": "Summarize my day, compare availability, explain Outlook status, and draft the right event update",
+    "brandColor": "#0078D4",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

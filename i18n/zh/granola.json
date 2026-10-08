@@ -1,0 +1,23 @@
+{
+  "3e8e291c8ac749c7": {
+    "zh": "添加你的会议背景",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "10b8305acf68e8c6": {
+    "zh": "Granola MCP 将你的会议记录连接到 Codex，让 AI 助手在你工作时能直接调用过往对话的真实背景。\n\n在处理更复杂任务时使用 MCP：\n\n- 撰写 PRD 或提案：将相关会议中的客户反馈、干系人意见和决策直接嵌入草稿\n    \n- 制作演示文稿或报告：将多个对话的洞察与其他调研和数据融合\n    \n- 带背景编码：为 AI 提供规划会议中讨论的项目背景、需求和技术决策\n    \n- 战略分析：将会议洞察与文档、数据及其他来源整合，进行全面分析\n    \n工作原理：\n\nAI 助手可按主题、人员、公司或时间范围搜索你的 Granola 会议记录，并在回复中引用具体对话。不再需要切换标签页去找「客户说了什么」或「当时是怎么决定的」。\n\n与众不同之处：\n\n无需将会议笔记复制粘贴到提示词中，AI 会自动从你的会议历史中精准提取所需信息。你专注于工作本身，不必为查背景而分心。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1b1ad598b22645d7": {
+    "zh": "总结 Hearthbase 项目迄今为止发生了什么",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

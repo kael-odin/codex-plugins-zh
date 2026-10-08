@@ -1,0 +1,51 @@
+{
+  "name": "openai-developers",
+  "version": "1.2.3",
+  "description": "Build with OpenAI APIs, Agents SDK, and ChatGPT Apps, and create and save OpenAI API keys from Codex.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://platform.openai.com/",
+  "repository": "https://github.com/openai/plugins/tree/main/plugins/openai-developers",
+  "license": "Proprietary",
+  "keywords": [
+    "openai-platform",
+    "api-key",
+    "agents-sdk",
+    "agents",
+    "chatgpt-apps",
+    "apps-sdk",
+    "mcp",
+    "submissions",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "OpenAI Developers",
+    "shortDescription": "遵循 OpenAI 最佳实践，开发 AI 应用、智能体和 ChatGPT 应用",
+    "longDescription": "在 Codex 中使用 OpenAI Developers，结合 OpenAI 文档、OpenAI API、Apps SDK 和 Agents SDK 构建 AI 应用、智能体和 ChatGPT 应用。连接 OpenAI Platform（platform.openai.com），使用真实 OpenAI API 密钥，让 Codex 构建的应用开箱即用。通过 Deployment Manager 在本地运行和部署 Agents SDK 项目，快速搭建 ChatGPT 应用脚手架，并生成 ChatGPT 应用提交材料。",
+    "developerName": "OpenAI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://platform.openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "为这个项目创建一个 OpenAI API 密钥",
+      "用 Agents SDK 构建一个智能体",
+      "基于我本地的 MCP Server 和 Widget 构想，构建一个 ChatGPT 应用。"
+    ],
+    "brandColor": "#10A37F",
+    "screenshots": []
+  }
+}

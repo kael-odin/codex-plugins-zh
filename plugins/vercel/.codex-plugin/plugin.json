@@ -1,0 +1,54 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Vercel Labs",
+    "url": "https://github.com/vercel"
+  },
+  "description": "Build and deploy web apps and agents",
+  "homepage": "https://vercel.com/",
+  "interface": {
+    "brandColor": "#000000",
+    "brandColorDark": "#FFFFFF",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "category": "Developer Tools",
+    "composerIcon": "./assets/composer-icon.png",
+    "defaultPrompt": [
+      "审查此仓库的 Vercel 部署风险",
+      "哪些 Vercel 工具最适合这个应用",
+      "帮助将 Vercel 应用接入此工作流"
+    ],
+    "developerName": "Vercel Labs",
+    "displayName": "Vercel",
+    "logo": "./assets/logo.png",
+    "longDescription": "通过精选技能和已连接的 Vercel 应用，将 Vercel 生态系统的指导引入 Codex。将上游 vercel/vercel-plugin 的技能、智能体和命令，以本地 `vercel` 插件身份打包提供给 Codex 插件市场。",
+    "privacyPolicyURL": "https://vercel.com/legal/privacy-policy",
+    "screenshots": [],
+    "shortDescription": "构建和部署 Web 应用与 AI 智能体",
+    "termsOfServiceURL": "https://vercel.com/legal/terms",
+    "websiteURL": "https://vercel.com/"
+  },
+  "keywords": [
+    "vercel",
+    "nextjs",
+    "ai-sdk",
+    "turborepo",
+    "turbopack",
+    "workflow",
+    "deployment",
+    "edge-functions",
+    "serverless",
+    "ai-gateway",
+    "chat-sdk",
+    "chat-bot",
+    "slack-bot",
+    "discord-bot"
+  ],
+  "license": "Apache-2.0",
+  "name": "vercel",
+  "repository": "https://github.com/vercel/vercel-plugin",
+  "skills": "./skills/",
+  "version": "0.21.4"
+}

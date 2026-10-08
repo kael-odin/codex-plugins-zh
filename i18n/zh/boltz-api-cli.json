@@ -1,0 +1,93 @@
+{
+  "95331bd87692938c": {
+    "zh": "预测结构、筛选分子与蛋白质，并设计结合体",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8bb91841cf3b29d5": {
+    "zh": "在 Codex 中使用 Boltz 完成生物大分子建模工作流：预测蛋白质、RNA、DNA 和配体复合物的结构与结合；针对靶点对小分子或蛋白质库进行排序；并设计新型小分子、多肽、抗体、纳米抗体或自定义蛋白质结合体，附带结构与置信度指标。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9ce25ee63ed9771c": {
+    "zh": "预测 EGFR L858R 与 osimertinib 的结合",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "febcc3ff883776a3": {
+    "zh": "为 SARS-CoV-2 RBD 表位设计纳米抗体",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "91a0bbe498223dbf": {
+    "zh": "从 Enamine REAL 中设计具有选择性的 JAK2 结合体",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5b6e0603c0e0a48c": {
+    "zh": "Boltz 任务状态与结果恢复。适用于列出任务、查看进度、续传下载、恢复结果或下载已有任务 ID 的场景。不适用于启动新任务。",
+    "field": "skill:boltz-check-status",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1558a2b8f42832bb": {
+    "zh": "Boltz CLI 安装与认证。适用于安装、更新、验证或认证 `boltz-api`，或修复 CLI 缺失、PATH、沙箱、浏览器登录或认证错误的场景。",
+    "field": "skill:boltz-cli-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6f535ba6462483b5": {
+    "zh": "用 Boltz 设计新的蛋白质结合体。适用于为靶点生成蛋白质、多肽、抗体、纳米抗体或自定义结合体候选物的场景。不适用于筛选现有蛋白质或小分子。",
+    "field": "skill:boltz-protein-design",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4308bc1eef45b4c3": {
+    "zh": "用 Boltz 筛选现有蛋白质结合体。适用于将给定的蛋白质、多肽、抗体、纳米抗体或结合体库针对靶点进行排序的场景。不适用于设计新蛋白质或筛选小分子。",
+    "field": "skill:boltz-protein-screen",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ea7c3676a1d50666": {
+    "zh": "用 Boltz 从裸 SMILES 预测小分子的一级 ADME/ADMET——无需靶点、无需对接。适用于用户想要某个或某组分子的溶解度、渗透性或亲脂性/logD 的场景。不适用于将分子针对蛋白质靶点排序（请用 boltz-small-molecule-screen，它已免费返回 ADME）。",
+    "field": "skill:boltz-small-molecule-adme",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "80b90ed598dbda7b": {
+    "zh": "用 Boltz 设计新的小分子结合体。适用于在没有固定化合物库的情况下，为靶点生成新型配体或先导物的场景。不适用于筛选现有分子或一次性对接。",
+    "field": "skill:boltz-small-molecule-design",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ef1126e15ad0b01b": {
+    "zh": "用 Boltz 筛选现有小分子库。适用于将给定的 SMILES 或化合物库针对靶点进行对接、打分或排序的场景；同时免费返回每个分子的一级 ADME/ADMET（溶解度、渗透性、亲脂性/logD）。不适用于从头分子设计、一次性对接，或对无靶点的裸 SMILES 做 ADME（请用 boltz-small-molecule-adme）。",
+    "field": "skill:boltz-small-molecule-screen",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fb6bed922ec1b9cd": {
+    "zh": "用 Boltz 预测单个明确复合物的结构与结合。适用于折叠蛋白质、RNA、DNA 或配体复合物、对接单个配体、预测界面或为结合打分的场景。不适用于筛选库或设计。",
+    "field": "skill:boltz-structure-and-binding",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

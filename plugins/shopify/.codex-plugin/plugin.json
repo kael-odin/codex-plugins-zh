@@ -1,0 +1,29 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Shopify"
+  },
+  "description": "Shopify for ChatGPT makes store building and management as easy as having a conversation. Effortlessly connect your existing store or create a new online store by describing your business. Simply chat to add products, adjust inventory across locations, create discount codes, browse recent orders, view customer details, or pull analytics on your store’s performance.",
+  "interface": {
+    "capabilities": [],
+    "category": "Business & Operations",
+    "composerIcon": "./assets/composer-icon.svg",
+    "defaultPrompt": [
+      "上传这款商品并添加到我的店铺。",
+      "显示我店铺里的商品。",
+      "显示我店铺过去三周的销售额。"
+    ],
+    "developerName": "Shopify",
+    "displayName": "Shopify",
+    "logo": "./assets/logo.png",
+    "longDescription": "Shopify for ChatGPT 让建店和店铺管理像聊天一样简单。轻松关联你现有的店铺，或通过描述你的业务创建新的在线店铺。只需对话即可添加商品、跨地点调整库存、创建折扣码、浏览近期订单、查看客户详情，或获取店铺业绩的分析数据。",
+    "privacyPolicyURL": "https://www.shopify.com/legal/privacy",
+    "shortDescription": "构建并管理你的店铺",
+    "supportURL": "https://help.shopify.com",
+    "termsOfServiceURL": "https://www.shopify.com/legal/terms",
+    "websiteURL": "https://shopify.com"
+  },
+  "name": "shopify",
+  "skills": "./skills/",
+  "version": "3.0.0"
+}

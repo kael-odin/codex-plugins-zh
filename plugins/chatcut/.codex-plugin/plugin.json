@@ -1,0 +1,49 @@
+{
+  "author": {
+    "email": "dev@chatcut.io",
+    "name": "ChatCut",
+    "url": "https://chatcut.io"
+  },
+  "description": "Install, open, and connect the signed ChatCut Desktop app from Codex.",
+  "homepage": "https://chatcut.io",
+  "interface": {
+    "brandColor": "#111827",
+    "brandColorDark": "#D8DFEE",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "category": "Creativity",
+    "composerIcon": "./.codex-plugin/assets/composer-icon.png",
+    "defaultPrompt": [
+      "创建一个新的 ChatCut 项目，开始编辑我的视频。",
+      "把这段口播视频剪辑成更紧凑的故事，加上字幕、B-roll、音乐和动态图形。",
+      "创建一段带动态图形和英文旁白的 AI 视频剪辑讲解。"
+    ],
+    "developerName": "ChatCut",
+    "displayName": "ChatCut",
+    "logo": "./.codex-plugin/assets/logo.png",
+    "longDescription": "下载、安装、打开、连接或修复已签名的正式版 ChatCut Desktop 应用，让 Codex 能够使用其本地视频编辑工具和技能。",
+    "privacyPolicyURL": "https://chatcut.io/privacy",
+    "shortDescription": "安装并连接 ChatCut",
+    "termsOfServiceURL": "https://chatcut.io/terms",
+    "websiteURL": "https://chatcut.io"
+  },
+  "keywords": [
+    "chatcut",
+    "desktop",
+    "video",
+    "video-editing",
+    "codex",
+    "mcp",
+    "apple-silicon",
+    "intel-mac",
+    "windows"
+  ],
+  "license": "GPL-3.0-only",
+  "name": "chatcut",
+  "repository": "https://github.com/ChatCut-Inc/agent-plugin.git",
+  "skills": "./skills/",
+  "version": "1.0.4",
+  "apps": "./.app.json"
+}

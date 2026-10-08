@@ -1,0 +1,30 @@
+{
+  "f91cdd193554a932": {
+    "zh": "配置 OpenAI Ads Pixel 与 CAPI 转化跟踪",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "15296d8a2567cad3": {
+    "zh": "使用 OpenAI Ads Conversions 引导 Codex 在代码库中添加或扩展 Measurement Pixel 及可选的 Conversions API 埋点，并附带本地校验辅助工具，以及关于安全处理密钥、去重、归因上下文与配置上报的指引。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ae630f90e689d585": {
+    "zh": "在本仓库中配置 OpenAI Ads 转化跟踪。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f950e838f9714811": {
+    "zh": "引导 Codex 为代码库埋入或扩展 OpenAI Ads Measurement Pixel 及可选的 Conversions API(CAPI)。当需要添加 Ads 转化跟踪、浏览器 pixel 事件、服务端转化事件、event_id 去重、CAPI 密钥占位符、增量扩大转化覆盖，或校验 Ads 转化配置时使用。适用于本地代码库及 PR 审查场景;优先产出安全、可审查的 diff，绝不将 API key 或密钥放入源码或客户端打包产物。",
+    "field": "skill:openai-ads-conversions-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

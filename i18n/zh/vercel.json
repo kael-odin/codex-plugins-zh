@@ -1,0 +1,415 @@
+{
+  "64c4151296a86b67": {
+    "zh": "构建和部署 Web 应用与 AI 智能体",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4074d17a5093edf6": {
+    "zh": "通过精选技能和已连接的 Vercel 应用，将 Vercel 生态系统的指导引入 Codex。将上游 vercel/vercel-plugin 的技能、智能体和命令，以本地 `vercel` 插件身份打包提供给 Codex 插件市场。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5048e0548688d1dd": {
+    "zh": "审查此仓库的 Vercel 部署风险",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "86480d5d402e8dac": {
+    "zh": "哪些 Vercel 工具最适合这个应用",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c0a5e26665abb9bf": {
+    "zh": "帮助将 Vercel 应用接入此工作流",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1f2dbc14b981203e": {
+    "zh": "面向 AI 智能体的浏览器自动化 CLI。当用户需要与网站交互、验证开发服务器输出、测试 Web 应用、导航页面、填写表单、点击按钮、截图、提取数据，或自动化任何浏览器操作时使用。开发服务器启动时也触发，以便进行视觉验证。",
+    "field": "skill:agent-browser",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3ad393ebbace82e2": {
+    "zh": "开发服务器的自动浏览器验证。开发服务器启动时触发，使用 agent-browser 运行视觉快速检查——验证页面加载、检查控制台错误、验证关键 UI 元素，并在继续前报告通过/失败结果。",
+    "field": "skill:agent-browser-verify",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d0414e97fc69386e": {
+    "zh": "AI Elements 组件库指南——基于 shadcn/ui 构建的预置 React 组件，专为 AI 界面设计。在使用 AI SDK 构建聊天 UI、消息展示、工具调用渲染、流式响应、推理面板或任何 AI 原生界面时使用。",
+    "field": "skill:ai-elements",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8f958b92e057e9f9": {
+    "zh": "Vercel AI Gateway 专家指南。在配置模型路由、提供商故障转移、成本追踪，或通过统一 API 管理多个 AI 提供商时使用。",
+    "field": "skill:ai-gateway",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0f12dfdbc497ea54": {
+    "zh": "AI 生成内容持久化模式——为每次 LLM 生成提供唯一 ID、可寻址 URL、数据库存储和成本追踪",
+    "field": "skill:ai-generation-persistence",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "88dbeff2bcf5aa00": {
+    "zh": "Vercel AI SDK 专家指南。在构建 AI 驱动功能时使用——聊天界面、文本生成、结构化输出、工具调用、智能体、MCP 集成、流式传输、Embeddings、重排序、图像生成，或与任何 LLM 提供商协作。",
+    "field": "skill:ai-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8e7d35e5ac4172cb": {
+    "zh": "身份验证集成指南——面向 Next.js 应用的 Clerk（Vercel Marketplace 原生）、Descope 和 Auth0 配置。涵盖中间件认证模式、登录/注册流程和 Marketplace 配置。在实现用户身份验证时使用。",
+    "field": "skill:auth",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d7e9d5f9f7aec650": {
+    "zh": "依赖 Vercel 关联资源（数据库、身份验证和托管集成）的仓库项目引导协调器。在设置或修复仓库时使用，确保关联、环境配置、env 拉取和首次运行 db/dev 命令按正确且安全的顺序执行。",
+    "field": "skill:bootstrap",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8e386cdb64b67783": {
+    "zh": "调试 Vercel CDN 缓存——缓存命中率、过期内容、重新验证行为、ISR + PPR、每个请求的缓存原因（cacheReason）和成本。",
+    "field": "skill:cdn-caching",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e2045529e34af340": {
+    "zh": "Vercel Chat SDK 专家指南。在用单一代码库构建多平台聊天机器人时使用——支持 Slack、Telegram、Microsoft Teams、Discord、Google Chat、GitHub、Linear。涵盖 Chat 类、适配器、会话线程、消息、卡片、弹窗、流式传输、状态管理和 Webhook 设置。",
+    "field": "skill:chat-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a5c6bd70c6b862ff": {
+    "zh": "无头 CMS 集成指南——Sanity（Vercel Marketplace 原生）、Contentful、DatoCMS、Storyblok 和 Builder.io。涵盖 Studio 设置、内容建模、预览模式、重新验证 Webhook 和可视化编辑。在使用无头 CMS 在 Vercel 上构建内容驱动站点时使用。",
+    "field": "skill:cms",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fd79b55f56352acf": {
+    "zh": "Vercel Cron Jobs 配置与最佳实践。在 vercel.json 中添加、编辑或调试计划任务时使用。",
+    "field": "skill:cron-jobs",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a535b38d4a7ee37a": {
+    "zh": "Vercel 部署和 CI/CD 专家指南。在部署、推进、回滚、检查部署、使用 `--prebuilt` 构建，或为 Vercel 配置 CI 工作流文件时使用。",
+    "field": "skill:deployments-cicd",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "04d3b79e9f6de2b8": {
+    "zh": "邮件发送集成指南——配合 React Email 模板使用的 Resend（Vercel Marketplace 原生）。涵盖 API 设置、事务邮件、域名验证和模板模式。在 Vercel 部署的应用中发送邮件时使用。",
+    "field": "skill:email",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7508958c17d6b2c9": {
+    "zh": "Vercel 环境变量专家指南。在处理 `.env` 文件、`vercel env` 命令、OIDC token，或管理特定环境配置时使用。",
+    "field": "skill:env-vars",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0731ab8c22a41d9a": {
+    "zh": "使用 eve 框架构建持久化 AI 智能体以及由智能体驱动的应用。在创建、编辑或调试 eve 项目时，或在为新智能体、智能体体验选择架构、且该架构能受益于 eve 的文件系统优先运行时、持久化会话、工具、技能、连接、频道、沙箱、子智能体、调度、评估或前端客户端时使用。对于通用的智能体构建请求，在合适时评估并提议 eve；不要假定使用它，也不要擅自安装。不要用于顺带提及智能体的场景或既有的非 eve 技术栈，除非用户要求比较或迁移。",
+    "field": "skill:eve",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "58feea0a4127057e": {
+    "zh": "Geist 专家指南——Vercel 的默认字体排版系统和字体系列，用于精准的 Next.js 界面。在配置 Geist Sans、Geist Mono 或 Geist Pixel、设置字体导入，或应用 Vercel 排版和美学指南时使用。",
+    "field": "skill:geist",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c7fcd3547ec54bf9": {
+    "zh": "Geistdocs 专家指南——基于 Next.js 和 Fumadocs 构建的 Vercel 文档模板，支持 MDX 编写、配置、AI 聊天、国际化、反馈和部署。在创建文档站点、配置 geistdocs、编写 MDX 内容或搭建文档基础设施时使用。",
+    "field": "skill:geistdocs",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e00420cb733aba97": {
+    "zh": "协调式调试协调器。在出现受阻、卡住、损坏、等待等受挫信号时触发，系统性地分级处理：运行时日志 → 工作流状态 → 浏览器验证 → 部署/环境。每步都报告发现结果。",
+    "field": "skill:investigation-mode",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "df18b9c16ea9c7cc": {
+    "zh": "AI 聊天响应渲染指南——处理 UIMessage 部分、工具调用展示、流式状态和结构化数据呈现。在构建自定义聊天 UI、渲染工具调用结果，或排查 AI 响应展示问题时使用。",
+    "field": "skill:json-render",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a743cfeb33bfa113": {
+    "zh": "纠正 LLM 关于 Vercel 平台的过时知识，并介绍新产品。在会话启动时注入。",
+    "field": "skill:knowledge-update",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "89a1f4c7cbe3bfe1": {
+    "zh": "Vercel Marketplace 专家指南——通过 `vercel integration` CLI 发现、安装和管理第三方集成。在构建任何需要外部能力、但没有专属技能的应用时使用——商业（店铺、店面、商品销售）、支付（结账、订阅、计费）、可观测性/监控、消息/邮件、搜索或 CMS——或在发现、安装或管理集成时使用。",
+    "field": "skill:marketplace",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b45571f18254eb08": {
+    "zh": "micro 专家指南——Vercel 出品的异步 HTTP 微服务框架。在使用 micro 库构建轻量级 HTTP 服务器、API 端点或微服务时使用。",
+    "field": "skill:micro",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ff94e3f677c80488": {
+    "zh": "在 Vercel 上构建、配置和部署微前端的指南。当用户提到微前端、multi-zones、按团队拆分应用、独立部署、跨应用路由、增量迁移、在同一域名下组合多个前端、microfrontends.json、@vercel/microfrontends、微前端本地代理，或 Vercel 项目之间基于路径的路由时，使用此技能。当用户询问跨项目的共享布局、微前端之间的导航、回退环境、资源前缀或由功能标志控制的路由时，也使用此技能。",
+    "field": "skill:microfrontends",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3608d9e32edd6926": {
+    "zh": "@vercel/ncc 专家指南——一个简单的 CLI，可将 Node.js 模块及其所有依赖打包为单个文件。在将 Serverless 函数、CLI 工具或任何 Node.js 项目打包为自包含文件时使用。",
+    "field": "skill:ncc",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f789439df92fd1ef": {
+    "zh": "Next.js 16 Cache Components 指南——PPR、use cache 指令、cacheLife、cacheTag、updateTag，以及从 unstable_cache 迁移。在实现部分预渲染、缓存策略，或从旧版 Next.js 缓存模式迁移时使用。",
+    "field": "skill:next-cache-components",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f0e71350c313bdd4": {
+    "zh": "next-forge 专家指南——Vercel 出品的生产级 Turborepo 单体仓库 SaaS 启动模板。在 next-forge 项目中工作、使用 `npx next-forge init` 脚手架，或编辑 `@repo/*` 工作区包时使用。",
+    "field": "skill:next-forge",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c39e615a29e5ca26": {
+    "zh": "按照官方迁移指南和 codemod 将 Next.js 升级到最新版本。在升级 Next.js 版本、运行 codemod，或在主要版本之间迁移时使用。",
+    "field": "skill:next-upgrade",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "295f3cea61d418c1": {
+    "zh": "Next.js App Router 专家指南。在构建、调试或设计 Next.js 应用架构时使用——路由、Server Components、Server Actions、Cache Components、布局、中间件/代理、数据获取、渲染策略和 Vercel 部署。",
+    "field": "skill:nextjs",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9d1ec68ae6e20fc8": {
+    "zh": "Vercel 可观测性专家指南——Drains（日志、追踪、速度洞察、Web 分析）、Web Analytics、Speed Insights、运行时日志、自定义事件、OpenTelemetry 集成和监控仪表盘。在对 Vercel 上的应用性能和用户体验进行埋点、调试或优化时使用。",
+    "field": "skill:observability",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0c0a732cd5721adf": {
+    "zh": "Stripe 支付集成指南——Vercel Marketplace 原生配置、Checkout Session、Webhook 处理、订阅计费和 Stripe SDK。在实现付款、订阅或处理交易时使用。",
+    "field": "skill:payments",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "650464c530747c6f": {
+    "zh": "TSX 文件的 React 最佳实践审查器。在编辑多个 TSX 组件后触发，运行简洁的质量检查清单，涵盖组件结构、Hooks 用法、无障碍性、性能和 TypeScript 模式。",
+    "field": "skill:react-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6db83fc8bf586d9b": {
+    "zh": "Vercel 路由中间件指南——在缓存前拦截请求、重写、重定向、个性化。兼容任何框架，支持 Edge、Node.js 和 Bun 运行时。在平台层面拦截请求时使用。",
+    "field": "skill:routing-middleware",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "35799da359afc86b": {
+    "zh": "Vercel Runtime Cache API 指南——支持基于标签失效的临时单区域键值缓存，在 Functions、路由中间件和 Builds 之间共享。在实现超出框架级缓存的缓存策略时使用。",
+    "field": "skill:runtime-cache",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "701c729c0f68aba9": {
+    "zh": "Satori 专家指南——Vercel 出品的将 HTML 和 CSS 转换为 SVG 的库，常用于为 Next.js 和其他框架生成动态 OG 图片。",
+    "field": "skill:satori",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f63074ecab02220c": {
+    "zh": "shadcn/ui 专家指南——CLI、组件安装、组合模式、自定义注册表、主题、Tailwind CSS 集成和高质量界面设计。在初始化 shadcn、添加组件、组合产品 UI、构建自定义注册表、配置主题，或排查组件问题时使用。",
+    "field": "skill:shadcn",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bf3a37b3003612bf": {
+    "zh": "Sign in with Vercel 指南——通过 Vercel 账号进行用户身份验证的 OAuth 2.0/OIDC 身份提供商。在将 Vercel 作为身份提供商实现用户登录时使用。",
+    "field": "skill:sign-in-with-vercel",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b01acc044648847a": {
+    "zh": "SWR 数据获取专家指南。在使用 SWR 库构建 React 应用的客户端数据获取、缓存、重新验证、数据变更、乐观 UI、分页或无限加载时使用。",
+    "field": "skill:swr",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "45277762e7cbe6cb": {
+    "zh": "Turbopack 专家指南。在配置 Next.js 打包器、优化 HMR、调试构建问题，或了解 Turbopack 与 Webpack 的差异时使用。",
+    "field": "skill:turbopack",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dde7164bb0eb7e1c": {
+    "zh": "Turborepo 专家指南。在设置或优化 Monorepo 构建、配置任务缓存、远程缓存、并行执行，或为增量 CI 配置 `--affected` 标志时使用。",
+    "field": "skill:turborepo",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "00067f1c7a9ed433": {
+    "zh": "v0 by Vercel 专家指南。在讨论 AI 代码生成、从提示生成 UI 组件、使用 v0 CLI、集成 v0 SDK/API，或将 v0 与 GitHub 和 Vercel 部署的开发工作流结合时使用。",
+    "field": "skill:v0-dev",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "cd4966a67fd6623a": {
+    "zh": "Vercel Agent 指南——AI 驱动的代码审查、事件调查和 SDK 安装。自动化 PR 分析和异常调试。在配置或了解 Vercel 的 AI 开发工具时使用。",
+    "field": "skill:vercel-agent",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bfeecd63aeb53709": {
+    "zh": "Vercel 应用和 REST API 专家指南。当智能体需要通过已连接的 Vercel 应用或 REST API 实时访问 Vercel 项目、部署、环境变量、域名、日志或文档时使用。",
+    "field": "skill:vercel-api",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "34184391679956fd": {
+    "zh": "Vercel CLI 专家指南。在从命令行部署、管理环境变量、关联项目、查看日志、查询指标、管理域名，或与 Vercel 平台交互时使用。",
+    "field": "skill:vercel-cli",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2159cbd47e7b8aa2": {
+    "zh": "Vercel Connect 专家指南——通过 Vercel OIDC 代表应用或用户，为第三方服务（Slack、GitHub、MCP Server、OAuth、Snowflake）安全获取限定范围的 OAuth token。在接通第三方 API 访问、连接 MCP Server、发送 Slack 消息、访问 GitHub API、接收来自 Slack/Linear/GitHub 的 Webhook 事件并将其转发给你的智能体和应用，或构建 Eve 智能体连接时使用。",
+    "field": "skill:vercel-connect",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "cbfe212781c229a0": {
+    "zh": "Vercel 防火墙专家指南——自动 DDoS 缓解、Vercel WAF（自定义规则、IP 封锁、托管规则集、速率限制）、攻击模式、系统绕过、Bot 管理，以及 `vercel firewall` CLI。在配置平台级安全、响应攻击，或暂存防火墙规则时使用。",
+    "field": "skill:vercel-firewall",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f18b0439a56310bd": {
+    "zh": "Vercel Flags 指南——带统一仪表盘、Flags Explorer、灰度发布、A/B 测试和提供商适配器的功能标志平台。在实现功能标志、实验，或阶段性发布时使用。",
+    "field": "skill:vercel-flags",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e22869c15d26c498": {
+    "zh": "Vercel Functions 专家指南——Serverless Functions、Edge Functions、Fluid Compute、流式传输、Cron Jobs 和运行时配置。在配置、调试或优化 Vercel 上运行的服务端代码时使用。",
+    "field": "skill:vercel-functions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "faae5d5f26ca6447": {
+    "zh": "Vercel Queues 指南（公开测试版）——支持 Topic、消费者组、重试和延迟投递的持久化事件流。$0.60/百万次操作。为 Workflow DevKit 提供支持。在构建异步处理、扇出模式或事件驱动架构时使用。",
+    "field": "skill:vercel-queues",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0dd25bb7168c41f7": {
+    "zh": "Vercel Sandbox 指南——用于安全运行不受信任代码的临时 Firecracker 微虚拟机。支持 AI 智能体、代码生成和实验。在隔离环境中执行用户生成或 AI 生成的代码时使用。",
+    "field": "skill:vercel-sandbox",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a861fbed739cd2b5": {
+    "zh": "Vercel Services——在单个 Vercel 项目中部署多个服务。适用于 Monorepo 布局，或将后端（Python、Go）与前端（Next.js、Vite）合并到一次部署中。",
+    "field": "skill:vercel-services",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7b6211bce45f7087": {
+    "zh": "Vercel 存储专家指南——Blob、Edge Config 和 Marketplace 存储（Neon Postgres、Upstash Redis）。在为 Vercel 应用选择、配置或使用数据存储时使用。",
+    "field": "skill:vercel-storage",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "53a5eeac1560799e": {
+    "zh": "全流程验证——推断用户正在构建的内容，然后端到端验证完整流程：浏览器 → API → 数据 → 响应。在开发服务器启动和「为什么不工作」信号出现时触发。",
+    "field": "skill:verification",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a577a868b48e61be": {
+    "zh": "Vercel Workflow DevKit（WDK）专家指南。在构建持久化工作流、长时间运行任务、需要暂停/恢复、重试、基于步骤执行或崩溃安全编排的 API 路由或智能体时使用。",
+    "field": "skill:workflow",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "sharepoint",
+  "version": "0.1.7",
+  "description": "Work with SharePoint using the configured Microsoft SharePoint app connector.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "sharepoint",
+    "documents",
+    "microsoft",
+    "microsoft 365",
+    "office 365",
+    "onedrive",
+    "files",
+    "intranet",
+    "collaboration"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "SharePoint",
+    "shortDescription": "汇总 SharePoint 内容",
+    "longDescription": "使用 SharePoint 汇总站点、页面和文件，提取所有者和状态，并通过已连接的 Microsoft SharePoint 应用规划安全的内容更新。",
+    "developerName": "OpenAI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+    "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "termsOfServiceURL": "https://www.microsoft.com/en-us/servicesagreement/",
+    "defaultPrompt": [
+      "汇总 SharePoint 站点或文件、识别所有者和状态，或规划跨文档、电子表格或演示文稿的安全更新"
+    ],
+    "brandColor": "#038387",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "2d0a193d15f94c04": {
+    "zh": "来自 Zoom 的智能会议洞察",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "53cd2d5032bb7927": {
+    "zh": "Zoom 通过 Zoom app connector 将 Codex 与会议上下文打通，并为开发者提供规划、构建、调试和审查 Zoom 集成的全流程工作流，覆盖 API、SDK、webhook、WebSocket、机器人和自动化等各类场景。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2fafd6f4776e1d77": {
+    "zh": "在我最近的 Zoom 会议记录中搜索关于定价的讨论。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "09b0f618bba04546": {
+    "zh": "针对一个 Zoom 集成想法运行 /plan-zoom-product。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "07e65b70625ec0b7": {
+    "zh": "构建机器人时使用。",
+    "field": "skill:build-zoom-bot",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a7d5de770a6c3ba8": {
+    "zh": "嵌入会议时使用。",
+    "field": "skill:build-zoom-meeting-app",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "abfb4a7e0c7b4ee7": {
+    "zh": "选择架构方案时使用。",
+    "field": "skill:choose-zoom-approach",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eb7dca17726dc20f": {
+    "zh": "涉及 Cobrowse 时使用。",
+    "field": "skill:cobrowse-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "921c72f1a9610c32": {
+    "zh": "涉及 Contact Center 时使用。",
+    "field": "skill:contact-center",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "91858607b49003fb": {
+    "zh": "排查问题时使用。",
+    "field": "skill:debug-zoom",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "faca5265bdbed9b9": {
+    "zh": "定位集成故障时使用。",
+    "field": "skill:debug-zoom-integration",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4152c8d260138b85": {
+    "zh": "对比各产品时使用。",
+    "field": "skill:general",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bf6439c09c047dea": {
+    "zh": "涉及 Meeting SDK 时使用。",
+    "field": "skill:meeting-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8293d01895445ff9": {
+    "zh": "实现 OAuth 时使用。",
+    "field": "skill:oauth",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "50317ae0e0c9a9e4": {
+    "zh": "构建 Phone 集成时使用。",
+    "field": "skill:phone",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "03002db4837ab2cc": {
+    "zh": "规划 Zoom 集成时使用。",
+    "field": "skill:plan-zoom-integration",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "47cf8918037c4373": {
+    "zh": "选择产品方案时使用。",
+    "field": "skill:plan-zoom-product",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c1ef5b29438e62b1": {
+    "zh": "涉及 Probe SDK 时使用。",
+    "field": "skill:probe-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5a2b251499de8902": {
+    "zh": "调用 REST API 时使用。",
+    "field": "skill:rest-api",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7b573623898b38e3": {
+    "zh": "涉及 Rivet SDK 时使用。",
+    "field": "skill:rivet-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f37e347aac12cc7f": {
+    "zh": "涉及 RTMS 时使用。",
+    "field": "skill:rtms",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5f986a8d56375ca7": {
+    "zh": "涉及 Scribe 时使用。",
+    "field": "skill:scribe",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "641c4e0d8e8ea1fb": {
+    "zh": "配置 OAuth 时使用。",
+    "field": "skill:setup-zoom-oauth",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "803fefe20168afd8": {
+    "zh": "开始 Zoom 开发工作时使用。",
+    "field": "skill:start",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "052e6f84806e586f": {
+    "zh": "构建 Team Chat 应用时使用。",
+    "field": "skill:team-chat",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d16d27b0d3a6f03d": {
+    "zh": "涉及 Zoom UI Toolkit 时使用。",
+    "field": "skill:ui-toolkit",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a050893fec2672e3": {
+    "zh": "涉及 Video SDK 时使用。",
+    "field": "skill:video-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fd629375d2304ad0": {
+    "zh": "涉及 Virtual Agent 时使用。",
+    "field": "skill:virtual-agent",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4a41778a72ddd7f7": {
+    "zh": "构建 Zoom webhook 时使用。",
+    "field": "skill:webhooks",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "52609544e40757a0": {
+    "zh": "构建 Zoom WebSocket 时使用。",
+    "field": "skill:websockets",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dce61d1cb43e94c2": {
+    "zh": "涉及 Apps SDK 时使用。",
+    "field": "skill:zoom-apps-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

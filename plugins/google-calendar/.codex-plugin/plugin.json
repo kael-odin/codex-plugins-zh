@@ -1,0 +1,48 @@
+{
+  "name": "google-calendar",
+  "version": "1.2.6",
+  "description": "Connect Google Calendar for scheduling, availability, daily briefs, and event management.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://workspace.google.com/products/calendar/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "google-calendar",
+    "google",
+    "google workspace",
+    "calendar",
+    "events",
+    "meetings",
+    "availability",
+    "agenda",
+    "daily-brief",
+    "scheduling",
+    "productivity"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Google Calendar",
+    "shortDescription": "管理 Google Calendar 活动",
+    "longDescription": "使用 Google Calendar 汇总当天日程、查看空闲时段、列出日历，以及直接在任务提示中创建、更新或删除活动。",
+    "developerName": "OpenAI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://workspace.google.com/products/calendar/",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "汇总我的日历、比较空闲时段、准备会议或起草活动详情"
+    ],
+    "brandColor": "#4285F4",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

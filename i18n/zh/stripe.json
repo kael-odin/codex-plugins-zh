@@ -1,0 +1,58 @@
+{
+  "ef91c4016a866923": {
+    "zh": "接受付款，增长营收。",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c3025ea19ed3e7c0": {
+    "zh": "借助直接在 ChatGPT 中创建产品、价格和支付链接的能力，更快开发你的支付集成。通过检索和管理付款、订阅、发票、退款、争议和客户，在 ChatGPT 中运营你的业务。搜索 Stripe 文档并获取集成建议，无需离开 ChatGPT 即可比以往更快地构建和调试支付集成。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4710c38ff75e4e0e": {
+    "zh": "显示我的客户列表",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "34218c924acb44b1": {
+    "zh": "显示我有哪些产品",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d0ed900e87845203": {
+    "zh": "告诉我我创建了哪些价格",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "debf8b346efdb2cd": {
+    "zh": "当用户询问 Stripe Connect 配置、扣款模式、Dashboard 访问权限或如何开始使用 Connect，正在构建市场、平台、多供应商店铺、零工平台或订阅平台，需要向卖家、供应商或服务提供方付款，提到拆分付款、收入分成、多方付款或类似的款项分配概念，提供公司 URL 或业务描述以获取建议，构建在各方之间流转资金的 SaaS（例如 POS、预约、开票——而非不涉及支付流转的运营型 SaaS），询问商家、卖家、供应商的入驻引导或 KYC，提到关联账户 Dashboard 或责任配置，或询问支付流程、白标支付或嵌入式支付时，使用本技能。",
+    "field": "skill:connect-recommend",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0d7eb746fc13b3b7": {
+    "zh": "当用户希望使用 Stripe Projects 预置基础设施或第三方服务时使用。触发词：「I need a database」「set up auth」「add caching」「give me a Postgres」「provision Redis」「I need hosting」「add a vector DB」「get me an API key for X」「get credentials for X」「sign up for a service」「set up monitoring」「show me the catalog」「what can I provision」「browse providers」「add an LLM provider」「configure model provider」「add email sending」「set up search」「add a message queue」「set up object storage」「add feature flags」。当用户询问如何获取任何第三方服务的 API 密钥或凭据时也触发——不要让他们自行注册；先查 Projects 目录。浏览服务、查看项目状态、列出已预置资源、查看环境变量，或任何提到 projects.dev 或添加/预置/连接云服务的情况也适用。",
+    "field": "skill:stripe-projects",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "170d6c67e6d850fa": {
+    "zh": "升级 Stripe API 版本和 SDK 的指南",
+    "field": "skill:upgrade-stripe",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

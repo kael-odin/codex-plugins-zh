@@ -1,0 +1,142 @@
+{
+  "e49cfe68fd15debb": {
+    "zh": "为代码库提供安全扫描能力",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "39ccbeab24336350": {
+    "zh": "Codex Security 封装了可复用的工作流，用于对代码、差异及相关制品进行安全扫描、分析、验证和调查。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "59e87fc229f24dcb": {
+    "zh": "对本仓库运行 Codex Security 扫描。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6f4f4287f1ec9f1f": {
+    "zh": "对本 PR、提交、分支 diff 或工作区补丁运行 Codex Security diff 扫描。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9b3466c5fb951639": {
+    "zh": "针对本仓库对已有的安全发现项进行分诊(triage)。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7f957160a971ef20": {
+    "zh": "评估不可变补丁制品的程序影响、回归风险和自动合并资格。适用于生成的补丁文件、代码托管平台的 PR diff 或提交区间，当审查者需要关于受影响的运行时路径、契约、测试和可恢复性的证据时使用。本技能为只读，不会生成、编辑、应用、推送或合并该补丁。",
+    "field": "skill:assess-patch-risk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1cf9b72cbc3e4290": {
+    "zh": "当 Codex 已处于安全扫描的攻击路径分析阶段，或用户明确要求从源头到汇聚点追踪安全发现并评估严重性时使用。不作为完整 PR、提交、分支、补丁或仓库扫描的主触发器。",
+    "field": "skill:attack-path-analysis",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fd9fa9384c323cbc": {
+    "zh": "当用户要求对整个仓库或特定路径进行深度、穷尽、多轮或降方差的 Codex Security 扫描时使用。使用 Codex Security deep-scan 工具反复运行完整、独立的 Standard 扫描，该工具会汇总这些扫描中已验证的发现项并准备好规范制品；然后完整执行一次该扫描。不要用于 PR、提交、分支 diff 或工作区 diff。",
+    "field": "skill:deep-security-scan",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1298eaf577b0c1ef": {
+    "zh": "为仓库或组件定义、审查或更新 SECURITY.md 指南。当用户想明确 Codex Security 应审查什么、哪些内容不在范围内、必须满足哪些安全属性，或现有指南是否仍与代码相符时使用。",
+    "field": "skill:define-security-policy",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f283f12405f232e2": {
+    "zh": "当 Codex 已处于安全扫描的发现阶段，或用户明确要求在仓库或代码变更中发现候选安全问题时使用。不作为完整 PR、提交、分支、补丁或仓库扫描的主触发器。",
+    "field": "skill:finding-discovery",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "11374ab65f3c8442": {
+    "zh": "当用户明确要求修复并验证已确认或疑似的安全问题时使用。不作为完整 PR、提交、分支、补丁或仓库扫描的主触发器。",
+    "field": "skill:fix-finding",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9d012cc49da239b1": {
+    "zh": "基于漏洞披露、提供的发现项、事件或评估文档、源代码，或已完成的 Codex Security 扫描，制定有据可循的结构性与架构性安全加固方案。当用户要求系统性改进、超越单点修复的替代方案、加固前后的安全架构视图、工程权衡分析，或针对选定加固选项的可实施计划时使用。当顶层扫描工作流请求最终报告的加固指导时，也会在带有可报告发现项的 Codex Security 扫描之后自动使用。",
+    "field": "skill:propose-security-hardening",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f822da69c66f0217": {
+    "zh": "审查 PR、提交、分支 diff 或工作区补丁中的安全漏洞。",
+    "field": "skill:security-diff-scan",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8b3883c9da758845": {
+    "zh": "用于对整个仓库或特定范围路径、package、文件夹或子模块进行标准的单轮安全审计，且没有 diff 需要审查。这是默认的仓库扫描。不要用于 PR、提交、分支或工作区 diff，也不要用于深度、多轮扫描。",
+    "field": "skill:security-scan",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "227021d78bdbab67": {
+    "zh": "当 Codex 已处于安全扫描的威胁建模阶段、用户明确调用 $threat-model，或用户明确要求创建、更新或持久化仓库威胁模型时使用。不作为完整 PR、提交、分支、补丁或仓库扫描的主触发器。",
+    "field": "skill:threat-model",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b064118101f68701": {
+    "zh": "在 Linear、Jira、GitHub issue 中跟踪已验证的 Codex Security 发现项，或起草 GitHub 安全公告(security advisory)。适用于单个发现项，或一次明确选定、最多 25 个、以 Linear/Jira/GitHub issue 形式跟踪的发现项批次。包含查重、精确预览、需审批方可写入及回读。不要用于扫描或修复。",
+    "field": "skill:track-findings",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "043c932b37b35de4": {
+    "zh": "当用户从扫描器、安全公告、GitHub、Atlassian Rovo、Linear 或类似 backlog 来源提供或导入已有的安全发现项、漏洞报告，或安全/漏洞类 Jira/Linear 工单，并希望对仓库做静态影响分诊时使用。不要用于发现(discovery)、重复 bug 分诊、验证或修复。",
+    "field": "skill:triage-finding",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8d80242454f3278d": {
+    "zh": "当 Codex 已处于安全扫描的验证阶段，或用户明确要求判断一个或多个候选安全发现是否有效时使用。不作为完整 PR、提交、分支、补丁或仓库扫描的主触发器。",
+    "field": "skill:validation",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "219c801fea1c4e68": {
+    "zh": "仅在用户明确要求验证某项安全修复能修复所报告的漏洞时使用。在实施修复、审查普通代码变更或运行测试时，不要自动调用。不要用于非安全类修复、候选发现项验证或全仓库扫描。",
+    "field": "skill:verify-fix",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "57e0d6d0c89080a4": {
+    "zh": "将漏洞笔记、披露报告、PoC、源代码或 Codex Security 发现项，转化为自包含、经审慎质疑验证、读起来自然的漏洞报告。可用于单个漏洞或一次披露行动；Codex Security 扫描是可选的。",
+    "field": "skill:vulnerability-writeup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

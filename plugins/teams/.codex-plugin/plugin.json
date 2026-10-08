@@ -1,0 +1,47 @@
+{
+  "name": "teams",
+  "version": "0.1.8",
+  "description": "Work with Teams using the configured Microsoft Teams app connector.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "teams",
+    "microsoft teams",
+    "chat",
+    "microsoft",
+    "microsoft 365",
+    "office 365",
+    "meetings",
+    "messages",
+    "channels",
+    "video conferencing"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Teams",
+    "shortDescription": "汇总 Teams 动态并跟进",
+    "longDescription": "使用 Teams 汇总聊天内容、提取行动项，并通过已连接的 Microsoft Teams 应用起草频道或会议跟进消息。",
+    "developerName": "OpenAI",
+    "category": "Communication",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+    "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "termsOfServiceURL": "https://www.microsoft.com/en-us/servicesagreement/",
+    "defaultPrompt": [
+      "汇总聊天内容、提取行动项或起草跟进消息"
+    ],
+    "brandColor": "#5B5FC7",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

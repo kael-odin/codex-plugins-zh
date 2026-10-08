@@ -1,0 +1,107 @@
+{
+  "5d2e8aa570ada6d9": {
+    "zh": "探索想法并制作原型",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b0505a87de47cf3b": {
+    "zh": "把早期的想法变成团队可以评审的原型。探索产品方向、审查用户流程、研究用户摩擦、从线上 URL 制作原型，并让静态截图变得可交互。可以从书面简报、URL、截图或现有设计开始，然后在构建前比较不同的视觉方向。\n\n使用可用的浏览器、Figma、Canva、图像生成和托管工具来收集参考、创建概念、评审结果，并与团队一起把工作继续推进。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aa82031fea8df929": {
+    "zh": "帮我快速上手",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9d8ff2f93c5111dd": {
+    "zh": "把这个产品想法变成三个视觉方向",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dd61ffb68b232314": {
+    "zh": "为我的业务设计一个落地页",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "55f353eca1e6eef6": {
+    "zh": "先截取屏幕截图，再基于这些证据就地报告 UX、设计和无障碍方面的问题，以此来审查或点评产品流程、用户旅程、工作流、漏斗、引导路径、结账路径、设置路径、界面或多步骤产品体验。仅在用户明确要求看板时才使用 Figma。当用户要求审查、评审、点评、检查、评估、分析、评价某个产品体验，或对其提供反馈时使用。",
+    "field": "skill:audit",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "17c2029b0e5b5722": {
+    "zh": "内部原型 QA 辅助工具。仅在 Product Design 原型、URL 转代码构建或图像转代码构建已经具备源视觉目标和已渲染的实现、可在交接前比对时使用。不要用于广泛的 UX 点评、设计点评、产品审查或流程评审；请将这些面向用户的请求交给 audit。",
+    "field": "skill:design-qa",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5b886655ad06ce59": {
+    "zh": "用于澄清产品和成果的强制性设计简报关卡。在创意构思、图像转代码构建、改版或产品 UI 工作之前使用，以澄清缺失的产品信息，并在继续之前复述简报。",
+    "field": "skill:get-context",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4505f97e1eb3a616": {
+    "zh": "根据 Product Design 简报生成基于图像的备选方案、混搭方案或新的设计方向。当用户要求设计变体、视觉探索、混搭方案，或基于所提供上下文的图像生成方案时使用。",
+    "field": "skill:ideate",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a29b48816b85ff2f": {
+    "zh": "将选定的图像、截图、设计稿或 Image Gen 参考实现为忠实还原的响应式前端。",
+    "field": "skill:image-to-code",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ad29ca5335750b61": {
+    "zh": "在明确调用 Product Design 时使用，或在用户的主要目标是探索设计、研究 UX、审查或点评流程、忠实克隆视觉来源、检查已构建的设计，或分享原型时使用。除非用户明确要求，否则不要将 Product Design 用于常规实现。",
+    "field": "skill:index",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1f05a62c0ca8f3de": {
+    "zh": "针对用户在使用指定数字产品时遇到的信号最强的问题，开展快速、基于来源的 UX 研究。当用户要求研究某个指定产品的用户痛点、UX 摩擦、引导问题、文档/帮助问题、开发者体验摩擦、支持痛点、产品工作流问题或当前用户抱怨时使用。",
+    "field": "skill:research",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b251502be235e7ba": {
+    "zh": "使用用户偏好的部署工具分享可运行的原型。",
+    "field": "skill:share",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fa17068493051b61": {
+    "zh": "将线上 URL 克隆为可运行的纯前端本地应用。",
+    "field": "skill:url-to-code",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ebbcb3668e7272c6": {
+    "zh": "加载或管理 Product Design 保存的用户上下文。当用户要求设置 Product Design、开始使用、上手引导、保存产品或设计来源、查看 Product Design 记住了什么、更新已保存的上下文，或记住 Product Design 偏好时使用。示例包括产品 URL、Figma 文件、截图、参考图像、代码库路径、Storybook、token、设计系统、品牌资产，以及通用的产品/设计笔记。",
+    "field": "skill:user-context",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

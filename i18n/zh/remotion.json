@@ -1,0 +1,121 @@
+{
+  "f8d7df2d891dd428": {
+    "zh": "以智能体方式制作视频",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2ccc7ee9406eefd8": {
+    "zh": "使用 Remotion 和 React 以编程方式制作视频，涵盖动画、时间轴、音频、字幕、3D、转场、图表、文字特效等功能。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4e40da7ed514d37f": {
+    "zh": "创建一个包含 5 根柱子的动态柱状图",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "21cff295b6705dc8": {
+    "zh": "为我们的 YouTube 频道制作一个带动画的订阅行动号召按钮",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f104c8e62ee8f72e": {
+    "zh": "使用 Remotion 为视频合成添加字幕和音频",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4f1b24826f5eae63": {
+    "zh": "所有 Remotion 技能的路由入口",
+    "field": "skill:remotion-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5f7ebf06a3245590": {
+    "zh": "转写、显示和动画化字幕",
+    "field": "skill:remotion-captions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "516b5acfd25ec4ea": {
+    "zh": "创建新的 Remotion 视频",
+    "field": "skill:remotion-create",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "59a3e22f3d4018b5": {
+    "zh": "搜索 Remotion 文档",
+    "field": "skill:remotion-docs",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "87fa740dad6a2096": {
+    "zh": "为交互功能组织 Remotion 标记结构",
+    "field": "skill:remotion-interactivity",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c222ca5bcee2b1e2": {
+    "zh": "Remotion 地图动画知识",
+    "field": "skill:remotion-maps",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "377c686049df2381": {
+    "zh": "内容、动画和效果最佳实践",
+    "field": "skill:remotion-markup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a3821c6223032311": {
+    "zh": "与 Mediabunny 交互",
+    "field": "skill:remotion-multimedia",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2d833fe9e1c89762": {
+    "zh": "导出 Remotion 视频",
+    "field": "skill:remotion-render",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1aac29c6b3553da8": {
+    "zh": "用 Remotion 构建应用",
+    "field": "skill:remotion-saas",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "17cda31fe72a619b": {
+    "zh": "预览 Remotion 视频",
+    "field": "skill:remotion-studio",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a6d7dbca2e943c41": {
+    "zh": "升级 Remotion 及相关 package",
+    "field": "skill:remotion-upgrade",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

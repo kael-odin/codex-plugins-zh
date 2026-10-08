@@ -1,0 +1,46 @@
+{
+  "name": "hyperframes",
+  "version": "0.1.2",
+  "description": "Write HTML, render video. Compositions, GSAP animations, captions, voiceovers, audio-reactive visuals, and website-to-video capture for HyperFrames.",
+  "author": {
+    "name": "HeyGen",
+    "email": "hyperframes@heygen.com",
+    "url": "https://hyperframes.heygen.com"
+  },
+  "homepage": "https://hyperframes.heygen.com",
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "license": "Apache-2.0",
+  "keywords": [
+    "hyperframes",
+    "video",
+    "html",
+    "gsap",
+    "animation",
+    "composition",
+    "rendering",
+    "captions",
+    "tts",
+    "audio-reactive"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HyperFrames by HeyGen",
+    "shortDescription": "编写 HTML，渲染视频",
+    "longDescription": "用 HyperFrames 从 HTML 构建视频。使用 HTML + CSS + GSAP 编写合成内容，通过 CLI 完成 init/preview/render/transcribe/tts，安装可复用的注册表 block 和组件，参考 GSAP 动画指南，并通过 7 步「截图转视频」流水线将任意网页转为视频。",
+    "developerName": "HeyGen",
+    "category": "Creativity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://hyperframes.heygen.com",
+    "defaultPrompt": [
+      "将这个网站制作成 20 秒的产品宣传视频",
+      "创建一个带动态排版的标题卡",
+      "为这段旁白添加同步字幕"
+    ],
+    "brandColor": "#0a0a0a",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "f3f734bbad77187b": {
+    "zh": "遵循 OpenAI 最佳实践，开发 AI 应用、智能体和 ChatGPT 应用",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4a010693bf2a1a8a": {
+    "zh": "在 Codex 中使用 OpenAI Developers，结合 OpenAI 文档、OpenAI API、Apps SDK 和 Agents SDK 构建 AI 应用、智能体和 ChatGPT 应用。连接 OpenAI Platform（platform.openai.com），使用真实 OpenAI API 密钥，让 Codex 构建的应用开箱即用。通过 Deployment Manager 在本地运行和部署 Agents SDK 项目，快速搭建 ChatGPT 应用脚手架，并生成 ChatGPT 应用提交材料。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "98aca9455a593365": {
+    "zh": "为这个项目创建一个 OpenAI API 密钥",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dd6b8add7d59d136": {
+    "zh": "用 Agents SDK 构建一个智能体",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c98b5a2a4e5d3129": {
+    "zh": "基于我本地的 MCP Server 和 Widget 构想，构建一个 ChatGPT 应用。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b40ccb2201df15b6": {
+    "zh": "在 Codex 中构建、运行、部署和评估 OpenAI Agents SDK 应用。适用于以下场景：创建或改造 Agents SDK 应用、从提示词或 Codex 对话线程构建、准备可运行的智能体原型、添加专项评估套件，或通过 Agents SDK Deployment Manager 进行本地部署。",
+    "field": "skill:agents-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b1a59e52d727b441": {
+    "zh": "构建、脚手架搭建、重构和排查 ChatGPT Apps SDK 应用，这类应用结合了 MCP Server 和 Widget UI。适用于以下场景：Codex 需要设计工具、注册 UI 资源、接入 MCP Apps 桥接或 ChatGPT 兼容 API、应用 Apps SDK 元数据、CSP 或域名设置，或生成符合文档的项目脚手架。推荐先调用 openai-docs 技能或 OpenAI 开发者文档 MCP 工具，再生成代码。",
+    "field": "skill:build-chatgpt-app",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "739be0e1949ecbee": {
+    "zh": "检查 ChatGPT Apps MCP Server 代码库，生成包含应用信息建议、工具提示说明、测试用例和负面测试用例的 chatgpt-app-submission.json，并报告审核检查结果和 outputSchema 警告，以备提交审核。",
+    "field": "skill:chatgpt-app-submission",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "cdf70e839ba24885": {
+    "zh": "当 OpenAI API 请求失败时使用，帮助 Codex 判断可能的原因、说明下一步操作并路由到正确的后续处理。涵盖常见运行时故障，如出站网络访问被拦截、凭据无效、API 额度或余额耗尽、速率限制，以及模型、项目或组织访问权限问题；密钥获取委托给 openai-platform-api-key，最新文档查询委托给 openai-docs。",
+    "field": "skill:openai-api-troubleshooting",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f1d78b6c8db4a15d": {
+    "zh": "当 Codex 被要求构建、运行、测试、调试或配置基于 OpenAI 或未指定提供商的 AI 应用、UI、脚本、CLI、生成器或工具时使用，尤其是仅描述为「使用 AI」或由表单/用户输入驱动的生成器；也适用于 OPENAI_API_KEY 或 sk-proj 的配置。将其作为凭据入口：安全检查现有密钥，在进行 API 操作前询问是否复用还是新建，绝不暴露明文密钥。",
+    "field": "skill:openai-platform-api-key",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

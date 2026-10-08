@@ -1,0 +1,107 @@
+{
+  "1c029674593c6d30": {
+    "zh": "构建、部署、升级和调试 Expo 及 React Native 应用",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "166d65a6194c968a": {
+    "zh": "由 Expo 官方编写的技能集，涵盖构建 Expo Router UI、编写 API 路由、配置数据获取和样式、编写 Expo 原生模块、创建开发客户端、升级 Expo SDK、接入 Codex 应用运行 action，以及通过 EAS 工作流、构建、托管、TestFlight、App Store 和 Play Store 指南部署 Expo 应用。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d953a912b9bb81d6": {
+    "zh": "使用 Expo Router 构建精美应用的完整指南，涵盖基础知识、样式、组件、导航、动画、模式和原生标签页。",
+    "field": "skill:building-native-ui",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1030323a5f0498b5": {
+    "zh": "通过项目本地运行脚本和 .codex/environments/environment.toml actions 将 Expo 项目接入 Codex 应用。适用于需要 Codex 应用运行按钮、构建/运行 action、操作按钮，或在 Codex 中稳定启动 Expo 工作流的场景。",
+    "field": "skill:codex-expo-run-actions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fa658388a15b7f10": {
+    "zh": "使用 EAS Hosting 在 Expo Router 中创建 API 路由的指南",
+    "field": "skill:expo-api-routes",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "828539610ca8d15a": {
+    "zh": "帮助理解和编写 Expo 项目的 EAS workflow YAML 文件。适用于用户询问 Expo 或 EAS 上下文中的 CI/CD 或工作流、提及 .eas/workflows/，或需要 EAS 构建管道或部署自动化帮助的场景。",
+    "field": "skill:expo-cicd-workflows",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9d08bb51fe897b7e": {
+    "zh": "将 Expo 应用部署到 iOS App Store、Android Play Store、Web 托管和 API 路由",
+    "field": "skill:expo-deployment",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a3db7f9180a0a244": {
+    "zh": "在本地或通过 TestFlight 构建并分发 Expo 开发客户端",
+    "field": "skill:expo-dev-client",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e7651596df304dc0": {
+    "zh": "使用 Expo Modules API（Swift、Kotlin、TypeScript）编写 Expo 原生模块和视图的指南。涵盖模块定义 DSL、原生视图、共享对象、config 插件、生命周期钩子、autolinking 和类型系统。适用于为 Expo 构建或修改原生模块的场景。",
+    "field": "skill:expo-module",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "93e8bdfd96516bf9": {
+    "zh": "在 Expo 中使用 react-native-css 和 NativeWind v5 配置 Tailwind CSS v4，实现通用样式",
+    "field": "skill:expo-tailwind-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4746f62bc7451798": {
+    "zh": "`@expo/ui/jetpack-compose` 包让你在应用中使用 Jetpack Compose 视图和修饰符。",
+    "field": "skill:expo-ui-jetpack-compose",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d509a841182bb881": {
+    "zh": "`@expo/ui/swift-ui` 包让你在应用中使用 SwiftUI 视图和修饰符。",
+    "field": "skill:expo-ui-swift-ui",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "11bf864e245c282d": {
+    "zh": "适用于实现或调试任何网络请求、API 调用或数据获取的场景。涵盖 fetch API、React Query、SWR、错误处理、缓存、离线支持和 Expo Router 数据加载器（`useLoaderData`）。",
+    "field": "skill:native-data-fetching",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e1ceca3add6dc240": {
+    "zh": "升级 Expo SDK 版本及修复依赖问题的指南",
+    "field": "skill:upgrading-expo",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "336f09be323341a2": {
+    "zh": "使用 Expo DOM 组件在原生端通过 webview 运行 Web 代码，在 Web 端原样运行。逐步将 Web 代码迁移到原生端。",
+    "field": "skill:use-dom",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

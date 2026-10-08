@@ -1,0 +1,56 @@
+{
+  "name": "creative-production",
+  "version": "0.1.25",
+  "description": "Explore campaign ideas, concept images, mood boards, product placements, ad directions, listing images, social posts, and launch assets.",
+  "author": {
+    "name": "Creative Production",
+    "email": "adrianmasson@openai.com, storus@openai.com"
+  },
+  "homepage": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/creative-production",
+  "repository": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/creative-production",
+  "license": "Proprietary",
+  "keywords": [
+    "creative-production",
+    "marketing",
+    "creative",
+    "visuals",
+    "images",
+    "image-generation",
+    "mood-board",
+    "campaigns",
+    "ads",
+    "social-posts",
+    "product-photos",
+    "brand",
+    "design",
+    "marketing-assets",
+    "visual-exploration",
+    "asset-production"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Creative Production",
+    "shortDescription": "根据简报或产品图片创建营销视觉素材。",
+    "longDescription": "Creative Production 帮助营销人员将简报、产品图片、优惠方案或现有素材转化为可供团队审阅的视觉方案。用它来探索营销活动创意、概念图、情绪板、产品植入、广告方向、商品 listing 图片、社交媒体帖子和可复用风格。从简报或图片开始，比较最优的几个选项，然后针对你需要的渠道调整选定的方向。",
+    "developerName": "OpenAI",
+    "category": "Creativity",
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "帮我启动一个创意制作工作流",
+      "为这份视觉简报生成概念图",
+      "根据这张图片创建产品植入"
+    ],
+    "brandColor": "#924FF7",
+    "composerIcon": "./assets/composerIcon.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

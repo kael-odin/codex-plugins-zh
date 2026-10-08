@@ -1,0 +1,79 @@
+{
+  "a1cbe699c6bb83f8": {
+    "zh": "设计、合成、编辑",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "69e062aaac7518a2": {
+    "zh": "Adobe 让你在对话中解锁更多创作与完成工作的方式。Adobe 连接器此前以 Photoshop 的形式提供，如今把创意与生产力能力扩展到 Creative Cloud 和 Acrobat。描述你想制作或修改的内容，Adobe 就能帮助你把想法、图片、视频和文档变成精美的成品——从编辑照片、创建 PDF，到设计社交素材、调整视频尺寸、搜索 Creative Cloud 资产，以及生成数据驱动的文档。\n核心能力：\n\n* 修饰人像或批量编辑照片：拖入照片并描述你想要的观感——调整颜色、光线和色调；移除干扰元素并生成新元素；应用 Lightroom 预设；移除背景；模糊、裁剪、调整尺寸和扩展图像。\n* 从模板设计：从 Express 模板开始，更新文字和颜色，然后为社交媒体制作动画，或转换成 PDF。\n* 为任意平台优化视频：上传一段横版片段，要求把它重新排版适配 YouTube Shorts、Instagram Reels 或任何平台。你还可以把多段片段拼接成一个完整序列。\n* 搜索和整理创意作品：描述你在找什么，即可按主题、风格、氛围或内容从 Creative Cloud 库中找出资产——无需浏览文件夹。\n* 处理 PDF 和文档：创建并转换精美的 PDF 和文档。\n* 创建数据驱动的文档：描述你的产出并提供数据——连接器会把原始数据或内容变成格式化的、可分享的 PDF，包括徽章、卡片、目录等。\n\n你可以先以访客身份开始使用，再用 Adobe 账号登录，以获取更多能力和工具、Creative Cloud 存储空间，以及跨会话保存的工作。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "feea03fcb1c82ec3": {
+    "zh": "把我的视频做成一段简短的精彩集锦",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "39b450a2c2bc73bf": {
+    "zh": "把这些照片调整尺寸，适配我的社交媒体平台",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3a412c54307a4a3b": {
+    "zh": "找一个促销宣传单模板",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "364c7d5d5e6893f8": {
+    "zh": "对一组图像应用一致的调整，让它们看起来像是同一次编辑的成果。当用户说「make my photos look cohesive」「give all these the same style」「apply a warm and golden feel to all of these」「make this cinematic」「match the look across my photos」「edit all my travel photos the same way」「batch edit these」「make these consistent」「fix my phone photos」，或上传一个文件夹的照片并希望得到统一、精致的效果时，就使用本技能。也适用于「apply a preset to all of these」「make these look professional」或「they were shot in mixed lighting — can you fix them all」这类请求。输出最终图片的直接 URL，外加聊天内的预览网格和可选的 Firefly Board 链接。Access: 🔐 需要登录 | Gen AI: ❌",
+    "field": "skill:adobe-batch-edit-photos",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "da1c13dd1ccf3562": {
+    "zh": "当用户想把他们的 logo、设计或草图呈现在产品或场景样机上时使用——马克杯、T 恤、名片、帽子、手机屏幕、海报、广告牌或类似物品。触发词：「create mockups」「show my logo on products」，或任何上传 logo 并要求把它可视化到物品上的请求。Access: 🔐 需要登录 | Gen AI: ✅ 通过 `image_generate` 使用 Adobe Firefly，用于设计创作、草图润色和样机场景生成",
+    "field": "skill:adobe-create-mockups",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "de955478a074b2a7": {
+    "zh": "使用 Adobe Creative Cloud 工具，把任意图片或视频调整尺寸、裁剪或导出为可直接用于平台的社交媒体素材。当用户想为某一个或多个社交平台准备照片、图片或视频时，使用本技能——Instagram、TikTok、LinkedIn、Facebook、YouTube、Snapchat、Pinterest、Threads 或 X/Twitter。触发词：「prepare my image for Instagram」「resize for TikTok」「get this ready to post」「make versions for all platforms」「social media sizes」「crop for stories」「export for LinkedIn」「resize my video for social」「make social media assets」，或任何为特定平台适配照片或视频的请求。可处理主体感知裁剪、AI 画布扩展、全量运行前的测试预览，以及同比例视频缩放。",
+    "field": "skill:adobe-create-social-variations",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "671791ec06a91398": {
+    "zh": "使用 Adobe Express 模板创建任意视觉设计——传单、海报、社交媒体帖子（Instagram、Facebook、LinkedIn）、名片、邀请函、贺卡、简历、求职信、宣传册、简报、证书、演示文稿、YouTube 缩略图、邮件页眉、logo、菜单和标签。只要用户想制作、设计或搭建任何视觉内容，即使他们只说「make me a flyer」「design a poster」「I need something for Instagram」「create an event invite」或「make a business card」，也应使用本技能。还负责浏览模板、编辑文字、替换图片、更改背景、制作动画和导出设计。Access: 🔐 需要登录 | Gen AI: ❌ 默认不启用——仅在支持生成式 AI 的界面（如 Codex）上才做图片替换；Claude 上完全不启用",
+    "field": "skill:adobe-design-from-template",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "22969dfd19eedb9f": {
+    "zh": "使用 Adobe Quick Cut 从一段视频制作节奏紧凑的高燃集锦。只要用户想把一段视频剪切、修剪或缩短成精彩片段——包括「make a sizzle reel」「make a highlight reel」「quick cut this」「cut the best parts」「shorten this video」「make a highlight clip」「summarize this video visually」这类说法，或任何想产出一段更短的剪辑版视频的请求——就使用本技能。遇到 Quick Cut 类请求时，先使用本技能，再考虑建议在 Premiere 中手动编辑。需要用户上传视频文件。",
+    "field": "skill:adobe-edit-quick-cut",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bcbfb4a442b1cd35": {
+    "zh": "使用 Adobe 工具批量修饰一个文件夹的人像照片——为需要快速、无需盯守的批处理的婚礼摄影师和活动摄影师而设计。当用户说「retouch my photos」「batch process these portraits」「process my wedding photos」「clean up this folder of images」「run my headshots through Adobe」，或上传/选中一个文件夹的照片并希望它们经过修饰、可直接查看时，使用本技能。自动对每张图片应用自动拉直、自动色调和自动光照。输出预览网格和下载文件夹。Access: 🔐 需要登录 | Gen AI: ❌ 默认不启用——仅在支持生成式 AI 的界面（如 Codex）上提供可选的仅背景清理；Claude 上完全不启用",
+    "field": "skill:adobe-retouch-portraits",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

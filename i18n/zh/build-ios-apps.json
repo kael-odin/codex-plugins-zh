@@ -1,0 +1,86 @@
+{
+  "614aa26ff9d15f34": {
+    "zh": "使用 App Intents、SwiftUI 和 Xcode 工作流构建、打磨和调试 iOS 应用",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b9e3ea48863701fe": {
+    "zh": "使用 Build iOS Apps 设计 App Intents 和 App Shortcuts、构建或重构 SwiftUI UI、在 Codex 内置浏览器中渲染 SwiftUI 预览、采用 Liquid Glass 等现代 iOS 模式、审计运行时性能、采集 ETTrace 性能剖析数据、排查内存泄漏，并通过 XcodeBuildMCP 支持的工作流在模拟器上调试应用。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4baded15790cae03": {
+    "zh": "使用 SwiftUI、App Intents 和模拟器构建或调试 iOS 应用",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "045ba4abc3c5dd74": {
+    "zh": "为 iOS 系统界面设计 App Intents、app 实体和 App Shortcuts。适用于需要将应用操作或内容暴露给 Shortcuts、Siri、Spotlight、小组件或控件的场景。",
+    "field": "skill:ios-app-intents",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fc84cfe31c66edcc": {
+    "zh": "使用 XcodeBuildMCP 在模拟器上构建、运行和调试 iOS 应用。适用于启动应用、检查模拟器 UI 或日志，或诊断运行时行为的场景。",
+    "field": "skill:ios-debugger-agent",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "50baf9487e326f50": {
+    "zh": "采集并分析 iOS 模拟器的 ETTrace 性能剖析数据。适用于分析启动或运行时延迟、对比 trace 数据，或定位 CPU 密集型调用栈的场景。",
+    "field": "skill:ios-ettrace-performance",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a37549eaf8f30b54": {
+    "zh": "采集并检查 iOS 内存泄漏和 memgraph。适用于排查泄漏对象、循环引用、内存增长，或需要修复前后对比证据的场景。",
+    "field": "skill:ios-memgraph-leaks",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ff6ab7b8c127df7d": {
+    "zh": "将 iOS 模拟器镜像到 Codex 内置浏览器，并在该模拟器中热重载渲染可导入 Swift 包的 SwiftUI 预览。适用于需要在浏览器中查看或操作 iOS 应用、在 Xcode Canvas 之外查看 SwiftUI 预览、实时迭代预览，或在浏览器中截取模拟器证明截图的场景。",
+    "field": "skill:ios-simulator-browser",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ab071285bfde556a": {
+    "zh": "实现并审查 iOS 26+ SwiftUI Liquid Glass UI。适用于采用 Liquid Glass 或检验其正确性、性能和设计契合度的场景。",
+    "field": "skill:swiftui-liquid-glass",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c5e6ede82ac72f5e": {
+    "zh": "从代码层面审计 SwiftUI 运行时性能。适用于诊断渲染缓慢、滚动卡顿、更新开销过大，或需要性能分析的场景。",
+    "field": "skill:swiftui-performance-audit",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e58c9f17f9d86b57": {
+    "zh": "使用组件模式和示例构建并重构 SwiftUI UI。适用于规划导航、状态、布局、控件或页面组合的场景。",
+    "field": "skill:swiftui-ui-patterns",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bdedcebecbd8a284": {
+    "zh": "将 SwiftUI 视图文件重构为稳定、可测试的结构。适用于拆分大型视图、收紧数据流，或整理 Observation 所有权的场景。",
+    "field": "skill:swiftui-view-refactor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

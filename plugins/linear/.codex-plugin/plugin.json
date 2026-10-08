@@ -1,0 +1,35 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Linear Orbit, Inc",
+    "url": "https://linear.app/"
+  },
+  "description": "Search, create and update Linear issues, projects, and initiatives. Draft PRDs, write updates, analyze customer requests, and keep plans up to date — all from within ChatGPT",
+  "homepage": "https://linear.app/",
+  "interface": {
+    "brandColor": "#5E6AD2",
+    "brandColorDark": "#5E6AD2",
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/composer-icon.svg",
+    "defaultPrompt": [
+      "整理或更新此任务相关的问题，并给出明确的后续行动"
+    ],
+    "developerName": "Linear Orbit, Inc",
+    "displayName": "Linear",
+    "logo": "./assets/logo.png",
+    "longDescription": "在 Codex 中管理 Linear 的问题、项目和团队工作流。",
+    "privacyPolicyURL": "https://linear.app/privacy",
+    "screenshots": [],
+    "shortDescription": "规划并构建产品",
+    "supportURL": "https://linear.app/contact",
+    "termsOfServiceURL": "https://linear.app/terms",
+    "websiteURL": "https://linear.app/"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "mcpServers": "./.mcp.json",
+  "name": "linear",
+  "repository": "https://github.com/openai/openai/tree/master/chatgpt/oai-maintained-plugins/plugins/linear",
+  "version": "5.0.1"
+}

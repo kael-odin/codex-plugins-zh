@@ -1,0 +1,60 @@
+name: sync-upstream
+
+on:
+  schedule:
+    - cron: '17 2 * * *' # daily 02:17 UTC = 10:17 Beijing
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch upstream
+        run: git clone --depth 50 https://github.com/openai/plugins.git .upstream
+
+      - name: Compute diff
+        run: node tools/sync.mjs
+
+      - name: Adopt seed translations (best-effort)
+        run: |
+          git clone --depth 1 https://cnb.cool/echobird/codex-plugins.git .seed \
+            && node tools/translate.mjs --seed .seed \
+            || echo "[warn] seed unavailable, continuing with committed ledger"
+
+      - name: Translate pending via GLM (optional secret)
+        env:
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+        run: |
+          if [ -n "$GLM_API_KEY" ]; then
+            node tools/translate.mjs --execute
+          else
+            echo "[info] GLM_API_KEY not configured, skipping API translation"
+          fi
+
+      - name: Compose publish tree
+        run: node tools/compose.mjs
+
+      - name: Verify lossless (gate)
+        run: node tools/verify.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name "codex-plugins-zh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          sha=$(node -p "require('./data/last-sha.json').sha.slice(0,9)")
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes since last sync"
+          else
+            git commit -m "sync: upstream ${sha} (lossless verified)"
+            git push
+          fi

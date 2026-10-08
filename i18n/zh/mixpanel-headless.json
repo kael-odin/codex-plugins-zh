@@ -1,0 +1,65 @@
+{
+  "56373b82885e7d0a": {
+    "zh": "用 Python 分析 Mixpanel 数据",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2b19e47e89b9fdd1": {
+    "zh": "使用 Mixpanel Headless 技能安装和验证 mixpanel_headless Python SDK，发现 Mixpanel 数据结构，运行分群、漏斗、留存、流程和用户画像分析，以及在 Codex 中构建或检查 Mixpanel 仪表板。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2e8a61bd188b2737": {
+    "zh": "用 Python 分析我的 Mixpanel 注册漏斗",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "56e016c76c4d3fb6": {
+    "zh": "在 Mixpanel 中发现产品分析洞察",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f2d3b7454040191e": {
+    "zh": "基于关键事件构建 Mixpanel 仪表板",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "debf8b346efdb2cd": {
+    "zh": "Mixpanel 仪表板的完整增删改查与分析能力。当用户请求构建、创建、分析、读取、理解、解释、修改、更新、增强或管理仪表板，或询问仪表板布局、文字卡片或报表排列时触发。涵盖仪表板分析（读取并理解现有内容）、创建（新建）、修改（更新现有内容）和解释（数据驱动的注释说明）。允许工具：Bash Read Write",
+    "field": "skill:dashboard-expert",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "743705e84432df74": {
+    "zh": "管理 Mixpanel Headless 身份验证：检查会话状态、列出/添加/使用账号、运行 OAuth 登录、切换项目/工作区、管理目标，以及检查 bridge 凭证。",
+    "field": "skill:mixpanel-auth",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2b05129f943f4801": {
+    "zh": "当用户询问 Mixpanel 产品分析、事件数据、漏斗分析、留存曲线、队列分析、分群查询、用户行为、转化率、流失、DAU/MAU、ARPU、营收指标、功能采用率、A/B 测试结果、用户路径、流程分析，或需要用 Python 查询、探索、可视化或分析 Mixpanel 数据时使用。也适用于读取、写入或管理 Mixpanel「业务背景」——即用于帮助 AI 助手理解组织结构与目标的 Markdown 文档。",
+    "field": "skill:mixpanelyst",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9b146526671e3066": {
+    "zh": "此技能安装 mixpanel_headless、pandas、numpy、matplotlib、seaborn、networkx、anytree、scipy（Python 3.11+ 还包含 pyarrow），然后验证 Mixpanel 凭证。适用于为 Mixpanel 数据分析配置新环境、缺少依赖项，或首次配置服务账号或 OAuth 凭证时。",
+    "field": "skill:setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

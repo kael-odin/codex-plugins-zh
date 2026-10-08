@@ -1,0 +1,45 @@
+{
+  "name": "plugin-eval",
+  "version": "0.1.2",
+  "description": "Evaluate Codex skills and plugins from chat with a beginner-friendly start command, local-first reports, token budget explanations, and guided benchmarking.",
+  "author": {
+    "name": "OpenAI Codex",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://openai.com/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "plugin",
+    "skill",
+    "evaluation",
+    "quality",
+    "budget"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Plugin Eval",
+    "shortDescription": "从对话出发，在本地评估或基准测试插件",
+    "longDescription": "让 Codex 评估插件或技能、对指定插件（如 game-studio）给出完整分析、解释得分原因、列出优先修复项、说明 token 预算、统计实际 token 用量、做基准测试，或告诉你下一步该跑什么。Plugin Eval 保持对工程师友好的体验：从自然语言请求出发，再通过本地 `plugin-eval start` 入口或推荐的工作流命令执行。",
+    "developerName": "OpenAI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "分析一下 game studio 插件",
+      "评估这个插件",
+      "为什么得了这个分？"
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/plugin-eval.svg",
+    "logo": "./assets/plugin-eval.svg",
+    "screenshots": []
+  }
+}

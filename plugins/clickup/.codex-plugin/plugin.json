@@ -1,0 +1,27 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "ClickUp"
+  },
+  "description": "Turn Codex into your ClickUp command center.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/composer-icon.png",
+    "defaultPrompt": [
+      "判断「Sprint 14：简化 UI」是否存在进度风险"
+    ],
+    "developerName": "ClickUp",
+    "displayName": "ClickUp",
+    "logo": "./assets/logo.png",
+    "longDescription": "将 Codex 变成你的 ClickUp 指挥中心。随便问、什么都找得到、直接采取行动——不打断你的工作节奏。\n• 深度工作区搜索：自然提问，从所有工作内容中获取精准答案\n• 边问边行动：在 Codex 中直接查找、创建、更新和管理任务\n• 零切换成本：从提问到答案到行动，全程不离开对话",
+    "screenshots": [],
+    "shortDescription": "将 Codex 变成你的 ClickUp 指挥中心。",
+    "websiteURL": "https://clickup.com"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "name": "clickup",
+  "repository": "https://github.com/openai/plugins",
+  "version": "1.0.3"
+}

@@ -1,0 +1,23 @@
+{
+  "b935ba4d3ccc18e7": {
+    "zh": "整理 Outlook 收件箱",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a4691e3dc97e9215": {
+    "zh": "使用 Outlook Email 整理收件箱、汇总会话、提取行动项，并通过已连接的 Microsoft Outlook 应用起草回复或转发邮件。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2f2a11ef3905694a": {
+    "zh": "整理收件箱、汇总会话或起草回复/转发",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

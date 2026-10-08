@@ -1,0 +1,121 @@
+{
+  "8cd64fc844f75a98": {
+    "zh": "Figma 设计转代码工作流",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6f0993b49689fa79": {
+    "zh": "Figma 工作流，用于在代码中实现设计、为已发布的 Figma 组件创建 Code Connect 模板，以及生成可复用的项目级设计系统规则，支持 Figma 到代码的重复性工作。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d92b89ff9089b88c": {
+    "zh": "检查 Figma 设计并在代码中实现",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b18d5842a87169db": {
+    "zh": "为我的组件创建 Code Connect 模板",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b34a37f34893d49c": {
+    "zh": "在 Figma 中构建或更新屏幕",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "575178fc0b1c0670": {
+    "zh": "创建和维护将 Figma 组件映射到代码片段的 Figma Code Connect 模板文件。当用户提到 Code Connect、Figma 组件映射、设计转代码，或需要创建/更新 `.figma.ts` 或 `.figma.js` 文件时触发。",
+    "field": "skill:figma-code-connect",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "008f25f16e7202bc": {
+    "zh": "**必须先执行的前置步骤**——每次调用 `create_new_file` 工具前，必须先调用本技能。禁止在未加载本技能的情况下直接调用 `create_new_file`。当用户需要新建空白 Figma 文件（新设计、FigJam 或 Slides 文件），或在调用 `use_figma` 前需要全新文件时触发。用法：/figma-create-new-file [editorType] [fileName]（例如 /figma-create-new-file figjam 我的白板，/figma-create-new-file slides Q3 回顾）",
+    "field": "skill:figma-create-new-file",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9e495a42085b6e6f": {
+    "zh": "**必须先执行的前置步骤**——每次调用 `get_design_context` Figma MCP 工具前，必须先调用本技能。当用户想要将 Figma 设计实现、构建、移植或编码为代码时，必须触发本技能。示例提示（非全部）包括「implement this Figma design」「build this screen from Figma」「turn this Figma into code」「design to code」。本技能向智能体提供关于如何正确用代码实现 Figma 设计的关键说明和步骤，绝不能跳过。",
+    "field": "skill:figma-design-to-code",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5e86317e191fd1b0": {
+    "zh": "当任务涉及将应用页面、视图或多分区布局转译到 Figma 时，配合 figma-use 一起使用。触发词：「写入 Figma」「从代码在 Figma 中创建」「将页面推送到 Figma」「把这个应用/页面在 Figma 中构建」「创建一个屏幕」「在 Figma 中构建落地页」「更新 Figma 屏幕以匹配代码」「将这个弹窗/对话框/抽屉/面板转到 Figma」。这是将完整页面、弹窗、对话框、抽屉、侧边栏、面板或任何多分区复合视图从代码或描述构建/更新到 Figma 的首选工作流技能。从 Code Connect 文件、现有屏幕和库搜索中发现设计系统组件、变量和样式，然后逐段导入并组装视图，使用设计系统 token 而非硬编码值。",
+    "field": "skill:figma-generate-design",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "679885b3857ffb32": {
+    "zh": "**必须先执行的前置步骤**——每次调用 `generate_diagram` 工具前，必须先加载本技能。禁止在未加载本技能的情况下直接调用 `generate_diagram`。当用户要求创建、生成、绘制、渲染、草绘或构建图表时触发——包括流程图、架构图、时序图、ERD/实体关系图、状态图/状态机、甘特图或时间线。当用户提到 Mermaid 语法，或希望在 FigJam 中可视化系统架构、决策树、依赖关系图、API 调用流、身份验证握手、Schema 或流水线时也触发。提供类型专属指导，设置通用 Mermaid 约束，并指导何时使用其他图表类型或跳过工具（思维导图、饼图、类图等）。",
+    "field": "skill:figma-generate-diagram",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4ffc761bbb7a6751": {
+    "zh": "从代码库在 Figma 中构建或更新专业级设计系统。适用于创建变量/token、构建组件库、创建带完整变体集和变量绑定的单个组件、设置主题（亮/暗模式）、记录基础规范，或弥合代码与 Figma 之间的差距。当用户要求在 Figma 中创建或生成任何组件时也适用——即使是单个组件，因为生产级组件需要完善的变量基础、变体状态和设计 token 绑定。本技能指导**构建什么**以及**按什么顺序**——与 `figma-use` 技能互补（后者指导如何调用 Plugin API）。两个技能应一起加载。",
+    "field": "skill:figma-generate-library",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ba264cdf720b4d26": {
+    "zh": "将 Figma 的动效与动画转译为生产级应用代码。在从 Figma 设计实现动画/动效时使用--用户提到「implement this motion」「add animation from Figma」「animate this component」、提供了一个节点带动画的 Figma URL，或当 `get_design_context` 返回动效数据/指示你调用 `get_motion_context` 时触发。",
+    "field": "skill:figma-implement-motion",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "33d09760d05751e0": {
+    "zh": "SwiftUI ↔ Figma 双向转译。当用户提到 Swift、SwiftUI、iOS、iPhone 或 iPad 时使用--支持任一方向：将 Figma 设计转译为 SwiftUI（design -> code），或将 SwiftUI 视图/屏幕/token 推回到 Figma 文件中（code -> design）。触发词如「implement this Figma design in SwiftUI」「build this screen in Swift」「push this SwiftUI view to Figma」「mirror my Swift code in a Figma file」，或当 Figma URL 与 `.swift` 文件 / `.xcodeproj` 同时出现时触发。会路由到方向专属的参考文档；在 code -> design 路径下与 `figma-use` 一起加载。",
+    "field": "skill:figma-swiftui",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b354bcce8a443fa8": {
+    "zh": "**必须先执行的前置步骤**——每次调用 `use_figma` 工具前，必须先调用本技能。禁止在未加载本技能的情况下直接调用 `use_figma`。跳过会导致难以排查的常见故障。当用户需要在 Figma 文件上下文中执行写入或需要 JavaScript 的特殊读取操作时触发——如创建/编辑/删除节点、设置变量或 token、构建组件和变体、修改自动布局或填充、将变量绑定到属性，或以编程方式检查文件结构。",
+    "field": "skill:figma-use",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f21001ed210705bf": {
+    "zh": "帮助智能体在 FigJam 上下文中使用 Figma 的 `use_figma` MCP 工具。可与 `figma-use` 配合使用，后者包含 `use_figma` 工具的基础上下文。",
+    "field": "skill:figma-use-figjam",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7de6b48f57a32055": {
+    "zh": "为 `use_figma` MCP 工具提供动效/动画上下文--通过手动关键帧、动画样式、缓动及时间轴时长为 Figma 节点添加动画。当任务涉及在节点上添加、编辑或检查动画时，与 figma-use 一起加载。",
+    "field": "skill:figma-use-motion",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ea928a51d28d4ced": {
+    "zh": "帮助智能体在 Slides 上下文中使用 Figma 的 `use_figma` MCP 工具。可与 `figma-use` 配合使用，后者包含 `use_figma` 工具的基础上下文。",
+    "field": "skill:figma-use-slides",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

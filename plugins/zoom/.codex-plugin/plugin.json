@@ -1,0 +1,59 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Zoom",
+    "url": "https://github.com/zoom"
+  },
+  "description": "Smart meeting insights from Zoom",
+  "homepage": "https://developers.zoom.us/",
+  "interface": {
+    "brandColor": "#0B5CFF",
+    "brandColorDark": "#0B5CFF",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "category": "Communication",
+    "composerIcon": "./assets/composer-icon.svg",
+    "defaultPrompt": [
+      "在我最近的 Zoom 会议记录中搜索关于定价的讨论。",
+      "针对一个 Zoom 集成想法运行 /plan-zoom-product。"
+    ],
+    "developerName": "Zoom",
+    "displayName": "Zoom",
+    "logo": "./assets/logo.jpg",
+    "logoDark": "./assets/logo-dark.jpg",
+    "longDescription": "Zoom 通过 Zoom app connector 将 Codex 与会议上下文打通，并为开发者提供规划、构建、调试和审查 Zoom 集成的全流程工作流，覆盖 API、SDK、webhook、WebSocket、机器人和自动化等各类场景。",
+    "privacyPolicyURL": "https://zoom.us/privacy",
+    "screenshots": [
+      "./assets/screenshot-1.png",
+      "./assets/screenshot-2.png",
+      "./assets/screenshot-3.png",
+      "./assets/screenshot-4.png"
+    ],
+    "shortDescription": "来自 Zoom 的智能会议洞察",
+    "termsOfServiceURL": "https://www.zoom.com/en/trust/terms/",
+    "websiteURL": "https://zoom.us"
+  },
+  "keywords": [
+    "zoom",
+    "codex-plugin",
+    "connector",
+    "meetings",
+    "transcripts",
+    "recordings",
+    "docs",
+    "developers",
+    "rest-api",
+    "meeting-sdk",
+    "video-sdk",
+    "webhooks",
+    "oauth"
+  ],
+  "license": "MIT",
+  "name": "zoom",
+  "repository": "https://github.com/zoom/zoom-plugin-codex",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

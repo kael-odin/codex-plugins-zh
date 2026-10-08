@@ -1,0 +1,44 @@
+{
+  "d9e92e39f0839039": {
+    "zh": "安装并连接 ChatCut",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f6a7ee658b311e5c": {
+    "zh": "下载、安装、打开、连接或修复已签名的正式版 ChatCut Desktop 应用，让 Codex 能够使用其本地视频编辑工具和技能。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f58c468a837c7e70": {
+    "zh": "创建一个新的 ChatCut 项目，开始编辑我的视频。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7b9f3a1b868b809a": {
+    "zh": "把这段口播视频剪辑成更紧凑的故事，加上字幕、B-roll、音乐和动态图形。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2a37e2906ec1e05d": {
+    "zh": "创建一段带动态图形和英文旁白的 AI 视频剪辑讲解。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eff82e2fcc0ef420": {
+    "zh": "当 chatcut_desktop MCP 工具缺失或不可用时，安装、打开、连接或修复 ChatCut Desktop。不要在已运行于 ChatCut Desktop 内部的受管智能体中使用，也不要在 chatcut_desktop 工具已可用时使用。",
+    "field": "skill:connect-chatcut-desktop",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "public-equity-investing",
+  "version": "0.1.31",
+  "description": "Public equity investing workflows for listed-company research, earnings analysis, valuation, model updates, long/short pitches, catalysts, thesis tracking, ETF/index and constituent diligence, sell-side research notes, risk sizing, hedging, dashboards, and investment memos.",
+  "author": {
+    "name": "OpenAI"
+  },
+  "homepage": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/public-equity-investing",
+  "repository": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/public-equity-investing",
+  "license": "Proprietary",
+  "keywords": [
+    "public-equity-investing",
+    "factset",
+    "morningstar",
+    "lseg",
+    "s&p global",
+    "pitchbook",
+    "quartr",
+    "alpaca",
+    "daloopa",
+    "public-equity",
+    "listed-equities",
+    "equity-research",
+    "long-only",
+    "hedge-fund",
+    "long-short",
+    "earnings",
+    "valuation",
+    "catalysts",
+    "investment-memo",
+    "etf-index-diligence",
+    "benchmark-relative-equity",
+    "sell-side-research",
+    "public-equity-diligence",
+    "portfolio-manager"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Public Equity Investing",
+    "shortDescription": "公开市场股票 PM 研究、多空、财报、ETF/指数尽调与投资备忘录",
+    "longDescription": "面向纯多头投资者、多空对冲基金、卖方股票研究团队、ETF/指数及成分股尽调、事件驱动型股票投资者，以及行业/主题上市股票研究团队的公开市场股票投资工作流。输出应点明哪些标的定价错误、哪些已计入定价、什么能验证或推翻投资论点、下一步该做什么，以及还缺哪些证据。信用工具、信用资质、重组、困境、回收、利差、收益率、契约条款和债务证券分析请使用 Credit Markets。",
+    "developerName": "OpenAI",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "构建一份深入的 NVIDIA 财报前瞻：预期、KPI、利润率争议、情景分析和管理层提问。",
+      "创建一份 Disney 多空推介：流媒体、主题公园、ESPN、资本配置、估值、催化剂和下行风险。",
+      "构建一份 Tesla 催化剂与估值简报：近期新闻、预期、关键争议、情景、风险和投资观点。"
+    ],
+    "brandColor": "#04B84C",
+    "composerIcon": "./assets/composerIcon.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

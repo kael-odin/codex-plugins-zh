@@ -1,0 +1,53 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "email": "support@openai.com",
+    "name": "Notion",
+    "url": "https://openai.com/"
+  },
+  "description": "Notion workflows for implementation planning, research synthesis, meeting preparation, and knowledge capture.",
+  "homepage": "https://www.notion.so/",
+  "interface": {
+    "brandColor": "#111111",
+    "brandColorDark": "#EEEEEE",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/notion-small.svg",
+    "defaultPrompt": [
+      "搜索 Notion 工作区内容、更新页面，或将规格文档、笔记和会议背景转化为结构化成果"
+    ],
+    "developerName": "Notion",
+    "displayName": "Notion",
+    "logo": "./assets/notion.png",
+    "logoDark": "./assets/notion-dark.png",
+    "longDescription": "Notion 工作流，支持将规格文档转化为实施计划、将调研内容整合为结构化文档、结合工作区上下文准备会议材料，以及将决策或对话沉淀为持久的知识页面。",
+    "privacyPolicyURL": "https://www.notion.com/help/privacy",
+    "screenshots": [],
+    "shortDescription": "Notion 工作流：规格文档、调研、会议与知识沉淀",
+    "termsOfServiceURL": "https://www.notion.so/legal/terms-of-use",
+    "websiteURL": "https://www.notion.so/"
+  },
+  "keywords": [
+    "notion",
+    "wiki",
+    "notes",
+    "docs",
+    "projects",
+    "databases",
+    "documentation",
+    "research",
+    "meeting-prep",
+    "knowledge-management",
+    "planning"
+  ],
+  "license": "MIT",
+  "mcpServers": "./.mcp.json",
+  "name": "notion",
+  "repository": "https://github.com/openai/plugins",
+  "skills": "./skills/",
+  "version": "0.1.7"
+}

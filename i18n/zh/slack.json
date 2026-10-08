@@ -1,0 +1,23 @@
+{
+  "e2905585fa01ce5b": {
+    "zh": "读取和管理 Slack",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bc7e42611337ad51": {
+    "zh": "使用 Slack 汇总频道动态、起草消息，并通过已连接的 Slack 集成整理团队对话。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "da566e4a385a2121": {
+    "zh": "汇总未读动态、起草回复或准备更新内容",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

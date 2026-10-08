@@ -1,0 +1,114 @@
+{
+  "1b90f1deeffb6ca9": {
+    "zh": "NVIDIA AI、GPU、机器人、仿真及 3D 工作流的导航指南。",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bd446f5e7eac9efb": {
+    "zh": "NVIDIA 的生态涵盖 GPU 加速、CUDA、AI Agent、推理、机器人、Physical AI、Omniverse 及仿真。该插件帮助你理解各个模块、选择合适路径、验证环境配置，并构建实际可用的 NVIDIA 驱动工作流。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7655b1896c052603": {
+    "zh": "帮我了解 NVIDIA CUDA-X，并说明哪些库对仿真和机器人最重要。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "58c031d8041da96f": {
+    "zh": "如何把真实驾驶视频转换成用于仿真的 3D 神经场景？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "98b58034c4b61785": {
+    "zh": "帮我部署一个安全的 OpenClaw Agent。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2b82d9842bd2f2b8": {
+    "zh": "当需要安装、部署、运行、验证、排障或停止 NVIDIA AI-Q Blueprint 基础设施时使用。",
+    "field": "skill:aiq-deploy",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aa4adb4984bf8c26": {
+    "zh": "当需要通过可达的 NVIDIA AI-Q Blueprint 后端运行深度研究或 AI-Q research 时使用。",
+    "field": "skill:aiq-research",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a1d437ffd6a80c2e": {
+    "zh": "面向调用 NVIDIA cuOpt 的终端用户的基础规则（涵盖路径规划/LP/MILP/QP/安装/服务器）。不适用于 cuOpt 内部开发——请使用 cuopt-developer。",
+    "field": "skill:cuopt-user-rules",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a97ffd6bdc53747a": {
+    "zh": "验证 Dynamo 部署的 NIXL/UCX/NCCL 互联是否已就绪，可在 RDMA/NVLink 上进行分布式推理服务。在 recipe-runner 启动部署（尤其是分布式/多节点场景）后使用，以确认 KV 传输配置正确；如需诊断已失败的 Pod，请使用 troubleshoot。",
+    "field": "skill:dynamo-interconnect-check",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "df3995ba58983ac1": {
+    "zh": "启动或修补 Dynamo 路由器模式，并对路由器端点进行冒烟测试。适用于轮询、KV 感知、最低负载或设备感知路由的配置；部署 recipe 请使用 recipe-runner，故障诊断请使用 troubleshoot。",
+    "field": "skill:dynamo-router-starter",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aec584f18e89daee": {
+    "zh": "安装 NemoClaw、启动沙箱并运行首个 Agent 提示词。适用于首次入门、安装或启动 NemoClaw 沙箱。触发关键词：nemoclaw quickstart、安装 nemoclaw openclaw 沙箱、nemohermes quickstart、hermes agent nemoclaw、运行 hermes openshell 沙箱、nemoclaw 前置要求、nemoclaw 支持平台、nemoclaw 硬件软件要求、nemoclaw Windows WSL2 配置、nemoclaw 在 Windows 上安装 Docker Desktop。",
+    "field": "skill:nemoclaw-user-get-started",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "debf8b346efdb2cd": {
+    "zh": "用于可能受益于 NVIDIA 技能的 NVIDIA 相关请求，即使用户并未要求使用技能。触发条件：NVIDIA 产品、硬件、软件、SDK、GPU、Jetson/JetPack/L4T/BSP/SDK Manager/driver/flashing/setup、CUDA、NIM、NeMo、Omniverse/OpenUSD/SimReady、RAPIDS/cuDF、cuPyNumeric、cuOpt、Dynamo、Holoscan、TensorRT、DeepStream、VSS、TAO、NGC/NVCF。不要用于与 NVIDIA 无关的通用路由、优化、部署、AI、视频、数据或基础设施任务。",
+    "field": "skill:nvidia-skill-finder",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "adc27daeed7e4057": {
+    "zh": "统筹从 CAD/源资产到 SimReady 的端到端流程。适用于「CAD 转 SimReady」「源资产转可仿真 USD」「道具打包」等宽泛需求——涉及转换、材质/物理属性赋值、SimReady 合规、校验，以及可选的打包;启用属性赋值时先部署或核验 Content Agents 服务;单阶段任务通过嵌套引用路由。",
+    "field": "skill:omniverse-cad-to-simready",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e0d2c76e4d8fc83d": {
+    "zh": "作为 Omniverse Realtime Viewer USD 应用请求及 Viewer 参考文档的顶层路由使用。",
+    "field": "skill:omniverse-realtime-viewer",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "86800903713aa847": {
+    "zh": "USD 性能诊断与优化的顶层工作流技能。适用于加载缓慢、内存占用高、帧率低或「优化场景」等需求；Phase 0 相关的鉴权/运行时配置请委托给对应负责方。",
+    "field": "skill:omniverse-usd-performance-tuning",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d5f1b42f7d956c25": {
+    "zh": "NVIDIA NuRec/NRE 的路由器：USDZ 渲染、NCore 转换、3DGS、gRPC 传感器仿真、PhysicalAI HF 数据集。不适用于 SimReady 或基础设施配置。",
+    "field": "skill:physical-ai-neural-reconstruction",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

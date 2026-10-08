@@ -1,0 +1,52 @@
+{
+  "name": "mixpanel-headless",
+  "version": "0.1.2",
+  "description": "Analyze Mixpanel data with the mixpanel_headless Python SDK and Codex skills.",
+  "author": {
+    "name": "Mixpanel",
+    "url": "https://mixpanel.com/home"
+  },
+  "homepage": "https://mixpanel.github.io/mixpanel-headless/",
+  "repository": "https://github.com/mixpanel/mixpanel-headless",
+  "license": "MIT",
+  "keywords": [
+    "mixpanel",
+    "analytics",
+    "product-analytics",
+    "python",
+    "data-science",
+    "funnels",
+    "retention",
+    "flows",
+    "dashboards"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mixpanel Headless",
+    "shortDescription": "用 Python 分析 Mixpanel 数据",
+    "longDescription": "使用 Mixpanel Headless 技能安装和验证 mixpanel_headless Python SDK，发现 Mixpanel 数据结构，运行分群、漏斗、留存、流程和用户画像分析，以及在 Codex 中构建或检查 Mixpanel 仪表板。",
+    "developerName": "Mixpanel",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://mixpanel.com/home",
+    "privacyPolicyURL": "https://mixpanel.com/legal/privacy-policy/",
+    "termsOfServiceURL": "https://mixpanel.com/legal/terms-of-use/",
+    "defaultPrompt": [
+      "用 Python 分析我的 Mixpanel 注册漏斗",
+      "在 Mixpanel 中发现产品分析洞察",
+      "基于关键事件构建 Mixpanel 仪表板"
+    ],
+    "brandColor": "#7856FF",
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot-1.png",
+      "./assets/screenshot-2.png",
+      "./assets/screenshot-3.png"
+    ]
+  }
+}

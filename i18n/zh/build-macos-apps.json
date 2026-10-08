@@ -1,0 +1,100 @@
+{
+  "a038597e817869ec": {
+    "zh": "使用 SwiftUI 和 AppKit 指引构建、调试、监测和实现 macOS 应用",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e17191db7839a762": {
+    "zh": "macOS 开发工作流，涵盖发现本地项目、构建和运行桌面应用、实现原生 SwiftUI 场景、在必要时桥接 AppKit、添加轻量级 Logger 遥测、分诊测试失败、检查签名和权限，以及排查桌面端特有的构建或运行时错误。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5eca76713a0b54cc": {
+    "zh": "构建或重构原生 macOS UI、检查 AppKit 互操作、添加遥测，或调试 macOS 应用",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b90b304ac0f2d11e": {
+    "zh": "以最小化方式将 macOS SwiftUI 桥接到 AppKit。适用于实现 representable、访问 NSWindow 或面板、处理菜单，或使用响应者链的场景。",
+    "field": "skill:appkit-interop",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "cf27cfeb7c935715": {
+    "zh": "使用以 Shell 为主的 Xcode 和 Swift 工作流构建、运行和调试 macOS 应用。适用于启动应用或诊断构建、启动或运行时故障的场景。",
+    "field": "skill:build-run-debug",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ccf046a77357de99": {
+    "zh": "实现并审查 macOS SwiftUI Liquid Glass UI。适用于采用系统玻璃效果、移除冲突的自定义外观，或构建玻璃质感界面的场景。",
+    "field": "skill:liquid-glass",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "31e6bb83f50b2067": {
+    "zh": "准备 macOS 打包和公证工作流。适用于归档应用、验证 bundle，或排查仅在分发环节出现的失败的场景。",
+    "field": "skill:packaging-notarization",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a1dddb3f372c37df": {
+    "zh": "检查 macOS 签名、权限和 Gatekeeper 问题。适用于诊断代码签名、沙箱、强化运行时或信任失败的场景。",
+    "field": "skill:signing-entitlements",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "79ef70309b1f35d0": {
+    "zh": "构建、运行和测试 SwiftPM macOS 包及可执行文件。适用于仓库以包为主或没有 Xcode 项目的场景。",
+    "field": "skill:swiftpm-macos",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2fe5c96812de67ec": {
+    "zh": "使用桌面端模式构建 macOS SwiftUI 场景和组件。适用于规划窗口、命令、工具栏、设置、分栏视图或检查器的场景。",
+    "field": "skill:swiftui-patterns",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "28b1825e1c909ea7": {
+    "zh": "为 macOS 添加并验证轻量级运行时遥测。适用于接入 Logger 事件，或检查窗口、侧边栏、菜单和操作的日志的场景。",
+    "field": "skill:telemetry",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "81ce1770b61e6372": {
+    "zh": "在 Xcode 和 SwiftPM 中分诊 macOS 测试。适用于缩小失败范围、解释断言或崩溃，或区分环境问题与回归问题的场景。",
+    "field": "skill:test-triage",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "09d901f130a20670": {
+    "zh": "将 macOS SwiftUI 视图和场景重构为稳定的结构。适用于拆分大型视图、收紧场景状态，或减少 AppKit 逃逸的场景。",
+    "field": "skill:view-refactor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eb2d9a7525df4444": {
+    "zh": "自定义 macOS SwiftUI 窗口和场景行为。适用于调整窗口外观、拖拽区域、位置、恢复行为、启动行为或无边框窗口的场景。",
+    "field": "skill:window-management",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

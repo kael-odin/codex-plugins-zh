@@ -1,0 +1,27 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Higgsfield AI, Inc."
+  },
+  "description": "Generate images and videos from a text prompt or your own photo. Turn a product shot into a video ad, restyle a photo, animate a still, or build a two-minute narrated explainer. Every major image and video model in one place.",
+  "interface": {
+    "capabilities": [],
+    "category": "Creativity",
+    "defaultPrompt": [
+      "制作一段 2 分钟的无真人出镜讲解视频，讲解航空公司如何靠卖里程积分比卖座位赚更多钱",
+      "为这款巧克力零食棒制作电影级视频广告",
+      "为我的运动鞋品牌制作 9:16 广告"
+    ],
+    "developerName": "Higgsfield AI, Inc.",
+    "displayName": "Higgsfield",
+    "longDescription": "用文本提示词或你自己的照片生成图像和视频。把产品图变成视频广告，重新设计照片风格，让静帧动起来，或制作两分钟带解说的讲解视频。所有主流图像和视频模型尽在一处。",
+    "privacyPolicyURL": "https://higgsfield.ai/privacy-policy",
+    "shortDescription": "所有图像和视频模型",
+    "supportURL": "https://discord.com/invite/higgsfield",
+    "termsOfServiceURL": "https://higgsfield.ai/terms-of-use-agreement",
+    "websiteURL": "https://higgsfield.ai"
+  },
+  "name": "higgsfield",
+  "skills": "./skills",
+  "version": "1.2.1"
+}

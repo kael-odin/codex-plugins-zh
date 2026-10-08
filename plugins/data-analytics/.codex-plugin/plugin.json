@@ -1,0 +1,68 @@
+{
+  "name": "data-analytics",
+  "version": "0.2.8",
+  "description": "Answer product and business questions with data",
+  "author": {
+    "name": "Data Analytics Maintainers"
+  },
+  "homepage": "https://openai.com/",
+  "repository": "",
+  "license": "Proprietary",
+  "keywords": [
+    "data-analytics",
+    "analytics",
+    "business intelligence",
+    "sql",
+    "business-context",
+    "dashboards",
+    "funnel-analysis",
+    "kpi-reporting",
+    "market-sizing",
+    "metric-diagnostics",
+    "post-launch-updates",
+    "product-analysis",
+    "retention",
+    "root-cause-analysis",
+    "scorecards",
+    "validation",
+    "visualization",
+    "jupyter-notebooks",
+    "databricks",
+    "bigquery",
+    "snowflake",
+    "deepnote",
+    "mixpanel",
+    "mixpanel-headless",
+    "metabase",
+    "thoughtspot",
+    "guided-flow",
+    "semantic-layer"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Data Analytics",
+    "shortDescription": "用数据回答产品与业务问题",
+    "longDescription": "Data Analytics 帮你把关于产品或业务的问题转化为可信任的答案。无论是想弄清某项指标为何变化、数据表明团队下一步该聚焦何处、如何定义 KPI、某个数据集是否可靠，还是某个机会可能有多大，它都能帮你调查数据，并把发现转化为可分享的报告、图表、仪表盘、笔记本和建议。\n\n从你已有的数据开始：已连接的数据仓库、BI 或产品分析工具、文档、聊天记录、电子表格、上传的文件、粘贴的结果，或标注清晰的示例数据。插件会引导你走对工作流，尽可能核验来源，并让证据以可复核的表格、图表、仪表盘，以及你可分享的报告应用清晰呈现。",
+    "developerName": "OpenAI",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "帮我开始第一个数据任务",
+      "分析产品或业务数据，并建议下一步的聚焦方向",
+      "诊断关键指标变化的原因，并找出最大的驱动因素"
+    ],
+    "brandColor": "#0285FF",
+    "composerIcon": "./assets/datascience-small.svg",
+    "logo": "./assets/datascience.png",
+    "screenshots": []
+  }
+}

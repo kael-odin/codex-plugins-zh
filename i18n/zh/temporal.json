@@ -1,0 +1,58 @@
+{
+  "4c4bd380db6c3e35": {
+    "zh": "使用 Temporal 开发",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e8435f9c48a8b8e5": {
+    "zh": "Temporal 全栈开发指南——在 Python、TypeScript、Go 和 Java SDK 中开发工作流、活动和 Worker；使用 Temporal CLI 进行本地开发与运维；运行和管理自托管 Temporal Server；以及使用 Temporal Cloud 进行生产部署。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "899d46c5f5d03f73": {
+    "zh": "用 Temporal 创建一个工作流。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4e6b4ee4beb3f267": {
+    "zh": "在 Temporal 上开发 Agent",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e2d1482303ef7df6": {
+    "zh": "为用户搭建 Temporal Cloud 并在其上运行示例工作流，端到端完成全部工作。当用户想要搭建 Temporal Cloud、开始使用 Temporal Cloud、安装统一的 Temporal CLI（预发布版 cloud-cli）、创建 Cloud 命名空间或 API key、克隆转账示例应用、编写客户端配置 TOML，或将本地 Worker 连接到 Temporal Cloud 并运行示例工作流时使用。这是 Cloud 搭建路径，不是本地学习路径（见 temporal-getting-started）。涵盖 Python、TypeScript、Go、Java、.NET 和 Ruby SDK。",
+    "field": "skill:temporal-cloud-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d207ce4be999eb3c": {
+    "zh": "在 Python、TypeScript、Go、Java、.NET、Ruby 和 Rust 中开发、调试和管理 Temporal 应用。适用于以下场景：使用 Temporal SDK 构建工作流、活动或 Worker；调试非确定性错误、卡住的工作流或活动重试等问题；使用 Temporal CLI、Temporal Server 或 Temporal Cloud；以及处理信号、查询、心跳、版本管理、continue-as-new、子工作流或 Saga 模式等持久执行概念。也适用于用户提到「run a Temporal workflow from the CLI」「start a dev server」「run temporal server start-dev」「temporal workflow start」「temporal workflow execute」「temporal workflow signal」「temporal workflow query」「temporal workflow update」时。",
+    "field": "skill:temporal-developer",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2ebc2e71af27e525": {
+    "zh": "通过 CLI（temporal、tcld）管理和诊断运行中的 Temporal Cloud 或自托管 Temporal Server 环境——而不是 SDK 代码。运维操作：命名空间 CRUD、Cloud 容量/APS、API key 轮换、mTLS 证书轮换、工作流健康、批量取消/终止/重置、导出、搜索属性、Ops API、计费、审计日志、Terraform、SAML/SCIM、迁移。诊断：对卡住的工作流、非确定性、Worker 健康、任务队列问题、HA 故障转移、载荷大小限制、性能瓶颈和错过的调度进行自下而上的排查。不要用于与 Temporal 无关的通用 TLS/gRPC 错误、编写应用代码（temporal-developer），或 Worker 调优/规格设定（temporal-workertuning）。",
+    "field": "skill:temporal-ops",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fd187ada38786cf7": {
+    "zh": "在由 Worker Controller Instance（WCI）驱动的 Serverless 计算（AWS Lambda）上部署和运维 Temporal Worker。当用户提到以下内容时使用：「serverless worker」「Temporal serverless」「Worker Controller Instance」「WCI」「deploy Temporal worker on Lambda」「Lambda packaging」「Lambda timeout」「WCI inspection」「CloudFormation Temporal」。",
+    "field": "skill:temporal-serverless",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

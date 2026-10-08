@@ -1,0 +1,93 @@
+{
+  "71c924c5abd790af": {
+    "zh": "游戏工作室",
+    "field": "displayName",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "65aafc077b8cb524": {
+    "zh": "设计、原型制作并发布浏览器游戏",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "44d074d85d04cf33": {
+    "zh": "通过引导式工作流，规划、原型制作和构建浏览器游戏，涵盖 2D 和 3D 项目的游戏系统、UI、资产流水线和测试。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4c0ff274a587e106": {
+    "zh": "设计一款浏览器游戏并规划核心玩法循环",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "365f53d63e81a406": {
+    "zh": "运行浏览器游戏测试和前端 QA。当用户需要冒烟测试、基于截图的验证、浏览器自动化、HUD 或叠加层审查，或在浏览器游戏中进行结构化问题排查时使用。",
+    "field": "skill:game-playtest",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "192c3301fc4a46e1": {
+    "zh": "路由浏览器游戏早期工作。当用户需要在进入专项技能前，完成跨设计、实现、资产和测试的技术栈选型与工作流规划时使用。",
+    "field": "skill:game-studio",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "11bb96a1cc67f9c8": {
+    "zh": "为浏览器游戏设计 UI 界面。当用户需要 HUD、菜单、叠加层、响应式布局，或须保护游戏画面的视觉方向时使用。",
+    "field": "skill:game-ui-frontend",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "16413acb65bde29d": {
+    "zh": "使用 Phaser 实现 2D 浏览器游戏。当用户需要基于 Phaser、TypeScript 和 Vite 的技术栈，包括场景、游戏系统、相机、精灵动画和 DOM 叠加 HUD 模式时使用。",
+    "field": "skill:phaser-2d-game",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "210c966e63baf43c": {
+    "zh": "使用 React Three Fiber 构建 React 承载的 3D 浏览器游戏。当用户需要基于 pmndrs 的场景组合、共享 React 状态，以及在 React 应用中集成 3D HUD 时使用。",
+    "field": "skill:react-three-fiber-game",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "130043a09a4e35fb": {
+    "zh": "生成和规范化 2D 精灵动画。当用户需要从已审批的源帧生成完整动画条、统一锚点和缩放，或为浏览器游戏动画准备预览资产时使用。",
+    "field": "skill:sprite-pipeline",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d408fd4da3530699": {
+    "zh": "使用原生 Three.js 实现浏览器游戏运行时。当用户需要在 TypeScript 或 Vite 中进行命令式场景控制，配合 GLB 资产、加载器、物理引擎和底层 WebGL 调试时使用。",
+    "field": "skill:three-webgl-game",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6ced704be81e1a76": {
+    "zh": "准备和优化浏览器游戏 3D 资产。当用户需要 GLB 或 glTF 交付工作，包括 Blender 清理和导出、碰撞体或 LOD 设置、压缩、纹理打包和运行时验证时使用。",
+    "field": "skill:web-3d-asset-pipeline",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "96de9e2f922cad16": {
+    "zh": "在实现前搭建浏览器游戏架构。当用户需要引擎选型、模拟与渲染边界划分、输入模型、资产组织，或存档/调试/性能策略时使用。",
+    "field": "skill:web-game-foundations",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

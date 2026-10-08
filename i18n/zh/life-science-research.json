@@ -1,0 +1,373 @@
+{
+  "9a06ecc65333d069": {
+    "zh": "通用生命科学研究，支持请求路由、证据综合和可选的并行子代理分析",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d9f7fb6679aee3b0": {
+    "zh": "内部生命科学研究工作流，帮助 Codex 理解用户的研究问题、规范化相关实体、选择合适的技能，并跨公开资源综合产出循证答案。本插件涵盖人类遗传学、功能基因组学、表达、通路、蛋白质结构、化学、药理学、文献、临床证据和公开研究发现，提供面向宽泛任务的研究路由入口，以及在证据通道相互独立时可选的子代理并行支持。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0035383bd2852711": {
+    "zh": "使用相关技能和数据库支持生命科学研究任务",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a7fc2b5fbf70019d": {
+    "zh": "向 AlphaFold 蛋白质结构数据库 API 提交简洁请求，用于预测、UniProt 摘要、序列摘要和注释查询。适用于需要 AlphaFold 元数据或简明结构摘要的场景。",
+    "field": "skill:alphafold-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ffdc046012df1ed9": {
+    "zh": "向 Bgee 提交简洁的 SPARQL 请求，用于健康野生型表达元数据和本体感知的查询模式。适用于需要简明 Bgee 摘要的场景；仅在明确要求时保存原始结果。",
+    "field": "skill:bgee-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1adf7e2e31ad04f1": {
+    "zh": "向 BindingDB REST API 提交简洁请求，通过 PDB、UniProt 或相似性搜索查询配体-靶标结合关系。适用于需要简明 BindingDB 摘要的场景；仅在明确要求时保存原始负载。",
+    "field": "skill:bindingdb-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "793c9e05c5bd4aa2": {
+    "zh": "获取 BioBank Japan PheWAS 单变异体的简明摘要，支持 rsID、GRCh38 或 GRCh37 输入，并自动解析为所需的 GRCh37 查询。适用于需要某一变异体简明 BBJ 关联结果的场景。",
+    "field": "skill:biobankjapan-phewas-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "428fb7d95c7f24d3": {
+    "zh": "向 bioRxiv 和 medRxiv API 提交简洁请求，用于详情、发表关联和 DOI 查询。适用于需要简明预印本元数据摘要的场景。",
+    "field": "skill:biorxiv-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fe3cfab1f677c968": {
+    "zh": "向 BioStudies 和 ArrayExpress API 提交简洁请求，用于全文搜索和基于登录号的研究检索。适用于需要简明 BioStudies 摘要的场景。",
+    "field": "skill:biostudies-arrayexpress-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3f9dc884ddb9de58": {
+    "zh": "向 cBioPortal API 提交简洁请求，查询研究、分子谱、突变、临床数据和样本。适用于需要简明 cBioPortal 摘要的场景。",
+    "field": "skill:cbioportal-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0221c9160b750446": {
+    "zh": "向 CELLxGENE Discover API 提交简洁请求，查询公开合集和数据集元数据。适用于需要简明单细胞合集摘要的场景。",
+    "field": "skill:cellxgene-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f6807bddd6290d48": {
+    "zh": "向 ChEBI 2.0 API 提交简洁请求，用于化学物质搜索、化合物查询、本体遍历和结构元数据。适用于需要简明 ChEBI 摘要的场景。",
+    "field": "skill:chebi-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eea01442f9d7b3d7": {
+    "zh": "向 ChEMBL API 提交简洁请求，查询活性、分子、靶标、机制和全文搜索端点。适用于需要简明 ChEMBL 摘要的场景。",
+    "field": "skill:chembl-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "742ee5e207fbed42": {
+    "zh": "向 CIViC 提交简洁的 GraphQL 请求，用于癌症变异解读 schema 检查和目标证据检索。适用于需要简明 CIViC 摘要的场景。",
+    "field": "skill:civic-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f5894dd1cc7d25d6": {
+    "zh": "向 ClinicalTrials.gov API v2 提交简洁请求，用于研究搜索、元数据、枚举值、搜索区域和字段统计。适用于需要简明 ClinicalTrials.gov 摘要的场景。",
+    "field": "skill:clinicaltrials-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "46aedfaf3a9a2540": {
+    "zh": "向 ClinVar Clinical Tables 和 NCBI Variation 提交简洁请求，用于搜索、VCV、RCV、SCV 和 RefSNP 查询。适用于需要变异体级别摘要或标识符映射的场景。",
+    "field": "skill:clinvar-variation-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dbe98312fe3fa23d": {
+    "zh": "向 EFO OLS4 提交简洁请求，用于搜索、词条查询、子项和后代查询。适用于需要简明 EFO 解析或本体扩展摘要的场景。",
+    "field": "skill:efo-ontology-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "81324bd08a702d93": {
+    "zh": "向 ENCODE REST API 提交简洁请求，用于对象查询、门户式搜索和元数据检索。适用于需要简明 ENCODE 摘要的场景。",
+    "field": "skill:encode-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "611c500e0731a3f2": {
+    "zh": "向 Ensembl REST API 提交简洁请求，用于查询、重叠、交叉引用和变异端点。适用于需要简明 Ensembl 摘要的场景。",
+    "field": "skill:ensembl-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e625e02ebc8cbe25": {
+    "zh": "向 EpiGraphDB API 提交简洁请求，查询本体、文献、MR、基因-药物和支持路径证据。适用于需要简明 EpiGraphDB 摘要的场景。",
+    "field": "skill:epigraphdb-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6e50fd6ddc2fa463": {
+    "zh": "向 eQTL Catalogue API 提交简洁请求，用于关联检索和已记录的元数据端点。适用于需要简明公开 eQTL Catalogue 摘要的场景。",
+    "field": "skill:eqtl-catalogue-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3e117188f9f27cf2": {
+    "zh": "向 EVA REST 提交简洁请求，查询物种元数据和已归档的变异体。适用于需要简明 European Variation Archive 摘要的场景。",
+    "field": "skill:eva-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1886e7b1ed8d5d79": {
+    "zh": "获取 FinnGen PheWAS 单变异体的简明摘要，支持 rsID、GRCh37 或 GRCh38 输入，并自动解析为所需的 GRCh38 查询。适用于需要某一变异体简明 FinnGen 关联结果的场景。",
+    "field": "skill:finngen-phewas-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "265d49b994763dc8": {
+    "zh": "向 Genebass 提交简洁的基因负担请求，针对单个 Ensembl 基因 ID 和一个负担集。适用于需要简明 Genebass PheWAS 摘要的场景。",
+    "field": "skill:genebass-gene-burden-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5db9593de4faffb7": {
+    "zh": "向 gnomAD 提交简洁的 GraphQL 请求，查询频率、基因约束和变异体上下文。适用于需要简明 gnomAD 摘要的场景。",
+    "field": "skill:gnomad-graphql-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aa7b4458be1f62eb": {
+    "zh": "从单个变异体输入获取 GTEx 单组织 eQTL 关联，支持 rsID、GRCh37 或 GRCh38 输入，并自动解析为 GTEx v2 API 所需的 GRCh38 查询。适用于需要以 JSON 格式返回 eQTL 关联的场景。",
+    "field": "skill:gtex-eqtl-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f513f76257a9d562": {
+    "zh": "向 GWAS Catalog REST API v2 提交简洁请求，查询研究、关联、SNP、EFO 性状、基因、发表文献、位点和元数据。适用于需要简明 GWAS Catalog 摘要的场景。",
+    "field": "skill:gwas-catalog-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b02b263ee51389fe": {
+    "zh": "向 HMDB 提交简洁的搜索请求，查询代谢物、蛋白质、疾病和通路。适用于需要简明 HMDB 摘要的场景。",
+    "field": "skill:hmdb-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "debcd6c717d6efb2": {
+    "zh": "向 Human Protein Atlas 提交简洁请求，用于基因 JSON、搜索下载和页面级组织或细胞系查询。适用于需要简明 Human Protein Atlas 摘要的场景；仅在明确要求时保存原始 JSON 或 HTML。",
+    "field": "skill:human-protein-atlas-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9f00d04747ac1a23": {
+    "zh": "使用公开的 IPD 查询 API 向 IPD REST 提交简洁请求，查询 HLA 等位基因和细胞级元数据。适用于需要简明 IPD 摘要的场景；仅在明确要求时保存原始 JSON 或文本。",
+    "field": "skill:ipd-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3072d66afa329904": {
+    "zh": "使用确定性多技能链（EFO -> GWAS -> 坐标 -> Open Targets L2G/coloc -> eQTL -> 负担/编码上下文）将 GWAS 位点映射到排序后的候选基因，输出可复现的表格和可选图形。适用于用户提供性状/EFO 词条和/或先导变异体，需要为下游生物学决策进行位点到基因优先排序的场景。",
+    "field": "skill:locus-to-gene-mapper-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "521e351e5468e1f6": {
+    "zh": "向 MetaboLights 提交简洁请求，用于研究发现和研究级代谢组学元数据。适用于需要简明 MetaboLights 摘要的场景。",
+    "field": "skill:metabolights-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "13a49e23c452658e": {
+    "zh": "向 MGnify API 提交简洁请求，查询微生物组研究、样本和生物群落元数据。适用于需要简明 MGnify 摘要的场景。",
+    "field": "skill:mgnify-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1702af3728da2700": {
+    "zh": "通过 NCBI BLAST Common URL API（Blast.cgi）提交、轮询并汇总核苷酸或蛋白质序列的 BLAST 作业。适用于需要 RID 状态、BLAST 结果或简明 top-hit 摘要的场景；仅在明确要求时获取原始 Text/JSON2 数据。",
+    "field": "skill:ncbi-blast-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "47af66b44c841989": {
+    "zh": "向 Clinical Tables NCBI Gene 提交简洁请求，用于人类基因查询、分页和字段筛选。适用于需要简明自动补全式人类基因搜索结果的场景。",
+    "field": "skill:ncbi-clinicaltables-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3157901b53422a39": {
+    "zh": "向 NCBI Datasets v2 提交简洁请求，查询组装体、基因组、分类学和相关元数据端点。适用于需要简明 NCBI Datasets 摘要的场景；仅在明确要求时保存原始 JSON 或文本。",
+    "field": "skill:ncbi-datasets-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "58318078e2e7af2c": {
+    "zh": "向 NCBI Entrez E-Utilities 提交简洁请求，用于 PubMed、Gene、Protein、Nucleotide、PMC 元数据和 GEO 元数据工作流。适用于需要简明 Entrez 搜索、获取、摘要或链接结果的场景；仅在明确要求时保存原始 JSON 或 XML。",
+    "field": "skill:ncbi-entrez-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3b0585061807865f": {
+    "zh": "向 NCBI PMC Open Access 提交简洁请求，查询文章/文件可用性元数据。适用于需要简明 PMC Open Access 摘要的场景；仅在明确要求时保存原始 XML。",
+    "field": "skill:ncbi-pmc-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c9cd3b34f056aeca": {
+    "zh": "向 Open Targets Platform 提交简洁的 GraphQL 请求，查询靶标、疾病、药物、变异体、研究和搜索数据，包括关联疾病数据源热图矩阵。适用于需要简明 Open Targets 摘要或各数据源证据上下文的场景。",
+    "field": "skill:opentargets-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fe705e40b77d8602": {
+    "zh": "向 PharmGKB API 提交简洁请求，查询基因、变异体、临床注释、用药指南和搜索。适用于需要简明 PharmGKB 摘要的场景。",
+    "field": "skill:pharmgkb-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4731a47d9084a034": {
+    "zh": "向 PRIDE Archive API 提交简洁请求，用于蛋白质组学项目发现和项目级元数据。适用于需要简明 PRIDE 摘要的场景。",
+    "field": "skill:pride-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fa753452e043ecd0": {
+    "zh": "向 ProteomeXchange PROXI 提交简洁请求，查询数据集、文库、肽段形式、蛋白质、PSM、谱图和 USI 示例。适用于需要简明 PROXI 摘要的场景。",
+    "field": "skill:proteomexchange-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a78a5670be19309d": {
+    "zh": "向 PubChem PUG REST 提交简洁请求，查询化合物属性、描述、检测摘要和物质元数据。适用于需要简明 PubChem 摘要的场景。",
+    "field": "skill:pubchem-pug-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "87f4e35dfb486c07": {
+    "zh": "向 QuickGO 提交简洁请求，查询 GO 词条、注释和本体遍历。适用于需要简明 QuickGO 摘要的场景。",
+    "field": "skill:quickgo-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "29865076690649ed": {
+    "zh": "向 RCSB PDB 提交简洁请求，查询核心元数据、Search API 查询和 FASTA 下载。适用于需要简明 RCSB 摘要的场景；仅在明确要求时保存原始 JSON 或 FASTA。",
+    "field": "skill:rcsb-pdb-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "38f1ae29ba3bbd85": {
+    "zh": "向 Reactome ContentService 提交简洁请求，查询通路、事件、参与者、搜索和图示相关数据。适用于需要简明 Reactome 摘要的场景。",
+    "field": "skill:reactome-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "98c4e36983ec13a5": {
+    "zh": "将宽泛或模糊的生命科学研究请求路由到合适的技能，规范化核心实体，在子代理可用时可选择并行化独立的证据采集，并综合产出简明的循证答案。适用于用户提出可能跨越多个来源或分析类型的通用生命科学问题的场景。",
+    "field": "skill:research-router-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "800540d4920f3f3c": {
+    "zh": "向 Rhea 提交简洁的反应搜索请求，查询生化反应和反应 ID。适用于需要简明 Rhea 摘要的场景。",
+    "field": "skill:rhea-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "10831b7f96703c4b": {
+    "zh": "向 RNAcentral API 提交简洁请求，用于 RNA 条目浏览、单条目查询和交叉引用检索。适用于需要简明 RNAcentral 摘要的场景。",
+    "field": "skill:rnacentral-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e6fe9cb5f51e5aac": {
+    "zh": "向 STRING API 提交简洁请求，查询网络、相互作用伙伴和富集端点。适用于需要简明 STRING 摘要的场景。",
+    "field": "skill:string-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1a65490c6a536f20": {
+    "zh": "获取 TPMI PheWAS 单变异体的简明摘要，支持 rsID、GRCh37 或 GRCh38 输入，并自动解析为所需的 GRCh38 查询。适用于需要某一变异体简明 TPMI 关联结果的场景。",
+    "field": "skill:tpmi-phewas-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "90916577911c02f0": {
+    "zh": "获取 UKB-TOPMed PheWAS 单变异体的简明摘要，支持 rsID、GRCh37 或 GRCh38 输入，并自动解析为所需的 GRCh38 查询。适用于需要某一变异体简明 UKB-TOPMed 关联结果的场景。",
+    "field": "skill:ukb-topmed-phewas-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "459788acc99e2a7a": {
+    "zh": "向 UniProt REST API 提交简洁请求，查询 UniProtKB、UniRef、UniParc 和 FASTA 流端点。适用于需要简明 UniProt 摘要的场景；仅在明确要求时保存原始 JSON 或 FASTA。",
+    "field": "skill:uniprot-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

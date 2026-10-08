@@ -1,0 +1,52 @@
+{
+  "name": "twilio-developer-kit",
+  "version": "0.2.2",
+  "description": "Twilio Skills provide procedural knowledge for AI coding agents — which APIs to use, in what order, and what to avoid. Covers Messaging, Voice, Verify, SendGrid, and 30+ products.",
+  "author": {
+    "name": "Twilio",
+    "url": "https://www.twilio.com"
+  },
+  "homepage": "https://www.twilio.com/docs",
+  "repository": "https://github.com/twilio/ai",
+  "license": "MIT",
+  "keywords": [
+    "twilio",
+    "sms",
+    "voice",
+    "whatsapp",
+    "rcs",
+    "messaging",
+    "verify",
+    "sendgrid",
+    "email",
+    "compliance",
+    "conversation-relay",
+    "conversation-memory",
+    "conversation-intelligence",
+    "conversation-orchestrator",
+    "agent-connect",
+    "enterprise-knowledge",
+    "apple-messages-for-business",
+    "api"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Twilio Developer Kit",
+    "shortDescription": "用于在 Twilio 上构建、调试和交付的 Twilio 技能集",
+    "longDescription": "引导 AI 编程智能体针对各种场景调用正确 Twilio API 的过程性知识。涵盖渠道选择、生产最佳实践、合规要求，以及 Messaging、Voice、Verify、SendGrid 和 30 多个产品中的常见坑点。技能采用渐进式披露架构——智能体启动时仅加载轻量元数据，只在任务匹配时才加载完整指南。",
+    "developerName": "Twilio",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.twilio.com",
+    "defaultPrompt": [
+      "帮我发送带投递追踪的 SMS 通知",
+      "我应该用哪个 Twilio API 来构建用户验证流程？",
+      "在向美国发送 SMS 前，如何完成 A2P 10DLC 注册？"
+    ],
+    "brandColor": "#F22F46",
+    "logo": "./assets/logo.svg"
+  }
+}

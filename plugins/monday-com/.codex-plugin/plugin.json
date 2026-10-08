@@ -1,0 +1,26 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "monday.com"
+  },
+  "description": "The monday.com AI Connector brings core platform capabilities directly to agents and AI assistants. It supports searching boards, creating and updating items and columns, assigning owners, setting timelines, and posting updates — enabling a wide range of work management and CRM use cases across teams and departments.\n\nTeams of people and agents use monday.com as a task tracker and project tracking hub: planning campaigns and events, tracking milestones, dependencies, and workload, managing approval workflows and request intake, and sharing status updates across projects and portfolios — as well as a CRM for managing leads, contacts, and deals.\n\nBeyond day-to-day work management, the connector lets agents answer questions using monday.com's official knowledge base, plan and build automations and multi-step workflows, run and save reusable code actions, and configure other monday.com agents .",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/composer-icon.png",
+    "defaultPrompt": [
+      "这个连接器能做什么？"
+    ],
+    "developerName": "monday.com",
+    "displayName": "monday.com",
+    "logo": "./assets/logo.png",
+    "longDescription": "monday.com AI Connector 将核心平台能力直接带给智能体和 AI 助手。它支持搜索看板、创建和更新条目与列、分配负责人、设置时间线以及发布更新——覆盖团队和部门间广泛的工作管理与 CRM 用例。\n\n团队与智能体把 monday.com 用作任务跟踪器和项目跟踪中心：策划活动与事件，跟踪里程碑、依赖关系和工作量，管理审批工作流和需求受理，并在项目与项目组合之间共享状态更新——同时也可作为管理潜在客户、联系人和交易的 CRM。\n\n除了日常工作管理，该连接器还让智能体使用 monday.com 官方知识库回答问题，规划和构建自动化与多步骤工作流，运行并保存可复用的代码操作，以及配置其他 monday.com 智能体。",
+    "privacyPolicyURL": "https://monday.com/l/privacy/privacy-policy/",
+    "shortDescription": "管理项目、任务和 CRM",
+    "supportURL": "https://support.monday.com/hc/en-us/requests/new?ticket_form_id=13855862562962",
+    "termsOfServiceURL": "https://monday.com/terms/tos",
+    "websiteURL": "https://monday.com"
+  },
+  "name": "monday-com",
+  "version": "2.0.0"
+}

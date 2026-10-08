@@ -1,0 +1,44 @@
+{
+  "978386fecfc96749": {
+    "zh": "从 Zotero 中查找文献并添加引用",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "023b0a2e7007a508": {
+    "zh": "将 Codex 连接到你的 Zotero 桌面文库，让它能够查找已保存的文献、导出 BibTeX、向草稿添加引用键、按需读取已索引的附件全文，并在你确认后将新参考记录导入 Zotero。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "31d471af69e99ab4": {
+    "zh": "@Zotero 在我的文库中查找关于 transformer 的文献，并将引用添加到我的草稿中",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "aca0afef6b091003": {
+    "zh": "@Zotero 将我的 Zotero 文库导出为 references.bib",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9f1e941b5cc01c8a": {
+    "zh": "@Zotero 搜索我的 Zotero 文库并显示 BibTeX 键",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "02f37abe9d8beaf7": {
+    "zh": "从 Codex 使用 Zotero Desktop，包括启用/探测本地 API、搜索本地 Zotero 文库、列出条目/合集/标签、导出 BibTeX、将引用键插入 LaTeX 或 Markdown 草稿、按需读取已索引的全文，以及通过 connector 服务器将 BibTeX/RIS 记录导入 Zotero。适用于用户提及 Zotero、引用、references.bib、BibTeX 导出、本地 Zotero API、localhost:23119 或从 Zotero 文库添加引用的场景。",
+    "field": "skill:zotero",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

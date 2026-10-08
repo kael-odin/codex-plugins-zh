@@ -1,0 +1,30 @@
+{
+  "38dac73c6a2e985a": {
+    "zh": "查看近期 Sentry issues 和事件",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ac023328b2a06b94": {
+    "zh": "使用 Sentry 技能，通过只读工作流查看近期 issue、审阅事件并汇总生产报错。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "759dc7238d53cec8": {
+    "zh": "查看近期 Sentry issues 并汇总主要生产报错",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fa0c18e90cac2353": {
+    "zh": "适用于需要查看 Sentry issues 或事件、汇总近期生产报错，或通过 Sentry API 获取基础 Sentry 健康数据的场景；使用内置脚本执行只读查询，需提供 `SENTRY_AUTH_TOKEN`。",
+    "field": "skill:sentry",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

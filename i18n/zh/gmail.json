@@ -1,0 +1,23 @@
+{
+  "05ede67fcab018a2": {
+    "zh": "读取和管理 Gmail",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "83c943b19b1f6a60": {
+    "zh": "使用 Gmail 汇总收件箱动态、起草回复，并通过已连接的 Gmail 应用整理邮件会话。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6e8c614e5618af6e": {
+    "zh": "汇总收件箱、起草回复或处理邮件会话",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "d990edc13f2e45d3": {
+    "zh": "管理 Outlook 日程",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b140538b5ffd81e0": {
+    "zh": "使用 Outlook Calendar 汇总当天日程、比较空闲时段、准备会议、解释 Outlook 状态语义，并通过已连接的 Microsoft Outlook 应用安排、改期或取消活动。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

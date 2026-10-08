@@ -1,0 +1,27 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Adobe Inc"
+  },
+  "description": "Adobe unlocks more ways to create and get work done from the conversation. Previously available as Photoshop, the Adobe connector now brings creativity and productivity capabilities across Creative Cloud and Acrobat. Describe what you want to make or change, and Adobe can help turn ideas, images, videos, and documents into polished outputs — from editing photos and creating PDFs to designing social assets, resizing videos, searching Creative Cloud assets, and generating data-driven documents.\nKey capabilities:\n\n* Retouch portraits or edit photos in bulk: Drop in photos and describe the look you want — adjust color, lighting, and tone; remove distractions and generate new elements; apply Lightroom presets; remove backgrounds; blur, crop, resize, and expand images.\n* Design from template: Start from an Express template, update text and colors, and then animate for social media or convert to PDF.\n* Refine video for any platform: Upload a horizontal clip and ask to reformat it for YouTube Shorts, Instagram Reels, or any platform. You can also stitch clips into a single sequence.\n* Search and organize creative work: Describe what you're looking for and surface assets from your Creative Cloud library — by subject, style, mood, or content — without browsing folders.\n* Work with PDFs and documents: Create and convert polished PDFs and documents.\n* Create data-driven documents: Describe your output and provide your data — the connector turns raw data or content into formatted, shareable PDFs, including badges, cards, catalogs, and more.\n\nYou can get started as a guest, and sign in with your Adobe account for more capabilities and tools, Creative Cloud storage, and saved work across sessions.",
+  "interface": {
+    "capabilities": [],
+    "category": "Creativity",
+    "defaultPrompt": [
+      "把我的视频做成一段简短的精彩集锦",
+      "把这些照片调整尺寸，适配我的社交媒体平台",
+      "找一个促销宣传单模板"
+    ],
+    "developerName": "Adobe Inc",
+    "displayName": "Adobe",
+    "longDescription": "Adobe 让你在对话中解锁更多创作与完成工作的方式。Adobe 连接器此前以 Photoshop 的形式提供，如今把创意与生产力能力扩展到 Creative Cloud 和 Acrobat。描述你想制作或修改的内容，Adobe 就能帮助你把想法、图片、视频和文档变成精美的成品——从编辑照片、创建 PDF，到设计社交素材、调整视频尺寸、搜索 Creative Cloud 资产，以及生成数据驱动的文档。\n核心能力：\n\n* 修饰人像或批量编辑照片：拖入照片并描述你想要的观感——调整颜色、光线和色调；移除干扰元素并生成新元素；应用 Lightroom 预设；移除背景；模糊、裁剪、调整尺寸和扩展图像。\n* 从模板设计：从 Express 模板开始，更新文字和颜色，然后为社交媒体制作动画，或转换成 PDF。\n* 为任意平台优化视频：上传一段横版片段，要求把它重新排版适配 YouTube Shorts、Instagram Reels 或任何平台。你还可以把多段片段拼接成一个完整序列。\n* 搜索和整理创意作品：描述你在找什么，即可按主题、风格、氛围或内容从 Creative Cloud 库中找出资产——无需浏览文件夹。\n* 处理 PDF 和文档：创建并转换精美的 PDF 和文档。\n* 创建数据驱动的文档：描述你的产出并提供数据——连接器会把原始数据或内容变成格式化的、可分享的 PDF，包括徽章、卡片、目录等。\n\n你可以先以访客身份开始使用，再用 Adobe 账号登录，以获取更多能力和工具、Creative Cloud 存储空间，以及跨会话保存的工作。",
+    "privacyPolicyURL": "https://www.adobe.com/privacy/policy.html",
+    "shortDescription": "设计、合成、编辑",
+    "supportURL": "https://discord.gg/tppGPapr2e",
+    "termsOfServiceURL": "https://www.adobe.com/legal/terms.html",
+    "websiteURL": "https://www.adobe.com"
+  },
+  "name": "adobe",
+  "skills": "./skills",
+  "version": "8.0.0"
+}

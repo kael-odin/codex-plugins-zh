@@ -1,0 +1,26 @@
+{
+  "name": "consensus",
+  "version": "4.0.0",
+  "description": "Consensus is the go-to MCP for academic research. Connect directly to 220M+ peer-reviewed papers to search, synthesize, and build structured research outputs from within your conversation.\n\nRun literature reviews, build boolean search strategies, generate bibliographies, identify research gaps, and draft cited content — grounded in studies from PubMed, Semantic Scholar, and ArXiv. Pre-built workflows handle complex tasks in minutes: systematic reviews, curriculum reading lists, grant research with novelty analysis, and clinical evidence synthesis.\n\nBuilt for researchers, students, faculty, and clinicians across biomedical, social science, STEM, and all academic disciplines.",
+  "author": {
+    "name": "Consensus"
+  },
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Consensus",
+    "shortDescription": "探索科学研究",
+    "longDescription": "Consensus 是学术研究首选的 MCP。直接连接 2.2 亿篇以上同行评审论文，在对话中即可搜索、综合并构建结构化的研究成果。\n\n运行文献综述、构建布尔检索策略、生成参考文献、发现研究空白，并起草带引用的内容——全部基于来自 PubMed、Semantic Scholar 和 ArXiv 的研究。预置工作流能在几分钟内完成复杂任务：系统综述、课程阅读清单、含新颖性分析的基金申请调研，以及临床证据综合。\n\n专为生物医学、社会科学、STEM 及所有学科的研究人员、学生、教职人员和临床医生打造。",
+    "developerName": "Consensus",
+    "category": "Education & Research",
+    "capabilities": [],
+    "websiteURL": "https://consensus.app",
+    "supportURL": "https://consensus.app/home/contact/",
+    "privacyPolicyURL": "https://consensus.app/home/privacy-policy/",
+    "termsOfServiceURL": "https://consensus.app/home/terms-of-service/",
+    "defaultPrompt": [
+      "双语教育是否有利于认知发展？",
+      "阿托伐他汀与葡萄柚汁之间是否存在相互作用？",
+      "创建一张表格，比较环境效益、挑战和成本"
+    ]
+  }
+}

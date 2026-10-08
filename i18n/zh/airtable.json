@@ -1,0 +1,51 @@
+{
+  "3dc15b736d26faca": {
+    "zh": "为 ChatGPT 添加结构化数据",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "57a47ba9be2d3426": {
+    "zh": "把运营数据和背景带入你的 ChatGPT 对话流程。你可以提问、创建和更新记录、分析数据——一切都在对话中完成。把 Airtable 中的数据作为你在 ChatGPT 中所做工作的输入，例如用在 Airtable 里整理好的内容搭建落地页。无需离开对话即可快速更新 Airtable。任何时候你需要快速访问结构化的内部数据来为对话提供依据，Airtable for ChatGPT 都是理想之选。\n\nAirtable 应用把 ChatGPT 直接连接到你的 Airtable base，让你可以提问、创建和更新记录、分析数据——一切都在对话中完成",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6da656df65f1d635": {
+    "zh": "给我看产品路线图的看板。哪些有风险？下一步是什么？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3b42f1386256bd55": {
+    "zh": "今天我应该和企业销售团队讨论哪些路线图计划？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "debf8b346efdb2cd": {
+    "zh": "通过 `airtable-mcp` CLI 列出 base、读写记录、管理表和字段、筛选和搜索 Airtable 数据。当任务涉及 Airtable 数据，或用户提到 airtable-mcp、base、表、记录、字段时使用。",
+    "field": "skill:airtable-cli",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "299229fc172952db": {
+    "zh": "当用户希望按字段值查找、筛选或缩小 Airtable 记录范围时使用，即便用户没有明确说「筛选」也适用。",
+    "field": "skill:airtable-filters",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7bf07abc5fae6075": {
+    "zh": "解释 Airtable 是什么以及数据的组织方式——包括 base、表、字段、记录、视图、自动化和界面。当需要了解 Airtable 数据模型的背景信息时使用。",
+    "field": "skill:airtable-overview",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

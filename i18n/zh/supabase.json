@@ -1,0 +1,51 @@
+{
+  "caa5edc74b533313": {
+    "zh": "管理和查询数据库",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3ed6bf9bce2307e5": {
+    "zh": "Supabase 官方 Codex 插件。包含 Supabase 开发智能体技能和 Postgres 最佳实践，以及 MCP Server 集成，可直接在 Codex 中管理你的 Supabase 项目。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f28fcda021ce7f77": {
+    "zh": "用 Supabase 为我的应用设置 Auth 和受保护路由。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "7637cf1197ffd9a1": {
+    "zh": "检查我的 Supabase Schema 和 RLS 策略是否存在安全问题。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ac624d584632c5df": {
+    "zh": "按照 Supabase 最佳实践优化我的 Postgres 查询和索引。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2bb651cde33e7771": {
+    "zh": "凡涉及 Supabase 的任务均可使用。触发场景：Supabase 产品（Database、Auth、Edge Functions、Realtime、Storage、Vectors、Cron、Queues）；客户端库及 SSR 集成（supabase-js、@supabase/ssr），适用于 Next.js、React、SvelteKit、Astro、Remix；Auth 问题（登录、登出、会话、JWT、Cookie、getSession、getUser、getClaims、RLS）；Supabase CLI 或 MCP Server；Schema 变更、迁移、安全审计、Postgres 扩展（pg_graphql、pg_cron、pg_vector）。",
+    "field": "skill:supabase",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "88aa4e1c8070c178": {
+    "zh": "Supabase 的 Postgres 性能优化与最佳实践。在编写、审查或优化 Postgres 查询、Schema 设计或数据库配置时使用此技能。",
+    "field": "skill:supabase-postgres-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

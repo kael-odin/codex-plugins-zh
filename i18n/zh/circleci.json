@@ -1,0 +1,65 @@
+{
+  "b6a14bc27bdbcd63": {
+    "zh": "构建、测试并部署任何应用",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "34e60ef000188710": {
+    "zh": "将测试、部署和 CI 最佳实践引入 Codex",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ea8686cf9ddb4b2e": {
+    "zh": "审查本项目的 CircleCI 配置并提出改进建议",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c536095635ec0aed": {
+    "zh": "诊断并修复当前分支的构建失败",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ffb545393b8af64a": {
+    "zh": "为本项目配置 Chunk CLI",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "19703731353f1a10": {
+    "zh": "快速、安全地诊断并修复失败的 CircleCI 构建。适用于需要排查失败的 CircleCI 作业、分析不稳定的 pipeline、从日志中定位根因，并在配置、测试设置或构建相关代码路径中实施最小化修复的场景。",
+    "field": "skill:builds",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0570d091c168ea80": {
+    "zh": "通过 Chunk 网页界面或 chunk-cli 完成 AI 辅助的 CI/CD 工作。适用于需要搭建 Chunk、借助 Chunk 排查或修复失败构建、配置 Chunk 环境、调度或主动运行 Chunk 任务，以及使用 chunk-cli 命令（如 init、validate、build-prompt、auth、sandbox、task、skill install）的场景。",
+    "field": "skill:chunk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4315462dc4f0f962": {
+    "zh": "使用 CircleCI CLI 操作和排查 CircleCI 问题。适用于需要认证 CLI 访问、查看 pipeline/workflow/job 状态、在本地验证配置、重跑 pipeline 或作业、触发 pipeline，或从 CLI 输出中获取可操作诊断信息的场景。",
+    "field": "skill:cli",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c043560323f63808": {
+    "zh": "优化 CircleCI 配置，提升速度、稳定性和可维护性。适用于需要改进 `.circleci/config.yml`、缩短 CI 运行时间、调优缓存/工作区/并行度、消除 pipeline 冗余，或修复由配置不当导致的不稳定 pipeline 行为的场景。",
+    "field": "skill:config",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

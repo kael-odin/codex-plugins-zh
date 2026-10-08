@@ -1,0 +1,93 @@
+{
+  "0ec8edf550e797e0": {
+    "zh": "创建、审阅、编辑设计",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bef19744bfefdb3d": {
+    "zh": "将你的 Canva 设计工作流带入 Codex，通过自然对话创建、优化和审阅设计。\n可用技能：\n为社交媒体调整尺寸：一步将设计适配 Facebook、Instagram 和 LinkedIn。\n批量创建：使用品牌模板从电子表格数据生成多个设计。\n编辑设计：更新文本、媒体和格式，或重新定位和调整元素尺寸。\n获取设计反馈：获取关于视觉层级、布局、可读性、一致性和无障碍性的结构化反馈。\n落实反馈：查看评论线程并应用清晰、可执行的修改。\n品牌检查：对照你的品牌套件检查颜色、字体、logo 使用和文案。\n安装后，用平实的语言描述你的需求，或直接用 @Canva 调用 Canva。\n试试这样的提示：\n- @Canva，把这个设计调整为社交媒体尺寸。\n- @Canva，用我的品牌模板根据这份电子表格创建设计。\n- @Canva，更新这个设计里的标题。\n- @Canva，审阅这个设计的视觉层级和可读性。\n- @Canva，落实评论线程里的反馈。\n- @Canva，对照我的品牌套件检查这个设计。\n\n要求：连接你的 Canva 账户才能使用此插件。批量创建需要符合条件的 Canva Enterprise 套餐。\n\n想更亲自动手？立即在 Canva 强大的编辑器中打开你的设计，完成最后的润色。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fd5646927d235251": {
+    "zh": "根据我们十月的营销活动简报创建一些社交媒体帖子",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3a0572f6d702878b": {
+    "zh": "用这份最新的投资者会议纪要制作一份 2026 年 Q1 路演演示文稿",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "82302d01883b890b": {
+    "zh": "能帮我把这张海报调整成用于我线上商店的 Instagram 帖子吗？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "233f52650166797f": {
+    "zh": "对照品牌套件检查 Canva 设计，并报告偏离之处——与品牌配色不符的颜色、非品牌字体、logo 误用和语气不符的文案。只读；不做任何修改。当用户提出「is this on brand」「check this against our brand kit」「do a brand review」「does this match our brand guidelines」或「brand-check my design」时使用。",
+    "field": "skill:canva-brand-check",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e184a02acd3689a8": {
+    "zh": "根据大纲或简报创建符合品牌规范的 Canva 演示文稿。当用户要求创建品牌化演示文稿、制作符合品牌规范的幻灯片、将大纲转换为幻灯片，或根据简报生成演示文稿时使用。输入可以是消息中的文本、Canva 设计 ID、按名称引用的 Canva 文档，或 Canva 设计链接（例如 https://www.canva.com/design/...）。",
+    "field": "skill:canva-branded-presentation",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6f26c8c9d74f91eb": {
+    "zh": "使用带自动填充字段的品牌模板，从表格数据批量创建 Canva 设计，每行生成一个设计。当用户说「bulk create designs from this CSV」「generate one design per row」「create a design for each product」「batch generate from a template」或「autofill a template from a spreadsheet」时使用。接受任何表格数据源——上传的文件、粘贴的表格、JSON 或 URL。",
+    "field": "skill:canva-bulk-create",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0a818a9567240ebf": {
+    "zh": "读取 Canva 设计并返回结构化、可执行的设计反馈——视觉层级、文案与信息传达、布局与间距、一致性、可读性和无障碍性。只读；不对设计做任何修改。当用户要求「review my design」「give me feedback on this」「critique my deck/poster/flyer」「how can I improve this design」或「what's wrong with this slide」时使用。",
+    "field": "skill:canva-design-feedback",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f52ebfec478469de": {
+    "zh": "对现有 Canva 设计进行编辑——更改或修正文本，替换/插入/删除图片和视频，重新设置文本格式（字号、字重、样式、颜色、对齐、列表、行高），重新定位或调整元素尺寸，以及更新标题。当用户想要更改、编辑、更新、修正、翻译、替换或重新设置某个特定 Canva 设计中的内容时使用。这是其他 Canva 技能（例如 implement-feedback）所依托的安全编辑引擎。",
+    "field": "skill:canva-edit-design",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3ca40f487dde3edf": {
+    "zh": "在 Canva 设计上落实审阅者反馈。读取所有评论线程，归纳审阅者的诉求，直接完成明确的修改，并标出任何需要人工决策的事项。当用户要求「implement feedback on my deck」「address comments on a design」「apply review feedback」「fix the comments on my presentation」或「implement the feedback」时使用。",
+    "field": "skill:canva-implement-feedback",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "022d4abb4ad0d48c": {
+    "zh": "将 Canva 设计调整为多种社交媒体格式（Facebook 帖子、Facebook story、Instagram 帖子、Instagram story、LinkedIn 帖子）。当用户希望一次性将 Canva 设计调整为适配多个社交媒体平台，而不是手动调整为单一格式时使用本技能。",
+    "field": "skill:canva-resize-for-social-media",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f5ec34c143072d3f": {
+    "zh": "将 Canva 设计中的所有文字翻译为其他语言，生成一份翻译副本。比在 Canva 编辑器中手动复制和编辑每个文本框更快。当用户说「translate my design to [language]」「make a Spanish/French/etc version」或「localize my Canva design」时使用。",
+    "field": "skill:canva-translate-design",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

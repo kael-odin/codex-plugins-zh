@@ -1,0 +1,53 @@
+{
+  "name": "ngs-analysis",
+  "version": "1.0.3",
+  "description": "Guided NGS intake, local execution, and public-pipeline routing for BCL, FASTQ, DNA variant, RNA-seq, single-cell, epigenomics, amplicon, and metagenomics analyses, with deeper decision skills for high-risk assay branches.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://openai.com/",
+  "repository": "https://github.com/openai/openai",
+  "license": "MIT",
+  "keywords": [
+    "ngs",
+    "sequencing",
+    "bioinformatics",
+    "fastq",
+    "bcl",
+    "rnaseq",
+    "scrnaseq",
+    "variant-calling",
+    "atacseq",
+    "chipseq",
+    "microbiome",
+    "metagenomics",
+    "pipeline-routing",
+    "nextflow",
+    "nf-core"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Life Sciences NGS Analysis",
+    "shortDescription": "面向测序分析的 NGS 引导路由与本地执行",
+    "longDescription": "一个面向下一代测序工作流的引导式接收、路由和执行插件。帮助 Codex 检查本地测序输入，只询问缺失的检测类型配置问题，优先选择公开或可自由安装的运行时软件包，在安装前检查工具是否已存在，并执行支持的本地工作流，输出验证日志、清单、QC 报告和结果索引。包含 BCL 拆分、FASTQ QC 执行与解读、胚系/体细胞/UMI panel DNA 变异、批量 RNA-seq count 生成与差异表达、ATAC-seq、ChIP-seq/CUT&RUN/CUT&Tag，以及内嵌的 count 后 scRNA-seq QC 深度技能。",
+    "developerName": "OpenAI",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "引导我完成 NGS 分析所需的最少配置问题，检查可用的 BCL/FASTQ 文件或 count matrix，选择合适的公开流程或更深入的检测类型技能，确认所需工具是否已存在，并执行支持的本地工作流，输出预执行验证和结果归档。"
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}

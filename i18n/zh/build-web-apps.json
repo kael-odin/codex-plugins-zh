@@ -1,0 +1,65 @@
+{
+  "f0eb29cf14bbc75b": {
+    "zh": "构建以前端为核心的 Web 应用，支持生成资产、浏览器测试、支付和数据库",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9d8f6b7e2a674a98": {
+    "zh": "使用 Build Web Apps，结合 Codex 生成的视觉资产创建前端应用界面，通过 Browser 插件和内置应用浏览器进行验证，组合 shadcn/ui，接入 Stripe 支付，设计和调优 Supabase/Postgres 数据流。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1b3d66761d0d1b99": {
+    "zh": "为我的新 SaaS 产品设计一个全新的落地页",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0afeaf739540888f": {
+    "zh": "适用于从零开始构建新的前端应用、仪表盘、游戏、创意网站、hero 区块和以视觉为主的 UI，或用户明确要求重新设计/改版/现代化的场景。基于简洁、高品质、可读性强的图像生成概念设计，附带分区域参考，忠实实现并通过浏览器测试。",
+    "field": "skill:frontend-app-builder",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a3c4e523e21b26ca": {
+    "zh": "适用于通过 Build Web Apps 或 Web 开发插件对已渲染的前端应用进行测试、调试或针对性改进的场景：本地开发服务器、UI 回归、交互 bug、控制台报错、响应式布局和视觉 QA。优先检查 Browser 插件是否可用并优先使用；否则使用常规 Playwright 并记录原因。",
+    "field": "skill:frontend-testing-debugging",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9e407656c97ec59c": {
+    "zh": "来自 Vercel 工程团队的 React 和 Next.js 性能优化指南。适用于编写、审查或重构 React/Next.js 代码以确保最优性能模式的场景。涉及 React 组件、Next.js 页面、数据获取、bundle 优化或性能改进的任务均适用。",
+    "field": "skill:react-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0080e6d5425041f5": {
+    "zh": "管理 shadcn 组件和项目——包括添加、搜索、修复、调试、样式和组合 UI。提供项目上下文、组件文档和使用示例。适用于使用 shadcn/ui、组件注册表、预设、--preset 代码，或任何包含 components.json 文件的项目。也适用于「shadcn init」、「用 --preset 创建应用」或「切换到 --preset」等场景。",
+    "field": "skill:shadcn-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b78972d8f71bac0d": {
+    "zh": "指导 Stripe 集成决策——API 选择（Checkout Sessions 对比 PaymentIntents）、Connect 平台搭建（Accounts v2、controller 属性）、账单/订阅、Treasury 金融账户、集成界面（Checkout、Payment Element），以及从已废弃 Stripe API 迁移。适用于构建、修改或审查任何 Stripe 集成——包括接入支付、构建市场、集成 Stripe、处理付款、设置订阅或创建关联账户。",
+    "field": "skill:stripe-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "88aa4e1c8070c178": {
+    "zh": "来自 Supabase 的 Postgres 性能优化和最佳实践。适用于编写、审查或优化 Postgres 查询、数据库 schema 设计或数据库配置的场景。",
+    "field": "skill:supabase-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

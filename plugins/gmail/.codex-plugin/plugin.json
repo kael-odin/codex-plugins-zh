@@ -1,0 +1,45 @@
+{
+  "name": "gmail",
+  "version": "0.1.9",
+  "description": "Work with Gmail using the configured Gmail app connector.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://workspace.google.com/products/gmail/",
+  "repository": "https://github.com/openai/openai/tree/master/chatgpt/oai-maintained-plugins",
+  "license": "MIT",
+  "keywords": [
+    "gmail",
+    "email",
+    "google",
+    "google workspace",
+    "mail",
+    "inbox",
+    "threads",
+    "drafts"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Gmail",
+    "shortDescription": "读取和管理 Gmail",
+    "longDescription": "使用 Gmail 汇总收件箱动态、起草回复，并通过已连接的 Gmail 应用整理邮件会话。",
+    "developerName": "OpenAI",
+    "category": "Communication",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://workspace.google.com/products/gmail/",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "汇总收件箱、起草回复或处理邮件会话"
+    ],
+    "brandColor": "#EA4335",
+    "composerIcon": "./assets/gmail.png",
+    "logo": "./assets/gmail.png",
+    "screenshots": []
+  }
+}

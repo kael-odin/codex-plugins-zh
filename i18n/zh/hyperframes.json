@@ -1,0 +1,72 @@
+{
+  "614a162636e1fee4": {
+    "zh": "编写 HTML，渲染视频",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8007d07f405eea51": {
+    "zh": "用 HyperFrames 从 HTML 构建视频。使用 HTML + CSS + GSAP 编写合成内容，通过 CLI 完成 init/preview/render/transcribe/tts，安装可复用的注册表 block 和组件，参考 GSAP 动画指南，并通过 7 步「截图转视频」流水线将任意网页转为视频。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f58743376cf4393a": {
+    "zh": "将这个网站制作成 20 秒的产品宣传视频",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1ae867292213b2af": {
+    "zh": "创建一个带动态排版的标题卡",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2e1c67ed52ee1a6d": {
+    "zh": "为这段旁白添加同步字幕",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dcc91731c4945b53": {
+    "zh": "HyperFrames 中的 GSAP 动画参考。涵盖 gsap.to()、from()、fromTo()、缓动、交错、默认值、时间轴（gsap.timeline()、位置参数、标签、嵌套、播放控制）以及性能优化（transforms、will-change、quickTo）。在 HyperFrames 作品中编写 GSAP 动画时使用。",
+    "field": "skill:gsap",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e79cfa3325e836f3": {
+    "zh": "在 HyperFrames HTML 中创建视频合成、动画、标题卡、叠加层、字幕、旁白、音频响应视觉效果和场景转场。适用于以下场景：构建任意基于 HTML 的视频内容、添加与音频同步的字幕、生成文字转语音旁白、创建音频响应动画（节拍同步、发光、脉冲随音乐驱动）、添加带动效的文字高亮（马克笔扫过、手绘圆圈、爆发线、涂鸦、划除效果），或添加场景间转场（淡入淡出、擦除、揭示、着色器转场）。涵盖合成创作、时序控制、媒体处理和完整的视频制作工作流。CLI 命令（init、lint、preview、render、transcribe、tts）请参阅 hyperframes-cli 技能。",
+    "field": "skill:hyperframes",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "56ae641472517a88": {
+    "zh": "HyperFrames CLI 工具——hyperframes init、lint、inspect、preview、render、transcribe、tts、doctor、browser、info、upgrade、compositions、docs、benchmark。适用于以下场景：脚手架初始化、代码检查、校验、在合成中检查视觉布局、在工作室中预览、渲染为视频、转录音频、生成 TTS，或排查 HyperFrames 环境问题。",
+    "field": "skill:hyperframes-cli",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c3717735e1b66500": {
+    "zh": "在 HyperFrames 合成中安装并接入注册表中的 block 和组件。适用于以下场景：运行 hyperframes add、安装 block 或组件、将已安装的内容接入 index.html，或使用 hyperframes.json。涵盖 add 命令、安装位置、block 子合成接入、组件代码片段合并和注册表发现。",
+    "field": "skill:hyperframes-registry",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c87b08e562bece7f": {
+    "zh": "抓取网站内容并生成 HyperFrames 视频。适用场景：(1) 用户提供 URL 并希望制作视频；(2) 用户说「抓取这个网站」、「把这个做成视频」、「用我的网站做一个宣传片」；(3) 用户需要基于现有网站制作社媒广告、产品演示或任何视频内容；(4) 用户分享链接并请求制作任何形式的视频。即使用户只是粘贴了一个 URL，也应使用此技能。",
+    "field": "skill:website-to-hyperframes",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

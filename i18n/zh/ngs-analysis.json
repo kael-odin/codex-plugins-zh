@@ -1,0 +1,149 @@
+{
+  "cbbbf1daaf0904e7": {
+    "zh": "面向测序分析的 NGS 引导路由与本地执行",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8b1925f99e41cf5b": {
+    "zh": "一个面向下一代测序工作流的引导式接收、路由和执行插件。帮助 Codex 检查本地测序输入，只询问缺失的检测类型配置问题，优先选择公开或可自由安装的运行时软件包，在安装前检查工具是否已存在，并执行支持的本地工作流，输出验证日志、清单、QC 报告和结果索引。包含 BCL 拆分、FASTQ QC 执行与解读、胚系/体细胞/UMI panel DNA 变异、批量 RNA-seq count 生成与差异表达、ATAC-seq、ChIP-seq/CUT&RUN/CUT&Tag，以及内嵌的 count 后 scRNA-seq QC 深度技能。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5c95ae214e45a3de": {
+    "zh": "引导我完成 NGS 分析所需的最少配置问题，检查可用的 BCL/FASTQ 文件或 count matrix，选择合适的公开流程或更深入的检测类型技能，确认所需工具是否已存在，并执行支持的本地工作流，输出预执行验证和结果归档。",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ab2d9a74b8fe3979": {
+    "zh": "使用 nf-core/ampliseq、QIIME2、DADA2 和 Cutadapt 启动公开的 16S、18S、ITS、COI 或其他标记基因扩增子微生物组分析工作流。",
+    "field": "skill:ngs-amplicon-microbiome",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b9f0c0bd2e8f7431": {
+    "zh": "将 BCL、FASTQ、BAM/CRAM、count matrix 或 VCF 测序请求路由到正确的公开 NGS 分析技能，并只询问缺少的检测类型特定配置问题。",
+    "field": "skill:ngs-analysis-router",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2028d1f81ab79728": {
+    "zh": "运行或规划 ATAC-seq QC、比对、TSS 富集、片段大小、黑名单、peak calling、共识 peak 和差异可及性分析工作流。",
+    "field": "skill:ngs-atacseq-peaks-qc",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b7bbf11bcd05e296": {
+    "zh": "验证 Illumina BCL 运行文件夹和样品表，规划拆分流程，审查 index/UMI/lane 选项，执行 BCL 转 FASTQ，解读拆分指标，并说明许可证和下载限制。",
+    "field": "skill:ngs-bcl-to-fastq",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a3f78319efec5069": {
+    "zh": "将批量 RNA-seq 请求分发到 FASTQ 转 count QC 或 count matrix 差异表达技能，使用 nf-core/rnaseq、STAR、Salmon、featureCounts、MultiQC 和 R/Bioconductor 工作流。",
+    "field": "skill:ngs-bulk-rnaseq",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8878a34da704f03a": {
+    "zh": "运行或规划批量 RNA-seq FASTQ 转 count 处理流程，包含样品表、链方向性、基因组注释、比对或伪比对、MultiQC 和 count matrix QC 检查。",
+    "field": "skill:ngs-bulk-rnaseq-counts-qc",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eae43ea2d50a4886": {
+    "zh": "从 count matrix 运行或规划批量 RNA-seq 差异表达分析，包含重复、设计公式、对比组、批次效应、归一化、QC 图和结果表检查。",
+    "field": "skill:ngs-bulk-rnaseq-differential-expression",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e1457db84a2184ed": {
+    "zh": "运行或规划 ChIP-seq、CUT&RUN 或 CUT&Tag 的 QC、对照处理、spike-in、peak calling、宽/窄 peak 目标选择、重复样本、bigWig 和差异结合分析工作流。",
+    "field": "skill:ngs-chip-cutrun-peaks-qc",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2e2e36431f770d31": {
+    "zh": "运行或规划深度胚系 WGS、WES、靶向 panel、队列或三联体变异检测工作流，包含参考基因组版本、已知位点、QC、联合变异检测和注释检查。",
+    "field": "skill:ngs-dna-germline-variants",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5db0359def75adec": {
+    "zh": "运行或规划肿瘤-正常配对、仅肿瘤、WGS、WES 或癌症 panel 体细胞变异工作流，包含样本配对、污染检测、正常对照 panel、纯度、QC 和注释检查。",
+    "field": "skill:ngs-dna-somatic-variants",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2c567769d32657ea": {
+    "zh": "运行或规划使用 UMI 的靶向 DNA panel 变异工作流，涵盖双链共识序列、分子条码、低频变异检测、靶区覆盖度和 panel 特定 QC。",
+    "field": "skill:ngs-dna-umi-panel-variants",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8091b4c09016f5df": {
+    "zh": "将 WGS、WES 或靶向 DNA 变异请求分发到胚系、体细胞或 UMI panel 技能，并规划 nf-core/sarek、GATK4、DeepVariant、samtools 或 bcftools 工作流。",
+    "field": "skill:ngs-dna-variant-calling",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "fc2a9ec877cdf0d5": {
+    "zh": "将 ATAC-seq、ChIP-seq、CUT&RUN 或 CUT&Tag 请求分发到检测类型特定的 QC、比对、信号轨迹、peak calling、共识和差异 peak 工作流。",
+    "field": "skill:ngs-epigenomics-peaks",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "26ba5fc499cd9997": {
+    "zh": "验证 FASTQ 输入，运行本地 FastQC/MultiQC QC，解读 QC 信号，并可选执行 fastp 或 Cutadapt 修剪，不覆盖原始数据。",
+    "field": "skill:ngs-fastq-qc",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "40523290b77bcbca": {
+    "zh": "在下载、安装或运行测序流程前，检查公开 NGS 工具和软件包是否已存在。",
+    "field": "skill:ngs-runtime-env",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c5b5c81f93bff6f6": {
+    "zh": "将单细胞或单核 RNA-seq FASTQ 路由到公开 count 生成工作流，并将 count matrix 后续的 QC、注释、聚类和 UMAP 分析交给内嵌的 scrna-seq-qc 技能处理。",
+    "field": "skill:ngs-scrna-seq",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b9dc18fb5607260c": {
+    "zh": "使用 nf-core/taxprofiler、Kraken2、Bracken、MetaPhlAn 和 HUMAnN 启动公开的鸟枪法宏基因组 QC、宿主去除、物种分类和功能注释工作流。",
+    "field": "skill:ngs-shotgun-metagenomics",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "bf95455cfabceecf": {
+    "zh": "处理、质控、注释和可视化跨组织和物种的单细胞或单核 RNA-seq 数据集。适用于构建、调整或审查通用 scRNA-seq QC 流程；根据 QC 分布选择合适的细胞级过滤参数；运行基于 scDblFinder 的双细胞和环境 RNA 过滤；使用匹配参考或基于 marker 的方案注释细胞；以及为大规模 scRNA-seq 数据集生成全局和分组 UMAP 可视化。",
+    "field": "skill:scrna-seq-qc",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "nvidia",
+  "version": "1.0.4",
+  "description": "Skills for NVIDIAs ecosystem spans GPU acceleration, CUDA, AI agents, inference, robotics, Physical AI, Omniverse, and simulation. This plugin helps you understand the pieces, choose a path, validate your setup, and build practical NVIDIA-powered workflows.",
+  "author": {
+    "name": "NVIDIA",
+    "url": "https://github.com/NVIDIA/skills"
+  },
+  "homepage": "https://build.nvidia.com/skills/",
+  "repository": "https://github.com/NVIDIA/skills",
+  "license": "Apache-2.0 AND CC-BY-4.0",
+  "keywords": [
+    "nvidia",
+    "gpu",
+    "cuda",
+    "ai-agents",
+    "inference",
+    "llm-serving",
+    "robotics",
+    "simulation",
+    "omniverse",
+    "openusd",
+    "digital-twin",
+    "physical-ai",
+    "cad"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "NVIDIA",
+    "shortDescription": "NVIDIA AI、GPU、机器人、仿真及 3D 工作流的导航指南。",
+    "longDescription": "NVIDIA 的生态涵盖 GPU 加速、CUDA、AI Agent、推理、机器人、Physical AI、Omniverse 及仿真。该插件帮助你理解各个模块、选择合适路径、验证环境配置，并构建实际可用的 NVIDIA 驱动工作流。",
+    "developerName": "NVIDIA",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "logo": "./assets/nvidia.png",
+    "composerIcon": "./assets/nvidia.png",
+    "brandColor": "#76b900",
+    "defaultPrompt": [
+      "帮我了解 NVIDIA CUDA-X，并说明哪些库对仿真和机器人最重要。",
+      "如何把真实驾驶视频转换成用于仿真的 3D 神经场景？",
+      "帮我部署一个安全的 OpenClaw Agent。"
+    ],
+    "websiteURL": "https://www.nvidia.com/",
+    "privacyPolicyURL": "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+    "termsOfServiceURL": "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/"
+  }
+}

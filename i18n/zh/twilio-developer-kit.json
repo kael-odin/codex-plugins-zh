@@ -1,0 +1,422 @@
+{
+  "8da8f7ae55ccfbf7": {
+    "zh": "用于在 Twilio 上构建、调试和交付的 Twilio 技能集",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5341f98552fd6665": {
+    "zh": "引导 AI 编程智能体针对各种场景调用正确 Twilio API 的过程性知识。涵盖渠道选择、生产最佳实践、合规要求，以及 Messaging、Voice、Verify、SendGrid 和 30 多个产品中的常见坑点。技能采用渐进式披露架构——智能体启动时仅加载轻量元数据，只在任务匹配时才加载完整指南。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "28f6e38b06b599af": {
+    "zh": "帮我发送带投递追踪的 SMS 通知",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ffadaaeba7637e05": {
+    "zh": "我应该用哪个 Twilio API 来构建用户验证流程？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d8010fb804a491aa": {
+    "zh": "在向美国发送 SMS 前，如何完成 A2P 10DLC 注册？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f087a3ada48f801a": {
+    "zh": "从零创建并配置 Twilio 账户。涵盖免费试用注册、试用限制、获取凭据（Account SID 和 Auth Token）、购买电话号码、为试用账户验证收件人号码、SDK 安装、首次 API 调用、子账户管理（创建、继承、凭据隔离、限制），以及开通特定产品（AI Assistants、Conversations、Verify、ConversationRelay、WhatsApp）。若尚无 Twilio 账户或需要开通产品，请在使用其他 Twilio 技能前先使用此技能。组织级治理（SSO、SCIM、多团队）请参见 twilio-organizations-setup。",
+    "field": "skill:twilio-account-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "99bf4ffc40a137f0": {
+    "zh": "用于为人工坐席配备实时 AI 辅助的规划技能。根据开发者在辅导、合规、质检和路由等方面的需求，推荐合适的 Conversation Intelligence + Conversation Memory + TaskRouter 架构。适用于「我想给呼叫中心加 AI 辅导」和「配置 Conversation Intelligence 算子以检查话术合规」等各类需求。层级：发现。",
+    "field": "skill:twilio-agent-augmentation-architect",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d94da8890670bbb2": {
+    "zh": "适用于构建或集成 Twilio Agent Connect（TAC），将第三方 LLM agent 运行时与 Twilio Voice、Messaging、ConversationRelay、Conversation Memory、Conversation Orchestrator 或 Enterprise Knowledge 对接。",
+    "field": "skill:twilio-agent-connect",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "beb62efeb8e19e80": {
+    "zh": "用于构建 AI 对话智能体的规划技能。根据开发者的目标复杂度、接入点和客户画像，推荐合适的 Twilio Conversations 架构和实施技能。适用于「帮我做一个语音 AI 助手」等高层请求，也适用于「把 ConversationRelay 与我的 OpenAI 后端集成」等具体需求。层级：发现。",
+    "field": "skill:twilio-ai-agent-architect",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c7c1f73bfe1f5fd8": {
+    "zh": "正确录制 Twilio 语音通话。涵盖 Record 指令（语音信箱）与 Dial record（通话录音）的关键区别、双声道录音用于质检、通话中暂停录音以满足 PCI 要求、会议录音，以及 ConversationRelay 的替代方案。凡需采集通话音频用于合规、质检或数据分析的场景，均应使用此技能。",
+    "field": "skill:twilio-call-recordings",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "5985ada7256ee45f": {
+    "zh": "Twilio CLI 参考，用于在终端管理 Twilio 资源。涵盖安装、凭据 profile、电话号码购买、发送 SMS 和邮件、Webhook 配置、本地开发（含隧道工具）、使用 watch 和 logs 调试、Serverless 部署，以及插件生态。适用于开发者说「直接做」、「帮我配一下」、「跑个命令」，提及「CLI」、「命令行」、「终端」，或 AI 智能体可直接执行任务而无需编写应用代码的场景。",
+    "field": "skill:twilio-cli-reference",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "de4a33a91c76775e": {
+    "zh": "流量上线前必须完成的注册手续。涵盖消息合规项目（A2P 10DLC、免费电话号码验证、WhatsApp WABA、RCS、短码、字母数字发件人 ID）和语音信任项目（STIR/SHAKEN、Voice Integrity、品牌来电显示、CNAM）。每种号码/发件人类型都有各自的注册流程——注册完成前流量将被拦截。",
+    "field": "skill:twilio-compliance-onboarding",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a58af66f7186f78b": {
+    "zh": "Twilio 消息和语音流量必须遵守的规则。涵盖 TCPA（同意层级、禁拨时段、DNC 名单）、GDPR（欧盟同意、删除权）、PCI DSS（支付录音、Pay 指令）、HIPAA（BAA、PHI）、FDCPA（催收限制）、CAN-SPAM、WhatsApp 政策、SHAKEN/STIR，以及同意管理模式。当开发者已有正常流量时，应主动使用此技能确保合规。",
+    "field": "skill:twilio-compliance-traffic",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d4b7c2a74f993d3f": {
+    "zh": "使用 Twilio Conference 构建多方通话。涵盖暖转接、冷转接、辅导（耳语）、保留与静音、参与者模式，以及主管插话。适用于任何呼叫中心、客服热线，或需要转接、保留或多方通话的场景。",
+    "field": "skill:twilio-conference-calls",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "dcceba5bf098ade8": {
+    "zh": "通过 Twilio Content API 创建、管理和发送消息模板。涵盖 WhatsApp、SMS、RCS 和 MMS 模板创建、变量使用、WhatsApp Meta 审核，以及通过 ContentSid 发送模板。适用于构建需要预审批或跨渠道格式统一的结构化消息场景。",
+    "field": "skill:twilio-content-template-builder",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c2a7ec3acdf2b29c": {
+    "zh": "Twilio Conversation Intelligence 开发指南。适用于以下场景：构建实时或通话后的对话分析、语言算子流水线、情感分析、坐席辅助、跨渠道分析，或查询汇总后的对话洞察（情感趋势、升级率、仪表盘）。",
+    "field": "skill:twilio-conversation-intelligence",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3ea2562c6545d07d": {
+    "zh": "通过 Twilio Conversation Orchestrator 配置自动对话采集和路由。涵盖配置创建、渠道采集规则、分组类型、状态超时、Memory Store 关联、Intelligence 关联，以及对话生命周期管理。使用此技能可自动将 SMS、语音、WhatsApp、RCS 和网页聊天流量采集到统一对话中，无需手动创建对话或参与者。",
+    "field": "skill:twilio-conversation-orchestrator",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9fd99b0d892cbc9c": {
+    "zh": "使用 Twilio Conversations（经典）API 构建多渠道消息体验。涵盖创建对话、添加参与者（SMS、WhatsApp、聊天）、发送消息，以及处理 Webhook。适用于管理超越单条 SMS/WhatsApp 的持久化多方或多渠道对话场景。",
+    "field": "skill:twilio-conversations-classic-api",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eb6c1bd463a43cd5": {
+    "zh": "使用 Twilio Conversation Memory 存储和检索客户上下文。涵盖 Memory Store 配置、档案管理、特征、观察记录、对话摘要，以及语义召回。使用此技能可让 AI 智能体或人工坐席在跨会话、跨渠道的客户互动中拥有持久化记忆。",
+    "field": "skill:twilio-customer-memory",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "70a931a5a5d84d8e": {
+    "zh": "用于构建客户服务和支持系统的规划技能。根据开发者在支持层级（自助服务 → AI 智能体 → 呼叫中心）、渠道组合和规模方面的需求，推荐合适的 Twilio 架构。适用于「帮我建一个呼叫中心」和「给现有客服热线加一个 IVR」等各类需求。层级：发现。",
+    "field": "skill:twilio-customer-support-architect",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "688bfa86b3066f1c": {
+    "zh": "调试 Twilio 集成问题并建立生产环境可观测性。涵盖 Console 调试器、Monitor Alerts API、用于错误日志流式传输的 Event Streams、状态回调跟踪、常见错误码，以及系统化调试流程。凡 Twilio 集成出错、消息发送失败、通话意外断线，或需要为生产部署配置监控的场景，均应使用此技能。",
+    "field": "skill:twilio-debugging-observability",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e2eeee4be9324d73": {
+    "zh": "专门针对 Twilio Email API 的投递顾问技能。仅在开发者明确提及 Twilio Email、comms.twilio.com 或 Twilio（非 SendGrid）邮件项目时使用。其他所有投递问题（包括通用问题）请使用 twilio-sendgrid-deliverability-advisor。层级：发现。",
+    "field": "skill:twilio-email-deliverability-advisor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d0ed738b2d19438a": {
+    "zh": "适用于调用者拥有 Twilio 凭据（Account SID + Auth Token 或 API Key SID + Secret），需要通过 comms.twilio.com/v1/Emails 发送邮件的场景。这是 Twilio 原生邮件——不是 SendGrid。若调用者拥有 SendGrid API Key（SG. 前缀），请使用 twilio-sendgrid-email-send，不要使用此技能。涵盖单次发送、最多 10,000 名收件人的批量发送、Liquid 个性化、操作跟踪，以及错误处理。",
+    "field": "skill:twilio-email-send",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f2726538d6a04664": {
+    "zh": "使用 Twilio Enterprise Knowledge 产品为 AI 智能体添加知识检索能力。Enterprise Knowledge 是集中式、可搜索的组织文档库，包含网站、内容、常见问题、支持政策、保修条款、产品目录等。现有模型无法了解你的业务运营方式，Enterprise Knowledge 让智能体在对话中查询该库，并以实际审批材料作为响应依据。此技能涵盖知识库配置、从网页 URL、PDF 和原始文本上传知识源，以及运行时语义搜索以检索相关片段。Enterprise Knowledge 在整个组织内共享，记录组织的知识与运营规范，有别于 Conversation Memory（twilio-customer-memory）——后者以单个终端用户为范围，记录特定客户的个人信息。两者可组合使用：企业内容用于业务实践，客户记忆用于个性化。",
+    "field": "skill:twilio-enterprise-knowledge",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "99f1addcc47c5139": {
+    "zh": "设置并管理 Twilio 认证凭据：Auth Token、API Key（标准型、主型、受限型）、客户端 SDK 用 Access Token，以及凭据轮换。在发起任何 Twilio API 调用前，应将此技能作为基础前置步骤。",
+    "field": "skill:twilio-iam-auth-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ebd2455479fb8181": {
+    "zh": "身份验证和防欺诈规划技能。根据开发者在认证方式、渠道选择、欺诈风险等级和用户体验方面的需求，推荐合适的 Twilio Verify + Lookup 架构。适用于登录、注册、密码重置和风险自适应验证场景。层级：发现。",
+    "field": "skill:twilio-identity-verification-advisor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "44c4cfa6889c6a16": {
+    "zh": "通过 Twilio Lookup v2 API 查询电话号码情报。涵盖号码验证、线路类型检测（移动/固话/VoIP）、SIM 卡换卡检测、来电号码归属、身份匹配，以及 SMS 刷量风险评分。适用于在发送消息或发起通话前验证号码或评估欺诈风险的场景。",
+    "field": "skill:twilio-lookup-phone-intelligence",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "90543b92145d4541": {
+    "zh": "营销和促销消息规划技能。根据开发者在渠道选择、合规、受众分群和投递跟踪方面的营销活动需求，推荐合适的 Twilio 消息架构。适用于「搭建一个 SMS 促销活动」和「构建带 Segment 集成的多渠道互动流水线」等各类需求。层级：发现。",
+    "field": "skill:twilio-marketing-promotions-advisor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eda0307d404035dd": {
+    "zh": "帮助开发者为特定用例选择合适 Twilio 消息渠道（SMS、MMS、RCS 或 WhatsApp）的规划技能。根据内容类型、地理范围、用例（营销/通知/OTP/客服）、成本模型和品牌曝光度进行评估。适用于开发者询问「该用哪个渠道」、「SMS 还是 RCS 还是 WhatsApp」，提及某个国家或地区，询问品牌消息、富媒体内容或降级方案；也适用于开发者说「发 SMS」但其用例（富媒体内容、国际覆盖、品牌体验）实际上更适合其他渠道时主动触发。",
+    "field": "skill:twilio-messaging-channel-advisor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "29cc569c9687cf3f": {
+    "zh": "Twilio Messaging 渠道概览与入门指南。涵盖所有渠道（SMS、WhatsApp、RCS、Facebook Messenger）、统一 Messages API、渠道选择指引，以及从首条消息到生产监控的推荐配置流程。在选择具体消息渠道前，请先阅读此技能。",
+    "field": "skill:twilio-messaging-overview",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2e5619d56bf1ad59": {
+    "zh": "为生产环境创建并配置 Twilio Messaging Services。涵盖发件人池、地理匹配、粘性发件人、消息调度、合规工具包、SMS 刷量防护、短链接，以及智能告警。适用于搭建生产就绪的消息基础设施场景。",
+    "field": "skill:twilio-messaging-services",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a7b3af3585458b69": {
+    "zh": "通过 Twilio Webhook 接收入站消息并跟踪出站消息的投递状态——覆盖 SMS、MMS、WhatsApp 和 RCS 全渠道。涵盖 Webhook 请求参数、使用 TwiML 回复、验证 Webhook 签名以确保安全，以及处理状态回调。凡需在任意渠道处理入站消息或实时跟踪出站消息投递的场景，均应使用此技能。",
+    "field": "skill:twilio-messaging-webhooks",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "33c1f982f468055b": {
+    "zh": "事务性通知、告警和提醒规划技能。根据开发者在紧迫性、渠道选择、投递确认和降级模式方面的需求，推荐合适的 Twilio 通知架构。适用于「向客户发送物流更新」和「构建带投递确认和降级的多渠道告警系统」等各类需求。层级：发现。",
+    "field": "skill:twilio-notifications-alerts-advisor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "94d1be758e0497f9": {
+    "zh": "在开发前选择合适的 Twilio 号码类型和发件人。涵盖电话号码（本地号、免费电话、短码、移动号）、字母数字发件人 ID、WhatsApp 发件人、RCS 代理、国际可用性，以及合规套餐。每种号码类型都有各自的合规项目——选错意味着需要重新来过。请优先使用此技能。",
+    "field": "skill:twilio-numbers-senders",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "598cc035c3c6946a": {
+    "zh": "设置并管理 Twilio Organizations，实现账户和用户的集中治理。涵盖 Organization > Account > Subaccount 层级结构、角色（Owner/Admin/Standard）、受管账户与独立账户、域名注册、SSO 强制执行、SCIM 配置，以及 Organization 合并。适用于管理多个 Twilio 账户或跨团队用户的场景。",
+    "field": "skill:twilio-organizations-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c3870034f8e8b51f": {
+    "zh": "通过 Twilio 发送 RCS 商业消息。涵盖合规入驻（美国七步流程）、发件人资料配置、发送富文本卡片和轮播图、SMS 降级、设备支持（Android + iOS 18 注意事项），以及常见错误。适用于构建 RCS 消息功能或入驻 RCS 发件人的场景。",
+    "field": "skill:twilio-rcs-messaging",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "adf35b1d2a72ea42": {
+    "zh": "管理国际电话号码的合规套餐。涵盖套餐的定义、哪些国家需要套餐、如何创建终端用户和支持文件、评估和提交套餐、修复评估失败问题、法规变更时更新套餐，以及 ISV 多账户模式。适用于在美国以外购买号码的场景。",
+    "field": "skill:twilio-regulatory-compliance-bundles",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "03a82c3cf64d1e23": {
+    "zh": "在大规模使用 Twilio 时处理速率限制、重试和故障。涵盖带抖动的 429 指数退避、单号码吞吐量限制、StatusCallback 容错、精简接收端模式，以及降级链。凡大批量发送消息或发起通话，或构建生产级 Twilio 集成的场景，均应使用此技能。",
+    "field": "skill:twilio-reliability-patterns",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "296547ea73715ccc": {
+    "zh": "选择合适的 Twilio 认证方式并正确实施。涵盖 Auth Token（仅用于测试）、API Key（生产标准）、OAuth2 client_credentials（时效性 bearer token）、客户端 SDK 用 Access Token，以及测试凭据。在生产环境发起任何 Twilio API 调用前，请先使用此技能。",
+    "field": "skill:twilio-security-api-auth",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0d322018dc350b6d": {
+    "zh": "为满足 HIPAA 合规要求配置 Twilio 账户。涵盖 BAA 要求、HIPAA Project 指定（自助服务和客服支持）、合规服务列表、各产品要求（Voice、SMS、ConversationRelay、Conversation Intelligence、Flex、Verify）、消息脱敏，以及不适用的场景。适用于在 Twilio 上构建医疗健康工作流的开发者。",
+    "field": "skill:twilio-security-compliance-hipaa",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2961283275f33e94": {
+    "zh": "加固 Twilio 应用程序以抵御常见攻击。涵盖凭据管理（API Key 与 Auth Token 的选择）、请求验证（Webhook 签名验证）、PCI DSS 合规、HIPAA 账户要求、SMS 刷量防护、地理权限，以及账户隔离模式。适用于构建或部署 Twilio 应用的开发者。",
+    "field": "skill:twilio-security-hardening",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "30c747da5ada40af": {
+    "zh": "通过 Twilio Programmable Messaging API 跨渠道发送消息——涵盖 SMS、MMS、RCS 和 WhatsApp。支持文本消息、媒体、富媒体内容（卡片、轮播图、按钮）、模板发送、Messaging Services、状态回调，以及 WhatsApp 24 小时服务窗口。无论用户说「发 SMS」、「发短信」、「发品牌消息」、「发富媒体消息」、「发 WhatsApp 消息」、「发 RCS 消息」、「发通知」还是「发告警」，均应使用此技能。如需为用例选择合适渠道，请先参考 twilio-messaging-channel-advisor。",
+    "field": "skill:twilio-send-message",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0ebaae92730b4e06": {
+    "zh": "为邮件投递配置 SendGrid 账户。涵盖 API Key 创建（SG. 前缀）、域名认证（通过 CNAME 记录配置 DKIM/SPF）、用于测试的单发件人验证、SDK 安装，以及 SendGrid 与 Twilio 凭据之间的关系。在使用其他 SendGrid 技能前，请先使用此技能。本技能仅适用于 SendGrid，不适用于 Twilio Email API（comms.twilio.com）。",
+    "field": "skill:twilio-sendgrid-account-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c30eea1301a4d126": {
+    "zh": "邮件投递问题的诊断和顾问技能。当开发者询问邮件进垃圾箱、无法进入收件箱、被拦截、退信，或如何提升发件人信誉时使用——无论是否指定平台。涵盖 SendGrid 专属工具：SPF、DKIM、DMARC、BIMI、IP 暖机、列表卫生、退信/垃圾率阈值，以及互动质量评分（SEQ）。不适用于 Twilio Email（comms.twilio.com / Account SID + Auth Token）——请使用 twilio-email-deliverability-advisor。不适用于通用邮件发送问题——请使用 twilio-sendgrid-email-send（SendGrid）或 twilio-email-deliverability-advisor。层级：发现。",
+    "field": "skill:twilio-sendgrid-deliverability-advisor",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "839d989116bbb548": {
+    "zh": "通过 SendGrid v3 Mail Send API 发送事务性和批量邮件。涵盖单次发送、使用动态模板的个性化批量发送、可取消的计划发送、附件，以及用于测试的沙箱模式。适用于调用者拥有 SendGrid API Key（SG. 前缀）的场景。若调用者使用 Twilio Email API（comms.twilio.com），请勿使用此技能——那是拥有不同凭据的独立产品。",
+    "field": "skill:twilio-sendgrid-email-send",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "4d5f2803374fca38": {
+    "zh": "配置 SendGrid 动态模板（Handlebars）、跟踪设置（打开率、点击率、订阅）、自定义跟踪域名的链接品牌化，以及内容类型（HTML、纯文本、AMP）。适用于自定义 SendGrid 邮件内容、跟踪行为或品牌链接的场景。需要 SendGrid API Key（SG. 前缀）——不适用于 Twilio Email API（comms.twilio.com）。",
+    "field": "skill:twilio-sendgrid-email-settings",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0902825cb84efb16": {
+    "zh": "通过 SendGrid 互动质量评分（SEQ）监控邮件项目健康状况。涵盖 SEQ API 接口、五项评分指标（互动时效性、打开率、退信分类、退信率、垃圾举报率）、资格要求，以及如何解读评分以改善投递率。适用于诊断 SendGrid 投递问题或监控发件人信誉的场景。需要 SendGrid API Key（SG. 前缀）——不适用于 Twilio Email API（comms.twilio.com）。",
+    "field": "skill:twilio-sendgrid-engagement-quality",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3644daa1ef7863fa": {
+    "zh": "通过 SendGrid Inbound Parse Webhook 接收入站邮件。涵盖 MX 记录配置、解析模式与原始模式、处理附件，以及常见问题。适用于构建邮件转应用工作流（如支持工单创建或邮件处理流水线）的场景。需要 SendGrid API Key（SG. 前缀）——不适用于 Twilio Email API（comms.twilio.com）。",
+    "field": "skill:twilio-sendgrid-inbound-parse",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "e2bb55308a44389e": {
+    "zh": "管理 SendGrid 邮件抑制列表：退信、拦截、垃圾举报、无效邮件、全局退订，以及 ASM 抑制组。涵盖何时及如何移除抑制、信誉影响，以及基于分类的退订管理。适用于调试 SendGrid 投递问题或构建退订流程的场景。需要 SendGrid API Key（SG. 前缀）——不适用于 Twilio Email API（comms.twilio.com）。",
+    "field": "skill:twilio-sendgrid-suppressions",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "919e6048cceb8b24": {
+    "zh": "通过 SendGrid Event Webhook 跟踪邮件投递和互动情况。涵盖全部 11 种事件类型（投递 + 互动）、Webhook 处理程序实现、ECDSA 签名验证、批量事件处理，以及常见调试模式。适用于构建 SendGrid 投递跟踪、互动分析或退信处理的场景。需要 SendGrid API Key（SG. 前缀）——不适用于 Twilio Email API（comms.twilio.com）。",
+    "field": "skill:twilio-sendgrid-webhooks",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1813d57322566758": {
+    "zh": "面向 ISV（独立软件供应商）构建多租户 SaaS 平台 SMS 功能的最佳实践。涵盖 A2P 和免费电话号码合规客户入驻、子账户架构、发件人管理、计费模式，以及常见 ISV 坑点。适用于构建供你的客户向其终端用户发送消息的 SMS 功能场景。",
+    "field": "skill:twilio-sms-isv-setup",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d37ef30a3abfa478": {
+    "zh": "SMS 和 MMS 深度参考。涵盖 SMS 专属错误码、消息过滤排查（「消息被过滤或拦截？」诊断清单）、MMS 媒体支持（仅限美国/加拿大/澳大利亚），以及 SMS 刷量指标。发送 SMS 请使用 twilio-send-message。本技能仅适用于调试 SMS 投递问题或需要统一发送技能中未涵盖的 SMS 专属细节的场景。",
+    "field": "skill:twilio-sms-send-message",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a3c805828f525bb1": {
+    "zh": "使用 Twilio TaskRouter 将任务路由到坐席。涵盖 Workers、任务队列、工作流、Reservation、基于技能的路由，以及常见问题（连字符属性、HAS 操作符、Reservation 级联）。适用于任何多坐席呼叫中心、客服队列，或 AI 智能体升级路由的场景。",
+    "field": "skill:twilio-taskrouter-routing",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "0e0c7c7e15009df3": {
+    "zh": "通过 Twilio Verify 经 SMS、RCS、语音、邮件或 WhatsApp 发送并验证一次性密码（OTP）。涵盖创建 Verify Service、发送验证码、校验提交的验证码、WhatsApp 自动降级至 SMS，以及服务配置。TOTP 通过 Factors API 支持（与渠道型 OTP 为独立功能族）。适用于为任意应用添加手机或邮件验证，以及双因素认证的场景。",
+    "field": "skill:twilio-verify-send-otp",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9fe96b772240765b": {
+    "zh": "使用 Twilio ConversationRelay 构建 AI 语音智能体。处理实时语音识别（ASR）、文字转语音（TTS）和通过 WebSocket 的双向音频流。涵盖 TwiML 配置、WebSocket 消息类型、LLM 集成、流式响应，以及语音提供商配置。适用于在 Twilio 通话上构建语音机器人、IVR 替代方案，或实时 AI 语音助手的场景。",
+    "field": "skill:twilio-voice-conversation-relay",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f7efe8ae870bf2ef": {
+    "zh": "通过 Twilio Programmable Voice REST API 发起外呼。涵盖完整语音平台：calls.create()、答录机检测（AMD）、基于 Conference 的坐席桥接、通话录音、状态跟踪，以及 SIP Trunking。适用于外呼、销售拨号器，或询问可用语音 API 的场景。",
+    "field": "skill:twilio-voice-outbound-calls",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a4eaff522848276c": {
+    "zh": "使用 TwiML（Twilio Markup Language）构建语音通话逻辑。涵盖核心指令（Say、Play、Gather、Dial、Record、Conference）、使用 Python 和 Node.js SDK 生成 TwiML，以及完整的入站电话 IVR 示例。适用于为入站或出站通话定义通话行为的场景。",
+    "field": "skill:twilio-voice-twiml",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "6ec0855c5a453e42": {
+    "zh": "设计、加固并运维 Twilio Webhook 端点。涵盖入站事件处理、状态回调、签名验证、重试和超时调优的连接覆盖、本地开发隧道，以及生产环境安全加固。凡需从任意 Twilio 产品（消息、语音、Verify 或 Event Streams）接收 HTTP 回调的场景，均应使用此技能。",
+    "field": "skill:twilio-webhook-architecture",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3e94b79177110451": {
+    "zh": "通过 Twilio Channels Senders API 创建、配置和管理 WhatsApp 商业发件人。涵盖编程式发件人注册、资料配置、Webhook 配置、发件人生命周期状态，以及 ISV 流程。适用于大规模注册和管理生产环境 WhatsApp 发件人的场景。",
+    "field": "skill:twilio-whatsapp-manage-senders",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "57fdcd012752f6ea": {
+    "zh": "WhatsApp 消息深度参考。涵盖 24 小时服务窗口规则（自由发送模式与模板模式）、沙箱测试配置、模板审核流程、生产环境发件人要求，以及 WhatsApp 专属错误处理。发送 WhatsApp 消息请使用 twilio-send-message。本技能适用于首次配置 WhatsApp 或调试 WhatsApp 专属投递行为的场景。",
+    "field": "skill:twilio-whatsapp-send-message",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "55d8a43abb8a2ab8": {
+    "zh": "官方 MCP 加持的 Cloudflare 平台指引",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d9436c38027f9522": {
+    "zh": "将 Cloudflare 平台指引引入 Codex，提供针对整体平台、Wrangler CLI 和 Agents SDK 的精选技能，并通过官方 Cloudflare API MCP 服务器，实现对 Workers、Pages、存储、AI、网络、安全和分析服务的账号数据与工作流的已认证访问。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "f7d20b7119b9a3c4": {
+    "zh": "帮我选择合适的 Cloudflare 产品、配置 Wrangler，并使用 Cloudflare MCP 检查或部署本项目",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "cfc195024731c222": {
+    "zh": "在 Cloudflare Workers 上使用 Agents SDK 构建 AI agent。适用于创建有状态 agent、持久工作流、实时 WebSocket 应用、定时任务、MCP 服务器或聊天应用。涵盖 Agent 类、状态管理、可调用 RPC、Workflows 集成和 React hooks。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:agents-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "228831b32aa42214": {
+    "zh": "在 Cloudflare 上使用 Agents SDK 构建 AI 智能体，支持状态管理、实时 WebSocket、定时任务、工具集成和对话功能，生成可直接部署到 Workers 的生产级代码。适用场景：用户想「构建智能体」、「AI agent」、「对话机器人」、「有状态 agent」，提及「Agents SDK」，需要「实时 AI」、「WebSocket AI」，或询问 agent 的「状态管理」、「定时任务」、「工具调用」。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:building-ai-agent-on-cloudflare",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a930b2b1410e7d4c": {
+    "zh": "在 Cloudflare Workers 上构建远程 MCP（Model Context Protocol）服务器，支持工具定义、OAuth 认证和生产环境部署，自动生成服务端代码、配置认证提供商并完成部署。适用场景：用户想「构建 MCP 服务器」、「创建 MCP 工具」、「远程 MCP」、「部署 MCP」、「给 MCP 加 OAuth」，或在 Cloudflare 上提及 Model Context Protocol。也适用于「MCP 认证」或「MCP 部署」相关需求。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:building-mcp-server-on-cloudflare",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3f2bdc76317996c0": {
+    "zh": "全面覆盖 Cloudflare 平台的综合技能，包括 Workers、Pages、存储（KV、D1、R2）、AI（Workers AI、Vectorize、Agents SDK）、网络（Tunnel、Spectrum）、安全（WAF、DDoS 防护）以及基础设施即代码（Terraform、Pulumi）。适用于任何 Cloudflare 开发任务。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:cloudflare",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "ca721bdec7da271b": {
+    "zh": "创建和审查 Cloudflare Durable Objects。适用于构建有状态协调场景（聊天室、多人游戏、预订系统）、实现 RPC 方法、SQLite 存储、告警、WebSockets，或审查 DO 代码是否符合最佳实践。涵盖 Workers 集成、wrangler 配置和 Vitest 测试。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:durable-objects",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "881aecd505ddf052": {
+    "zh": "使用 Sandbox SDK 构建安全的沙箱应用，用于隔离代码执行。适用于构建 AI 代码执行环境、代码解释器、CI/CD 系统、交互式开发环境或执行不受信任的代码。涵盖 Sandbox SDK 生命周期、命令、文件、代码解释器和预览 URL。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:sandbox-sdk",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "8a6305831029bf0a": {
+    "zh": "使用 Chrome DevTools MCP 分析网页性能。衡量 Core Web Vitals（FCP、LCP、TBT、CLS、Speed Index），识别阻塞渲染的资源、网络依赖链、布局偏移、缓存问题和无障碍缺陷。适用于需要审计、分析、调试或优化页面加载性能、Lighthouse 评分或网站速度的场景。优先从最新文档检索，而非依赖预训练知识。",
+    "field": "skill:web-perf",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "3ed200836820c701": {
+    "zh": "按照生产最佳实践审查和编写 Cloudflare Workers 代码。适用于编写新 Workers、审查 Worker 代码、配置 wrangler.jsonc，或检查常见的 Workers 反模式（流式处理、浮动 Promise、全局状态、密钥、绑定、可观测性）。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:workers-best-practices",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "2e6ff086abef1165": {
+    "zh": "Cloudflare Workers CLI，用于部署、开发和管理 Workers、KV、R2、D1、Vectorize、Hyperdrive、Workers AI、容器、队列、工作流、管道和密钥存储。运行 wrangler 命令前请先加载本技能，确保语法正确并符合最佳实践。优先从 Cloudflare 官方文档检索，而非依赖预训练知识。",
+    "field": "skill:wrangler",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "cloudflare",
+  "version": "0.1.2",
+  "description": "Cloudflare platform plugin with curated skills for Workers, Wrangler, and Agents SDK plus the official Cloudflare API MCP server.",
+  "author": {
+    "name": "Cloudflare",
+    "url": "https://workers.cloudflare.com/"
+  },
+  "homepage": "https://workers.cloudflare.com/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "cloudflare",
+    "workflow",
+    "deployment",
+    "edge-functions",
+    "edge",
+    "analytics",
+    "wrangler",
+    "agents-sdk",
+    "serverless",
+    "ai-gateway"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Cloudflare",
+    "shortDescription": "官方 MCP 加持的 Cloudflare 平台指引",
+    "longDescription": "将 Cloudflare 平台指引引入 Codex，提供针对整体平台、Wrangler CLI 和 Agents SDK 的精选技能，并通过官方 Cloudflare API MCP 服务器，实现对 Workers、Pages、存储、AI、网络、安全和分析服务的账号数据与工作流的已认证访问。",
+    "developerName": "Cloudflare",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://workers.cloudflare.com/",
+    "privacyPolicyURL": "https://www.cloudflare.com/privacypolicy/",
+    "termsOfServiceURL": "https://www.cloudflare.com/website-terms/",
+    "defaultPrompt": [
+      "帮我选择合适的 Cloudflare 产品、配置 Wrangler，并使用 Cloudflare MCP 检查或部署本项目"
+    ],
+    "composerIcon": "./assets/cloudflare-small.svg",
+    "logo": "./assets/cloudflare.png",
+    "screenshots": [],
+    "brandColor": "#F48120"
+  }
+}

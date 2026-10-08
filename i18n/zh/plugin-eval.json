@@ -1,0 +1,72 @@
+{
+  "7d4f173dca2069d3": {
+    "zh": "从对话出发，在本地评估或基准测试插件",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "07480a0ebf7e4fa6": {
+    "zh": "让 Codex 评估插件或技能、对指定插件（如 game-studio）给出完整分析、解释得分原因、列出优先修复项、说明 token 预算、统计实际 token 用量、做基准测试，或告诉你下一步该跑什么。Plugin Eval 保持对工程师友好的体验：从自然语言请求出发，再通过本地 `plugin-eval start` 入口或推荐的工作流命令执行。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "69bbca30e9e4eb58": {
+    "zh": "分析一下 game studio 插件",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "c5e6f45609a75345": {
+    "zh": "评估这个插件",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "a1986213d832ad89": {
+    "zh": "为什么得了这个分？",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "d435f830c7b24923": {
+    "zh": "以工程师友好的方式评估本地 Codex 插件。适用于用户说「评估这个插件」「审计这个插件」「为什么得了这个分」「我应该先修什么」「帮我对这个插件做基准测试」，或在对比版本前请求全插件报告的场景。",
+    "field": "skill:evaluate-plugin",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "1c14f14bc596d4dd": {
+    "zh": "以工程师友好的方式评估本地 Codex 技能。适用于用户说「评估这个技能」「分析一下 game dev 技能」「审计这个技能」「为什么得了这个分」「我应该先修什么」，或在基准测试前请求技能专项报告的场景。",
+    "field": "skill:evaluate-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "eed0c8a59737c090": {
+    "zh": "将 plugin-eval 的评估结果转化为具体的 Codex 技能重写方案。适用于用户已完成技能评估、希望 Codex 帮助改进，尤其是在问完「先修什么」之后。",
+    "field": "skill:improve-skill",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "47c71ceb056cd22b": {
+    "zh": "为 plugin-eval 设计自定义指标包，供团队添加本地评估标准，生成与 schema 兼容的检查项和指标。适用于用户想定义自己的评估维度或可视化方式的场景。",
+    "field": "skill:metric-pack-designer",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "334e8311c9e7559e": {
+    "zh": "帮助工程师评估本地技能或插件、解释得分原因、指出优先修复项、统计实际 token 用量、对初始场景做基准测试，或决定下一步该跑什么。适用于用户说「评估这个技能」「分析 game dev 技能」「为什么得了这个分」「我应该先修什么」「统计这个技能的实际 token 用量」或「接下来跑什么」等场景。",
+    "field": "skill:plugin-eval",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

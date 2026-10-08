@@ -1,0 +1,28 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "Datadog"
+  },
+  "description": "Available for US1 customers only. Analyze, investigate, and act on your Datadog telemetry directly from ChatGPT using natural language. Ask questions about your production applications, identify, visualize, and remediate issues in your critical services. Run agentic loops to ensure you continue to maintain good observability and service management posture.",
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "composerIcon": "./assets/composer-icon.png",
+    "defaultPrompt": [
+      "按服务展示日志量明细。",
+      "展示我的前 10 个服务在过去 6 小时的平均 CPU 使用率。",
+      "我的用户来自哪里？请按国家展示图表。"
+    ],
+    "developerName": "Datadog",
+    "displayName": "Datadog (Preview)",
+    "logo": "./assets/logo.png",
+    "longDescription": "仅面向 US1 客户提供。直接在 ChatGPT 中用自然语言分析、排查和处理 Datadog 遥测数据。查询生产应用状态、定位并可视化关键服务中的问题并进行修复。通过 agentic 循环持续保持良好可观测性与服务管理态势。",
+    "privacyPolicyURL": "https://www.datadoghq.com/legal/privacy/",
+    "shortDescription": "搜索并操作你的数据",
+    "supportURL": "https://www.datadoghq.com/support/",
+    "termsOfServiceURL": "https://www.datadoghq.com/legal/terms/2024-10-25/",
+    "websiteURL": "https://www.datadoghq.com"
+  },
+  "name": "datadog",
+  "version": "10.0.0"
+}

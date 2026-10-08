@@ -1,0 +1,23 @@
+{
+  "01c7992b29a80f09": {
+    "zh": "将 Codex 变成你的 ClickUp 指挥中心。",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9c015ee45f2f7df7": {
+    "zh": "将 Codex 变成你的 ClickUp 指挥中心。随便问、什么都找得到、直接采取行动——不打断你的工作节奏。\n• 深度工作区搜索：自然提问，从所有工作内容中获取精准答案\n• 边问边行动：在 Codex 中直接查找、创建、更新和管理任务\n• 零切换成本：从提问到答案到行动，全程不离开对话",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "9b2b13980220c84c": {
+    "zh": "判断「Sprint 14：简化 UI」是否存在进度风险",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

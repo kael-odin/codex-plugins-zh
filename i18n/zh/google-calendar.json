@@ -1,0 +1,23 @@
+{
+  "5ebaa8d283a901a7": {
+    "zh": "管理 Google Calendar 活动",
+    "field": "shortDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "b78bdd11e57b54c0": {
+    "zh": "使用 Google Calendar 汇总当天日程、查看空闲时段、列出日历，以及直接在任务提示中创建、更新或删除活动。",
+    "field": "longDescription",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  },
+  "65d99948631f055f": {
+    "zh": "汇总我的日历、比较空闲时段、准备会议或起草活动详情",
+    "field": "defaultPrompt",
+    "source": "seed",
+    "verified": false,
+    "seededFrom": "codex-plugins-cn"
+  }
+}

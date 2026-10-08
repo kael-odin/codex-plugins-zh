@@ -1,0 +1,40 @@
+{
+  "name": "sentry",
+  "version": "0.1.2",
+  "description": "Inspect recent issues and events in Sentry from Codex.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://sentry.io/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "sentry",
+    "observability",
+    "triage"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sentry",
+    "shortDescription": "查看近期 Sentry issues 和事件",
+    "longDescription": "使用 Sentry 技能，通过只读工作流查看近期 issue、审阅事件并汇总生产报错。",
+    "developerName": "OpenAI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://sentry.io/",
+    "privacyPolicyURL": "https://sentry.io/privacy/",
+    "termsOfServiceURL": "https://sentry.io/terms/",
+    "defaultPrompt": [
+      "查看近期 Sentry issues 并汇总主要生产报错"
+    ],
+    "composerIcon": "./assets/sentry-small.svg",
+    "logo": "./assets/sentry.png",
+    "screenshots": [],
+    "brandColor": "#362D59"
+  }
+}
