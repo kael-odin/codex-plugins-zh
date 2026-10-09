@@ -418,5 +418,12 @@
     "source": "seed",
     "verified": false,
     "seededFrom": "codex-plugins-cn"
+  },
+  "4d7ad5061381c0af": {
+    "zh": "Twilio 开发者工具包",
+    "field": "displayName",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
   }
 }

@@ -82,5 +82,12 @@
     "source": "seed",
     "verified": false,
     "seededFrom": "codex-plugins-cn"
+  },
+  "9514d7b4ac4742a3": {
+    "zh": "构建 iOS 应用",
+    "field": "displayName",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
   }
 }

@@ -33,5 +33,12 @@
     "source": "seed",
     "verified": false,
     "seededFrom": "codex-plugins-cn"
+  },
+  "8cc93b9b5b7f72ab": {
+    "zh": "测试 Android 应用",
+    "field": "displayName",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
   }
 }

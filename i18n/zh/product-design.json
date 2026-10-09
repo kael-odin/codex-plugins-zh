@@ -103,5 +103,12 @@
     "source": "seed",
     "verified": false,
     "seededFrom": "codex-plugins-cn"
+  },
+  "f7b5178178fd0e6e": {
+    "zh": "产品设计",
+    "field": "displayName",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
   }
 }

@@ -369,5 +369,12 @@
     "source": "seed",
     "verified": false,
     "seededFrom": "codex-plugins-cn"
+  },
+  "6193c3e0e676baa0": {
+    "zh": "生命科学研究",
+    "field": "displayName",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
   }
 }

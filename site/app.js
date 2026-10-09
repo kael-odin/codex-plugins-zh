@@ -37,6 +37,7 @@ const I18N = {
     guide: '完整安装 / 冗余清理指南 →',
     installHint: 'API-key 登录用户：App 自带的「Built by OpenAI · 50 个插件」请保留，两个市场并存互不影响。',
     footerLegal: '插件内容与商标归 OpenAI 及各自权利人所有；应用目录数据来自 Source-blip 中文导航（2026-07 快照），译文仅供参考，与英文原文冲突时以英文原文为准。',
+    appNotice: '这是 ChatGPT 应用/连接器：不能安装进 Codex 市场，此处仅作中文导航。请通过官方网站在 ChatGPT 中使用。',
     close: '关闭详情',
     statusAll: '全部状态',
     catAll: '全部分类',
@@ -77,6 +78,7 @@ const I18N = {
     guide: 'Full setup & cleanup guide →',
     installHint: 'API-key users: keep the built-in “Built by OpenAI · 50 plugins” — both marketplaces coexist.',
     footerLegal: 'Plugin content and trademarks belong to OpenAI and their respective owners. Apps dataset from Source-blip (2026-07 snapshot); translations are informational.',
+    appNotice: 'This is a ChatGPT app/connector — it cannot be installed into a Codex marketplace; this entry is navigation only. Use it in ChatGPT via the official website.',
     close: 'Close details',
     statusAll: 'All statuses',
     catAll: 'All categories',
@@ -84,7 +86,7 @@ const I18N = {
   },
 };
 
-const state = { q: '', cat: null, quick: 'all', status: '', sort: 'default', onlyZh: false, lang: 'zh', theme: 'light', selected: null };
+const state = { q: '', cat: null, quick: 'plugin', status: '', sort: 'default', onlyZh: false, lang: 'zh', theme: 'light', selected: null };
 let CATALOG = null;
 let APPS = [];
 let ALIASES = {};
@@ -283,6 +285,7 @@ function detailHTML(it) {
     <div class="badges" style="margin-top:12px">${it.badges.map((b) => `<span class="badge ${b.cls || ''}">${esc(b.text)}</span>`).join('')}</div>`;
   if (it.type === 'app') {
     return `${head}
+      <div class="notice">${esc(t().appNotice)}</div>
       <div class="block"><strong>${esc(T.intro)}</strong><div class="detail-desc">${esc(it.long)}</div>
       ${it.longEn ? `<details><summary style="cursor:pointer;font-size:13px">${esc(T.enOriginal)}</summary><div class="original detail-desc">${esc(it.longEn)}</div></details>` : ''}</div>
       <div class="block"><strong>${esc(T.links)}</strong>

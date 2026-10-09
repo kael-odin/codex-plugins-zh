@@ -159,5 +159,12 @@
     "source": "seed",
     "verified": false,
     "seededFrom": "codex-plugins-cn"
+  },
+  "dc02d6d55a1557c8": {
+    "zh": "构建 Web 数据可视化",
+    "field": "displayName",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
   }
 }

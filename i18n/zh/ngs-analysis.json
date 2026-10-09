@@ -145,5 +145,12 @@
     "source": "seed",
     "verified": false,
     "seededFrom": "codex-plugins-cn"
+  },
+  "e6bec7a6cf1f1085": {
+    "zh": "生命科学 NGS 分析",
+    "field": "displayName",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
   }
 }
