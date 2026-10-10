@@ -14,7 +14,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import {
   ROOT, UPSTREAM_DIR, DATA_DIR, I18N_DIR,
-  readJson, writeJson, textKey, git, toPosix, hasCJK,
+  readJson, writeJson, textKey, git, toPosix, hasCJK, walkFiles,
 } from './lib.mjs';
 
 const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
@@ -79,8 +79,13 @@ if (seedAvailable) {
   for (const [name, placements] of toMerge) {
     const srcDir = path.join(SEED_DIR, 'plugins', name);
     const dstDir = path.join(ROOT, 'plugins', name);
-    if (fs.existsSync(srcDir) && !fs.existsSync(dstDir)) {
-      fs.cpSync(srcDir, dstDir, { recursive: true });
+    // upstream is authoritative whenever it physically ships the plugin —
+    // seed must never overwrite it (seed's catalog lists those too, but its
+    // copy can be older/translated). Refresh only true seed-only plugins.
+    const upstreamPhysical = fs.existsSync(path.join(UPSTREAM_DIR, 'plugins', name));
+    if (!upstreamPhysical && fs.existsSync(srcDir)) {
+      if (process.env.DEBUG_SEED) console.log(`[compose] cpSync seed->publish: ${name}`);
+      fs.cpSync(srcDir, dstDir, { recursive: true, force: true });
     }
     for (const { key, entry } of placements) ours[key].plugins.push(entry);
     extras.names.push(name);
@@ -91,6 +96,21 @@ if (seedAvailable) {
   try { seedDate = git(SEED_DIR, 'log', '-1', '--format=%ci'); } catch { seedDate = null; }
   extras.snapshot = { repo: cfg.seedRepo, commitDate: seedDate, entries: seedMf.main.plugins.length };
   console.log(`[compose] snapshot extras merged: ${extras.merged} (seed has ${seedMf.main.plugins.length} entries @ ${seedDate ?? 'unknown date'})`);
+
+// 4b) orphan sweep: a publish plugin dir must exist in a source (upstream or
+// seed). Anything else is a stale leftover and gets pruned.
+let pruned = 0;
+const pdir = path.join(ROOT, 'plugins');
+for (const name of fs.readdirSync(pdir)) {
+  const inUpstream = fs.existsSync(path.join(UPSTREAM_DIR, 'plugins', name));
+  const inSeedDir = fs.existsSync(path.join(SEED_DIR, 'plugins', name));
+  if (!inUpstream && !inSeedDir) {
+    fs.rmSync(path.join(pdir, name), { recursive: true, force: true });
+    pruned++;
+    console.log(`[compose] pruned orphan plugin dir: ${name}`);
+  }
+}
+if (pruned) console.log(`[compose] orphans pruned: ${pruned}`);
 } else {
   console.log('[compose] WARNING: .seed not found — publishing upstream-only catalog');
 }
@@ -113,6 +133,36 @@ for (const name of fs.readdirSync(path.join(ROOT, 'plugins'))) {
   }
 }
 console.log('[compose] categories mapped to zh');
+
+// 4c) purge seed-era leftovers inside upstream-physical plugin dirs
+// (cpSync merges never delete, so files that only exist in the seed copy
+// would otherwise linger forever inside upstream directories)
+let purgedFiles = 0;
+const upPluginsDir = path.join(UPSTREAM_DIR, 'plugins');
+const pdir = path.join(ROOT, 'plugins');
+const pruneEmpty = (dir) => {
+  if (!fs.existsSync(dir)) return;
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) pruneEmpty(p);
+  }
+  if (fs.readdirSync(dir).length === 0) fs.rmSync(dir, { recursive: true, force: true });
+};
+for (const name of fs.readdirSync(pdir)) {
+  const dstBase = path.join(pdir, name);
+  if (!fs.existsSync(dstBase)) continue;
+  const upDir = path.join(upPluginsDir, name);
+  if (!fs.existsSync(upDir)) continue; // seed-only dir — managed by the seed merge
+  const upFiles = new Set(walkFiles(upDir, name));
+  for (const rel of walkFiles(dstBase, name)) {
+    if (!upFiles.has(rel)) {
+      fs.rmSync(path.join(ROOT, 'plugins', rel), { force: true });
+      purgedFiles++;
+    }
+  }
+  pruneEmpty(dstBase);
+}
+if (purgedFiles) console.log(`[compose] purged leftover files in upstream dirs: ${purgedFiles}`);
 
 // 5) per-plugin interface overrides from sidecars (upstream part)
 let applied = 0;

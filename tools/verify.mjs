@@ -105,20 +105,23 @@ for (const rel of [...pub.keys()].sort()) {
     else divergences.push({ rel, kind: 'content-diff-vs-upstream' });
     continue;
   }
-  const m = rel.match(/^plugins\/([^/]+)(?:\/(.*))?$/);
-  if (!m || m[2] === undefined) { divergences.push({ rel, kind: 'unexpected-path' }); continue; }
-  const [_, dir, inner] = rel.match(/^plugins\/([^/]+)\/(.*)$/);
+  const dirName = rel.match(/^plugins\/([^/]+)\/(.*)$/);
+  if (!dirName) { divergences.push({ rel, kind: 'unexpected-path' }); continue; }
+  const dir = dirName[1];
+  const inner = dirName[2];
   seenDirs.set(dir, true);
+  // physical-first provenance: whichever source actually has the plugin dir
+  // is the ground truth for it (manifest membership can lag on both sides)
   let base;
   let mode;
-  if (upstreamNames.has(dir)) {
+  if (fs.existsSync(path.join(UPSTREAM_DIR, 'plugins', dir))) {
     base = path.join(UPSTREAM_DIR, 'plugins', dir);
     mode = 'upstream';
-  } else if (seedNames.has(dir)) {
+  } else if (fs.existsSync(path.join(SEED_DIR, 'plugins', dir))) {
     base = path.join(SEED_DIR, 'plugins', dir);
     mode = 'seed';
   } else {
-    divergences.push({ rel, kind: 'unknown-origin' });
+    divergences.push({ rel, kind: 'orphan-in-publish' });
     continue;
   }
   const src = path.join(base, inner);

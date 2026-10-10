@@ -19,7 +19,17 @@ git(UPSTREAM_DIR, 'reset', '--hard', 'origin/HEAD');
 
 const sha = git(UPSTREAM_DIR, 'rev-parse', 'HEAD');
 const last = readJson(path.join(DATA_DIR, 'last-sha.json'), null);
-const from = last?.sha ?? null;
+let from = last?.sha ?? null;
+// force-push guard: if the previous sha is no longer an ancestor, treat as
+// first sync (full re-materialize + orphan sweep) instead of a broken diff
+if (from) {
+  try {
+    execFileSync('git', ['merge-base', '--is-ancestor', from, sha], { cwd: UPSTREAM_DIR });
+  } catch {
+    console.log(`[sync] previous sha ${from.slice(0, 9)} is not an ancestor (force-push?) — full re-sync`);
+    from = null;
+  }
+}
 
 const diff = {
   from,
