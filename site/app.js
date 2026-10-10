@@ -1,18 +1,23 @@
 const MARKET_URL = 'https://github.com/kael-odin/codex-plugins-zh.git';
+const CLAUDE_CMD = '/plugin marketplace add kael-odin/claude-plugins-zh';
 const GUIDE_URL = 'https://github.com/kael-odin/codex-plugins-zh/blob/main/docs/setup-guide.md';
 
 const I18N = {
   zh: {
     title: 'Codex 官方插件 · 中文导航',
-    subtitle: '全量 1,694+ 项目 · 无损汉化 · 每日更新',
+    subtitle: '全量 2,009 项目（Codex + Claude + 应用）· 无损汉化 · 每日更新',
     searchPh: '例如：做表格、PPT、控制电脑、查邮件、英伟达、Notion...',
     clear: '清空',
     cats: '快速分类',
     all: '全部',
-    quick: { all: '全部', plugin: '插件', app: '应用与连接器' },
-    kindPlugin: '插件',
+    quick: { all: '全部', plugin: 'Codex 插件', claude: 'Claude 插件', app: '应用与连接器' },
+    kindPlugin: 'Codex 插件',
+    kindClaude: 'Claude 插件',
     kindApp: '应用/连接器',
-    summary: (n, p, a, t) => `找到 ${n} 项（插件 ${p} · 应用与连接器 ${a}）· 插件已译 ${t}/189 · 数据每日自动同步`,
+    inRepo: '仓内插件',
+    gitRef: 'git 引用',
+    urlRef: 'URL 引用',
+    summary: (n, p, c, a, t) => `找到 ${n} 项（Codex 插件 ${p} · Claude 插件 ${c} · 应用与连接器 ${a}）· 插件已译 ${t}/189 · 数据每日自动同步`,
     intro: '简介',
     detail: '详细介绍',
     enOriginal: '英文原文',
@@ -38,6 +43,9 @@ const I18N = {
     installHint: 'API-key 登录用户：App 自带的「Built by OpenAI · 50 个插件」请保留，两个市场并存互不影响。',
     footerLegal: '插件内容与商标归 OpenAI 及各自权利人所有；应用目录数据来自 Source-blip 中文导航（2026-07 快照），译文仅供参考，与英文原文冲突时以英文原文为准。',
     appNotice: '这是 ChatGPT 应用/连接器：不能安装进 Codex 市场，此处仅作中文导航。请通过官方网站在 ChatGPT 中使用。',
+    claudeCmd: '/plugin marketplace add kael-odin/claude-plugins-zh',
+    website: '打开官方网站 ↗',
+    repoLink: '查看来源仓库 ↗',
     close: '关闭详情',
     statusAll: '全部状态',
     catAll: '全部分类',
@@ -45,15 +53,19 @@ const I18N = {
   },
   en: {
     title: 'Codex Official Plugins · Chinese Navigator',
-    subtitle: '1,694+ items · lossless Chinese edition · daily updates',
+    subtitle: '2,009 items (Codex + Claude + apps) · lossless Chinese edition · daily updates',
     searchPh: 'e.g. spreadsheet, PPT, browser control, email, NVIDIA, Notion...',
     clear: 'Clear',
     cats: 'Categories',
     all: 'All',
-    quick: { all: 'All', plugin: 'Plugins', app: 'Apps & connectors' },
-    kindPlugin: 'Plugin',
+    quick: { all: 'All', plugin: 'Codex plugins', claude: 'Claude plugins', app: 'Apps & connectors' },
+    kindPlugin: 'Codex plugin',
+    kindClaude: 'Claude plugin',
     kindApp: 'App/Connector',
-    summary: (n, p, a, t) => `${n} items (${p} plugins · ${a} apps & connectors) · ${t}/189 plugins translated · synced daily`,
+    inRepo: 'in-repo',
+    gitRef: 'git ref',
+    urlRef: 'URL ref',
+    summary: (n, p, c, a, t) => `Found ${n} items (Codex ${p} · Claude ${c} · apps ${a}) · ${t}/189 plugins translated · synced daily`,
     intro: 'Intro',
     detail: 'Details',
     enOriginal: 'English original',
@@ -79,6 +91,9 @@ const I18N = {
     installHint: 'API-key users: keep the built-in “Built by OpenAI · 50 plugins” — both marketplaces coexist.',
     footerLegal: 'Plugin content and trademarks belong to OpenAI and their respective owners. Apps dataset from Source-blip (2026-07 snapshot); translations are informational.',
     appNotice: 'This is a ChatGPT app/connector — it cannot be installed into a Codex marketplace; this entry is navigation only. Use it in ChatGPT via the official website.',
+    claudeCmd: '/plugin marketplace add kael-odin/claude-plugins-zh',
+    website: 'Open official website ↗',
+    repoLink: 'Open source repository ↗',
     close: 'Close details',
     statusAll: 'All statuses',
     catAll: 'All categories',
@@ -88,6 +103,7 @@ const I18N = {
 
 const state = { q: '', cat: null, quick: 'plugin', status: '', sort: 'default', onlyZh: false, lang: 'zh', theme: 'light', selected: null };
 let CATALOG = null;
+let CLAUDE = { plugins: [] };
 let APPS = [];
 let ALIASES = {};
 let ITEMS = [];
@@ -150,11 +166,31 @@ function buildItems() {
     ],
     search: [a.en, a.zh, a.plain, a.enDesc, a.category, a.kind, a.status, ...(a.keywords ?? [])],
   }));
-  ITEMS = [...plugins, ...apps];
+  const claude = (CLAUDE.plugins ?? []).map((p) => ({
+    type: 'claude',
+    key: 'claude:' + p.name,
+    icon: null,
+    color: colorFor('claude:' + p.name, null),
+    initial: p.name[0].toUpperCase(),
+    zh: p.name,
+    en: p.author ?? '',
+    desc: p.descriptionZh || p.descriptionEn || '',
+    long: p.descriptionZh || p.descriptionEn || '',
+    longEn: p.descriptionEn,
+    category: p.categoryZh || t().all,
+    badges: [
+      { text: T.kindClaude, cls: 'kind' },
+      { text: p.kind === 'in-repo' ? T.inRepo : p.kind === 'git-subdir' ? T.gitRef : T.urlRef, cls: '' },
+    ],
+    search: [p.name, p.descriptionZh, p.descriptionEn, p.categoryZh, p.author, p.repo],
+    raw: p,
+  }));
+  ITEMS = [...plugins, ...apps, ...claude];
 }
 
 function match(it) {
   if (state.quick === 'plugin' && it.type !== 'plugin') return false;
+  if (state.quick === 'claude' && it.type !== 'claude') return false;
   if (state.quick === 'app' && it.type !== 'app') return false;
   if (state.status && it.status !== state.status) return false;
   if (state.onlyZh && it.type === 'plugin') {
@@ -223,7 +259,13 @@ function renderRail() {
 
 function renderPills() {
   const T = t();
-  const defs = [['all', T.quick.all], ['plugin', `${T.quick.plugin} ${fmt(CATALOG.total)}`], ['app', `${T.quick.app} ${fmt(APPS.length)}`]];
+  const claudeTotal = CLAUDE.plugins?.length ?? 0;
+  const defs = [
+    ['all', `${T.quick.all} ${fmt(ITEMS.length)}`],
+    ['plugin', `${T.quick.plugin} ${fmt(CATALOG.total)}`],
+    ['claude', `${T.quick.claude} ${fmt(claudeTotal)}`],
+    ['app', `${T.quick.app} ${fmt(APPS.length)}`],
+  ];
   $('#pills').innerHTML = defs
     .map(([k, label]) => `<button class="quick-btn ${state.quick === k ? 'active' : ''}" data-k="${k}">${esc(label)}</button>`)
     .join('');
@@ -257,7 +299,9 @@ function renderGrid() {
     el.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
   });
   const pCount = list.filter((i) => i.type === 'plugin').length;
-  $('#count').textContent = T.summary(fmt(list.length), fmt(pCount), fmt(list.length - pCount), `${CATALOG.translated}`);
+  const cCount = list.filter((i) => i.type === 'claude').length;
+  const aCount = list.length - pCount - cCount;
+  $('#count').textContent = T.summary(fmt(list.length), fmt(pCount), fmt(cCount), fmt(aCount), `${CATALOG.translated}`);
 }
 
 function installHTML() {
@@ -347,8 +391,8 @@ function applyI18nStatic() {
   $('#q').placeholder = T.searchPh;
   $('#lang').textContent = state.lang === 'zh' ? 'English' : '中文';
   document.title = state.lang === 'zh'
-    ? 'Codex 官方插件中文市场 · 全量 1,694 项目导航'
-    : 'Codex Official Plugins, in Chinese · 1,694 Items Navigator';
+    ? 'Codex 官方插件中文市场 · 全量 2,009 项目导航'
+    : 'Codex + Claude Official Plugins, in Chinese · 2,009 Items';
   const st = $('#f-status');
   const cur = state.status;
   const statuses = [...new Set(APPS.map((a) => a.status).filter(Boolean))];
@@ -368,10 +412,11 @@ function renderAll() {
 }
 
 async function init() {
-  [CATALOG, APPS, ALIASES] = await Promise.all([
+  [CATALOG, APPS, ALIASES, CLAUDE] = await Promise.all([
     (await fetch('./catalog.json')).json(),
     (await fetch('./apps-zh.json')).json().catch(() => []),
     (await fetch('./plugin-aliases.json')).json().catch(() => ({})),
+    (await fetch('./claude.json')).json().catch(() => ({ plugins: [] })),
   ]);
   state.theme = localStorage.getItem('czh-theme') ?? 'light';
   state.lang = localStorage.getItem('czh-lang') ?? 'zh';

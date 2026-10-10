@@ -7,9 +7,9 @@
 **把 OpenAI 官方目录全量变成中文的。**
 - **插件市场（可装进 Codex）**：**189 个官方插件全部汉化**——上游 [openai/plugins](https://github.com/openai/plugins)（62，权威实时）∪ 完整 curated 目录快照（+127，含 ChatGPT 账号专属的远程目录插件）；
 - **应用与连接器导航**：**1,505 个 ChatGPT 应用/连接器**中文条目（复用 [Source-blip 中文导航](https://github.com/Source-blip/codex-plugin-chinese-navigation) 2026-07 数据集与 1,699 个官方图标，MIT）；
-- 合计 **1,694 个项目**，186 个真实官方图标，无损校验 **6,720 个文件 0 分歧**，每日自动跟进上游。
+- 再加姊妹项目 [claude-plugins-zh](https://github.com/kael-odin/claude-plugins-zh)（Claude Code 官方 315 插件，Apache-2.0）——**联合导航合计 2,009 个项目**，186 个真实官方图标，无损校验 **6,720 个文件 0 分歧**，每日自动跟进上游。
 
-适配场景：Codex 接第三方 API / 中转站、不走 OpenAI 官方认证链路、onboarding 没给你配市场——或者你只是想用中文看懂每个插件/应用是干什么的。
+适配场景：Codex / Claude Code 接第三方 API、不走官方认证链路、onboarding 没给你配市场——或者你只是想用中文看懂每个插件/应用是干什么的。
 
 <div align="center">
   <img src="assets/readme/site-preview.png" alt="codex-plugins-zh 全量导航站实景：分类侧栏（全部 1,694）、真实图标卡片、右侧双语详情" width="880">

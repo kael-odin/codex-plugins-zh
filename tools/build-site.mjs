@@ -54,6 +54,31 @@ for (const p of catalog.plugins) {
 catalog.iconCount = withIcon;
 fs.writeFileSync(path.join(dist, 'catalog.json'), JSON.stringify(catalog, null, 0), 'utf8');
 
+// claude sister-catalog: prefer a fresh copy from the live claude site, fall
+// back to the committed snapshot (data/claude-catalog.json)
+const claudeTargets = [
+  'https://kael-odin.github.io/claude-plugins-zh/catalog.json',
+  path.join(DATA_DIR, 'claude-catalog.json'),
+];
+let claudeOk = false;
+for (const src of claudeTargets) {
+  try {
+    let text;
+    if (src.startsWith('http')) {
+      const res = await fetch(src, { signal: AbortSignal.timeout(15000) });
+      if (!res.ok) continue;
+      text = await res.text();
+    } else {
+      text = fs.readFileSync(src, 'utf8');
+    }
+    const parsed = JSON.parse(text);
+    if (!parsed.total) continue;
+    fs.writeFileSync(path.join(dist, 'claude.json'), JSON.stringify(parsed, null, 0), 'utf8');
+    claudeOk = true;
+    break;
+  } catch { /* try next source */ }
+}
+
 // apps dataset + its icons + plugin zh aliases
 if (fs.existsSync(path.join(DATA_DIR, 'apps-zh.json'))) {
   fs.copyFileSync(path.join(DATA_DIR, 'apps-zh.json'), path.join(dist, 'apps-zh.json'));
@@ -65,4 +90,4 @@ if (fs.existsSync(appiconsDir)) {
   fs.cpSync(appiconsDir, path.join(dist, 'appicons'), { recursive: true });
 }
 
-console.log(`[build-site] dist/ ready — ${catalog.plugins.length} plugins (${withIcon} icons) + apps dataset`);
+console.log(`[build-site] dist/ ready — ${catalog.plugins.length} plugins (${withIcon} icons) + apps dataset${claudeOk ? ' + claude catalog' : ' (claude catalog unavailable)'}`);
