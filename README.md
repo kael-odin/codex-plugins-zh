@@ -90,6 +90,10 @@ node tools/extract-apps.mjs <source-blip 的 index.html>   # 快照更新时重�
 
 `.seed`（echobird 快照克隆）与 `.refs/source-blip-nav` 需就位；CI 每日自动克隆 `.seed`。
 
+## 姊妹项目
+
+**[claude-plugins-zh](https://github.com/kael-odin/claude-plugins-zh)** — Claude Code 官方插件中文市场：anthropics/claude-plugins-official（315 个插件，Apache-2.0）全量汉化，`/plugin marketplace add kael-odin/claude-plugins-zh` 即用。同一套管线，同一套无损承诺。
+
 ## 常见问题
 
 - **为什么 git 上只有 62 个，你却有 189 个？** OpenAI 的完整 curated 目录（~194）只通过 App 的远程市场下发且仅限 ChatGPT 账号认证；git 仓库只承载其中一部分。我们用社区完整快照补齐并明确标注快照日期。
