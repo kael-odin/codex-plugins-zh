@@ -7,6 +7,11 @@ on:
 
 permissions:
   contents: write
+  issues: write # the failure step opens/comments on its tracking issue
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -46,15 +51,63 @@ jobs:
       - name: Verify lossless (gate)
         run: node tools/verify.mjs
 
+      # The site build asserts the datasets are non-empty, resolves every plugin
+      # icon and writes data/site-stats.json — the counts the docs are checked
+      # against below. Building here means a sync that would ship a broken site
+      # fails the job instead of only failing the deploy job afterwards.
+      - name: Build site (asserts datasets)
+        run: node tools/build-site.mjs
+
+      - name: Check documented numbers (gate)
+        run: node tools/check-docs.mjs
+
       - name: Commit and push
         run: |
           git config user.name "codex-plugins-zh-bot"
           git config user.email "actions@users.noreply.github.com"
           sha=$(node -p "require('./data/last-sha.json').sha.slice(0,9)")
-          git add -A
+          # Only the paths the pipeline owns. `git add -A` would also sweep up
+          # anything a future tool happens to drop in the tree; .gitignore
+          # covers the scratch clones, but not a typo'd output path.
+          git add data i18n/zh plugins .agents
+          stray=$(git status --porcelain | grep -v '^[AM] ' || true)
+          if [ -n "$stray" ]; then
+            echo "[warn] pipeline left untracked/unstaged paths behind:"
+            echo "$stray"
+          fi
           if git diff --cached --quiet; then
             echo "no changes since last sync"
           else
             git commit -m "sync: upstream ${sha} (lossless verified)"
             git push
+          fi
+
+      - name: Close stale failure issue
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          num=$(gh issue list --state open --limit 50 \
+                  --search '"上游同步未通过校验" in:title' --json number --jq '.[0].number // empty')
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body "已恢复：$(date -u +%Y-%m-%dT%H:%MZ) 的同步通过校验并推送。"
+            gh issue close "$num"
+          fi
+
+      # A silent daily job is a job nobody reads: surface the failure where it
+      # gets seen, and keep one issue per streak rather than one per run.
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="sync-upstream 失败：上游同步未通过校验"
+          num=$(gh issue list --state open --limit 50 \
+                  --search '"上游同步未通过校验" in:title' --json number --jq '.[0].number // empty')
+          body=$(printf '自动同步失败。\n\n运行日志：%s\n\n修复后下一次成功运行会自动关闭本 issue。' "$RUN_URL")
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
           fi

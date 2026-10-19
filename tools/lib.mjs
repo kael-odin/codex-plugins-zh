@@ -33,6 +33,14 @@ export function git(cwd, ...args) {
   return execFileSync('git', args, { cwd, encoding: 'utf8' }).trim();
 }
 
+// The date every generated artifact is stamped with: the committer date of the
+// source commit we built from — never the wall clock. A sync that finds nothing
+// new must rewrite byte-identical files, otherwise the daily job commits
+// timestamp-only churn (and "no changes since last sync" is unreachable).
+export function sourceDate(cwd) {
+  return git(cwd, 'log', '-1', '--format=%cI');
+}
+
 export function toPosix(p) {
   return p.replace(/\\/g, '/');
 }

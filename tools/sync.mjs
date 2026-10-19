@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, git } from './lib.mjs';
+import { ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, git, sourceDate } from './lib.mjs';
 
 const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
 
@@ -34,7 +34,8 @@ if (from) {
 const diff = {
   from,
   to: sha,
-  generatedAt: new Date().toISOString(),
+  // data date, not generation time: same upstream state → same diff.json
+  generatedAt: sourceDate(UPSTREAM_DIR),
   firstSync: from === null,
   plugins: { added: [], modified: [], removed: [] },
   files: { removed: [] },

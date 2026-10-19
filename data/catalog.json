@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T07:52:52.224Z",
+  "generatedAt": "2026-10-08T01:21:32-04:00",
   "upstream": {
     "repo": "https://github.com/openai/plugins",
     "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
@@ -119,7 +119,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/actively"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/actively"
     },
     {
       "name": "adobe",
@@ -194,7 +194,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/aiera"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/aiera"
     },
     {
       "name": "airtable",
@@ -264,7 +264,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/alation"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/alation"
     },
     {
       "name": "alpaca",
@@ -294,7 +294,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/alpaca"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/alpaca"
     },
     {
       "name": "amplitude",
@@ -324,7 +324,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/amplitude"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/amplitude"
     },
     {
       "name": "apollo",
@@ -358,7 +358,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/apollo"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/apollo"
     },
     {
       "name": "asana",
@@ -392,7 +392,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "0.1.4",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/asana"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/asana"
     },
     {
       "name": "atlassian-rovo",
@@ -452,7 +452,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/attio"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/attio"
     },
     {
       "name": "base44",
@@ -490,7 +490,7 @@
       "hasApp": true,
       "icon": "./assets/logo-padded.png",
       "version": "1.0.3-beta.1",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/base44"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/base44"
     },
     {
       "name": "binance",
@@ -520,7 +520,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/binance"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/binance"
     },
     {
       "name": "biorender",
@@ -550,7 +550,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/biorender"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/biorender"
     },
     {
       "name": "boltz-api-cli",
@@ -625,7 +625,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "0.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/box"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/box"
     },
     {
       "name": "brand24",
@@ -655,7 +655,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/brand24"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/brand24"
     },
     {
       "name": "brex",
@@ -685,7 +685,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/brex"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/brex"
     },
     {
       "name": "brighthire",
@@ -721,7 +721,7 @@
       "hasApp": true,
       "icon": "./assets/icon.svg",
       "version": "0.1.1",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/brighthire"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/brighthire"
     },
     {
       "name": "build-ios-apps",
@@ -927,7 +927,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/calendly"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/calendly"
     },
     {
       "name": "canva",
@@ -1000,7 +1000,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/carta-crm"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/carta-crm"
     },
     {
       "name": "catalyst-by-zoho",
@@ -1036,7 +1036,7 @@
       "hasApp": true,
       "icon": "./assets/catalyst_logo.svg",
       "version": "1.0.1",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/catalyst-by-zoho"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/catalyst-by-zoho"
     },
     {
       "name": "cb-insights",
@@ -1066,7 +1066,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cb-insights"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/cb-insights"
     },
     {
       "name": "channel99",
@@ -1096,7 +1096,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/channel99"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/channel99"
     },
     {
       "name": "chatcut",
@@ -1168,7 +1168,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.0",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/chronograph-gp"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/chronograph-gp"
     },
     {
       "name": "chronograph-lp",
@@ -1206,7 +1206,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/chronograph-lp"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/chronograph-lp"
     },
     {
       "name": "circleback",
@@ -1236,7 +1236,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/circleback"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/circleback"
     },
     {
       "name": "circleci",
@@ -1309,7 +1309,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/clay"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/clay"
     },
     {
       "name": "clickup",
@@ -1373,7 +1373,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/close"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/close"
     },
     {
       "name": "cloudflare",
@@ -1443,7 +1443,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cloudinary"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/cloudinary"
     },
     {
       "name": "coderabbit",
@@ -1555,7 +1555,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cogedim"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/cogedim"
     },
     {
       "name": "common-room",
@@ -1585,7 +1585,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/common-room"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/common-room"
     },
     {
       "name": "conductor",
@@ -1615,7 +1615,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/conductor"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/conductor"
     },
     {
       "name": "consensus",
@@ -1683,7 +1683,7 @@
       "hasApp": true,
       "icon": "./assets/icon.png",
       "version": "0.1.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/convex"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/convex"
     },
     {
       "name": "coupler-io",
@@ -1713,7 +1713,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/coupler-io"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/coupler-io"
     },
     {
       "name": "coveo",
@@ -1743,7 +1743,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/coveo"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/coveo"
     },
     {
       "name": "creative-production",
@@ -1862,7 +1862,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/cube"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/cube"
     },
     {
       "name": "daloopa",
@@ -1918,7 +1918,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/daloopa"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/daloopa"
     },
     {
       "name": "data-analytics",
@@ -2045,7 +2045,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/datasite"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/datasite"
     },
     {
       "name": "deepnote",
@@ -2085,7 +2085,7 @@
       "hasApp": true,
       "icon": "./assets/composer.svg",
       "version": "0.1.5",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/deepnote"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/deepnote"
     },
     {
       "name": "demandbase",
@@ -2115,7 +2115,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/demandbase"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/demandbase"
     },
     {
       "name": "digitalocean",
@@ -2147,7 +2147,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "0.2.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/digitalocean"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/digitalocean"
     },
     {
       "name": "dnb-finance-analytics",
@@ -2183,7 +2183,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/dnb-finance-analytics"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/dnb-finance-analytics"
     },
     {
       "name": "docket",
@@ -2213,7 +2213,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/docket"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/docket"
     },
     {
       "name": "docusign",
@@ -2247,7 +2247,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/docusign"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/docusign"
     },
     {
       "name": "domotz-preview",
@@ -2277,7 +2277,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/domotz-preview"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/domotz-preview"
     },
     {
       "name": "dovetail",
@@ -2307,7 +2307,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/dovetail"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/dovetail"
     },
     {
       "name": "dow-jones-factiva",
@@ -2337,7 +2337,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/dow-jones-factiva"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/dow-jones-factiva"
     },
     {
       "name": "dropbox",
@@ -2408,7 +2408,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/egnyte"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/egnyte"
     },
     {
       "name": "expo",
@@ -2482,7 +2482,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/factset"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/factset"
     },
     {
       "name": "fal",
@@ -2516,7 +2516,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fal"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/fal"
     },
     {
       "name": "figma",
@@ -2593,7 +2593,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.4",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/finn"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/finn"
     },
     {
       "name": "fireflies",
@@ -2623,7 +2623,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fireflies"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/fireflies"
     },
     {
       "name": "fiscal-ai",
@@ -2657,7 +2657,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fiscal-ai"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/fiscal-ai"
     },
     {
       "name": "fyxer",
@@ -2687,7 +2687,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/fyxer"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/fyxer"
     },
     {
       "name": "game-studio",
@@ -2791,7 +2791,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.0",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/glean"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/glean"
     },
     {
       "name": "gmail",
@@ -2917,7 +2917,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/govtribe"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/govtribe"
     },
     {
       "name": "granola",
@@ -2977,7 +2977,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/happenstance"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/happenstance"
     },
     {
       "name": "hebbia",
@@ -3011,7 +3011,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hebbia"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/hebbia"
     },
     {
       "name": "help-scout",
@@ -3041,7 +3041,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/help-scout"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/help-scout"
     },
     {
       "name": "hex",
@@ -3069,7 +3069,7 @@
       "hasApp": true,
       "icon": "./assets/hex.png",
       "version": "0.1.0",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hex"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/hex"
     },
     {
       "name": "heygen",
@@ -3106,7 +3106,7 @@
       "hasApp": true,
       "icon": "./assets/icon.png",
       "version": "2.2.4",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/heygen"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/heygen"
     },
     {
       "name": "hg-insights",
@@ -3140,7 +3140,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hg-insights"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/hg-insights"
     },
     {
       "name": "higgsfield",
@@ -3208,7 +3208,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/highlevel"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/highlevel"
     },
     {
       "name": "hostinger",
@@ -3238,7 +3238,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hostinger"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/hostinger"
     },
     {
       "name": "hubspot",
@@ -3277,7 +3277,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "2.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hubspot"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/hubspot"
     },
     {
       "name": "hugging-face",
@@ -3319,7 +3319,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/hugging-face"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/hugging-face"
     },
     {
       "name": "hyperframes",
@@ -3393,7 +3393,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/intercom"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/intercom"
     },
     {
       "name": "jam",
@@ -3423,7 +3423,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/jam"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/jam"
     },
     {
       "name": "keybid-puls",
@@ -3453,7 +3453,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/keybid-puls"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/keybid-puls"
     },
     {
       "name": "life-science-research",
@@ -3632,7 +3632,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/lseg"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/lseg"
     },
     {
       "name": "magicpath",
@@ -3698,7 +3698,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/marcopolo"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/marcopolo"
     },
     {
       "name": "mem",
@@ -3728,7 +3728,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/mem"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/mem"
     },
     {
       "name": "meticulate",
@@ -3762,7 +3762,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/meticulate"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/meticulate"
     },
     {
       "name": "midpage",
@@ -3801,7 +3801,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/midpage"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/midpage"
     },
     {
       "name": "mixpanel",
@@ -3835,7 +3835,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "2.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/mixpanel"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/mixpanel"
     },
     {
       "name": "mixpanel-headless",
@@ -3946,7 +3946,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/moody-s"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/moody-s"
     },
     {
       "name": "morningstar",
@@ -3984,7 +3984,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/morningstar"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/morningstar"
     },
     {
       "name": "motherduck",
@@ -4014,7 +4014,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/motherduck"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/motherduck"
     },
     {
       "name": "mt-newswires",
@@ -4044,7 +4044,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/mt-newswires"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/mt-newswires"
     },
     {
       "name": "myregistry-com",
@@ -4074,7 +4074,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/myregistry-com"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/myregistry-com"
     },
     {
       "name": "neon-postgres",
@@ -4107,7 +4107,7 @@
       "hasApp": true,
       "icon": "./assets/neon-small.svg",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/neon-postgres"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/neon-postgres"
     },
     {
       "name": "netlify",
@@ -4150,7 +4150,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.1.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/netlify"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/netlify"
     },
     {
       "name": "network-solutions",
@@ -4180,7 +4180,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/network-solutions"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/network-solutions"
     },
     {
       "name": "ngs-analysis",
@@ -4341,7 +4341,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.4",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/omni-analytics"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/omni-analytics"
     },
     {
       "name": "openai-ads-conversions",
@@ -4443,7 +4443,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/otter-ai"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/otter-ai"
     },
     {
       "name": "outlook-calendar",
@@ -4533,7 +4533,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/outreach"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/outreach"
     },
     {
       "name": "particl-market-research",
@@ -4563,7 +4563,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/particl-market-research"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/particl-market-research"
     },
     {
       "name": "picsart",
@@ -4597,7 +4597,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/picsart"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/picsart"
     },
     {
       "name": "pipedrive",
@@ -4627,7 +4627,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/pipedrive"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/pipedrive"
     },
     {
       "name": "pitchbook",
@@ -4657,7 +4657,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/pitchbook"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/pitchbook"
     },
     {
       "name": "plugin-eval",
@@ -4727,7 +4727,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/policynote"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/policynote"
     },
     {
       "name": "posthog",
@@ -4896,7 +4896,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/pylon"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/pylon"
     },
     {
       "name": "qodo",
@@ -4956,7 +4956,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/quartr"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/quartr"
     },
     {
       "name": "quickbooks",
@@ -4990,7 +4990,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/quickbooks"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/quickbooks"
     },
     {
       "name": "quicknode",
@@ -5020,7 +5020,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/quicknode"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/quicknode"
     },
     {
       "name": "ranked-ai",
@@ -5050,7 +5050,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/ranked-ai"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/ranked-ai"
     },
     {
       "name": "razorpay",
@@ -5080,7 +5080,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/razorpay"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/razorpay"
     },
     {
       "name": "read-ai",
@@ -5110,7 +5110,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/read-ai"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/read-ai"
     },
     {
       "name": "readwise",
@@ -5140,7 +5140,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/readwise"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/readwise"
     },
     {
       "name": "remotion",
@@ -5243,7 +5243,7 @@
       "hasApp": false,
       "icon": "./assets/logo.svg",
       "version": "0.1.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/render"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/render"
     },
     {
       "name": "replayio",
@@ -5278,7 +5278,7 @@
       "hasApp": true,
       "icon": "./assets/replayio.svg",
       "version": "0.1.0",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/replayio"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/replayio"
     },
     {
       "name": "replit",
@@ -5312,7 +5312,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/replit"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/replit"
     },
     {
       "name": "responsive",
@@ -5342,7 +5342,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/responsive"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/responsive"
     },
     {
       "name": "rox",
@@ -5376,7 +5376,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/rox"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/rox"
     },
     {
       "name": "s-p",
@@ -5410,7 +5410,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/s-p"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/s-p"
     },
     {
       "name": "scite",
@@ -5440,7 +5440,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/scite"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/scite"
     },
     {
       "name": "semrush",
@@ -5470,7 +5470,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/semrush"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/semrush"
     },
     {
       "name": "sendgrid",
@@ -5500,7 +5500,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "0.1.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/sendgrid"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/sendgrid"
     },
     {
       "name": "sentry",
@@ -5562,7 +5562,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/setu-bharat-connect-billpay"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/setu-bharat-connect-billpay"
     },
     {
       "name": "sharepoint",
@@ -5681,7 +5681,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/shutterstock"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/shutterstock"
     },
     {
       "name": "signnow",
@@ -5711,7 +5711,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/signnow"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/signnow"
     },
     {
       "name": "similarweb",
@@ -5745,7 +5745,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/similarweb"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/similarweb"
     },
     {
       "name": "skywatch",
@@ -5775,7 +5775,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/skywatch"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/skywatch"
     },
     {
       "name": "slack",
@@ -5835,7 +5835,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "2.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/statsig"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/statsig"
     },
     {
       "name": "streak",
@@ -5865,7 +5865,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/streak"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/streak"
     },
     {
       "name": "stripe",
@@ -5985,7 +5985,7 @@
       "hasApp": true,
       "icon": "./assets/superhuman-mail-small.svg",
       "version": "0.1.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/superhuman"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/superhuman"
     },
     {
       "name": "superpowers",
@@ -6062,7 +6062,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/taxdown"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/taxdown"
     },
     {
       "name": "teams",
@@ -6122,7 +6122,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/teamwork-com"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/teamwork-com"
     },
     {
       "name": "temporal",
@@ -6222,7 +6222,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/third-bridge"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/third-bridge"
     },
     {
       "name": "thoughtspot",
@@ -6256,7 +6256,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/thoughtspot"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/thoughtspot"
     },
     {
       "name": "tinman-ai",
@@ -6286,7 +6286,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/tinman-ai"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/tinman-ai"
     },
     {
       "name": "twilio-developer-kit",
@@ -6406,7 +6406,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/united-rentals"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/united-rentals"
     },
     {
       "name": "vantage",
@@ -6436,7 +6436,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/vantage"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/vantage"
     },
     {
       "name": "vercel",
@@ -6555,7 +6555,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/waldo"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/waldo"
     },
     {
       "name": "weatherpromise",
@@ -6585,7 +6585,7 @@
       "hasApp": true,
       "icon": "./assets/app-icon.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/weatherpromise"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/weatherpromise"
     },
     {
       "name": "windsor-ai",
@@ -6615,7 +6615,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/windsor-ai"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/windsor-ai"
     },
     {
       "name": "wix",
@@ -6654,7 +6654,7 @@
       "hasApp": true,
       "icon": "./assets/logo.svg",
       "version": "1.1.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/wix"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/wix"
     },
     {
       "name": "yepcode",
@@ -6684,7 +6684,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/yepcode"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/yepcode"
     },
     {
       "name": "zoho",
@@ -6718,7 +6718,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.3",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/zoho"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/zoho"
     },
     {
       "name": "zoom",
@@ -6812,7 +6812,7 @@
       "hasApp": true,
       "icon": "./assets/logo.png",
       "version": "1.0.2",
-      "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/zoominfo"
+      "upstreamUrl": "https://github.com/kael-odin/codex-plugins-zh/tree/main/plugins/zoominfo"
     },
     {
       "name": "zotero",

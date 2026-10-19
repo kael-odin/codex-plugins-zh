@@ -4,15 +4,20 @@
 
 # codex-plugins-zh
 
+[![sync-upstream](https://github.com/kael-odin/codex-plugins-zh/actions/workflows/sync.yml/badge.svg)](https://github.com/kael-odin/codex-plugins-zh/actions/workflows/sync.yml)
+[![deploy-site](https://github.com/kael-odin/codex-plugins-zh/actions/workflows/pages.yml/badge.svg)](https://kael-odin.github.io/codex-plugins-zh/)
+
 **把 OpenAI 官方目录全量变成中文的。**
 - **插件市场（可装进 Codex）**：**189 个官方插件全部汉化**——上游 [openai/plugins](https://github.com/openai/plugins)（62，权威实时）∪ 完整 curated 目录快照（+127，含 ChatGPT 账号专属的远程目录插件）；
 - **应用与连接器导航**：**1,505 个 ChatGPT 应用/连接器**中文条目（复用 [Source-blip 中文导航](https://github.com/Source-blip/codex-plugin-chinese-navigation) 2026-07 数据集与 1,699 个官方图标，MIT）；
-- 再加姊妹项目 [claude-plugins-zh](https://github.com/kael-odin/claude-plugins-zh)（Claude Code 官方 315 插件，Apache-2.0）——**联合导航合计 2,009 个项目**，186 个真实官方图标，无损校验 **6,720 个文件 0 分歧**，每日自动跟进上游。
+- 合计 **1,694 个项目**（186 个插件真实图标 + 1,699 个应用图标），无损校验 **6,720 个文件 0 分歧**，每日自动跟进上游。
 
-适配场景：Codex / Claude Code 接第三方 API、不走官方认证链路、onboarding 没给你配市场——或者你只是想用中文看懂每个插件/应用是干什么的。
+> 本文里的每个数字都由 `tools/check-docs.mjs` 对着 `data/catalog.json`、`data/quality-report.json`、`data/site-stats.json` 校验，CI 里对不上就红——手写数字漂了会被当场抓住。
+
+适配场景：Codex 接第三方 API / 中转站、不走 OpenAI 官方认证链路、onboarding 没给你配市场——或者你只是想用中文看懂每个插件/应用是干什么的。
 
 <div align="center">
-  <img src="assets/readme/site-preview.png" alt="codex-plugins-zh 全量导航站实景：分类侧栏（全部 1,694）、真实图标卡片、右侧双语详情" width="880">
+  <img src="site/og.png" alt="codex-plugins-zh 全量导航站实景：分类侧栏（全部 1,694）、真实图标卡片、右侧双语详情" width="880">
 </div>
 
 ## 三步用上
@@ -41,7 +46,7 @@ codex plugin marketplace upgrade
 | 数据源 | 数量 | 角色 | 新鲜度 |
 | --- | --- | --- | --- |
 | [openai/plugins](https://github.com/openai/plugins)（git） | 62 插件 / 65 清单条目 | **权威源**，逐字节无损对账，每日 CI 跟进 | 实时 |
-| 完整 curated 目录快照（[echobird/codex-plugins](https://cnb.cool/echobird/codex-plugins)） | +127 插件（合计 192 条目） | 官方**远程 curated 目录**（仅 ChatGPT 账号认证可拉，`api key auth is not supported`）的社区快照 | 2026-09-19 |
+| 完整 curated 目录快照（[echobird/codex-plugins](https://cnb.cool/echobird/codex-plugins)） | +127 插件（合计 192 条目） | 官方**远程 curated 目录**（仅 ChatGPT 账号认证可拉，`api key auth is not supported`）的社区快照 | 社区维护，不定期；站点上按快照仓提交日标注 |
 | [Source-blip 中文导航](https://github.com/Source-blip/codex-plugin-chinese-navigation) 数据集（MIT） | 1,505 应用/连接器 + 1,699 图标 + 中文别名 | 站点「应用与连接器」分区，`tools/extract-apps.mjs` 整包抽取 | 2026-07-15 |
 
 每一份都在站点上标注来源与快照日期，绝不冒充实时。上游若在 git 上发布新插件，次日自动进中文市场；快照区何时刷新取决于上游社区仓库。
@@ -53,7 +58,7 @@ codex plugin marketplace upgrade
 | 检查项 | 结果 |
 | --- | --- |
 | 上游部分（技能正文、脚本、MCP 配置……） | 5,340 个文件**逐字节一致** |
-| 快照部分（127 个额外插件） | 1,316 个文件对快照源**逐字节一致** |
+| 快照部分（127 个额外插件） | 1,189 个文件对快照源**逐字节一致** |
 | 清单 | 65 条上游条目原样保留 + 142 条快照条目原样保留 |
 | 白名单（仅 `interface.*` 展示字段 + 市场名） | 分歧数 **0**，有任何分歧 CI 拒绝发布 |
 
@@ -74,7 +79,7 @@ flowchart LR
 
 - **译文不会张冠李戴**：每条译文以「源文本哈希」为键（[i18n/zh/](i18n/zh)），上游改词自动失效重翻。
 - **搜索不迷路**：中文别名表（英伟达→NVIDIA、做表格→Sheets 类应用……）整包复用自 Source-blip 的 keywords 数据。
-- **导航站**：原生 HTML/JS 无框架；插件/应用双模式、26 个中文分类、亮暗主题、中英界面切换。
+- **导航站**：原生 HTML/JS 无框架；插件/应用双模式、24 个中文分类、亮暗主题、中英界面切换；筛选条件（搜索词、分类、排序、单个插件详情）都写进 URL，可直接分享。
 
 ## 本地开发（零依赖，Node ≥ 20）
 
@@ -84,7 +89,8 @@ node tools/translate.mjs --seed .seed      # 可选：采纳种子译文
 GLM_API_KEY=… node tools/translate.mjs --execute   # 可选：API 补翻
 node tools/compose.mjs                     # 双源合成发布树 + catalog
 node tools/verify.mjs                      # 双源无损对账（必须 PASS）
-node tools/build-site.mjs                  # 打包 dist/（站点+应用数据+1,699 图标）
+node tools/build-site.mjs                  # 打包 dist/（站点 + 应用数据 + 全部图标，数量对不上直接失败）
+node tools/check-docs.mjs                  # README / 站点里的数字对账（CI 门禁）
 node tools/extract-apps.mjs <source-blip 的 index.html>   # 快照更新时重跑
 ```
 
@@ -92,7 +98,7 @@ node tools/extract-apps.mjs <source-blip 的 index.html>   # 快照更新时重�
 
 ## 姊妹项目
 
-**[claude-plugins-zh](https://github.com/kael-odin/claude-plugins-zh)** — Claude Code 官方插件中文市场：anthropics/claude-plugins-official（315 个插件，Apache-2.0）全量汉化，`/plugin marketplace add kael-odin/claude-plugins-zh` 即用。同一套管线，同一套无损承诺。
+**[claude-plugins-zh](https://github.com/kael-odin/claude-plugins-zh)** — Claude Code 官方插件的中文市场，由独立仓库维护，本站不收录其条目。
 
 ## 常见问题
 

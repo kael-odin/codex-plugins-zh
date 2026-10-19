@@ -1,23 +1,27 @@
 const MARKET_URL = 'https://github.com/kael-odin/codex-plugins-zh.git';
-const CLAUDE_CMD = '/plugin marketplace add kael-odin/claude-plugins-zh';
 const GUIDE_URL = 'https://github.com/kael-odin/codex-plugins-zh/blob/main/docs/setup-guide.md';
+
+// Counts are never hardcoded in this file: STATS is filled from the loaded
+// datasets, and dist/index.html gets its {{TOKEN}} counts from the same numbers
+// (tools/build-site.mjs). Add a plugin upstream and every number follows.
+const STATS = { plugins: 0, apps: 0, total: 0, translated: 0 };
 
 const I18N = {
   zh: {
     title: 'Codex 官方插件 · 中文导航',
-    subtitle: '全量 2,009 项目（Codex + Claude + 应用）· 无损汉化 · 每日更新',
-    searchPh: '例如：做表格、PPT、控制电脑、查邮件、英伟达、Notion...',
+    subtitle: () => `全量 ${fmt(STATS.total)} 项目 · 无损汉化 · 每日更新`,
+    docTitle: () => `Codex 官方插件中文市场 · 全量 ${fmt(STATS.total)} 项目导航`,
+    searchPh: '例如：做表格、查邮件、幻灯片、英伟达、Notion...',
     clear: '清空',
     cats: '快速分类',
     all: '全部',
-    quick: { all: '全部', plugin: 'Codex 插件', claude: 'Claude 插件', app: '应用与连接器' },
-    kindPlugin: 'Codex 插件',
-    kindClaude: 'Claude 插件',
+    quick: { all: '全部', plugin: '插件', app: '应用与连接器' },
+    kindPlugin: '插件',
     kindApp: '应用/连接器',
-    inRepo: '仓内插件',
-    gitRef: 'git 引用',
-    urlRef: 'URL 引用',
-    summary: (n, p, c, a, t) => `找到 ${n} 项（Codex 插件 ${p} · Claude 插件 ${c} · 应用与连接器 ${a}）· 插件已译 ${t}/189 · 数据每日自动同步`,
+    summary: (n, p, a) =>
+      `找到 ${n} 项（插件 ${p} · 应用与连接器 ${a}）· 插件已译 ${STATS.translated}/${STATS.plugins} · 数据每日自动同步`,
+    noResults: '没有匹配的项目——换个说法，或点「清空」重来。',
+    onlyZh: '只看已译',
     intro: '简介',
     detail: '详细介绍',
     enOriginal: '英文原文',
@@ -25,13 +29,11 @@ const I18N = {
     skills: '包含技能',
     links: '链接',
     upstream: '在 openai/plugins 查看源码 ↗',
+    snapshotSource: '在本仓库查看快照原文 ↗',
     website: '打开官方网站 ↗',
-    mainList: '主清单',
     apiList: 'API 清单',
     hasMcp: 'MCP 连接器',
-    hasApp: 'App',
     translated: '已译',
-    untranslated: '未译',
     originUpstream: '上游',
     originSnapshot: '快照',
     snapshot: '数据快照',
@@ -43,29 +45,30 @@ const I18N = {
     installHint: 'API-key 登录用户：App 自带的「Built by OpenAI · 50 个插件」请保留，两个市场并存互不影响。',
     footerLegal: '插件内容与商标归 OpenAI 及各自权利人所有；应用目录数据来自 Source-blip 中文导航（2026-07 快照），译文仅供参考，与英文原文冲突时以英文原文为准。',
     appNotice: '这是 ChatGPT 应用/连接器：不能安装进 Codex 市场，此处仅作中文导航。请通过官方网站在 ChatGPT 中使用。',
-    claudeCmd: '/plugin marketplace add kael-odin/claude-plugins-zh',
-    website: '打开官方网站 ↗',
-    repoLink: '查看来源仓库 ↗',
     close: '关闭详情',
+    themeLabel: '切换深浅主题',
     statusAll: '全部状态',
     catAll: '全部分类',
     sortDefault: '推荐排序',
+    sortAz: '名称 A → Z',
+    sortZa: '名称 Z → A',
+    loadFailed: '数据加载失败（catalog.json）——请刷新重试。',
   },
   en: {
     title: 'Codex Official Plugins · Chinese Navigator',
-    subtitle: '2,009 items (Codex + Claude + apps) · lossless Chinese edition · daily updates',
-    searchPh: 'e.g. spreadsheet, PPT, browser control, email, NVIDIA, Notion...',
+    subtitle: () => `${fmt(STATS.total)} items · lossless Chinese edition · daily updates`,
+    docTitle: () => `Codex Official Plugins, in Chinese · ${fmt(STATS.total)} Items Navigator`,
+    searchPh: 'e.g. spreadsheet, email, slides, NVIDIA, Notion...',
     clear: 'Clear',
     cats: 'Categories',
     all: 'All',
-    quick: { all: 'All', plugin: 'Codex plugins', claude: 'Claude plugins', app: 'Apps & connectors' },
-    kindPlugin: 'Codex plugin',
-    kindClaude: 'Claude plugin',
+    quick: { all: 'All', plugin: 'Plugins', app: 'Apps & connectors' },
+    kindPlugin: 'Plugin',
     kindApp: 'App/Connector',
-    inRepo: 'in-repo',
-    gitRef: 'git ref',
-    urlRef: 'URL ref',
-    summary: (n, p, c, a, t) => `Found ${n} items (Codex ${p} · Claude ${c} · apps ${a}) · ${t}/189 plugins translated · synced daily`,
+    summary: (n, p, a) =>
+      `${n} items (${p} plugins · ${a} apps & connectors) · ${STATS.translated}/${STATS.plugins} plugins translated · synced daily`,
+    noResults: 'Nothing matched — try another word, or hit “Clear”.',
+    onlyZh: 'Translated only',
     intro: 'Intro',
     detail: 'Details',
     enOriginal: 'English original',
@@ -73,13 +76,11 @@ const I18N = {
     skills: 'Skills',
     links: 'Links',
     upstream: 'View source on openai/plugins ↗',
+    snapshotSource: 'View snapshot source in this repo ↗',
     website: 'Open official website ↗',
-    mainList: 'Main catalog',
     apiList: 'API catalog',
     hasMcp: 'MCP connector',
-    hasApp: 'App',
     translated: 'Translated',
-    untranslated: 'Not translated',
     originUpstream: 'upstream',
     originSnapshot: 'snapshot',
     snapshot: 'Snapshot',
@@ -91,19 +92,23 @@ const I18N = {
     installHint: 'API-key users: keep the built-in “Built by OpenAI · 50 plugins” — both marketplaces coexist.',
     footerLegal: 'Plugin content and trademarks belong to OpenAI and their respective owners. Apps dataset from Source-blip (2026-07 snapshot); translations are informational.',
     appNotice: 'This is a ChatGPT app/connector — it cannot be installed into a Codex marketplace; this entry is navigation only. Use it in ChatGPT via the official website.',
-    claudeCmd: '/plugin marketplace add kael-odin/claude-plugins-zh',
-    website: 'Open official website ↗',
-    repoLink: 'Open source repository ↗',
     close: 'Close details',
+    themeLabel: 'Toggle dark mode',
     statusAll: 'All statuses',
     catAll: 'All categories',
     sortDefault: 'Recommended',
+    sortAz: 'Name A → Z',
+    sortZa: 'Name Z → A',
+    loadFailed: 'Could not load catalog.json — please reload.',
   },
 };
 
+const QUICK = ['all', 'plugin', 'app'];
+const SORTS = ['default', 'az', 'za'];
+// Filter state round-trips through the URL hash, so a filtered view (or a single
+// plugin's detail) is a shareable link instead of something to re-type.
 const state = { q: '', cat: null, quick: 'plugin', status: '', sort: 'default', onlyZh: false, lang: 'zh', theme: 'light', selected: null };
 let CATALOG = null;
-let CLAUDE = { plugins: [] };
 let APPS = [];
 let ALIASES = {};
 let ITEMS = [];
@@ -166,31 +171,14 @@ function buildItems() {
     ],
     search: [a.en, a.zh, a.plain, a.enDesc, a.category, a.kind, a.status, ...(a.keywords ?? [])],
   }));
-  const claude = (CLAUDE.plugins ?? []).map((p) => ({
-    type: 'claude',
-    key: 'claude:' + p.name,
-    icon: null,
-    color: colorFor('claude:' + p.name, null),
-    initial: p.name[0].toUpperCase(),
-    zh: p.name,
-    en: p.author ?? '',
-    desc: p.descriptionZh || p.descriptionEn || '',
-    long: p.descriptionZh || p.descriptionEn || '',
-    longEn: p.descriptionEn,
-    category: p.categoryZh || t().all,
-    badges: [
-      { text: T.kindClaude, cls: 'kind' },
-      { text: p.kind === 'in-repo' ? T.inRepo : p.kind === 'git-subdir' ? T.gitRef : T.urlRef, cls: '' },
-    ],
-    search: [p.name, p.descriptionZh, p.descriptionEn, p.categoryZh, p.author, p.repo],
-    raw: p,
-  }));
-  ITEMS = [...plugins, ...apps, ...claude];
+  ITEMS = [...plugins, ...apps];
+  // a category that only exists in the other dataset (or a hand-edited link to a
+  // category that no longer exists) must not silently show an empty grid
+  if (state.cat && !ITEMS.some((it) => it.category === state.cat)) state.cat = null;
 }
 
 function match(it) {
   if (state.quick === 'plugin' && it.type !== 'plugin') return false;
-  if (state.quick === 'claude' && it.type !== 'claude') return false;
   if (state.quick === 'app' && it.type !== 'app') return false;
   if (state.status && it.status !== state.status) return false;
   if (state.onlyZh && it.type === 'plugin') {
@@ -244,65 +232,52 @@ function renderRail() {
     .map((c) => `<button class="side-btn ${state.cat === c.key ? 'active' : ''}" data-cat="${esc(c.key ?? '')}">
         <span>${esc(c.label)}</span><span>${fmt(c.count)}</span></button>`)
     .join('');
-  $('#rail').querySelectorAll('.side-btn').forEach((el) =>
-    el.addEventListener('click', () => {
-      state.cat = el.dataset.cat || null;
-      renderAll();
-    }),
-  );
   // category select keeps in sync with rail
   const sel = $('#f-cat');
   const cur = state.cat ?? '';
-  sel.innerHTML = `<option value="">${esc(t().catAll)}</option>` +
+  sel.innerHTML = `<option value="">${esc(T.catAll)}</option>` +
     cats.map(([label, count]) => `<option value="${esc(label)}"${label === cur ? ' selected' : ''}>${esc(label)} (${count})</option>`).join('');
 }
 
 function renderPills() {
   const T = t();
-  const claudeTotal = CLAUDE.plugins?.length ?? 0;
-  const defs = [
-    ['all', `${T.quick.all} ${fmt(ITEMS.length)}`],
-    ['plugin', `${T.quick.plugin} ${fmt(CATALOG.total)}`],
-    ['claude', `${T.quick.claude} ${fmt(claudeTotal)}`],
-    ['app', `${T.quick.app} ${fmt(APPS.length)}`],
-  ];
+  const defs = [['all', T.quick.all], ['plugin', `${T.quick.plugin} ${fmt(STATS.plugins)}`], ['app', `${T.quick.app} ${fmt(STATS.apps)}`]];
   $('#pills').innerHTML = defs
     .map(([k, label]) => `<button class="quick-btn ${state.quick === k ? 'active' : ''}" data-k="${k}">${esc(label)}</button>`)
     .join('');
-  $('#pills').querySelectorAll('.quick-btn').forEach((el) =>
-    el.addEventListener('click', () => {
-      state.quick = el.dataset.k;
-      state.cat = null;
-      renderAll();
-    }),
-  );
 }
 
 function renderGrid() {
   const T = t();
   const list = sorted(ITEMS.filter(match));
-  $('#grid').innerHTML = list
-    .map(
-      (it) => `<div class="card ${state.selected === it.type + ':' + it.key ? 'selected' : ''}" data-type="${it.type}" data-key="${esc(it.key)}" role="button" tabindex="0">
+  const grid = $('#grid');
+  if (!list.length) {
+    grid.innerHTML = `<p style="padding:40px 4px;opacity:.65;font-size:14px">${esc(T.noResults)}</p>`;
+  } else {
+    grid.innerHTML = list
+      .map(
+        (it) => `<div class="card ${state.selected === it.type + ':' + it.key ? 'selected' : ''}" data-type="${it.type}" data-key="${esc(it.key)}" role="button" tabindex="0">
         ${iconHTML(it)}
         <h3>${esc(it.zh)}</h3>
         <div class="en">${esc(it.en)}</div>
         <p class="desc">${esc(it.desc)}</p>
         ${badgesHTML(it)}
       </div>`,
-    )
-    .join('');
-  $('#grid').querySelectorAll('.card').forEach((el) => {
-    const key = el.dataset.type + ':' + el.dataset.key;
-    const open = () => openDetail(el.dataset.type, el.dataset.key);
-    el.addEventListener('click', open);
-    el.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
-  });
+      )
+      .join('');
+    // selection is DOM state, not markup: re-rendering 1,694 cards to move one
+    // highlight is what made every click feel heavy
+    if (state.selected) cardEl(state.selected)?.classList.add('selected');
+  }
   const pCount = list.filter((i) => i.type === 'plugin').length;
-  const cCount = list.filter((i) => i.type === 'claude').length;
-  const aCount = list.length - pCount - cCount;
-  $('#count').textContent = T.summary(fmt(list.length), fmt(pCount), fmt(cCount), fmt(aCount), `${CATALOG.translated}`);
+  $('#count').textContent = T.summary(fmt(list.length), fmt(pCount), fmt(list.length - pCount));
 }
+
+const cardEl = (sel) => {
+  const [type, ...rest] = sel.split(':');
+  const key = rest.join(':');
+  return $(`#grid .card[data-type="${type}"][data-key="${CSS.escape(key)}"]`);
+};
 
 function installHTML() {
   const T = t();
@@ -328,25 +303,26 @@ function detailHTML(it) {
     </div>
     <div class="badges" style="margin-top:12px">${it.badges.map((b) => `<span class="badge ${b.cls || ''}">${esc(b.text)}</span>`).join('')}</div>`;
   if (it.type === 'app') {
+    const app = APPS.find((a) => a.id === it.key) ?? {};
     return `${head}
-      <div class="notice">${esc(t().appNotice)}</div>
+      <div class="notice">${esc(T.appNotice)}</div>
       <div class="block"><strong>${esc(T.intro)}</strong><div class="detail-desc">${esc(it.long)}</div>
       ${it.longEn ? `<details><summary style="cursor:pointer;font-size:13px">${esc(T.enOriginal)}</summary><div class="original detail-desc">${esc(it.longEn)}</div></details>` : ''}</div>
       <div class="block"><strong>${esc(T.links)}</strong>
-        ${it.installUrl ? `<a class="link" href="${esc(it.installUrl)}" target="_blank" rel="noopener">${esc(T.website)}</a>` : ''}
+        ${app.installUrl ? `<a class="link" href="${esc(app.installUrl)}" target="_blank" rel="noopener">${esc(T.website)}</a>` : ''}
         <button class="copybtn" data-copy>${esc(MARKET_URL)} — ${esc(T.copy)}</button>
       </div>`;
   }
   const p = CATALOG.plugins.find((x) => x.name === it.key);
   const prompts = state.lang === 'en' && p.promptsEn?.length ? p.promptsEn : p.prompts;
   return `${head}
-    <div class="block"><strong>${esc(T.intro)}</strong><div class="detail-desc">${esc(state.lang === 'zh' ? p.shortZh || T.enOriginal && p.shortEn : p.shortEn || p.shortZh)}</div></div>
-    <div class="block"><strong>${esc(T.detail)}</strong><div class="detail-desc">${esc(state.lang === 'zh' ? p.longZh || p.longEn : p.longEn || p.longZh)}</div>
+    <div class="block"><strong>${esc(T.intro)}</strong><div class="detail-desc">${esc(it.desc)}</div></div>
+    <div class="block"><strong>${esc(T.detail)}</strong><div class="detail-desc">${esc(it.long)}</div>
       ${p.longEn ? `<details><summary style="cursor:pointer;font-size:13px">${esc(T.enOriginal)}</summary><div class="original detail-desc">${esc(p.longEn)}</div></details>` : ''}</div>
     ${prompts.length ? `<div class="block"><strong>${esc(T.prompts)}</strong><ul style="margin:6px 0;padding-left:18px">${prompts.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>` : ''}
     ${p.skillsCount ? `<div class="block"><strong>${esc(T.skills)}（${p.skillsCount}）</strong><div class="badges">${p.skills.map((s) => `<span class="badge">${esc(s)}</span>`).join('')}</div></div>` : ''}
     <div class="block"><strong>${esc(T.links)}</strong>
-      <a class="link" href="${esc(p.upstreamUrl)}" target="_blank" rel="noopener">${esc(T.upstream)}</a>
+      <a class="link" href="${esc(p.upstreamUrl)}" target="_blank" rel="noopener">${esc(p.origin === 'snapshot' ? T.snapshotSource : T.upstream)}</a>
       <button class="copybtn" data-copy>${esc(MARKET_URL)} — ${esc(T.copy)}</button>
     </div>`;
 }
@@ -357,83 +333,243 @@ function renderPane() {
     <button class="detail-close" id="dclose">${esc(t().close)}</button>
     ${it ? detailHTML(it) : installHTML()}`;
   bindCopy($('#detailpane'));
-  $('#dclose').addEventListener('click', closeDrawer);
+  $('#dclose').addEventListener('click', closeDetail);
+}
+
+function maybeShowDrawer() {
+  if (!window.matchMedia('(min-width: 1121px)').matches) document.body.classList.add('detail-open');
 }
 
 function openDetail(type, key) {
+  const prev = $('#grid').querySelector('.card.selected');
+  if (prev) prev.classList.remove('selected');
   state.selected = type + ':' + key;
-  renderGrid();
+  cardEl(state.selected)?.classList.add('selected');
   renderPane();
-  if (!window.matchMedia('(min-width: 1121px)').matches) {
-    document.body.classList.add('detail-open');
-  }
+  maybeShowDrawer();
+  writeUrlState();
 }
 
-function closeDrawer() {
+function closeDetail() {
   document.body.classList.remove('detail-open');
+  if (!state.selected) return;
+  state.selected = null;
+  const cur = $('#grid').querySelector('.card.selected');
+  if (cur) cur.classList.remove('selected');
+  renderPane();
+  writeUrlState();
 }
 
 function bindCopy(root) {
   root.querySelectorAll('.copybtn[data-copy]').forEach((btn) =>
     btn.addEventListener('click', async () => {
-      await navigator.clipboard.writeText(MARKET_URL);
       const old = btn.textContent;
+      if (!(await copyText(MARKET_URL))) return;
       btn.textContent = t().copied;
       setTimeout(() => (btn.textContent = old), 1600);
     }),
   );
 }
 
+// navigator.clipboard needs a secure context; the install flow hinges on this
+// button, so fall back to the old selection trick when it is unavailable.
+async function copyText(text) {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch { /* fall through */ }
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand('copy');
+    ta.remove();
+    return ok;
+  } catch {
+    return false;
+  }
+}
+
 function applyI18nStatic() {
   const T = t();
   document.documentElement.lang = state.lang === 'zh' ? 'zh-CN' : 'en';
-  for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = T[el.dataset.i18n] ?? el.textContent;
+  for (const el of document.querySelectorAll('[data-i18n]')) {
+    const v = T[el.dataset.i18n];
+    if (v === undefined) continue;
+    el.textContent = typeof v === 'function' ? v() : v;
+  }
+  for (const el of document.querySelectorAll('[data-i18n-aria]')) {
+    const v = T[el.dataset.i18nAria];
+    if (typeof v === 'string') el.setAttribute('aria-label', v);
+  }
   $('#q').placeholder = T.searchPh;
   $('#lang').textContent = state.lang === 'zh' ? 'English' : '中文';
-  document.title = state.lang === 'zh'
-    ? 'Codex 官方插件中文市场 · 全量 2,009 项目导航'
-    : 'Codex + Claude Official Plugins, in Chinese · 2,009 Items';
+  document.title = T.docTitle();
   const st = $('#f-status');
   const cur = state.status;
   const statuses = [...new Set(APPS.map((a) => a.status).filter(Boolean))];
   st.innerHTML = `<option value="">${esc(T.statusAll)}</option>` +
     statuses.map((s) => `<option value="${esc(s)}"${s === cur ? ' selected' : ''}>${esc(s)}</option>`).join('');
   const sort = $('#f-sort');
-  sort.options[0].text = T.sortDefault;
+  [T.sortDefault, T.sortAz, T.sortZa].forEach((label, i) => { sort.options[i].text = label; });
+  // a shared link can carry a sort the control has to show, else the grid and
+  // the dropdown disagree about what is being displayed
+  sort.value = state.sort;
+  const meta = $('#meta');
+  meta.textContent = new Date(CATALOG.generatedAt).toLocaleDateString(state.lang === 'zh' ? 'zh-CN' : 'en-US');
+  const appSnapshots = [...new Set(APPS.map((a) => a.snapshot).filter(Boolean))];
+  meta.title = [
+    `openai/plugins @ ${(CATALOG.upstream?.sha ?? '').slice(0, 9)} (${CATALOG.generatedAt?.slice(0, 10) ?? '?'})`,
+    CATALOG.snapshot ? `curated snapshot @ ${String(CATALOG.snapshot.commitDate ?? '').slice(0, 10)}` : null,
+    ...appSnapshots,
+  ].filter(Boolean).join('\n');
 }
 
-function renderAll() {
+// ---- URL state -------------------------------------------------------------
+function readUrlState() {
+  if (!location.hash) return;
+  const p = new URLSearchParams(location.hash.replace(/^#/, ''));
+  if (p.has('q')) state.q = p.get('q');
+  if (QUICK.includes(p.get('quick'))) state.quick = p.get('quick');
+  if (p.has('cat')) state.cat = p.get('cat') || null;
+  if (p.has('status')) state.status = p.get('status');
+  if (SORTS.includes(p.get('sort'))) state.sort = p.get('sort');
+  if (p.has('z')) state.onlyZh = p.get('z') === '1';
+  if (p.has('lang')) state.lang = p.get('lang') === 'en' ? 'en' : 'zh';
+  if (p.has('d')) state.selected = p.get('d');
+}
+
+function writeUrlState() {
+  const p = new URLSearchParams();
+  if (state.q) p.set('q', state.q);
+  if (state.quick !== 'plugin') p.set('quick', state.quick);
+  if (state.cat) p.set('cat', state.cat);
+  if (state.status) p.set('status', state.status);
+  if (state.sort !== 'default') p.set('sort', state.sort);
+  if (state.onlyZh) p.set('z', '1');
+  if (state.lang !== 'zh') p.set('lang', state.lang);
+  if (state.selected) p.set('d', state.selected);
+  const hash = p.toString();
+  const url = (hash ? `#${hash}` : location.pathname + location.search);
+  // replaceState, not pushState: a shareable link is the point, a history entry
+  // per keystroke is not.
+  try {
+    history.replaceState(null, '', url);
+  } catch { /* file:// */ }
+}
+
+// ---- render orchestration --------------------------------------------------
+function render() { // cheap: filter/sort/selection only
+  renderGrid();
+  writeUrlState();
+}
+
+function renderAll() { // structural: data, language or filter-mode change
   buildItems();
   applyI18nStatic();
   renderRail();
   renderPills();
   renderGrid();
   renderPane();
+  writeUrlState();
+}
+
+async function getJson(url, fallback) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(String(res.status));
+    return await res.json();
+  } catch {
+    return fallback;
+  }
 }
 
 async function init() {
-  [CATALOG, APPS, ALIASES, CLAUDE] = await Promise.all([
-    (await fetch('./catalog.json')).json(),
-    (await fetch('./apps-zh.json')).json().catch(() => []),
-    (await fetch('./plugin-aliases.json')).json().catch(() => ({})),
-    (await fetch('./claude.json')).json().catch(() => ({ plugins: [] })),
+  const [catalog, apps, aliases] = await Promise.all([
+    getJson('./catalog.json', null),
+    getJson('./apps-zh.json', []),
+    getJson('./plugin-aliases.json', {}),
   ]);
+  if (!catalog) {
+    document.querySelector('main .controls')?.remove();
+    $('#grid').innerHTML = I18N.zh.loadFailed;
+    return;
+  }
+  CATALOG = catalog;
+  APPS = Array.isArray(apps) ? apps : [];
+  ALIASES = aliases ?? {};
+  STATS.plugins = CATALOG.total ?? 0;
+  STATS.apps = APPS.length;
+  STATS.total = STATS.plugins + STATS.apps;
+  STATS.translated = CATALOG.translated ?? 0;
+
   state.theme = localStorage.getItem('czh-theme') ?? 'light';
   state.lang = localStorage.getItem('czh-lang') ?? 'zh';
+  readUrlState(); // a shared link wins over the stored preference
   document.documentElement.dataset.theme = state.theme;
   $('#theme').textContent = state.theme === 'light' ? '🌙' : '☀️';
-  $('#meta').textContent = new Date(CATALOG.generatedAt).toLocaleDateString(state.lang === 'zh' ? 'zh-CN' : 'en-US');
+  $('#q').value = state.q;
+  $('#onlyzh').checked = state.onlyZh;
 
-  $('#q').addEventListener('input', (e) => { state.q = e.target.value.trim(); renderGrid(); });
-  $('#clear').addEventListener('click', () => {
-    state.q = ''; state.cat = null; state.status = ''; state.sort = 'default'; state.onlyZh = false; state.quick = 'all';
-    $('#q').value = ''; $('#onlyzh').checked = false;
+  // Delegated listeners survive the innerHTML re-renders these containers get.
+  $('#grid').addEventListener('click', (e) => {
+    const card = e.target.closest('.card');
+    if (card) openDetail(card.dataset.type, card.dataset.key);
+  });
+  $('#grid').addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const card = e.target.closest('.card');
+    if (!card) return;
+    e.preventDefault();
+    openDetail(card.dataset.type, card.dataset.key);
+  });
+  $('#rail').addEventListener('click', (e) => {
+    const btn = e.target.closest('.side-btn');
+    if (!btn) return;
+    state.cat = btn.dataset.cat || null;
     renderAll();
   });
-  $('#onlyzh').addEventListener('change', (e) => { state.onlyZh = e.target.checked; renderGrid(); });
+  $('#pills').addEventListener('click', (e) => {
+    const btn = e.target.closest('.quick-btn');
+    if (!btn) return;
+    state.quick = btn.dataset.k;
+    state.cat = null;
+    renderAll();
+  });
+
+  // Our own state writes use replaceState, which fires no event: this only runs
+  // when the hash is changed from outside — a link pasted into an open tab.
+  window.addEventListener('hashchange', () => {
+    // the new link is the whole view state, not just the params it happens to name
+    Object.assign(state, { q: '', cat: null, quick: 'plugin', status: '', sort: 'default', onlyZh: false, selected: null });
+    readUrlState();
+    $('#q').value = state.q;
+    $('#onlyzh').checked = state.onlyZh;
+    renderAll();
+  });
+
+  let qTimer;
+  $('#q').addEventListener('input', (e) => {
+    state.q = e.target.value.trim();
+    clearTimeout(qTimer);
+    qTimer = setTimeout(render, 120); // 1,694 cards per keystroke otherwise
+  });
+  $('#clear').addEventListener('click', () => {
+    state.q = ''; state.cat = null; state.status = ''; state.sort = 'default'; state.onlyZh = false; state.quick = 'all'; state.selected = null;
+    $('#q').value = ''; $('#onlyzh').checked = false;
+    document.body.classList.remove('detail-open');
+    renderAll();
+  });
+  $('#onlyzh').addEventListener('change', (e) => { state.onlyZh = e.target.checked; renderAll(); });
   $('#f-cat').addEventListener('change', (e) => { state.cat = e.target.value || null; renderAll(); });
   $('#f-status').addEventListener('change', (e) => { state.status = e.target.value; renderAll(); });
-  $('#f-sort').addEventListener('change', (e) => { state.sort = e.target.value; renderGrid(); });
+  $('#f-sort').addEventListener('change', (e) => { state.sort = e.target.value; render(); });
   $('#lang').addEventListener('click', () => {
     state.lang = state.lang === 'zh' ? 'en' : 'zh';
     localStorage.setItem('czh-lang', state.lang);
@@ -445,9 +581,10 @@ async function init() {
     document.documentElement.dataset.theme = state.theme;
     $('#theme').textContent = state.theme === 'light' ? '🌙' : '☀️';
   });
-  $('#backdrop').addEventListener('click', closeDrawer);
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
+  $('#backdrop').addEventListener('click', closeDetail);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetail(); });
 
   renderAll();
+  if (state.selected) maybeShowDrawer();
 }
 init();

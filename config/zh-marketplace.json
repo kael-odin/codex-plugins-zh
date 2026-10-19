@@ -1,6 +1,7 @@
 {
   "upstream": "https://github.com/openai/plugins.git",
   "upstreamRepo": "https://github.com/openai/plugins",
+  "repo": "https://github.com/kael-odin/codex-plugins-zh",
   "seedRepo": "https://cnb.cool/echobird/codex-plugins.git",
   "marketplace": {
     "name": "openai-curated-zh",

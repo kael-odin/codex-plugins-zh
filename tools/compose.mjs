@@ -14,7 +14,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import {
   ROOT, UPSTREAM_DIR, DATA_DIR, I18N_DIR,
-  readJson, writeJson, textKey, git, toPosix, hasCJK, walkFiles,
+  readJson, writeJson, textKey, git, toPosix, hasCJK, walkFiles, sourceDate,
 } from './lib.mjs';
 
 const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
@@ -217,6 +217,13 @@ const inMain = new Set(mains.plugins.map((p) => p.name));
 const inApi = new Set(apis.plugins.map((p) => p.name));
 const allNames = [...new Set([...inMain, ...inApi])].sort();
 
+// Snapshot-origin plugins do NOT exist on upstream's git tree, so linking them
+// to openai/plugins/tree/main/plugins/<name> is a guaranteed 404. Point those at
+// our own publish tree, which tools/verify.mjs proves byte-identical to .seed.
+const sourceUrl = (name, origin) => (origin === 'upstream'
+  ? `${cfg.upstreamRepo}/tree/main/plugins/${name}`
+  : `${cfg.repo}/tree/main/plugins/${name}`);
+
 const plugins = [];
 const missing = [];
 for (const name of allNames) {
@@ -235,7 +242,7 @@ for (const name of allNames) {
       categoryZh: glossary[catOf.get(name) ?? ''] ?? catOf.get(name) ?? 'Other',
       brandColor: null, developerName: 'OpenAI', skills: [], skillsCount: 0,
       hasMcp: false, hasApp: false, icon: null, version: null,
-      upstreamUrl: `${cfg.upstreamRepo}/tree/main/plugins/${name}`,
+      upstreamUrl: sourceUrl(name, origin),
     });
     continue;
   }
@@ -270,9 +277,7 @@ for (const name of allNames) {
     hasApp: fs.existsSync(path.join(dir, '.app.json')),
     icon: pub.composerIcon ?? pub.logo ?? null,
     version: pubM.version ?? null,
-    upstreamUrl: origin === 'upstream'
-      ? `${cfg.upstreamRepo}/tree/main/plugins/${name}`
-      : `${cfg.upstreamRepo}/tree/main/plugins/${name}`,
+    upstreamUrl: sourceUrl(name, origin),
   });
 }
 
@@ -282,7 +287,7 @@ for (const p of plugins) {
   catCount.set(p.category, (catCount.get(p.category) ?? 0) + 1);
 }
 const catalog = {
-  generatedAt: new Date().toISOString(),
+  generatedAt: sourceDate(UPSTREAM_DIR),
   upstream: { repo: cfg.upstreamRepo, sha: git(UPSTREAM_DIR, 'rev-parse', 'HEAD') },
   snapshot: extras.snapshot,
   marketplace: { ...cfg.marketplace, cloneUrl: cfg.cloneUrl ?? null },
@@ -305,7 +310,13 @@ writeJson(path.join(DATA_DIR, 'full-catalog.json'), {
   snapshot: extras.snapshot,
   extras: extras.names.sort(),
 });
-writeJson(path.join(DATA_DIR, 'last-sha.json'), { sha: diff.to, syncedAt: new Date().toISOString() });
+// syncedAt stays put while the upstream sha is unchanged, so a no-op sync
+// rewrites this file byte-identically and the CI step commits nothing.
+const prevSha = readJson(path.join(DATA_DIR, 'last-sha.json'), null);
+writeJson(path.join(DATA_DIR, 'last-sha.json'), {
+  sha: diff.to,
+  syncedAt: prevSha?.sha === diff.to && prevSha.syncedAt ? prevSha.syncedAt : catalog.generatedAt,
+});
 
 console.log(
   `[compose] catalog: ${catalog.total} plugins ` +

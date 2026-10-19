@@ -3,15 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Codex 官方插件中文市场 · 全量 2,009 项目导航</title>
-<meta name="description" content="自动同步 openai/plugins 的 Codex 官方插件中文市场：189 个插件全汉化 + 1,505 个 ChatGPT 应用/连接器中文条目、真实官方图标、中文日常说法搜索（做表格 / 查邮件 / 英伟达）、中英双语详情、无损汉化机器可证、每日自动更新。">
+<!-- Every count below is a double-brace placeholder filled at build time from
+     data/site-stats.json (tools/build-site.mjs); never type a total in by hand. -->
+<title>Codex 官方插件中文市场 · 全量 {{TOTAL}} 项目导航</title>
+<meta name="description" content="自动同步 openai/plugins 的 Codex 官方插件中文市场：{{PLUGINS}} 个插件全汉化 + {{APPS}} 个 ChatGPT 应用/连接器中文条目、真实官方图标、中文日常说法搜索（做表格 / 查邮件 / 英伟达）、中英双语详情、无损汉化机器可证、每日自动更新。">
 <meta name="keywords" content="Codex, Codex 插件, Codex plugin, openai plugins, 插件市场, 中文插件目录, MCP, ChatGPT, ChatGPT 应用, AI 工具导航">
 <link rel="canonical" href="https://kael-odin.github.io/codex-plugins-zh/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%235548e7'/><text x='50' y='68' font-size='44' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='white'>CP</text></svg>">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="codex-plugins-zh">
 <meta property="og:title" content="Codex 官方插件 · 中文导航">
-<meta property="og:description" content="全量 1,694 项目：189 个官方插件无损汉化 + 1,505 个应用与连接器中文条目，真实官方图标，每日更新，一键加进 Codex。">
+<meta property="og:description" content="全量 {{TOTAL}} 项目：{{PLUGINS}} 个官方插件无损汉化 + {{APPS}} 个应用与连接器中文条目，{{PLUGIN_ICONS}} 个真实官方图标，每日更新，一键加进 Codex。">
 <meta property="og:url" content="https://kael-odin.github.io/codex-plugins-zh/">
 <meta property="og:image" content="https://kael-odin.github.io/codex-plugins-zh/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -19,7 +21,7 @@
 <meta name="twitter:description" content="openai/plugins 无损汉化镜像 + 全量应用导航，每日自动同步。">
 <meta name="twitter:image" content="https://kael-odin.github.io/codex-plugins-zh/og.png">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Codex 官方插件 · 中文导航","url":"https://kael-odin.github.io/codex-plugins-zh/","description":"自动同步 openai/plugins 的 Codex 官方插件中文市场：189 插件全汉化 + 1,505 应用与连接器，无损可证，每日更新","inLanguage":["zh-CN","en"],"isAccessibleForFree":true}
+{"@context":"https://schema.org","@type":"WebSite","name":"Codex 官方插件 · 中文导航","url":"https://kael-odin.github.io/codex-plugins-zh/","description":"自动同步 openai/plugins 的 Codex 官方插件中文市场：{{PLUGINS}} 插件全汉化 + {{APPS}} 应用与连接器，无损可证，每日更新","inLanguage":["zh-CN","en"],"isAccessibleForFree":true}
 </script>
 <link rel="stylesheet" href="./style.css">
 </head>
@@ -27,11 +29,11 @@
 <header class="top">
   <div class="logo">CP</div>
   <h1 data-i18n="title">Codex 官方插件 · 中文导航</h1>
-  <span class="tagline" data-i18n="subtitle">全量 2,009 项目（Codex + Claude + 应用）· 无损汉化 · 每日更新</span>
+  <span class="tagline" data-i18n="subtitle">全量 {{TOTAL}} 项目 · 无损汉化 · 每日更新</span>
   <div class="top-actions">
     <span class="snap"><span data-i18n="snapshot">数据快照</span> <span id="meta">…</span></span>
     <button id="lang" class="ctl">English</button>
-    <button id="theme" class="ctl" aria-label="切换深浅主题">🌙</button>
+    <button id="theme" class="ctl" data-i18n-aria="themeLabel" aria-label="切换深浅主题">🌙</button>
     <a class="ctl" href="https://github.com/kael-odin/codex-plugins-zh" target="_blank" rel="noopener">GitHub ↗</a>
   </div>
 </header>
@@ -46,7 +48,7 @@
     <div class="controls">
       <div class="search-row">
         <input id="q" class="search" type="search">
-        <label class="toggle"><input type="checkbox" id="onlyzh">只看已译</label>
+        <label class="toggle"><input type="checkbox" id="onlyzh"><span data-i18n="onlyZh">只看已译</span></label>
         <button id="clear" class="clear" data-i18n="clear">清空</button>
       </div>
       <div id="pills" class="quick-filters"></div>
@@ -65,7 +67,7 @@
   </main>
 
   <aside class="detail" id="detailpane"></aside>
-  <button class="detail-backdrop" id="backdrop" aria-label="关闭详情"></button>
+  <button class="detail-backdrop" id="backdrop" data-i18n-aria="close" aria-label="关闭详情"></button>
 </div>
 
 <footer>

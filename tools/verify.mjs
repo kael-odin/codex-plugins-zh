@@ -6,7 +6,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {
-  ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, walkFiles, git,
+  ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, walkFiles, git, sourceDate,
 } from './lib.mjs';
 
 const SEED_DIR = path.join(ROOT, process.env.SEED_DIR ?? '.seed');
@@ -162,7 +162,9 @@ for (const name of seedNames) {
 }
 
 const report = {
-  generatedAt: new Date().toISOString(),
+  // data date, not generation time — the report is a function of the tree it
+  // checked, so re-running it locally never dirties the working copy.
+  generatedAt: sourceDate(UPSTREAM_DIR),
   upstreamSha: git(UPSTREAM_DIR, 'rev-parse', 'HEAD'),
   filesChecked: pub.size,
   byteIdentical: { upstream: upstreamBytes, snapshot: seedBytes },
@@ -171,6 +173,8 @@ const report = {
   divergences,
   status: divergences.length ? 'fail' : 'pass',
 };
+// always written: it records which sha/seed this tree was verified against, and
+// with a deterministic generatedAt an unchanged tree produces an unchanged file.
 writeJson(path.join(DATA_DIR, 'quality-report.json'), report);
 console.log(
   `[verify] ${report.status.toUpperCase()} — ${pub.size} files | upstream bytes: ${upstreamBytes}, ` +
