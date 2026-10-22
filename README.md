@@ -95,7 +95,7 @@ Codex 的条目结构里**没有 `description` 字段**（它认 `name`/`source`
 
 两处差异是刻意的：
 
-- **3 条占位条目**（`crowdstrike-falcon-foundry`、`crowdstrike-falcon-fusion`、`qodo`）在两个源里都没有插件目录，Claude 清单不含它们——否则 Claude 会列出来但装不上；Codex 清单保留，与上游一致。
+- **3 条远程条目**（`crowdstrike-falcon-foundry`、`crowdstrike-falcon-fusion`、`qodo`）指向第三方仓（`url` / `git-subdir`），插件体不在本仓，上游也没给它们任何介绍文字——Codex 里只显示名字，Claude 清单因此不含它们（Claude 卡片的主文案就是清单条目的 `description`，加进去只是一张空卡片）。它们在 Codex 清单里原样保留，与上游一致。
 - Claude 卡片取插件的**短描述**（一句话），完整长描述留在 Codex 详情页与[导航站](https://kael-odin.github.io/codex-plugins-zh/)。
 
 ## 管线

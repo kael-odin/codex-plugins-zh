@@ -205,9 +205,9 @@ console.log(`[compose] interface translations applied: ${applied}`);
 // Claude Code with Chinese descriptions there too. Runs after step 5 so the
 // descriptions are the translated ones. The entry takes the plugin's *short*
 // description: interface.longDescription runs to whole paragraphs here (median
-// 126 chars, max 679) and Claude renders it on a card. Entries whose plugin dir
-// never made it into either source are left out: Claude would list them and
-// fail on install.
+// 126 chars, max 679) and Claude renders it on a card. Entries with no local
+// plugin dir are left out — the 3 remote third-party entries upstream ships
+// with nothing but an interface.displayName, which would be an empty card.
 const claudeMain = JSON.parse(fs.readFileSync(manifestPaths.main, 'utf8'));
 const claudePlugins = [];
 let claudeMissing = 0;
