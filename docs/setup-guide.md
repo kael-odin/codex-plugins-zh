@@ -100,3 +100,20 @@ codex plugin list                  # 能列出各市场的插件
 ```
 
 然后重开 Codex 会话，插件面板应能看到「Codex 官方插件 · 中文版」。
+
+## 六、顺带：Claude Code 里也能加这个市场
+
+本仓库同时产出 Claude Code 读的清单（`.claude-plugin/marketplace.json`，189 条，与 Codex 清单同源同译文），所以同一个市场仓在 Claude Code 里也直接可用，面板里的介绍与分类同样是中文：
+
+```bash
+claude plugin marketplace add kael-odin/codex-plugins-zh   # 会话里等价：/plugin marketplace add kael-odin/codex-plugins-zh
+claude plugin marketplace update openai-curated-zh          # 以后更新快照
+claude plugin install airtable@openai-curated-zh            # 装一个试试
+claude plugin details airtable                              # 看组件：Skills 3 + MCP servers 1
+```
+
+说明：
+
+- Claude Code 里的市场注册名是 `openai-curated-zh`；Codex 面板里显示的是「Codex 官方插件 · 中文版」——同一个仓，只是两份清单各按客户端的字段惯例命名。
+- Claude Code 能加载的是 **Skills 与 MCP server** 组件（这些插件里主要就是这两类）；`.app.json` 的 ChatGPT App 连接器是 ChatGPT 专有，Claude 侧不生效。
+- 两条链路互不影响：Codex 的 `config.toml` 与 `.tmp/marketplaces/` 缓存、Claude Code 的 `~/.claude` 各管各的，本文前面的清理操作不会动到 Claude Code。

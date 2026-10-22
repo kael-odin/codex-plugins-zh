@@ -24,6 +24,12 @@ codex plugin marketplace list        # 验证 openai-curated-zh 还在
 
 重开会话后生效。也可以什么都不做——已安装的插件内容不会失效，只是可能拿不到最新上游改动。
 
+Claude Code 那侧同理（同一个仓、同一份译文）：
+
+```bash
+claude plugin marketplace update openai-curated-zh
+```
+
 ## 手动维护（低频）
 
 | 任务 | 频率 | 操作 |
@@ -48,8 +54,10 @@ codex plugin marketplace list        # 验证 openai-curated-zh 还在
 
 ```bash
 node tools/sync.mjs && node tools/compose.mjs && node tools/verify.mjs   # 必须全绿
-cat data/quality-report.json   # 6,720 files · 0 divergences 为健康态
+cat data/quality-report.json   # 6,720 files · 0 divergences 为健康态（claude manifest: 189 entries）
 cat data/full-catalog.json     # 上游/快照来源与日期
 ```
 
 站点数字：**189 可装插件（62 上游 + 127 快照）+ 1,505 应用 = 1,694**；图标 186/192 插件 + 1,699 应用。
+两份市场清单：Codex 原生 `.agents/plugins/{marketplace,api_marketplace}.json`（192 条）与
+Claude Code 的 `.claude-plugin/marketplace.json`（189 条，`compose` 生成、`verify` 三方对账）。

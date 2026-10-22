@@ -9,6 +9,8 @@
 // files against .seed. Intentional divergence is confined to the whitelist:
 //   - .agents/plugins/{marketplace,api_marketplace}.json → name/interface + appended entries
 //   - plugins/*/.codex-plugin/plugin.json (upstream only) → interface.* only
+// Plus one generated, owned file with no upstream counterpart:
+//   - .claude-plugin/marketplace.json → Claude Code view of the same catalog
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -192,6 +194,44 @@ for (const name of fs.readdirSync(path.join(ROOT, 'plugins'))) {
   if (applied > before) writeJson(mf, m);
 }
 console.log(`[compose] interface translations applied: ${applied}`);
+
+// 5b) Claude Code marketplace (generated, owned — no upstream counterpart).
+//
+// Claude Code renders the *marketplace entry* description, while Codex's entry
+// schema has no description field at all (name/source/policy/category + an
+// `interface` block), which is why the zh text in this repo lives in each
+// plugin's .codex-plugin/plugin.json. Repeating it in the shape Claude reads
+// costs one generated file and makes this same marketplace installable from
+// Claude Code with Chinese descriptions there too. Runs after step 5 so the
+// descriptions are the translated ones. The entry takes the plugin's *short*
+// description: interface.longDescription runs to whole paragraphs here (median
+// 126 chars, max 679) and Claude renders it on a card. Entries whose plugin dir
+// never made it into either source are left out: Claude would list them and
+// fail on install.
+const claudeMain = JSON.parse(fs.readFileSync(manifestPaths.main, 'utf8'));
+const claudePlugins = [];
+let claudeMissing = 0;
+for (const entry of claudeMain.plugins) {
+  const mf = path.join(ROOT, 'plugins', entry.name, '.codex-plugin', 'plugin.json');
+  if (!fs.existsSync(mf)) { claudeMissing++; continue; }
+  const iface = JSON.parse(fs.readFileSync(mf, 'utf8')).interface ?? {};
+  claudePlugins.push({
+    name: entry.name,
+    description: (iface.shortDescription || iface.longDescription || '').trim(),
+    category: entry.category,
+    source: `./plugins/${entry.name}`,
+  });
+}
+writeJson(path.join(ROOT, '.claude-plugin', 'marketplace.json'), {
+  name: claudeMain.name,
+  owner: cfg.owner,
+  description: cfg.marketplace.description,
+  plugins: claudePlugins,
+});
+console.log(
+  `[compose] claude manifest: ${claudePlugins.length} entries -> .claude-plugin/marketplace.json` +
+    (claudeMissing ? ` (${claudeMissing} entries without a plugin dir skipped)` : ''),
+);
 
 // 6) site catalog — zh from the publish tree, en straight from upstream (or seed for extras)
 const upstreamNames = new Set();

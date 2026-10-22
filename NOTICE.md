@@ -5,7 +5,9 @@
 ## 1. 本仓库原创内容（MIT License）
 
 `tools/`、`site/`、`config/`、`data/`（catalog / diff / quality-report 等生成物）、
-`i18n/zh/`（译文账本）、`docs/`、`.github/workflows/`、README。
+`i18n/zh/`（译文账本）、`docs/`、`.github/workflows/`、README，
+以及生成的 `.claude-plugin/marketplace.json`（Claude Code 读的市场清单：条目名、中文分类与
+译文均由上面的原创工具与账本产出，不含新的上游内容）。
 
 以 MIT 授权（见 LICENSE）。
 

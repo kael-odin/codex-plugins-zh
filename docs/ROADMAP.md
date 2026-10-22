@@ -30,6 +30,7 @@
 
 ## M4 · 分发与生态 ⏳
 
+- [x] 双客户端兼容（2026-10-22）：`compose` 另生成 Claude Code 的 `.claude-plugin/marketplace.json`（189 条，短描述 + 中文分类），`verify` 对 Codex 清单 / Claude 清单 / 插件 manifest 三方对账——同一个仓在 Codex 与 Claude Code 里都是中文
 - [ ] cnb.cool 镜像仓（国内 git 加速，CI 同步推送）
 - [ ] 教程补实机截图；setup-guide 英文版
 - [ ] upstream 出 LICENSE 后的合规复查

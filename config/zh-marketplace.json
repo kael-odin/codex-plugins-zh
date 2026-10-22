@@ -3,9 +3,14 @@
   "upstreamRepo": "https://github.com/openai/plugins",
   "repo": "https://github.com/kael-odin/codex-plugins-zh",
   "seedRepo": "https://cnb.cool/echobird/codex-plugins.git",
+  "owner": {
+    "name": "kael-odin",
+    "url": "https://github.com/kael-odin"
+  },
   "marketplace": {
     "name": "openai-curated-zh",
-    "displayName": "Codex 官方插件 · 中文版"
+    "displayName": "Codex 官方插件 · 中文版",
+    "description": "Codex 官方插件目录（openai/plugins 及其完整 curated 目录快照）的中文版：介绍与分类已汉化，插件内容与官方逐字一致。Claude Code 与 Codex 都能添加。"
   },
   "apiMarketplace": {
     "name": "openai-api-curated-zh",

@@ -69,7 +69,7 @@ jobs:
           # Only the paths the pipeline owns. `git add -A` would also sweep up
           # anything a future tool happens to drop in the tree; .gitignore
           # covers the scratch clones, but not a typo'd output path.
-          git add data i18n/zh plugins .agents
+          git add data i18n/zh plugins .agents .claude-plugin
           stray=$(git status --porcelain | grep -v '^[AM] ' || true)
           if [ -n "$stray" ]; then
             echo "[warn] pipeline left untracked/unstaged paths behind:"

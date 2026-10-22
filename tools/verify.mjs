@@ -2,6 +2,9 @@
 //   upstream part (plugins in openai/plugins manifests) — vs .upstream,
 //     whitelist: plugin.json interface.* ; manifests: name/interface + appended entries
 //   snapshot part (extras merged from .seed) — byte-identical vs .seed
+//   .claude-plugin/marketplace.json — generated owned file (no upstream
+//     counterpart), drift-checked against the Codex manifest and the plugin
+//     manifests whose zh text it repeats
 // Any divergence fails the run (exit 1).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -161,6 +164,62 @@ for (const name of seedNames) {
   }
 }
 
+// Generated file with no upstream counterpart: the Claude Code marketplace.
+// It is derived from two sources — the Codex manifest (entry set, name,
+// category) and each plugin's own .codex-plugin/plugin.json (.codex-plugin
+// interface text, which is what Claude Code never reads) — so it must not drift
+// from either.
+const CLAUDE_MANIFEST = '.claude-plugin/marketplace.json';
+let claudeEntries = 0;
+{
+  const p = path.join(ROOT, CLAUDE_MANIFEST);
+  if (!fs.existsSync(p)) {
+    divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-file-missing' });
+  } else {
+    const cm = JSON.parse(fs.readFileSync(p, 'utf8'));
+    const mainM = JSON.parse(fs.readFileSync(path.join(ROOT, '.agents', 'plugins', 'marketplace.json'), 'utf8'));
+    const mainEntries = new Map(mainM.plugins.map((e) => [e.name, e]));
+    if (typeof cm.name !== 'string' || !cm.name || cm.name !== mainM.name) {
+      divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-name-mismatch' });
+    }
+    if (typeof cm.owner?.name !== 'string') divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-missing-owner' });
+    if (typeof cm.description !== 'string' || !cm.description.trim()) {
+      divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-missing-description' });
+    }
+    const seen = new Set();
+    for (const e of cm.plugins ?? []) {
+      seen.add(e.name);
+      const m = mainEntries.get(e.name);
+      if (!m) { divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-unknown-entry', extra: e.name }); continue; }
+      if (e.source !== `./plugins/${e.name}`) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-source-drift', extra: e.name });
+      }
+      if (e.category !== m.category) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-category-drift', extra: e.name });
+      }
+      const mf = path.join(ROOT, 'plugins', e.name, '.codex-plugin', 'plugin.json');
+      if (!fs.existsSync(mf)) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-entry-without-plugin-dir', extra: e.name });
+        continue;
+      }
+      const iface = JSON.parse(fs.readFileSync(mf, 'utf8')).interface ?? {};
+      // same field compose picks: the concise one, not the paragraph-length
+      // longDescription Claude would have to render on a card
+      const want = (iface.shortDescription || iface.longDescription || '').trim();
+      if (!want) divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-entry-without-description', extra: e.name });
+      else if (e.description !== want) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-description-drift', extra: e.name });
+      }
+      claudeEntries++;
+    }
+    for (const name of mainEntries.keys()) {
+      if (fs.existsSync(path.join(ROOT, 'plugins', name, '.codex-plugin', 'plugin.json')) && !seen.has(name)) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-entry-dropped', extra: name });
+      }
+    }
+  }
+}
+
 const report = {
   // data date, not generation time — the report is a function of the tree it
   // checked, so re-running it locally never dirties the working copy.
@@ -170,6 +229,7 @@ const report = {
   byteIdentical: { upstream: upstreamBytes, snapshot: seedBytes },
   whitelistedChecked: whitelisted,
   manifests: manifestStats,
+  claudeMarketplaceEntries: claudeEntries,
   divergences,
   status: divergences.length ? 'fail' : 'pass',
 };
@@ -180,6 +240,7 @@ console.log(
   `[verify] ${report.status.toUpperCase()} — ${pub.size} files | upstream bytes: ${upstreamBytes}, ` +
     `snapshot bytes: ${seedBytes}, whitelisted: ${whitelisted}, ` +
     `manifest entries: ${manifestStats.upstreamEntries} upstream + ${manifestStats.extraEntries} snapshot | ` +
+    `claude manifest: ${claudeEntries} entries | ` +
     `${divergences.length} divergences`,
 );
 for (const d of divergences.slice(0, 30)) console.log(`  - ${d.kind}: ${d.rel}${d.extra ? ` (${d.extra})` : ''}`);
