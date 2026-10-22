@@ -143,6 +143,27 @@ for (const ph of placeholders) {
   }
 }
 
+// The site never hand-types a count either: dist/index.html substitutes the
+// {{TOKEN}} counts (tools/build-site.mjs) and app.js fills STATS from the loaded
+// datasets, so a count written as a literal in either source file is a number
+// nothing keeps true — and the checks above cannot see it, since they read the
+// README and the hero only. That is not hypothetical: the Claude Code install
+// notice shipped with a hardcoded plugin count, which the next sync would have
+// left behind.
+//
+// Numbers below three digits are exempt on purpose: the ones that matter here
+// are catalog and file sizes, while a two-digit count in prose is an external
+// fact (the App's built-in 50-plugin `openai-api-curated` market) that no
+// dataset in this repo can confirm.
+const EXEMPT = [];
+for (const file of ['site/index.html', 'site/app.js']) {
+  const text = fs.readFileSync(path.join(ROOT, file), 'utf8');
+  for (const m of text.matchAll(/([\d][\d,]{2,}) (个|条|项目|插件|应用|图标|文件|分歧)/g)) {
+    if (EXEMPT.some((re) => re.test(m[0]))) continue;
+    failures.push(`${file}: hand-typed "${m[0]}" — counts come from {{TOKEN}} (build-site) or STATS (app.js), never from a literal`);
+  }
+}
+
 if (failures.length) {
   console.error(`[check-docs] FAIL — ${failures.length} stale claim(s):`);
   for (const f of failures) console.error(`  - ${f}`);

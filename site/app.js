@@ -42,7 +42,7 @@ const I18N = {
     copy: '复制市场地址',
     copied: '已复制 ✓',
     guide: '完整安装 / 冗余清理指南 →',
-    installClaude: 'Claude Code 里一条命令即可：/plugin marketplace add kael-odin/codex-plugins-zh（面板里显示为 openai-curated-zh），189 个插件的介绍与分类同样是中文。',
+    installClaude: () => `Claude Code 里一条命令即可：/plugin marketplace add kael-odin/codex-plugins-zh（面板里显示为 openai-curated-zh），${fmt(STATS.plugins)} 个插件的介绍与分类同样是中文。`,
     installHint: 'API-key 登录用户：App 自带的「Built by OpenAI · 50 个插件」请保留，两个市场并存互不影响。',
     footerLegal: '插件内容与商标归 OpenAI 及各自权利人所有；应用目录数据来自 Source-blip 中文导航（2026-07 快照），译文仅供参考，与英文原文冲突时以英文原文为准。',
     appNotice: '这是 ChatGPT 应用/连接器：不能安装进 Codex 市场，此处仅作中文导航。请通过官方网站在 ChatGPT 中使用。',
@@ -90,7 +90,7 @@ const I18N = {
     copy: 'Copy marketplace URL',
     copied: 'Copied ✓',
     guide: 'Full setup & cleanup guide →',
-    installClaude: 'Claude Code works the same way, in one command: /plugin marketplace add kael-odin/codex-plugins-zh (shown there as openai-curated-zh), with the same Chinese descriptions and categories.',
+    installClaude: () => `Claude Code works the same way, in one command: /plugin marketplace add kael-odin/codex-plugins-zh (shown there as openai-curated-zh), with the same Chinese descriptions and categories for all ${fmt(STATS.plugins)} plugins.`,
     installHint: 'API-key users: keep the built-in “Built by OpenAI · 50 plugins” — both marketplaces coexist.',
     footerLegal: 'Plugin content and trademarks belong to OpenAI and their respective owners. Apps dataset from Source-blip (2026-07 snapshot); translations are informational.',
     appNotice: 'This is a ChatGPT app/connector — it cannot be installed into a Codex marketplace; this entry is navigation only. Use it in ChatGPT via the official website.',
@@ -288,7 +288,7 @@ function installHTML() {
     <div class="install">
       <ol>${T.installSteps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
       <button class="copybtn" data-copy>${esc(MARKET_URL)} — ${esc(T.copy)}</button>
-      <div class="notice">${esc(T.installClaude)}</div>
+      <div class="notice">${esc(T.installClaude())}</div>
       <div class="notice">${esc(T.installHint)}</div>
       <p style="margin:12px 0 0"><a href="${GUIDE_URL}" target="_blank" rel="noopener">${esc(T.guide)}</a></p>
     </div>

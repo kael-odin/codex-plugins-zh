@@ -8,11 +8,12 @@ GitHub Actions `sync-upstream`（每天北京时间 10:17）自动执行：
 
 ```
 拉取 openai/plugins → diff → 合并 .seed 完整目录快照 → 采纳种子译文
-→ （可选）GLM API 补翻 → compose 合成 → verify 双源对账（门禁）
-→ 全绿才 commit+push → Pages 自动重新部署
+→ （可选）GLM API 补翻 → compose 合成 → verify 双源对账（门禁）→ build-site 打包
+→ check-docs 数字对账（门禁）→ 全绿才 commit+push → Pages 自动重新部署
 ```
 
 - `verify` 不过 = 不推送，站点与市场仓保持上一个完好版本（门禁禁管道，失败即红）。
+- `check-docs` 不过同样拦住推送：README / hero.svg 里的手写数字与 `data/` 对不上（改文案、加插件时最容易发生）；搜词示例命不中任何条目也算失败。
 - echobird 快照仓若更新，CI 当天自动跟进（每天现克隆 `.seed`）。
 
 ## 你这侧：让 Codex 里的插件跟上最新
@@ -54,9 +55,12 @@ claude plugin marketplace update openai-curated-zh
 
 ```bash
 node tools/sync.mjs && node tools/compose.mjs && node tools/verify.mjs   # 必须全绿
+node tools/build-site.mjs && node tools/check-docs.mjs   # 站点数字 + README/hero.svg 手写数字对账（CI 门禁）
 cat data/quality-report.json   # 6,720 files · 0 divergences 为健康态（claude manifest: 189 entries）
 cat data/full-catalog.json     # 上游/快照来源与日期
 ```
+
+改文案后如果 check-docs 报「no line matches …」，说明句子被改写：更新 `tools/check-docs.mjs` 里的 pattern，别删检查——被改写的句子正是它唯一能盯住的地方。
 
 站点数字：**189 可装插件（62 上游 + 127 快照）+ 1,505 应用 = 1,694**；图标 186/192 插件 + 1,699 应用。
 两份市场清单：Codex 原生 `.agents/plugins/{marketplace,api_marketplace}.json`（192 条）与
