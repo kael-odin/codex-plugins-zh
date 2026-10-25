@@ -59,3 +59,35 @@ export function walkFiles(dir, prefix = '') {
   }
   return out;
 }
+
+// Choose the icon file a plugin exposes, in the site's stable preference
+// order: manifest-named icons first (composerIcon/logo), then the conventional
+// assets/* names; SVG wins when small, otherwise the smallest raster. Last
+// resort is site/appicons/<name>.* (favicon backfill for the few plugins that
+// ship no icon at all). Shared by build-site.mjs (dist/icons/<name><ext>) and
+// compose.mjs (absolute Pages URL in the Claude marketplace manifest), so the
+// site tile and the store icon can never disagree.
+export function choosePluginIcon(pluginDir, extraRels = []) {
+  if (!fs.existsSync(pluginDir)) return null;
+  const rel = (s) => (s ? path.join(pluginDir, s.replace(/^\.\//, '')) : null);
+  const usable = [
+    ...extraRels.map(rel),
+    ...['assets/icon.svg', 'assets/logo.svg', 'assets/icon.png', 'assets/logo.png', 'assets/logo-dark.png'].map(rel),
+  ].filter(Boolean).filter((f) => fs.existsSync(f));
+  const svgs = usable.filter((f) => f.endsWith('.svg') && fs.statSync(f).size < 200 * 1024);
+  if (svgs.length) return svgs[0];
+  if (usable.length) {
+    const under = usable.filter((f) => !f.endsWith('.svg') && fs.statSync(f).size < 400 * 1024);
+    const pool = under.length ? under : usable;
+    return pool.sort((a, b) => fs.statSync(a).size - fs.statSync(b).size)[0];
+  }
+  const appicons = path.join(ROOT, 'site', 'appicons');
+  if (fs.existsSync(appicons)) {
+    const base = path.basename(pluginDir);
+    const hit = fs.readdirSync(appicons).find(
+      (f) => f.startsWith(`${base}.`) || f.startsWith(`plugin-${base}.`),
+    );
+    if (hit) return path.join(appicons, hit);
+  }
+  return null;
+}

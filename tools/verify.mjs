@@ -9,8 +9,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {
-  ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, walkFiles, git, sourceDate,
+  ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, walkFiles, git, sourceDate, choosePluginIcon,
 } from './lib.mjs';
+
+const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
+const zcodeCategory = cfg.zcodeCategory ?? {};
+const mapStoreCat = (zh) => zcodeCategory[zh] ?? zh;
 
 const SEED_DIR = path.join(ROOT, process.env.SEED_DIR ?? '.seed');
 const MANIFESTS = new Set([
@@ -194,7 +198,9 @@ let claudeEntries = 0;
       if (e.source !== `./plugins/${e.name}`) {
         divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-source-drift', extra: e.name });
       }
-      if (e.category !== m.category) {
+      // Claude manifest carries the ZCode store enum where one exists; the
+      // Codex manifest keeps the zh label — both must trace to the same bucket
+      if (e.category !== mapStoreCat(m.category)) {
         divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-category-drift', extra: e.name });
       }
       const mf = path.join(ROOT, 'plugins', e.name, '.codex-plugin', 'plugin.json');
@@ -209,6 +215,19 @@ let claudeEntries = 0;
       if (!want) divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-entry-without-description', extra: e.name });
       else if (e.description !== want) {
         divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-description-drift', extra: e.name });
+      }
+      if (e.author?.name !== (iface.developerName ?? undefined)) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-author-drift', extra: e.name });
+      }
+      if ((e.homepage ?? undefined) !== (iface.websiteURL ?? undefined)) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-homepage-drift', extra: e.name });
+      }
+      // the icon must be the same file the site tile uses, as an absolute URL
+      // into the Pages deploy — never a path style another client can't fetch
+      const chosen = choosePluginIcon(path.join(ROOT, 'plugins', e.name), [iface.composerIcon, iface.logo].filter(Boolean));
+      const wantIcon = chosen ? `${cfg.siteUrl}icons/${e.name}${path.extname(chosen)}` : undefined;
+      if ((e.icon ?? undefined) !== wantIcon) {
+        divergences.push({ rel: CLAUDE_MANIFEST, kind: 'owned-icon-drift', extra: e.name });
       }
       claudeEntries++;
     }

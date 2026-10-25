@@ -15,5 +15,27 @@
   "apiMarketplace": {
     "name": "openai-api-curated-zh",
     "displayName": "Codex 官方插件 · 中文版（API 版）"
+  },
+  "siteUrl": "https://kael-odin.github.io/codex-plugins-zh/",
+  "zcodeCategory": {
+    "开发工具": "developer-tools",
+    "数据库": "developer-tools",
+    "安全": "developer-tools",
+    "监控运维": "developer-tools",
+    "部署交付": "developer-tools",
+    "测试": "developer-tools",
+    "迁移": "developer-tools",
+    "效率办公": "productivity",
+    "沟通协作": "productivity",
+    "自动化": "productivity",
+    "学习教程": "productivity",
+    "教育科研": "productivity",
+    "写作": "productivity",
+    "金融财务": "finance",
+    "法律": "legal",
+    "模板": "template",
+    "位置服务": "utilities",
+    "实用工具": "utilities",
+    "其他": "other"
   }
 }

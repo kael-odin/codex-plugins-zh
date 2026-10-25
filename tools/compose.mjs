@@ -16,7 +16,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import {
   ROOT, UPSTREAM_DIR, DATA_DIR, I18N_DIR,
-  readJson, writeJson, textKey, git, toPosix, hasCJK, walkFiles, sourceDate,
+  readJson, writeJson, textKey, git, toPosix, hasCJK, walkFiles, sourceDate, choosePluginIcon,
 } from './lib.mjs';
 
 const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
@@ -208,18 +208,36 @@ console.log(`[compose] interface translations applied: ${applied}`);
 // 126 chars, max 679) and Claude renders it on a card. Entries with no local
 // plugin dir are left out — the 3 remote third-party entries upstream ships
 // with nothing but an interface.displayName, which would be an empty card.
+//
+// ZCode's plugin store localizes only a fixed category enum
+// (developer-tools/productivity/finance/legal/template/utilities/other);
+// zh categories outside that set would render raw, so emit the enum where the
+// zh bucket has a natural counterpart and keep the zh label otherwise. Icons:
+// ZCode injects CDN icons only into its own official marketplaces, so the
+// manifest must carry an absolute URL itself — the same file the site tile
+// uses (choosePluginIcon), served from this repo's Pages deploy.
+const zcodeCategory = cfg.zcodeCategory ?? {};
+const mapStoreCat = (zh) => zcodeCategory[zh] ?? zh;
 const claudeMain = JSON.parse(fs.readFileSync(manifestPaths.main, 'utf8'));
 const claudePlugins = [];
 let claudeMissing = 0;
+let claudeIcons = 0;
 for (const entry of claudeMain.plugins) {
-  const mf = path.join(ROOT, 'plugins', entry.name, '.codex-plugin', 'plugin.json');
+  const dir = path.join(ROOT, 'plugins', entry.name);
+  const mf = path.join(dir, '.codex-plugin', 'plugin.json');
   if (!fs.existsSync(mf)) { claudeMissing++; continue; }
   const iface = JSON.parse(fs.readFileSync(mf, 'utf8')).interface ?? {};
+  const chosen = choosePluginIcon(dir, [iface.composerIcon, iface.logo].filter(Boolean));
+  const icon = chosen ? `${cfg.siteUrl}icons/${entry.name}${path.extname(chosen)}` : null;
+  if (icon) claudeIcons++;
   claudePlugins.push({
     name: entry.name,
     description: (iface.shortDescription || iface.longDescription || '').trim(),
-    category: entry.category,
+    ...(iface.developerName ? { author: { name: iface.developerName } } : {}),
+    ...(iface.websiteURL ? { homepage: iface.websiteURL } : {}),
+    category: mapStoreCat(entry.category),
     source: `./plugins/${entry.name}`,
+    ...(icon ? { icon } : {}),
   });
 }
 writeJson(path.join(ROOT, '.claude-plugin', 'marketplace.json'), {
@@ -230,7 +248,8 @@ writeJson(path.join(ROOT, '.claude-plugin', 'marketplace.json'), {
 });
 console.log(
   `[compose] claude manifest: ${claudePlugins.length} entries -> .claude-plugin/marketplace.json` +
-    (claudeMissing ? ` (${claudeMissing} entries without a plugin dir skipped)` : ''),
+    (claudeMissing ? ` (${claudeMissing} entries without a plugin dir skipped)` : '') +
+    `, ${claudeIcons} icons`,
 );
 
 // 6) site catalog — zh from the publish tree, en straight from upstream (or seed for extras)

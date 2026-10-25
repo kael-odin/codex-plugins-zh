@@ -9,1136 +9,2079 @@
     {
       "name": "linear",
       "description": "规划并构建产品",
-      "category": "效率办公",
-      "source": "./plugins/linear"
+      "author": {
+        "name": "Linear Orbit, Inc"
+      },
+      "homepage": "https://linear.app/",
+      "category": "productivity",
+      "source": "./plugins/linear",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/linear.svg"
     },
     {
       "name": "atlassian-rovo",
       "description": "管理 Jira 和 Confluence",
-      "category": "效率办公",
-      "source": "./plugins/atlassian-rovo"
+      "author": {
+        "name": "Atlassian"
+      },
+      "homepage": "https://www.atlassian.com",
+      "category": "productivity",
+      "source": "./plugins/atlassian-rovo",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/atlassian-rovo.png"
     },
     {
       "name": "google-calendar",
       "description": "管理 Google Calendar 活动",
-      "category": "效率办公",
-      "source": "./plugins/google-calendar"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://workspace.google.com/products/calendar/",
+      "category": "productivity",
+      "source": "./plugins/google-calendar",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/google-calendar.png"
     },
     {
       "name": "gmail",
       "description": "读取和管理 Gmail",
-      "category": "沟通协作",
-      "source": "./plugins/gmail"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://workspace.google.com/products/gmail/",
+      "category": "productivity",
+      "source": "./plugins/gmail",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/gmail.png"
     },
     {
       "name": "slack",
       "description": "读取和管理 Slack",
-      "category": "沟通协作",
-      "source": "./plugins/slack"
+      "author": {
+        "name": "Slack"
+      },
+      "homepage": "https://slack.com/",
+      "category": "productivity",
+      "source": "./plugins/slack",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/slack.png"
     },
     {
       "name": "teams",
       "description": "汇总 Teams 动态并跟进",
-      "category": "沟通协作",
-      "source": "./plugins/teams"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "category": "productivity",
+      "source": "./plugins/teams",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/teams.png"
     },
     {
       "name": "sharepoint",
       "description": "汇总 SharePoint 内容",
-      "category": "效率办公",
-      "source": "./plugins/sharepoint"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+      "category": "productivity",
+      "source": "./plugins/sharepoint",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/sharepoint.png"
     },
     {
       "name": "outlook-email",
       "description": "整理 Outlook 收件箱",
-      "category": "沟通协作",
-      "source": "./plugins/outlook-email"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+      "category": "productivity",
+      "source": "./plugins/outlook-email",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/outlook-email.png"
     },
     {
       "name": "outlook-calendar",
       "description": "管理 Outlook 日程",
-      "category": "效率办公",
-      "source": "./plugins/outlook-calendar"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-app",
+      "category": "productivity",
+      "source": "./plugins/outlook-calendar",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/outlook-calendar.png"
     },
     {
       "name": "canva",
       "description": "创建、审阅、编辑设计",
+      "author": {
+        "name": "Canva Pty Ltd."
+      },
+      "homepage": "https://www.canva.com",
       "category": "创意设计",
-      "source": "./plugins/canva"
+      "source": "./plugins/canva",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/canva.png"
     },
     {
       "name": "figma",
       "description": "Figma 设计转代码工作流",
+      "author": {
+        "name": "Figma"
+      },
+      "homepage": "https://www.figma.com",
       "category": "创意设计",
-      "source": "./plugins/figma"
+      "source": "./plugins/figma",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/figma.svg"
     },
     {
       "name": "stripe",
       "description": "接受付款，增长营收。",
-      "category": "金融财务",
-      "source": "./plugins/stripe"
+      "author": {
+        "name": "Stripe"
+      },
+      "homepage": "https://stripe.com",
+      "category": "finance",
+      "source": "./plugins/stripe",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/stripe.png"
     },
     {
       "name": "vercel",
       "description": "构建和部署 Web 应用与 AI 智能体",
-      "category": "开发工具",
-      "source": "./plugins/vercel"
+      "author": {
+        "name": "Vercel Labs"
+      },
+      "homepage": "https://vercel.com/",
+      "category": "developer-tools",
+      "source": "./plugins/vercel",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/vercel.png"
     },
     {
       "name": "game-studio",
       "description": "设计、原型制作并发布浏览器游戏",
-      "category": "开发工具",
-      "source": "./plugins/game-studio"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/game-studio",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/game-studio.svg"
     },
     {
       "name": "superpowers",
       "description": "规划、开发和调试代码",
-      "category": "开发工具",
-      "source": "./plugins/superpowers"
+      "author": {
+        "name": "Jesse Vincent"
+      },
+      "homepage": "https://github.com/obra/superpowers",
+      "category": "developer-tools",
+      "source": "./plugins/superpowers",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/superpowers.svg"
     },
     {
       "name": "github",
       "description": "管理 PR、issue、CI 及代码发布流程",
-      "category": "开发工具",
-      "source": "./plugins/github"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://github.com/",
+      "category": "developer-tools",
+      "source": "./plugins/github",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/github.svg"
     },
     {
       "name": "circleci",
       "description": "构建、测试并部署任何应用",
-      "category": "开发工具",
-      "source": "./plugins/circleci"
+      "author": {
+        "name": "CircleCI"
+      },
+      "homepage": "https://circleci.com",
+      "category": "developer-tools",
+      "source": "./plugins/circleci",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/circleci.svg"
     },
     {
       "name": "google-drive",
       "description": "Drive、Docs、Sheets 或 Slides",
-      "category": "效率办公",
-      "source": "./plugins/google-drive"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://workspace.google.com/products/drive/",
+      "category": "productivity",
+      "source": "./plugins/google-drive",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/google-drive.png"
     },
     {
       "name": "notion",
       "description": "Notion 工作流：规格文档、调研、会议与知识沉淀",
-      "category": "效率办公",
-      "source": "./plugins/notion"
+      "author": {
+        "name": "Notion"
+      },
+      "homepage": "https://www.notion.so/",
+      "category": "productivity",
+      "source": "./plugins/notion",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/notion.svg"
     },
     {
       "name": "cloudflare",
       "description": "官方 MCP 加持的 Cloudflare 平台指引",
-      "category": "开发工具",
-      "source": "./plugins/cloudflare"
+      "author": {
+        "name": "Cloudflare"
+      },
+      "homepage": "https://workers.cloudflare.com/",
+      "category": "developer-tools",
+      "source": "./plugins/cloudflare",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/cloudflare.svg"
     },
     {
       "name": "sentry",
       "description": "查看近期 Sentry issues 和事件",
-      "category": "开发工具",
-      "source": "./plugins/sentry"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://sentry.io/",
+      "category": "developer-tools",
+      "source": "./plugins/sentry",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/sentry.svg"
     },
     {
       "name": "build-ios-apps",
       "description": "使用 App Intents、SwiftUI 和 Xcode 工作流构建、打磨和调试 iOS 应用",
-      "category": "开发工具",
-      "source": "./plugins/build-ios-apps"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/build-ios-apps",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/build-ios-apps.svg"
     },
     {
       "name": "build-macos-apps",
       "description": "使用 SwiftUI 和 AppKit 指引构建、调试、监测和实现 macOS 应用",
-      "category": "开发工具",
-      "source": "./plugins/build-macos-apps"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/build-macos-apps",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/build-macos-apps.svg"
     },
     {
       "name": "build-web-apps",
       "description": "构建以前端为核心的 Web 应用，支持生成资产、浏览器测试、支付和数据库",
-      "category": "开发工具",
-      "source": "./plugins/build-web-apps"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/build-web-apps",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/build-web-apps.svg"
     },
     {
       "name": "build-web-data-visualization",
       "description": "设计、构建、测试并导出 Web 数据可视化",
-      "category": "开发工具",
-      "source": "./plugins/build-web-data-visualization"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/build-web-data-visualization",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/build-web-data-visualization.svg"
     },
     {
       "name": "test-android-apps",
       "description": "在 Android 模拟器中复现问题、检查 UI 并采集性能证据",
-      "category": "开发工具",
-      "source": "./plugins/test-android-apps"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/test-android-apps",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/test-android-apps.svg"
     },
     {
       "name": "life-science-research",
       "description": "通用生命科学研究，支持请求路由、证据综合和可选的并行子代理分析",
-      "category": "教育科研",
-      "source": "./plugins/life-science-research"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "productivity",
+      "source": "./plugins/life-science-research",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/life-science-research.png"
     },
     {
       "name": "zotero",
       "description": "从 Zotero 中查找文献并添加引用",
-      "category": "教育科研",
-      "source": "./plugins/zotero"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "productivity",
+      "source": "./plugins/zotero",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/zotero.png"
     },
     {
       "name": "expo",
       "description": "构建、部署、升级和调试 Expo 及 React Native 应用",
-      "category": "开发工具",
-      "source": "./plugins/expo"
+      "author": {
+        "name": "Expo"
+      },
+      "homepage": "https://expo.dev/",
+      "category": "developer-tools",
+      "source": "./plugins/expo",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/expo.png"
     },
     {
       "name": "coderabbit",
       "description": "对当前改动运行 AI 驱动的代码审查",
-      "category": "开发工具",
-      "source": "./plugins/coderabbit"
+      "author": {
+        "name": "CodeRabbit"
+      },
+      "homepage": "https://coderabbit.ai",
+      "category": "developer-tools",
+      "source": "./plugins/coderabbit",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/coderabbit.png"
     },
     {
       "name": "remotion",
       "description": "以智能体方式制作视频",
+      "author": {
+        "name": "Remotion"
+      },
+      "homepage": "https://remotion.dev",
       "category": "创意设计",
-      "source": "./plugins/remotion"
+      "source": "./plugins/remotion",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/remotion.svg"
     },
     {
       "name": "plugin-eval",
       "description": "从对话出发，在本地评估或基准测试插件",
-      "category": "开发工具",
-      "source": "./plugins/plugin-eval"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/plugin-eval",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/plugin-eval.svg"
     },
     {
       "name": "granola",
       "description": "添加你的会议背景",
-      "category": "效率办公",
-      "source": "./plugins/granola"
+      "author": {
+        "name": "Granola"
+      },
+      "homepage": "https://www.granola.ai",
+      "category": "productivity",
+      "source": "./plugins/granola",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/granola.png"
     },
     {
       "name": "monday-com",
       "description": "管理项目、任务和 CRM",
-      "category": "效率办公",
-      "source": "./plugins/monday-com"
+      "author": {
+        "name": "monday.com"
+      },
+      "homepage": "https://monday.com",
+      "category": "productivity",
+      "source": "./plugins/monday-com",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/monday-com.png"
     },
     {
       "name": "temporal",
       "description": "使用 Temporal 开发",
-      "category": "开发工具",
-      "source": "./plugins/temporal"
+      "author": {
+        "name": "Temporal"
+      },
+      "homepage": "https://temporal.io/",
+      "category": "developer-tools",
+      "source": "./plugins/temporal",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/temporal.svg"
     },
     {
       "name": "hyperframes",
       "description": "编写 HTML，渲染视频",
+      "author": {
+        "name": "HeyGen"
+      },
+      "homepage": "https://hyperframes.heygen.com",
       "category": "创意设计",
-      "source": "./plugins/hyperframes"
+      "source": "./plugins/hyperframes",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/hyperframes.png"
     },
     {
       "name": "supabase",
       "description": "管理和查询数据库",
-      "category": "开发工具",
-      "source": "./plugins/supabase"
+      "author": {
+        "name": "Supabase"
+      },
+      "homepage": "https://supabase.com",
+      "category": "developer-tools",
+      "source": "./plugins/supabase",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/supabase.svg"
     },
     {
       "name": "codex-security",
       "description": "为代码库提供安全扫描能力",
-      "category": "安全",
-      "source": "./plugins/codex-security"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/codex-security",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/codex-security.png"
     },
     {
       "name": "twilio-developer-kit",
       "description": "用于在 Twilio 上构建、调试和交付的 Twilio 技能集",
-      "category": "开发工具",
-      "source": "./plugins/twilio-developer-kit"
+      "author": {
+        "name": "Twilio"
+      },
+      "homepage": "https://www.twilio.com",
+      "category": "developer-tools",
+      "source": "./plugins/twilio-developer-kit",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/twilio-developer-kit.svg"
     },
     {
       "name": "openai-developers",
       "description": "遵循 OpenAI 最佳实践，开发 AI 应用、智能体和 ChatGPT 应用",
-      "category": "开发工具",
-      "source": "./plugins/openai-developers"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://platform.openai.com/",
+      "category": "developer-tools",
+      "source": "./plugins/openai-developers",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/openai-developers.png"
     },
     {
       "name": "datadog",
       "description": "搜索并操作你的数据",
-      "category": "开发工具",
-      "source": "./plugins/datadog"
+      "author": {
+        "name": "Datadog"
+      },
+      "homepage": "https://www.datadoghq.com",
+      "category": "developer-tools",
+      "source": "./plugins/datadog",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/datadog.png"
     },
     {
       "name": "zoom",
       "description": "来自 Zoom 的智能会议洞察",
-      "category": "沟通协作",
-      "source": "./plugins/zoom"
+      "author": {
+        "name": "Zoom"
+      },
+      "homepage": "https://zoom.us",
+      "category": "productivity",
+      "source": "./plugins/zoom",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/zoom.svg"
     },
     {
       "name": "mixpanel-headless",
       "description": "用 Python 分析 Mixpanel 数据",
+      "author": {
+        "name": "Mixpanel"
+      },
+      "homepage": "https://mixpanel.com/home",
       "category": "数据分析",
-      "source": "./plugins/mixpanel-headless"
+      "source": "./plugins/mixpanel-headless",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/mixpanel-headless.png"
     },
     {
       "name": "airtable",
       "description": "为 ChatGPT 添加结构化数据",
-      "category": "效率办公",
-      "source": "./plugins/airtable"
+      "author": {
+        "name": "Airtable"
+      },
+      "homepage": "https://airtable.com",
+      "category": "productivity",
+      "source": "./plugins/airtable",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/airtable.svg"
     },
     {
       "name": "nvidia",
       "description": "NVIDIA AI、GPU、机器人、仿真及 3D 工作流的导航指南。",
-      "category": "开发工具",
-      "source": "./plugins/nvidia"
+      "author": {
+        "name": "NVIDIA"
+      },
+      "homepage": "https://www.nvidia.com/",
+      "category": "developer-tools",
+      "source": "./plugins/nvidia",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/nvidia.png"
     },
     {
       "name": "posthog",
       "description": "分析你的产品数据",
+      "author": {
+        "name": "PostHog Inc."
+      },
+      "homepage": "https://posthog.com",
       "category": "数据分析",
-      "source": "./plugins/posthog"
+      "source": "./plugins/posthog",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/posthog.png"
     },
     {
       "name": "ngs-analysis",
       "description": "面向测序分析的 NGS 引导路由与本地执行",
-      "category": "教育科研",
-      "source": "./plugins/ngs-analysis"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "productivity",
+      "source": "./plugins/ngs-analysis",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/ngs-analysis.png"
     },
     {
       "name": "shopify",
       "description": "构建并管理你的店铺",
+      "author": {
+        "name": "Shopify"
+      },
+      "homepage": "https://shopify.com",
       "category": "商业运营",
-      "source": "./plugins/shopify"
+      "source": "./plugins/shopify",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/shopify.svg"
     },
     {
       "name": "magicpath",
       "description": "在 Codex 中查找、安装和创作 MagicPath UI 组件",
-      "category": "开发工具",
-      "source": "./plugins/magicpath"
+      "author": {
+        "name": "MagicPathAI"
+      },
+      "homepage": "https://www.magicpath.ai/",
+      "category": "developer-tools",
+      "source": "./plugins/magicpath",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/magicpath.png"
     },
     {
       "name": "openai-ads-conversions",
       "description": "配置 OpenAI Ads Pixel 与 CAPI 转化跟踪",
-      "category": "开发工具",
-      "source": "./plugins/openai-ads-conversions"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://developers.openai.com/ads/",
+      "category": "developer-tools",
+      "source": "./plugins/openai-ads-conversions",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/openai-ads-conversions.svg"
     },
     {
       "name": "boltz-api-cli",
       "description": "预测结构、筛选分子与蛋白质，并设计结合体",
+      "author": {
+        "name": "Boltz"
+      },
+      "homepage": "https://boltz.bio",
       "category": "科学研究",
-      "source": "./plugins/boltz-api-cli"
+      "source": "./plugins/boltz-api-cli",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/boltz-api-cli.png"
     },
     {
       "name": "dropbox",
       "description": "访问、保存和分享文件",
-      "category": "效率办公",
-      "source": "./plugins/dropbox"
+      "author": {
+        "name": "Dropbox"
+      },
+      "homepage": "https://www.dropbox.com",
+      "category": "productivity",
+      "source": "./plugins/dropbox",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/dropbox.png"
     },
     {
       "name": "product-design",
       "description": "探索想法并制作原型",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
       "category": "创意设计",
-      "source": "./plugins/product-design"
+      "source": "./plugins/product-design",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/product-design.svg"
     },
     {
       "name": "data-analytics",
       "description": "用数据回答产品与业务问题",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
       "category": "数据分析",
-      "source": "./plugins/data-analytics"
+      "source": "./plugins/data-analytics",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/data-analytics.svg"
     },
     {
       "name": "creative-production",
       "description": "根据简报或产品图片创建营销视觉素材。",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
       "category": "创意设计",
-      "source": "./plugins/creative-production"
+      "source": "./plugins/creative-production",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/creative-production.svg"
     },
     {
       "name": "public-equity-investing",
       "description": "公开市场股票 PM 研究、多空、财报、ETF/指数尽调与投资备忘录",
-      "category": "金融财务",
-      "source": "./plugins/public-equity-investing"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "category": "finance",
+      "source": "./plugins/public-equity-investing",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/public-equity-investing.svg"
     },
     {
       "name": "adobe",
       "description": "设计、合成、编辑",
+      "author": {
+        "name": "Adobe Inc"
+      },
+      "homepage": "https://www.adobe.com",
       "category": "创意设计",
-      "source": "./plugins/adobe"
+      "source": "./plugins/adobe",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/adobe.png"
     },
     {
       "name": "lovable",
       "description": "构建应用和网站",
-      "category": "开发工具",
-      "source": "./plugins/lovable"
+      "author": {
+        "name": "Lovable Labs"
+      },
+      "homepage": "https://lovable.dev/",
+      "category": "developer-tools",
+      "source": "./plugins/lovable",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/lovable.png"
     },
     {
       "name": "clickup",
       "description": "将 Codex 变成你的 ClickUp 指挥中心。",
-      "category": "效率办公",
-      "source": "./plugins/clickup"
+      "author": {
+        "name": "ClickUp"
+      },
+      "homepage": "https://clickup.com",
+      "category": "productivity",
+      "source": "./plugins/clickup",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/clickup.png"
     },
     {
       "name": "consensus",
       "description": "探索科学研究",
-      "category": "教育科研",
-      "source": "./plugins/consensus"
+      "author": {
+        "name": "Consensus"
+      },
+      "homepage": "https://consensus.app",
+      "category": "productivity",
+      "source": "./plugins/consensus",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/consensus.png"
     },
     {
       "name": "chatcut",
       "description": "安装并连接 ChatCut",
+      "author": {
+        "name": "ChatCut"
+      },
+      "homepage": "https://chatcut.io",
       "category": "创意设计",
-      "source": "./plugins/chatcut"
+      "source": "./plugins/chatcut",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/chatcut.png"
     },
     {
       "name": "higgsfield",
       "description": "所有图像和视频模型",
+      "author": {
+        "name": "Higgsfield AI, Inc."
+      },
+      "homepage": "https://higgsfield.ai",
       "category": "创意设计",
-      "source": "./plugins/higgsfield"
+      "source": "./plugins/higgsfield",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/higgsfield.png"
     },
     {
       "name": "hugging-face",
       "description": "探索模型、数据集、Spaces 和研究论文",
-      "category": "开发工具",
-      "source": "./plugins/hugging-face"
+      "author": {
+        "name": "Hugging Face"
+      },
+      "homepage": "https://huggingface.co",
+      "category": "developer-tools",
+      "source": "./plugins/hugging-face",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/hugging-face.png"
     },
     {
       "name": "jam",
       "description": "带上下文的屏幕录制",
-      "category": "效率办公",
-      "source": "./plugins/jam"
+      "author": {
+        "name": "Jam"
+      },
+      "homepage": "https://jam.dev",
+      "category": "productivity",
+      "source": "./plugins/jam",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/jam.png"
     },
     {
       "name": "netlify",
       "description": "部署项目并管理发布",
-      "category": "开发工具",
-      "source": "./plugins/netlify"
+      "author": {
+        "name": "Netlify"
+      },
+      "homepage": "https://www.netlify.com",
+      "category": "developer-tools",
+      "source": "./plugins/netlify",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/netlify.png"
     },
     {
       "name": "box",
       "description": "搜索并引用你的文档",
-      "category": "效率办公",
-      "source": "./plugins/box"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.box.com/home",
+      "category": "productivity",
+      "source": "./plugins/box",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/box.png"
     },
     {
       "name": "deepnote",
       "description": "在 Deepnote 中探索数据并自动化分析",
+      "author": {
+        "name": "Deepnote"
+      },
+      "homepage": "https://deepnote.com",
       "category": "数据分析",
-      "source": "./plugins/deepnote"
+      "source": "./plugins/deepnote",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/deepnote.svg"
     },
     {
       "name": "neon-postgres",
       "description": "管理 Neon Serverless Postgres 项目和数据库",
-      "category": "开发工具",
-      "source": "./plugins/neon-postgres"
+      "author": {
+        "name": "Neon"
+      },
+      "homepage": "https://neon.com",
+      "category": "developer-tools",
+      "source": "./plugins/neon-postgres",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/neon-postgres.svg"
     },
     {
       "name": "alpaca",
       "description": "不必盯盘，让数据来找你。",
-      "category": "金融财务",
-      "source": "./plugins/alpaca"
+      "author": {
+        "name": "Alpaca"
+      },
+      "homepage": "https://alpaca.markets/",
+      "category": "finance",
+      "source": "./plugins/alpaca",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/alpaca.png"
     },
     {
       "name": "amplitude",
       "description": "产品分析与转化漏斗",
+      "author": {
+        "name": "Amplitude"
+      },
       "category": "数据分析",
-      "source": "./plugins/amplitude"
+      "source": "./plugins/amplitude",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/amplitude.png"
     },
     {
       "name": "attio",
       "description": "Attio 将 Codex 直接接入你的 CRM 工作区，让你通过自然对话管理客户关系。",
+      "author": {
+        "name": "Attio Ltd"
+      },
+      "homepage": "https://attio.com",
       "category": "商业运营",
-      "source": "./plugins/attio"
+      "source": "./plugins/attio",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/attio.png"
     },
     {
       "name": "binance",
       "description": "通过自然语言访问 Binance 公开的只读市场数据。",
-      "category": "金融财务",
-      "source": "./plugins/binance"
+      "author": {
+        "name": "Binance"
+      },
+      "homepage": "https://www.binance.com",
+      "category": "finance",
+      "source": "./plugins/binance",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/binance.png"
     },
     {
       "name": "biorender",
       "description": "BioRender 帮助科学家在几分钟内制作专业科研图表。",
+      "author": {
+        "name": "BioRender"
+      },
+      "homepage": "https://biorender.com/",
       "category": "创意设计",
-      "source": "./plugins/biorender"
+      "source": "./plugins/biorender",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/biorender.png"
     },
     {
       "name": "brand24",
       "description": "让营销和 PR 团队通过简单提示即时探索品牌提及、情感倾向和媒体覆盖。",
-      "category": "效率办公",
-      "source": "./plugins/brand24"
+      "author": {
+        "name": "Brand24 Global Inc."
+      },
+      "homepage": "https://brand24.com",
+      "category": "productivity",
+      "source": "./plugins/brand24",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/brand24.png"
     },
     {
       "name": "brex",
       "description": "将 Brex 接入 Codex，通过自然对话随时掌握公司财务状况。",
-      "category": "金融财务",
-      "source": "./plugins/brex"
+      "author": {
+        "name": "Brex Inc."
+      },
+      "homepage": "https://brex.com",
+      "category": "finance",
+      "source": "./plugins/brex",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/brex.png"
     },
     {
       "name": "carta-crm",
       "description": "Carta CRM 帮助投资团队集中管理交易、公司和关系，随时掌握交易流进展。",
+      "author": {
+        "name": "Carta Inc."
+      },
+      "homepage": "https://carta.com",
       "category": "商业运营",
-      "source": "./plugins/carta-crm"
+      "source": "./plugins/carta-crm",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/carta-crm.png"
     },
     {
       "name": "cb-insights",
       "description": "让 Codex 成为你的私募市场调研助手。",
-      "category": "金融财务",
-      "source": "./plugins/cb-insights"
+      "author": {
+        "name": "CB Insights"
+      },
+      "homepage": "https://cbinsights.com",
+      "category": "finance",
+      "source": "./plugins/cb-insights",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/cb-insights.png"
     },
     {
       "name": "channel99",
       "description": "Channel99 实时市场情报将 Codex 直接接入 Channel99 的效果营销数据与洞察。",
-      "category": "效率办公",
-      "source": "./plugins/channel99"
+      "author": {
+        "name": "Channel99 Inc. "
+      },
+      "homepage": "https://www.channel99.com/",
+      "category": "productivity",
+      "source": "./plugins/channel99",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/channel99.png"
     },
     {
       "name": "circleback",
       "description": "Circleback 通过 AI 会议记录、待办事项、自动化和搜索，帮助团队从每次对话中获取最大价值。",
-      "category": "沟通协作",
-      "source": "./plugins/circleback"
+      "author": {
+        "name": "Circleback AI, Inc."
+      },
+      "homepage": "https://circleback.ai",
+      "category": "productivity",
+      "source": "./plugins/circleback",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/circleback.png"
     },
     {
       "name": "cloudinary",
       "description": "直接在 Codex 中管理、搜索和转换你的 Cloudinary 媒体库。",
-      "category": "开发工具",
-      "source": "./plugins/cloudinary"
+      "author": {
+        "name": "Cloudinary"
+      },
+      "homepage": "https://cloudinary.com/",
+      "category": "developer-tools",
+      "source": "./plugins/cloudinary",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/cloudinary.png"
     },
     {
       "name": "cogedim",
       "description": "Cogedim 是法国领先的房地产开发商之一。",
-      "category": "其他",
-      "source": "./plugins/cogedim"
+      "author": {
+        "name": "ALTAREA PROMOTION MANAGEMENT"
+      },
+      "homepage": "https://www.cogedim.com",
+      "category": "other",
+      "source": "./plugins/cogedim",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/cogedim.png"
     },
     {
       "name": "common-room",
       "description": "将完整的买家情报直接嵌入 Codex。",
-      "category": "效率办公",
-      "source": "./plugins/common-room"
+      "author": {
+        "name": "Common Room"
+      },
+      "homepage": "https://commonroom.io",
+      "category": "productivity",
+      "source": "./plugins/common-room",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/common-room.png"
     },
     {
       "name": "conductor",
       "description": "获取品牌在传统搜索引擎和生成式 AI 平台上的曝光度、口碑和排名等专有效果指标。",
-      "category": "效率办公",
-      "source": "./plugins/conductor"
+      "author": {
+        "name": "Conductor Inc."
+      },
+      "homepage": "https://www.conductor.com/",
+      "category": "productivity",
+      "source": "./plugins/conductor",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/conductor.png"
     },
     {
       "name": "coupler-io",
       "description": "在 Codex 中分析多渠道营销、财务、销售、电商及其他业务数据，通过连接 Coupler.io 数据流实现。",
+      "author": {
+        "name": "Coupler.io"
+      },
+      "homepage": "https://www.coupler.io/",
       "category": "数据分析",
-      "source": "./plugins/coupler-io"
+      "source": "./plugins/coupler-io",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/coupler-io.png"
     },
     {
       "name": "coveo",
       "description": "搜索企业内部内容",
-      "category": "效率办公",
-      "source": "./plugins/coveo"
+      "author": {
+        "name": "Coveo"
+      },
+      "homepage": "https://www.coveo.com",
+      "category": "productivity",
+      "source": "./plugins/coveo",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/coveo.png"
     },
     {
       "name": "cube",
       "description": "通过 Cube MCP Server，你可以查询实际、预算、预测、差异等实时 Cube 数据，让 AI 生成董事会汇报材料、进行差异分析或基于真实数据构建财务摘要。",
-      "category": "金融财务",
-      "source": "./plugins/cube"
+      "author": {
+        "name": "Cube"
+      },
+      "homepage": "https://www.cubesoftware.com/",
+      "category": "finance",
+      "source": "./plugins/cube",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/cube.png"
     },
     {
       "name": "daloopa",
       "description": "机构级财务分析工作流。",
-      "category": "金融财务",
-      "source": "./plugins/daloopa"
+      "author": {
+        "name": "Daloopa"
+      },
+      "homepage": "https://daloopa.com",
+      "category": "finance",
+      "source": "./plugins/daloopa",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/daloopa.png"
     },
     {
       "name": "demandbase",
       "description": "Demandbase 与 Codex 集成，让销售、市场及 GTM 团队在 Codex 内直接访问丰富的 B2B 数据，简化目标客户定向与触达。",
+      "author": {
+        "name": "Demandbase Inc"
+      },
+      "homepage": "https://www.demandbase.com",
       "category": "商业运营",
-      "source": "./plugins/demandbase"
+      "source": "./plugins/demandbase",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/demandbase.png"
     },
     {
       "name": "dnb-finance-analytics",
       "description": "商业信贷发起与风险工作流",
-      "category": "金融财务",
-      "source": "./plugins/dnb-finance-analytics"
+      "author": {
+        "name": "Dun & Bradstreet"
+      },
+      "homepage": "https://www.dnb.com/",
+      "category": "finance",
+      "source": "./plugins/dnb-finance-analytics",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/dnb-finance-analytics.png"
     },
     {
       "name": "docket",
       "description": "Docket AI 让你的销售知识成为即时竞争优势。",
-      "category": "效率办公",
-      "source": "./plugins/docket"
+      "author": {
+        "name": "Docket AI"
+      },
+      "homepage": "https://www.docket.io/",
+      "category": "productivity",
+      "source": "./plugins/docket",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/docket.png"
     },
     {
       "name": "domotz-preview",
       "description": "通过自然语言监控和管理你的网络基础设施。",
-      "category": "效率办公",
-      "source": "./plugins/domotz-preview"
+      "author": {
+        "name": "Domotz"
+      },
+      "homepage": "https://www.domotz.com",
+      "category": "productivity",
+      "source": "./plugins/domotz-preview",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/domotz-preview.png"
     },
     {
       "name": "dovetail",
       "description": "将 Dovetail 接入 Codex，无需切换界面即可将客户反馈转化为决策依据。",
-      "category": "效率办公",
-      "source": "./plugins/dovetail"
+      "author": {
+        "name": "Dovetail"
+      },
+      "homepage": "https://dovetail.com",
+      "category": "productivity",
+      "source": "./plugins/dovetail",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/dovetail.png"
     },
     {
       "name": "dow-jones-factiva",
       "description": "Factiva 连接器支持授权用户搜索 Factiva 全球新闻档案库（包括 Dow Jones 付费来源），并将内容洞察融入 Codex 回答中。",
-      "category": "教育科研",
-      "source": "./plugins/dow-jones-factiva"
+      "author": {
+        "name": "Factiva, Inc."
+      },
+      "homepage": "https://www.dowjones.com/business-intelligence/factiva/",
+      "category": "productivity",
+      "source": "./plugins/dow-jones-factiva",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/dow-jones-factiva.png"
     },
     {
       "name": "egnyte",
       "description": "直接在 Codex 中处理存储于 Egnyte 的文档和文件。",
-      "category": "效率办公",
-      "source": "./plugins/egnyte"
+      "author": {
+        "name": "Egnyte Inc"
+      },
+      "homepage": "https://www.egnyte.com",
+      "category": "productivity",
+      "source": "./plugins/egnyte",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/egnyte.png"
     },
     {
       "name": "finn",
       "description": "FINN 汽车订阅是随时保持出行自由的灵活方式——无需购车或长期租赁。",
+      "author": {
+        "name": "FINN GmbH"
+      },
+      "homepage": "https://www.finn.com/de-DE",
       "category": "旅行",
-      "source": "./plugins/finn"
+      "source": "./plugins/finn",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/finn.png"
     },
     {
       "name": "fireflies",
       "description": "Fireflies 应用将你的会议记录和知识直接带入 Codex。",
-      "category": "沟通协作",
-      "source": "./plugins/fireflies"
+      "author": {
+        "name": "Fireflies"
+      },
+      "homepage": "https://fireflies.ai",
+      "category": "productivity",
+      "source": "./plugins/fireflies",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/fireflies.png"
     },
     {
       "name": "fyxer",
       "description": "Fyxer for Codex 让你直接在对话中写出符合自己风格的邮件。",
-      "category": "沟通协作",
-      "source": "./plugins/fyxer"
+      "author": {
+        "name": "Fyxer"
+      },
+      "homepage": "https://www.fyxer.com",
+      "category": "productivity",
+      "source": "./plugins/fyxer",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/fyxer.png"
     },
     {
       "name": "govtribe",
       "description": "直接在 Codex 中搜索政府合同、中标结果和供应商信息。",
-      "category": "教育科研",
-      "source": "./plugins/govtribe"
+      "author": {
+        "name": "Government Executive Media Group LLC"
+      },
+      "homepage": "https://govtribe.com/",
+      "category": "productivity",
+      "source": "./plugins/govtribe",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/govtribe.png"
     },
     {
       "name": "happenstance",
       "description": "Happenstance 通过自然语言搜索你的职业人脉，帮你找到合适的人。",
-      "category": "效率办公",
-      "source": "./plugins/happenstance"
+      "author": {
+        "name": "Happenstance, Inc."
+      },
+      "homepage": "https://happenstance.ai",
+      "category": "productivity",
+      "source": "./plugins/happenstance",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/happenstance.png"
     },
     {
       "name": "help-scout",
       "description": "连接并同步 Help Scout 邮箱和对话记录，在 Codex 中直接使用。",
-      "category": "效率办公",
-      "source": "./plugins/help-scout"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.helpscout.com/",
+      "category": "productivity",
+      "source": "./plugins/help-scout",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/help-scout.png"
     },
     {
       "name": "hex",
       "description": "搜索 Hex 项目并向 Hex Threads 提问",
+      "author": {
+        "name": "Hex"
+      },
+      "homepage": "https://hex.tech/",
       "category": "数据分析",
-      "source": "./plugins/hex"
+      "source": "./plugins/hex",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/hex.png"
     },
     {
       "name": "highlevel",
       "description": "HighLevel 为代理机构提供统一的 CRM、自动化与客户沟通平台。",
-      "category": "效率办公",
-      "source": "./plugins/highlevel"
+      "author": {
+        "name": "HighLevel"
+      },
+      "homepage": "https://www.gohighlevel.com",
+      "category": "productivity",
+      "source": "./plugins/highlevel",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/highlevel.png"
     },
     {
       "name": "hostinger",
       "description": "Hostinger Horizons 让你只需描述想法，就能搭建真实的网站和应用。",
-      "category": "开发工具",
-      "source": "./plugins/hostinger"
+      "author": {
+        "name": "Hostinger"
+      },
+      "homepage": "https://hostinger.com",
+      "category": "developer-tools",
+      "source": "./plugins/hostinger",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/hostinger.png"
     },
     {
       "name": "hubspot",
       "description": "处理 HubSpot 数据，分析规律、创建与更新记录，管理 CRM 运营。",
+      "author": {
+        "name": "HubSpot"
+      },
+      "homepage": "https://www.hubspot.com/",
       "category": "商业运营",
-      "source": "./plugins/hubspot"
+      "source": "./plugins/hubspot",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/hubspot.png"
     },
     {
       "name": "keybid-puls",
       "description": "通过 ROI 计算器挖掘短租投资的盈利潜力，支持 Airbnb、Booking.com 等平台。",
-      "category": "金融财务",
-      "source": "./plugins/keybid-puls"
+      "author": {
+        "name": "KeyBid"
+      },
+      "homepage": "https://keybid.eu",
+      "category": "finance",
+      "source": "./plugins/keybid-puls",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/keybid-puls.png"
     },
     {
       "name": "marcopolo",
       "description": "MarcoPolo 启动一个安全容器，让 Codex 可以直接处理你的真实数据。",
-      "category": "开发工具",
-      "source": "./plugins/marcopolo"
+      "author": {
+        "name": "Immersa, Inc."
+      },
+      "homepage": "https://marcopolo.dev",
+      "category": "developer-tools",
+      "source": "./plugins/marcopolo",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/marcopolo.png"
     },
     {
       "name": "mem",
       "description": "连接 Mem 知识库，为 Codex 提供你第二大脑的完整上下文。",
-      "category": "效率办公",
-      "source": "./plugins/mem"
+      "author": {
+        "name": "Mem Labs, Inc."
+      },
+      "homepage": "https://mem.ai",
+      "category": "productivity",
+      "source": "./plugins/mem",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/mem.png"
     },
     {
       "name": "moody-s",
       "description": "信用评级、研究报告、实体情报、股权结构、财务数据及备案文件。",
-      "category": "金融财务",
-      "source": "./plugins/moody-s"
+      "author": {
+        "name": "Moody's"
+      },
+      "homepage": "https://www.moodys.com",
+      "category": "finance",
+      "source": "./plugins/moody-s",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/moody-s.png"
     },
     {
       "name": "morningstar",
       "description": "使用 Morningstar 应用筛选、汇总并对比基金。",
-      "category": "金融财务",
-      "source": "./plugins/morningstar"
+      "author": {
+        "name": "Morningstar"
+      },
+      "homepage": "https://www.morningstar.com",
+      "category": "finance",
+      "source": "./plugins/morningstar",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/morningstar.png"
     },
     {
       "name": "motherduck",
       "description": "将 AI 助手连接到你的 MotherDuck 数据仓库。",
+      "author": {
+        "name": "MotherDuck Corporation"
+      },
+      "homepage": "https://motherduck.com/",
       "category": "数据分析",
-      "source": "./plugins/motherduck"
+      "source": "./plugins/motherduck",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/motherduck.png"
     },
     {
       "name": "mt-newswires",
       "description": "MT Newswires 将实时全球金融资讯直接带入 Codex——提供原创、客观、全面的资本市场多资产类别报道。",
-      "category": "金融财务",
-      "source": "./plugins/mt-newswires"
+      "author": {
+        "name": "MT Newswires"
+      },
+      "homepage": "https://www.mtnewswires.com",
+      "category": "finance",
+      "source": "./plugins/mt-newswires",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/mt-newswires.png"
     },
     {
       "name": "myregistry-com",
       "description": "MyRegistry.com 帮助朋友和家人轻松送出你真正想要的礼物！",
-      "category": "其他",
-      "source": "./plugins/myregistry-com"
+      "author": {
+        "name": "MyRegistry.com"
+      },
+      "homepage": "https://www.myregistry.com/",
+      "category": "other",
+      "source": "./plugins/myregistry-com",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/myregistry-com.png"
     },
     {
       "name": "network-solutions",
       "description": "Network Solutions 域名搜索助手让查找可用域名变得快速、简单、对话化。",
-      "category": "效率办公",
-      "source": "./plugins/network-solutions"
+      "author": {
+        "name": "Network Solutions"
+      },
+      "homepage": "https://www.networksolutions.com/",
+      "category": "productivity",
+      "source": "./plugins/network-solutions",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/network-solutions.png"
     },
     {
       "name": "omni-analytics",
       "description": "在 Codex 中直接使用数据团队定义的语义模型、权限和逻辑查询 Omni。",
+      "author": {
+        "name": "Omni Analytics"
+      },
+      "homepage": "https://www.omni.co",
       "category": "数据分析",
-      "source": "./plugins/omni-analytics"
+      "source": "./plugins/omni-analytics",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/omni-analytics.png"
     },
     {
       "name": "otter-ai",
       "description": "Otter.ai MCP 服务器将 Codex 连接到你的会议智能，支持在工作流中直接搜索和检索记录。",
-      "category": "沟通协作",
-      "source": "./plugins/otter-ai"
+      "author": {
+        "name": "Otter.ai"
+      },
+      "homepage": "https://otter.ai",
+      "category": "productivity",
+      "source": "./plugins/otter-ai",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/otter-ai.png"
     },
     {
       "name": "particl-market-research",
       "description": "Particl Market Research 帮助团队直接在 Codex 中回答电商研究问题。",
-      "category": "教育科研",
-      "source": "./plugins/particl-market-research"
+      "author": {
+        "name": "Particl"
+      },
+      "homepage": "https://www.particl.com",
+      "category": "productivity",
+      "source": "./plugins/particl-market-research",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/particl-market-research.png"
     },
     {
       "name": "pipedrive",
       "description": "连接并同步 Pipedrive 的商机和联系人，在 Codex 中直接使用。",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.pipedrive.com/",
       "category": "商业运营",
-      "source": "./plugins/pipedrive"
+      "source": "./plugins/pipedrive",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/pipedrive.png"
     },
     {
       "name": "pitchbook",
       "description": "PitchBook 提供跨公司、投资机构、基金、交易、有限合伙人和相关人员的私募市场结构化数据。",
-      "category": "金融财务",
-      "source": "./plugins/pitchbook"
+      "author": {
+        "name": "PitchBook"
+      },
+      "homepage": "https://www.pitchbook.com",
+      "category": "finance",
+      "source": "./plugins/pitchbook",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/pitchbook.png"
     },
     {
       "name": "policynote",
       "description": "通过 PolicyNote 获取来自全球的结构化政策与监管情报。",
-      "category": "教育科研",
-      "source": "./plugins/policynote"
+      "author": {
+        "name": "FiscalNote"
+      },
+      "homepage": "https://fiscalnote.com/products/policynote-api",
+      "category": "productivity",
+      "source": "./plugins/policynote",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/policynote.png"
     },
     {
       "name": "pylon",
       "description": "直接在 Codex 中访问 Pylon 客户支持平台，搜索、管理并解决客户问题。",
-      "category": "效率办公",
-      "source": "./plugins/pylon"
+      "author": {
+        "name": "Pylon Labs Inc."
+      },
+      "homepage": "https://www.usepylon.com/",
+      "category": "productivity",
+      "source": "./plugins/pylon",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/pylon.png"
     },
     {
       "name": "quartr",
       "description": "上市公司 IR 数据与财报研究",
-      "category": "金融财务",
-      "source": "./plugins/quartr"
+      "author": {
+        "name": "Quartr"
+      },
+      "homepage": "https://quartr.com",
+      "category": "finance",
+      "source": "./plugins/quartr",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/quartr.png"
     },
     {
       "name": "quicknode",
       "description": "直接在 OpenAI 中管理你的 Quicknode 基础设施。",
-      "category": "开发工具",
-      "source": "./plugins/quicknode"
+      "author": {
+        "name": "Quicknode"
+      },
+      "homepage": "https://www.quicknode.com/",
+      "category": "developer-tools",
+      "source": "./plugins/quicknode",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/quicknode.png"
     },
     {
       "name": "ranked-ai",
       "description": "Ranked AI 提供业内领先的 AI SEO 和 PPC 软件，并内置完整的托管服务。",
-      "category": "效率办公",
-      "source": "./plugins/ranked-ai"
+      "author": {
+        "name": "Ranked AI, LLC"
+      },
+      "homepage": "https://www.ranked.ai",
+      "category": "productivity",
+      "source": "./plugins/ranked-ai",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/ranked-ai.png"
     },
     {
       "name": "razorpay",
       "description": "连接你的 Razorpay 账户，通过对话访问支付数据。",
-      "category": "金融财务",
-      "source": "./plugins/razorpay"
+      "author": {
+        "name": "Razorpay Software Private Limited"
+      },
+      "homepage": "https://razorpay.com/",
+      "category": "finance",
+      "source": "./plugins/razorpay",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/razorpay.png"
     },
     {
       "name": "read-ai",
       "description": "将 Read AI 的会议智能直接带入你的 AI 工作流。",
-      "category": "沟通协作",
-      "source": "./plugins/read-ai"
+      "author": {
+        "name": "Read AI, Inc"
+      },
+      "homepage": "https://read.ai",
+      "category": "productivity",
+      "source": "./plugins/read-ai",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/read-ai.png"
     },
     {
       "name": "readwise",
       "description": "Readwise 和 Reader 的官方应用。",
-      "category": "教育科研",
-      "source": "./plugins/readwise"
+      "author": {
+        "name": "Readwise Inc."
+      },
+      "homepage": "https://readwise.io",
+      "category": "productivity",
+      "source": "./plugins/readwise",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/readwise.png"
     },
     {
       "name": "responsive",
       "description": "Responsive 应用让你在 Codex 中轻松使用组织数据。",
-      "category": "效率办公",
-      "source": "./plugins/responsive"
+      "author": {
+        "name": "RFPIO Inc. (d/b/a Responsive)"
+      },
+      "homepage": "https://www.responsive.io",
+      "category": "productivity",
+      "source": "./plugins/responsive",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/responsive.png"
     },
     {
       "name": "scite",
       "description": "Scite 提供基于经同行评审研究的可验证答案。",
-      "category": "教育科研",
-      "source": "./plugins/scite"
+      "author": {
+        "name": "Scite"
+      },
+      "homepage": "https://www.scite.ai",
+      "category": "productivity",
+      "source": "./plugins/scite",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/scite.png"
     },
     {
       "name": "semrush",
       "description": "Semrush MCP 提供针对域名、关键词、外链及市场受众洞察的结构化定量 SEO 与流量数据……",
-      "category": "效率办公",
-      "source": "./plugins/semrush"
+      "author": {
+        "name": "Semrush Holdings, Inc."
+      },
+      "homepage": "https://www.semrush.com/",
+      "category": "productivity",
+      "source": "./plugins/semrush",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/semrush.png"
     },
     {
       "name": "sendgrid",
       "description": "与 SendGrid 邮件 API 交互的连接器。",
-      "category": "开发工具",
-      "source": "./plugins/sendgrid"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://sendgrid.com/",
+      "category": "developer-tools",
+      "source": "./plugins/sendgrid",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/sendgrid.png"
     },
     {
       "name": "setu-bharat-connect-billpay",
       "description": "通过简单对话帮助你缴纳水电煤等公共事业账单。",
-      "category": "金融财务",
-      "source": "./plugins/setu-bharat-connect-billpay"
+      "author": {
+        "name": "Setu"
+      },
+      "homepage": "https://setu.co/",
+      "category": "finance",
+      "source": "./plugins/setu-bharat-connect-billpay",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/setu-bharat-connect-billpay.png"
     },
     {
       "name": "signnow",
       "description": "无需切换工具，更快完成文件签署。",
-      "category": "效率办公",
-      "source": "./plugins/signnow"
+      "author": {
+        "name": "airSlate Inc"
+      },
+      "homepage": "https://www.signnow.com",
+      "category": "productivity",
+      "source": "./plugins/signnow",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/signnow.png"
     },
     {
       "name": "skywatch",
       "description": "在一个平台上搜索和浏览来自 Vantor、Planet、Airbus 等顶级供应商的卫星图像……",
-      "category": "效率办公",
-      "source": "./plugins/skywatch"
+      "author": {
+        "name": "SkyWatch Space Applications Inc."
+      },
+      "homepage": "https://skywatch.com",
+      "category": "productivity",
+      "source": "./plugins/skywatch",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/skywatch.png"
     },
     {
       "name": "statsig",
       "description": "将 Statsig 工作区接入 Codex。",
-      "category": "开发工具",
-      "source": "./plugins/statsig"
+      "author": {
+        "name": "Statsig, LLC"
+      },
+      "homepage": "https://statsig.com",
+      "category": "developer-tools",
+      "source": "./plugins/statsig",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/statsig.png"
     },
     {
       "name": "streak",
       "description": "Streak 是直接内置于 Gmail 的 CRM，让你在收件箱中追踪商机、联系人和工作流。",
+      "author": {
+        "name": "Rewardly, Inc."
+      },
+      "homepage": "https://www.streak.com",
       "category": "商业运营",
-      "source": "./plugins/streak"
+      "source": "./plugins/streak",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/streak.png"
     },
     {
       "name": "taxdown",
       "description": "TaxDown 帮助西班牙个人和自雇人士解答税务问题：税收抵扣、个人所得税、年度申报及纳税义务，答复清晰且针对你的具体情况……",
-      "category": "金融财务",
-      "source": "./plugins/taxdown"
+      "author": {
+        "name": "TAXDOWN S.L."
+      },
+      "homepage": "https://taxdown.es/",
+      "category": "finance",
+      "source": "./plugins/taxdown",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/taxdown.png"
     },
     {
       "name": "teamwork-com",
       "description": "连接并同步 Teamwork 项目和任务，在 Codex 中直接使用。",
-      "category": "效率办公",
-      "source": "./plugins/teamwork-com"
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://www.teamwork.com/",
+      "category": "productivity",
+      "source": "./plugins/teamwork-com",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/teamwork-com.png"
     },
     {
       "name": "third-bridge",
       "description": "在金融和商业分析中无缝融入行业专家的关键洞见与可信见解。",
-      "category": "金融财务",
-      "source": "./plugins/third-bridge"
+      "author": {
+        "name": "Third Bridge Group"
+      },
+      "homepage": "https://www.thirdbridge.com",
+      "category": "finance",
+      "source": "./plugins/third-bridge",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/third-bridge.png"
     },
     {
       "name": "tinman-ai",
       "description": "帮助贷款官员和核保人员快速评估住房融资方案，解答复杂资格问题。",
-      "category": "金融财务",
-      "source": "./plugins/tinman-ai"
+      "author": {
+        "name": "Better"
+      },
+      "homepage": "https://better.com",
+      "category": "finance",
+      "source": "./plugins/tinman-ai",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/tinman-ai.png"
     },
     {
       "name": "united-rentals",
       "description": "告别猜测，精准找到适合工作的设备。",
-      "category": "效率办公",
-      "source": "./plugins/united-rentals"
+      "author": {
+        "name": "United Rentals"
+      },
+      "homepage": "https://www.unitedrentals.com",
+      "category": "productivity",
+      "source": "./plugins/united-rentals",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/united-rentals.png"
     },
     {
       "name": "vantage",
       "description": "Vantage 是一个云可观测与优化平台，汇聚多云基础设施费用，提供统一的云支出全景视图。",
-      "category": "开发工具",
-      "source": "./plugins/vantage"
+      "author": {
+        "name": "Vantage"
+      },
+      "homepage": "https://www.vantage.sh",
+      "category": "developer-tools",
+      "source": "./plugins/vantage",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/vantage.png"
     },
     {
       "name": "waldo",
       "description": "Waldo 是面向代理商和品牌的 AI 驱动策略平台。",
-      "category": "效率办公",
-      "source": "./plugins/waldo"
+      "author": {
+        "name": "Curiosities, Inc."
+      },
+      "homepage": "https://www.waldo.fyi",
+      "category": "productivity",
+      "source": "./plugins/waldo",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/waldo.png"
     },
     {
       "name": "weatherpromise",
       "description": "用 WeatherPromise 保障你的旅行，如果假期中降雨超出承诺，全额自动退款。",
+      "author": {
+        "name": "WeatherPromise, Inc."
+      },
+      "homepage": "https://www.weatherpromise.com/",
       "category": "旅行",
-      "source": "./plugins/weatherpromise"
+      "source": "./plugins/weatherpromise",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/weatherpromise.png"
     },
     {
       "name": "windsor-ai",
       "description": "Windsor.ai 将你的营销和业务数据源连接到 Codex，让你用自然语言提问并从关联账户获取答案。",
+      "author": {
+        "name": "Windsor.ai"
+      },
+      "homepage": "https://windsor.ai",
       "category": "数据分析",
-      "source": "./plugins/windsor-ai"
+      "source": "./plugins/windsor-ai",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/windsor-ai.png"
     },
     {
       "name": "yepcode",
       "description": "YepCode 让你用自己的代码构建自定义 AI 工具，支持 JSON Schema 定义输入，在隔离沙箱中执行。",
-      "category": "开发工具",
-      "source": "./plugins/yepcode"
+      "author": {
+        "name": "YepCode S.L."
+      },
+      "homepage": "https://yepcode.io/",
+      "category": "developer-tools",
+      "source": "./plugins/yepcode",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/yepcode.png"
     },
     {
       "name": "render",
       "description": "在 Render 上部署、调试、监控和迁移应用。",
-      "category": "开发工具",
-      "source": "./plugins/render"
+      "author": {
+        "name": "Render"
+      },
+      "homepage": "https://render.com/",
+      "category": "developer-tools",
+      "source": "./plugins/render",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/render.svg"
     },
     {
       "name": "heygen",
       "description": "数字人视频与个性化视频消息",
+      "author": {
+        "name": "HeyGen"
+      },
+      "homepage": "https://heygen.com",
       "category": "创意设计",
-      "source": "./plugins/heygen"
+      "source": "./plugins/heygen",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/heygen.png"
     },
     {
       "name": "asana",
       "description": "读取和管理 Asana",
-      "category": "效率办公",
-      "source": "./plugins/asana"
+      "author": {
+        "name": "Asana, Inc."
+      },
+      "homepage": "https://asana.com",
+      "category": "productivity",
+      "source": "./plugins/asana",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/asana.png"
     },
     {
       "name": "similarweb",
       "description": "研究网站与应用的市场情报",
+      "author": {
+        "name": "Similarweb"
+      },
+      "homepage": "https://www.similarweb.com",
       "category": "数据分析",
-      "source": "./plugins/similarweb"
+      "source": "./plugins/similarweb",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/similarweb.png"
     },
     {
       "name": "lseg",
       "description": "金融市场数据与分析",
-      "category": "金融财务",
-      "source": "./plugins/lseg"
+      "author": {
+        "name": "LSEG"
+      },
+      "homepage": "https://www.lseg.com",
+      "category": "finance",
+      "source": "./plugins/lseg",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/lseg.png"
     },
     {
       "name": "s-p",
       "description": "查询 S&P Global 金融数据集",
-      "category": "金融财务",
-      "source": "./plugins/s-p"
+      "author": {
+        "name": "S&P Global"
+      },
+      "homepage": "https://www.spglobal.com",
+      "category": "finance",
+      "source": "./plugins/s-p",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/s-p.png"
     },
     {
       "name": "datasite",
       "description": "管理安全的并购数据室",
-      "category": "效率办公",
-      "source": "./plugins/datasite"
+      "author": {
+        "name": "Datasite"
+      },
+      "homepage": "https://www.datasite.com",
+      "category": "productivity",
+      "source": "./plugins/datasite",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/datasite.png"
     },
     {
       "name": "factset",
       "description": "连接金融数据、分析与工作流",
-      "category": "金融财务",
-      "source": "./plugins/factset"
+      "author": {
+        "name": "FactSet"
+      },
+      "homepage": "https://www.factset.com",
+      "category": "finance",
+      "source": "./plugins/factset",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/factset.png"
     },
     {
       "name": "zoominfo",
       "description": "用 ZoomInfo 进行潜客挖掘与客户研究",
+      "author": {
+        "name": "ZoomInfo"
+      },
+      "homepage": "https://www.zoominfo.com",
       "category": "商业运营",
-      "source": "./plugins/zoominfo"
+      "source": "./plugins/zoominfo",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/zoominfo.png"
     },
     {
       "name": "docusign",
       "description": "自动化合同创建与洞察",
-      "category": "效率办公",
-      "source": "./plugins/docusign"
+      "author": {
+        "name": "Docusign"
+      },
+      "homepage": "https://www.docusign.com",
+      "category": "productivity",
+      "source": "./plugins/docusign",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/docusign.png"
     },
     {
       "name": "mixpanel",
       "description": "查询和分析 Mixpanel 数据",
+      "author": {
+        "name": "Mixpanel"
+      },
+      "homepage": "https://mixpanel.com/home",
       "category": "数据分析",
-      "source": "./plugins/mixpanel"
+      "source": "./plugins/mixpanel",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/mixpanel.png"
     },
     {
       "name": "aiera",
       "description": "机构级金融数据与事件",
-      "category": "金融财务",
-      "source": "./plugins/aiera"
+      "author": {
+        "name": "Aiera"
+      },
+      "homepage": "https://www.aiera.com",
+      "category": "finance",
+      "source": "./plugins/aiera",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/aiera.png"
     },
     {
       "name": "close",
       "description": "查阅并更新 Close CRM",
+      "author": {
+        "name": "Close"
+      },
+      "homepage": "https://www.close.com",
       "category": "商业运营",
-      "source": "./plugins/close"
+      "source": "./plugins/close",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/close.png"
     },
     {
       "name": "apollo",
       "description": "在 Apollo 中进行潜客挖掘与外联执行",
+      "author": {
+        "name": "Apollo"
+      },
+      "homepage": "https://www.apollo.io",
       "category": "商业运营",
-      "source": "./plugins/apollo"
+      "source": "./plugins/apollo",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/apollo.png"
     },
     {
       "name": "meticulate",
       "description": "研究公司及相似目标",
-      "category": "效率办公",
-      "source": "./plugins/meticulate"
+      "author": {
+        "name": "Meticulate"
+      },
+      "category": "productivity",
+      "source": "./plugins/meticulate",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/meticulate.png"
     },
     {
       "name": "thoughtspot",
       "description": "可信赖的业务数据答案",
+      "author": {
+        "name": "ThoughtSpot"
+      },
+      "homepage": "https://www.thoughtspot.com",
       "category": "数据分析",
-      "source": "./plugins/thoughtspot"
+      "source": "./plugins/thoughtspot",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/thoughtspot.png"
     },
     {
       "name": "midpage",
       "description": "带判例引用的法律研究",
-      "category": "教育科研",
-      "source": "./plugins/midpage"
+      "author": {
+        "name": "Midpage"
+      },
+      "homepage": "https://www.midpage.ai",
+      "category": "productivity",
+      "source": "./plugins/midpage",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/midpage.png"
     },
     {
       "name": "clay",
       "description": "寻找并触达潜在客户",
+      "author": {
+        "name": "Clay"
+      },
+      "homepage": "https://www.clay.com",
       "category": "商业运营",
-      "source": "./plugins/clay"
+      "source": "./plugins/clay",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/clay.png"
     },
     {
       "name": "calendly",
       "description": "排程链接、可用时段与预约",
-      "category": "效率办公",
-      "source": "./plugins/calendly"
+      "author": {
+        "name": "Calendly"
+      },
+      "homepage": "https://calendly.com",
+      "category": "productivity",
+      "source": "./plugins/calendly",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/calendly.png"
     },
     {
       "name": "rox",
       "description": "分析 Rox 工作空间中的销售数据",
-      "category": "效率办公",
-      "source": "./plugins/rox"
+      "author": {
+        "name": "Rox Data Corp"
+      },
+      "homepage": "https://www.rox.com",
+      "category": "productivity",
+      "source": "./plugins/rox",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/rox.png"
     },
     {
       "name": "hg-insights",
       "description": "潜客数据与营收情报",
-      "category": "效率办公",
-      "source": "./plugins/hg-insights"
+      "author": {
+        "name": "HG Insights"
+      },
+      "homepage": "https://hginsights.com",
+      "category": "productivity",
+      "source": "./plugins/hg-insights",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/hg-insights.png"
     },
     {
       "name": "convex",
       "description": "为 JS/TS 应用添加后端支持。",
-      "category": "开发工具",
-      "source": "./plugins/convex"
+      "author": {
+        "name": "Convex, Inc."
+      },
+      "homepage": "https://chatgpt.com/apps/convex/asdk_app_6a0faef988b48191b843bac5cd170a9e",
+      "category": "developer-tools",
+      "source": "./plugins/convex",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/convex.png"
     },
     {
       "name": "outreach",
       "description": "用 Outreach 实现营收工作流自动化",
+      "author": {
+        "name": "Outreach"
+      },
+      "homepage": "https://www.outreach.io",
       "category": "商业运营",
-      "source": "./plugins/outreach"
+      "source": "./plugins/outreach",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/outreach.png"
     },
     {
       "name": "shutterstock",
       "description": "检索素材媒体库",
+      "author": {
+        "name": "Shutterstock"
+      },
+      "homepage": "https://www.shutterstock.com",
       "category": "创意设计",
-      "source": "./plugins/shutterstock"
+      "source": "./plugins/shutterstock",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/shutterstock.png"
     },
     {
       "name": "replit",
       "description": "创建并迭代 Replit 网页应用",
-      "category": "开发工具",
-      "source": "./plugins/replit"
+      "author": {
+        "name": "Replit"
+      },
+      "homepage": "https://replit.com",
+      "category": "developer-tools",
+      "source": "./plugins/replit",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/replit.png"
     },
     {
       "name": "quickbooks",
       "description": "分析财务并管理 QuickBooks 记录",
-      "category": "金融财务",
-      "source": "./plugins/quickbooks"
+      "author": {
+        "name": "QuickBooks"
+      },
+      "homepage": "https://quickbooks.intuit.com",
+      "category": "finance",
+      "source": "./plugins/quickbooks",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/quickbooks.png"
     },
     {
       "name": "intercom",
       "description": "来自 Intercom 的客户对话、联系人、工单及支持工作流",
+      "author": {
+        "name": "Intercom"
+      },
+      "homepage": "https://www.intercom.com",
       "category": "商业运营",
-      "source": "./plugins/intercom"
+      "source": "./plugins/intercom",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/intercom.png"
     },
     {
       "name": "chronograph-lp",
       "description": "为私人资本 LP 团队提供可信的投资组合数据",
-      "category": "金融财务",
-      "source": "./plugins/chronograph-lp"
+      "author": {
+        "name": "Chronograph"
+      },
+      "homepage": "https://www.chronograph.pe/",
+      "category": "finance",
+      "source": "./plugins/chronograph-lp",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/chronograph-lp.png"
     },
     {
       "name": "actively",
       "description": "面向 GTM 情报的客户智能体",
+      "author": {
+        "name": "Actively"
+      },
+      "homepage": "https://www.actively.ai",
       "category": "商业运营",
-      "source": "./plugins/actively"
+      "source": "./plugins/actively",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/actively.png"
     },
     {
       "name": "zoho",
       "description": "管理 Zoho CRM 销售工作流",
+      "author": {
+        "name": "Zoho"
+      },
+      "homepage": "https://www.zoho.com",
       "category": "商业运营",
-      "source": "./plugins/zoho"
+      "source": "./plugins/zoho",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/zoho.png"
     },
     {
       "name": "fiscal-ai",
       "description": "可供审计的金融数据与股票研究",
-      "category": "金融财务",
-      "source": "./plugins/fiscal-ai"
+      "author": {
+        "name": "Fiscal AI"
+      },
+      "homepage": "https://fiscal.ai",
+      "category": "finance",
+      "source": "./plugins/fiscal-ai",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/fiscal-ai.png"
     },
     {
       "name": "picsart",
       "description": "生成视频、图片和音频",
+      "author": {
+        "name": "Picsart"
+      },
+      "homepage": "https://picsart.com",
       "category": "创意设计",
-      "source": "./plugins/picsart"
+      "source": "./plugins/picsart",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/picsart.png"
     },
     {
       "name": "alation",
       "description": "可信赖的企业数据背景与治理",
+      "author": {
+        "name": "Alation"
+      },
+      "homepage": "https://www.alation.com",
       "category": "数据分析",
-      "source": "./plugins/alation"
+      "source": "./plugins/alation",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/alation.png"
     },
     {
       "name": "fal",
       "description": "用 Fal 模型生成与管理媒体",
+      "author": {
+        "name": "Fal"
+      },
+      "homepage": "https://fal.ai",
       "category": "创意设计",
-      "source": "./plugins/fal"
+      "source": "./plugins/fal",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/fal.png"
     },
     {
       "name": "hebbia",
       "description": "机构级研究与金融工作流",
+      "author": {
+        "name": "Hebbia"
+      },
+      "homepage": "https://www.hebbia.ai",
       "category": "商业运营",
-      "source": "./plugins/hebbia"
+      "source": "./plugins/hebbia",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/hebbia.png"
     },
     {
       "name": "wix",
       "description": "在 Codex 中构建 Wix 应用、Headless 网站并管理 Wix 业务",
-      "category": "开发工具",
-      "source": "./plugins/wix"
+      "author": {
+        "name": "Wix"
+      },
+      "homepage": "https://dev.wix.com/",
+      "category": "developer-tools",
+      "source": "./plugins/wix",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/wix.svg"
     },
     {
       "name": "base44",
       "description": "在 Codex 中构建和部署 Base44 全栈应用",
-      "category": "开发工具",
-      "source": "./plugins/base44"
+      "author": {
+        "name": "base44"
+      },
+      "homepage": "https://base44.com",
+      "category": "developer-tools",
+      "source": "./plugins/base44",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/base44.png"
     },
     {
       "name": "superhuman",
       "description": "适用于 Gmail 和 Outlook 的高效邮件应用",
-      "category": "沟通协作",
-      "source": "./plugins/superhuman"
+      "author": {
+        "name": "Superhuman"
+      },
+      "homepage": "https://superhuman.com/",
+      "category": "productivity",
+      "source": "./plugins/superhuman",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/superhuman.svg"
     },
     {
       "name": "brighthire",
       "description": "搜索和分析 BrightHire 面试、候选人、通话和招聘数据",
-      "category": "效率办公",
-      "source": "./plugins/brighthire"
+      "author": {
+        "name": "BrightHire"
+      },
+      "homepage": "https://www.brighthire.com",
+      "category": "productivity",
+      "source": "./plugins/brighthire",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/brighthire.svg"
     },
     {
       "name": "catalyst-by-zoho",
       "description": "在 Codex 中使用 Catalyst by Zoho 功能",
-      "category": "开发工具",
-      "source": "./plugins/catalyst-by-zoho"
+      "author": {
+        "name": "Catalyst by Zoho"
+      },
+      "homepage": "https://catalyst.zoho.com/",
+      "category": "developer-tools",
+      "source": "./plugins/catalyst-by-zoho",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/catalyst-by-zoho.svg"
     },
     {
       "name": "glean",
       "description": "用 Glean 访问企业知识",
-      "category": "效率办公",
-      "source": "./plugins/glean"
+      "author": {
+        "name": "Glean Technologies, Inc."
+      },
+      "homepage": "https://glean.com",
+      "category": "productivity",
+      "source": "./plugins/glean",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/glean.png"
     },
     {
       "name": "chronograph-gp",
       "description": "为私人资本 GP 团队提供可信的投资组合数据",
-      "category": "金融财务",
-      "source": "./plugins/chronograph-gp"
+      "author": {
+        "name": "Chronograph"
+      },
+      "homepage": "https://www.chronograph.pe/",
+      "category": "finance",
+      "source": "./plugins/chronograph-gp",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/chronograph-gp.png"
     },
     {
       "name": "replayio",
       "description": "录制浏览器会话，并检查 Replay 录制或 Replay QA 结果",
-      "category": "开发工具",
-      "source": "./plugins/replayio"
+      "author": {
+        "name": "Replay"
+      },
+      "homepage": "https://replay.io",
+      "category": "developer-tools",
+      "source": "./plugins/replayio",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/replayio.svg"
     },
     {
       "name": "digitalocean",
       "description": "将 droplet 开通为 Codex 工作区",
-      "category": "开发工具",
-      "source": "./plugins/digitalocean"
+      "author": {
+        "name": "DigitalOcean"
+      },
+      "homepage": "https://www.digitalocean.com/",
+      "category": "developer-tools",
+      "source": "./plugins/digitalocean",
+      "icon": "https://kael-odin.github.io/codex-plugins-zh/icons/digitalocean.png"
     }
   ]
 }

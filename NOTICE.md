@@ -32,3 +32,10 @@
 首轮译文账本部分条目来自
 [echobird/codex-plugins](https://cnb.cool/echobird/codex-plugins)（快照，标记 `source: "seed"`、
 `verified: false`）。感谢其公开成果。权利人要求下架时同样处理。
+
+## 4. site/appicons 图标兜底
+
+`site/appicons/` 存放站点与市场清单的图标兜底：主体是 source-blip 数据集导出的
+应用图标快照；另有 4 个插件（adobe/consensus/higgsfield/lovable）上游未携带图标，
+按其官网域名经 Google S2 favicon 服务抓取的 128px 站点图标补齐。
+各图标归其权利人所有，仅用于指代对应插件；下架政策同上。

@@ -6,7 +6,7 @@
 // the SEO/no-JS copy can never drift from the data it describes.
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, DATA_DIR, readJson, writeJson } from './lib.mjs';
+import { ROOT, DATA_DIR, readJson, writeJson, choosePluginIcon } from './lib.mjs';
 
 const dist = path.join(ROOT, 'dist');
 // GitHub Pages project-site base. The 404 redirect must be root-absolute:
@@ -47,29 +47,15 @@ if (fs.existsSync(path.join(ROOT, 'site', 'og.png'))) {
 const iconsDir = path.join(dist, 'icons');
 fs.mkdirSync(iconsDir, { recursive: true });
 
-const BASE_CANDIDATES = ['assets/icon.svg', 'assets/logo.svg', 'assets/icon.png', 'assets/logo.png', 'assets/logo-dark.png'];
-const appiconsDir = path.join(ROOT, 'site', 'appicons');
 let withIcon = 0;
 
 for (const p of catalog.plugins) {
   const dir = path.join(ROOT, 'plugins', p.name);
   if (p.missing || !fs.existsSync(dir)) continue;
-  const rel = (s) => (s ? path.join(dir, s.replace(/^\.\//, '')) : null);
-  const candidates = [rel(p.icon), ...BASE_CANDIDATES.map(rel)].filter(Boolean);
-  const usable = candidates.filter((f) => fs.existsSync(f));
-  let chosen = null;
-  const svgs = usable.filter((f) => f.endsWith('.svg') && fs.statSync(f).size < 200 * 1024);
-  if (svgs.length) chosen = svgs[0];
-  else if (usable.length) {
-    const under = usable.filter((f) => !f.endsWith('.svg') && fs.statSync(f).size < 400 * 1024);
-    const pool = under.length ? under : usable;
-    chosen = pool.sort((a, b) => fs.statSync(a).size - fs.statSync(b).size)[0];
-  }
-  // final fallback: the icon extracted from the source-blip dataset (<name>.* or plugin-<name>.*)
-  if (!chosen && fs.existsSync(appiconsDir)) {
-    const hit = fs.readdirSync(appiconsDir).find((f) => f.startsWith(`${p.name}.`) || f.startsWith(`plugin-${p.name}.`));
-    if (hit) chosen = path.join(appiconsDir, hit);
-  }
+  // p.icon here is still compose's manifest-relative path (composerIcon/logo)
+  // when present; choosePluginIcon adds the conventional assets/* names and the
+  // site/appicons favicon backfill, preferring SVG then the smallest raster.
+  const chosen = choosePluginIcon(dir, p.icon ? [p.icon] : []);
   if (chosen) {
     const target = `icons/${p.name}${path.extname(chosen)}`;
     fs.copyFileSync(chosen, path.join(dist, target));
@@ -89,6 +75,7 @@ fs.copyFileSync(path.join(DATA_DIR, 'apps-zh.json'), path.join(dist, 'apps-zh.js
 if (fs.existsSync(path.join(DATA_DIR, 'plugin-aliases.json'))) {
   fs.copyFileSync(path.join(DATA_DIR, 'plugin-aliases.json'), path.join(dist, 'plugin-aliases.json'));
 }
+const appiconsDir = path.join(ROOT, 'site', 'appicons');
 if (fs.existsSync(appiconsDir)) {
   fs.cpSync(appiconsDir, path.join(dist, 'appicons'), { recursive: true });
 }
