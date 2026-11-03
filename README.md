@@ -9,8 +9,8 @@
 
 **把 OpenAI 官方目录全量变成中文的。**
 - **插件市场（Codex 与 Claude Code 都能装）**：**189 个官方插件全部汉化**——上游 [openai/plugins](https://github.com/openai/plugins)（62，权威实时）∪ 完整 curated 目录快照（+127，含 ChatGPT 账号专属的远程目录插件）；
-- **应用与连接器导航**：**1,505 个 ChatGPT 应用/连接器**中文条目（复用 [Source-blip 中文导航](https://github.com/Source-blip/codex-plugin-chinese-navigation) 2026-07 数据集与 1,699 个官方图标，MIT）；
-- 合计 **1,694 个项目**（186 个插件真实图标 + 1,699 个应用图标），无损校验 **6,720 个文件 0 分歧**，每日自动跟进上游。
+- **应用与连接器导航**：**1,505 个 ChatGPT 应用/连接器**中文条目（复用 [Source-blip 中文导航](https://github.com/Source-blip/codex-plugin-chinese-navigation) 2026-07 数据集与 1,702 个官方图标，MIT）；
+- 合计 **1,694 个项目**（189 个插件真实图标 + 1,702 个应用图标），无损校验 **6,720 个文件 0 分歧**，每日自动跟进上游。
 
 市场仓同时产出两份清单：Codex 原生格式 `.agents/plugins/*.json`，和 Claude Code 读的 `.claude-plugin/marketplace.json`（Claude 清单 189 条）——两个客户端的插件面板里显示的都是中文介绍与中文分类，机制见 [为什么两个客户端里都是中文](#为什么两个客户端里都是中文)。
 
@@ -63,7 +63,7 @@ claude plugin marketplace update openai-curated-zh
 | --- | --- | --- | --- |
 | [openai/plugins](https://github.com/openai/plugins)（git） | 62 插件 / 65 清单条目 | **权威源**，逐字节无损对账，每日 CI 跟进 | 实时 |
 | 完整 curated 目录快照（[echobird/codex-plugins](https://cnb.cool/echobird/codex-plugins)） | +127 插件（合计 192 条目） | 官方**远程 curated 目录**（仅 ChatGPT 账号认证可拉，`api key auth is not supported`）的社区快照 | 社区维护，不定期；站点上按快照仓提交日标注 |
-| [Source-blip 中文导航](https://github.com/Source-blip/codex-plugin-chinese-navigation) 数据集（MIT） | 1,505 应用/连接器 + 1,699 图标 + 中文别名 | 站点「应用与连接器」分区，`tools/extract-apps.mjs` 整包抽取 | 2026-07-15 |
+| [Source-blip 中文导航](https://github.com/Source-blip/codex-plugin-chinese-navigation) 数据集（MIT） | 1,505 应用/连接器 + 1,702 图标 + 中文别名 | 站点「应用与连接器」分区，`tools/extract-apps.mjs` 整包抽取 | 2026-07-15 |
 
 每一份都在站点上标注来源与快照日期，绝不冒充实时。上游若在 git 上发布新插件，次日自动进中文市场；快照区何时刷新取决于上游社区仓库。
 
@@ -106,7 +106,7 @@ flowchart LR
     B -->|echobird 种子 + GLM API| C[compose 双源合成<br>上游 + 完整目录快照]
     C --> D{verify 双源对账}
     D -->|PASS| E[市场仓 189 插件<br>Codex + Claude 两份清单]
-    D -->|PASS| F[导航站 1,694 项目<br>1,699 真实图标]
+    D -->|PASS| F[导航站 1,694 项目<br>1,702 真实图标]
     D -->|FAIL| G[⛔ 中止发布]
     H[Source-blip 数据集] -->|extract-apps| F
 ```

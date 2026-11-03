@@ -62,6 +62,6 @@ cat data/full-catalog.json     # 上游/快照来源与日期
 
 改文案后如果 check-docs 报「no line matches …」，说明句子被改写：更新 `tools/check-docs.mjs` 里的 pattern，别删检查——被改写的句子正是它唯一能盯住的地方。
 
-站点数字：**189 可装插件（62 上游 + 127 快照）+ 1,505 应用 = 1,694**；图标 186/192 插件 + 1,699 应用。
+站点数字：**189 可装插件（62 上游 + 127 快照）+ 1,505 应用 = 1,694**；图标 189/192 插件 + 1,702 应用。
 两份市场清单：Codex 原生 `.agents/plugins/{marketplace,api_marketplace}.json`（192 条）与
 Claude Code 的 `.claude-plugin/marketplace.json`（189 条，`compose` 生成、`verify` 三方对账）。
