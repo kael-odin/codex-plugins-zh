@@ -1,13 +1,11 @@
 {
-  "from": "0722921d5542fc593105c27bd52630babd8b8c2a",
+  "from": "b767f8fa3be1a22b093127dd59956c91ecffca9d",
   "to": "b767f8fa3be1a22b093127dd59956c91ecffca9d",
   "generatedAt": "2026-11-03T15:23:35-08:00",
   "firstSync": false,
   "plugins": {
     "added": [],
-    "modified": [
-      "openai-developers"
-    ],
+    "modified": [],
     "removed": []
   },
   "files": {
