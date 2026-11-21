@@ -69,6 +69,6 @@
     <rect x="806" y="292" width="388" height="44" rx="22" fill="#1a1f2e"/>
     <circle cx="836" cy="314" r="13" fill="#16a34a"/>
     <path d="M830 314 l4.5 4.5 l8 -9" stroke="#ffffff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="858" y="321" font-size="17" font-weight="600" fill="#e6eaf2">verify: 6,720 files · 0 divergences</text>
+    <text x="858" y="321" font-size="17" font-weight="600" fill="#e6eaf2">verify: 6,772 files · 0 divergences</text>
   </g>
 </svg>
