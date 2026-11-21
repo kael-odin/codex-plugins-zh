@@ -1,37 +1,14 @@
 {
-  "from": "d420d13051bffe4543ed39e30fa46b87148e47dd",
+  "from": "981b02c0c44058b595f3b4180002c3ae3c806d40",
   "to": "981b02c0c44058b595f3b4180002c3ae3c806d40",
   "generatedAt": "2026-11-18T11:14:24-08:00",
   "firstSync": false,
   "plugins": {
-    "added": [
-      "codex-security"
-    ],
-    "modified": [
-      "codex-security"
-    ],
-    "removed": [
-      "codex-security"
-    ]
+    "added": [],
+    "modified": [],
+    "removed": []
   },
   "files": {
-    "removed": [
-      "plugins/codex-security/mcp/helpers.mjs.br.part-000",
-      "plugins/codex-security/mcp/server.mjs.br.part-000",
-      "plugins/codex-security/mcp/server.mjs.br.part-001",
-      "plugins/codex-security/preflight/capability-profiles.toml",
-      "plugins/codex-security/references/config-preflight.md",
-      "plugins/codex-security/references/desktop-config-preflight.md",
-      "plugins/codex-security/schemas/tools/deep-reducer.schema.json",
-      "plugins/codex-security/schemas/tools/worker-threat-model.schema.json",
-      "plugins/codex-security/scripts/config_preflight.py",
-      "plugins/codex-security/scripts/generate_in_scope_files.py",
-      "plugins/codex-security/scripts/generate_rank_input.py",
-      "plugins/codex-security/scripts/rank_preview.py",
-      "plugins/codex-security/scripts/validate_tracking_source.py",
-      "plugins/codex-security/scripts/workbench_dashboard.py",
-      "plugins/codex-security/scripts/workbench_findings.py",
-      "plugins/codex-security/scripts/workbench_severity.py"
-    ]
+    "removed": []
   }
 }
