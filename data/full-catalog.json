@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-06T11:08:34-08:00",
+  "generatedAt": "2026-11-18T11:14:24-08:00",
   "upstream": {
     "entries": 66,
-    "sha": "d420d13051bffe4543ed39e30fa46b87148e47dd"
+    "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
   },
   "snapshot": {
     "repo": "https://cnb.cool/echobird/codex-plugins.git",

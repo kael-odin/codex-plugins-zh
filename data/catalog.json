@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-06T11:08:34-08:00",
+  "generatedAt": "2026-11-18T11:14:24-08:00",
   "upstream": {
     "repo": "https://github.com/openai/plugins",
-    "sha": "d420d13051bffe4543ed39e30fa46b87148e47dd"
+    "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
   },
   "snapshot": {
     "repo": "https://cnb.cool/echobird/codex-plugins.git",
@@ -1533,25 +1533,30 @@
       "skills": [
         "assess-patch-risk",
         "attack-path-analysis",
+        "check-skills",
+        "cloud-findings",
         "deep-security-scan",
         "define-security-policy",
         "finding-discovery",
         "fix-finding",
         "propose-security-hardening",
+        "publish-findings",
+        "resolve-dependency-alert",
         "security-diff-scan",
         "security-scan",
         "threat-model",
+        "threat-model-visualize",
         "track-findings",
         "triage-finding",
         "validation",
         "verify-fix",
         "vulnerability-writeup"
       ],
-      "skillsCount": 15,
+      "skillsCount": 20,
       "hasMcp": true,
       "hasApp": true,
       "icon": "./assets/logo.png",
-      "version": "0.1.32",
+      "version": "0.1.33",
       "upstreamUrl": "https://github.com/openai/plugins/tree/main/plugins/codex-security"
     },
     {

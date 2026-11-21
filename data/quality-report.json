@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-06T11:08:34-08:00",
-  "upstreamSha": "d420d13051bffe4543ed39e30fa46b87148e47dd",
-  "filesChecked": 6720,
+  "generatedAt": "2026-11-18T11:14:24-08:00",
+  "upstreamSha": "981b02c0c44058b595f3b4180002c3ae3c806d40",
+  "filesChecked": 6772,
   "byteIdentical": {
-    "upstream": 5340,
+    "upstream": 5392,
     "snapshot": 1189
   },
   "whitelistedChecked": 189,
